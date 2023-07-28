@@ -10,6 +10,7 @@ module.exports = {
       'sans': ['Inter', 'sans-serif'],
       'serif': ['Roboto', 'serif'],
       'title': ['lato'],
+      'menu': ['Inter', 'sans-serif'],
     },
     screens: {
       'laptop': { max: '960px' },

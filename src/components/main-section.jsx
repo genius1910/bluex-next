@@ -1,13 +1,4 @@
-// import styled from '@emotion/styled'
-
-// import styled from "styled-components";
-// import { Box } from "@mui/material";
 import parse from "html-react-parser";
-
-// import CustomTitle from "@/components/custom-title";
-// import CustomButton from "@/components/custom-button";
-// import { LayoutStyle, WindowSize } from "@/constants/style/layout";
-import { Colors } from "@/constants/share/colors";
 
 // import BackgroundVideo from "../../images/front-main/BlueX Page animated background.mp4";
 

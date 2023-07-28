@@ -1,55 +1,40 @@
-"use client";
-
 import Link from 'next/link';
-
-import { MainMenuDropdown, ProductMenuDropdown } from './header-menu'
-
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import ExpandLessIcon from "@mui/icons-material/ExpandLess";
-
+import { MainMenu } from './header-menu'
 
 export default function HeaderLinks({ contents }) {
   return <>
-    <ProductMenuDropdown
-      key="product-group-list"
-      options={contents.Product_Dropdown_Groups.map(group => {
+    <MainMenu
+      title={contents.Product_Dropdown_Label}
+      groupClassName="divide-y divide-gray-300"
+      optionGroups={contents.Product_Dropdown_Groups.map(group => {
         return {
-          type: group.type,
-          name: group.name,
-          items: group?.links.map(link => {
+          label: group.name,
+          options: group?.links.map(link => {
             return {
               label: link?.label,
-              value: link?.url,
+              url: link?.url,
+              className: 'text-[#009bd2] font-bold',
+              icon: <div
+                className='block content-[""] w-[0.313rem] h-[0.313rem] rotate-45 bg-[orange] left-1 ml-1 mr-2'
+              />,
             };
           }),
         };
       })}
-      onChange={event => {
-        NavigateLocalUrl(event?.value);
-      }}
-      arrowOpen={<ExpandLessIcon />}
-      arrowClosed={<ExpandMoreIcon />}
-      $content={contents.Product_Dropdown_Label}
-      jesttestid="ProductGroupDropdown"
     />
+
     { contents.Header_SubMenus.slice(1).map(
       ({ title, attachment, links }, index) => {
         return links.length > 0 ? (
-          <MainMenuDropdown
-            key={`${title}-list-${index}`}
-            options={links.map(link => {
-              return {
-                ...link,
-                value: link?.url,
-              };
-            })}
-            onChange={event => {
-              // onSelectMenuItem(event, links);
-            }}
-            arrowOpen={<ExpandLessIcon />}
-            arrowClosed={<ExpandMoreIcon />}
-            $content={title}
-            jesttestid="MainMenuDropdown"
+          <MainMenu
+            key={`${title}-${index}`}
+            title={title}
+            optionGroups={links.filter(Boolean).map(link => ({
+              options:[{
+                label: link.label,
+                url: link.url
+              }]
+            }))}
           />
         ) : (
           <Link key={`header-list-${index}`} href={attachment}>
