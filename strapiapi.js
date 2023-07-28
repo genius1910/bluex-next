@@ -1,45 +1,35 @@
-import { createAxiosInstance, loadSingleTypes } from '@/lib/strapi_loader';
+import { createAxiosInstance, loadContentTypes, loadSingleTypes } from '@/lib/strapi_loader';
 require('dotenv').config();
 
 const query = {
   populate: {
-    Product_Dropdown_Label: "*",
-    Product_Dropdown_Groups: {
-      populate: {
-        name: "*",
-        type: "*",
-        links: { populate: "*" },
-      },
-    },
-    Header_SubMenus: {
-      populate: {
-        title: "*",
-        attachment: "*",
-        links: { populate: "*" },
-      },
-    },
-    Header_SignIn_Btn: "*",
-    Header_Back_Btn: "*",
-    Site_Map: {
-      populate: {
-        title: "*",
-        attachment: "*",
-        links: { populate: "*" },
-      },
-    },
-    Footer_Form_Title: "*",
-    Footer_Form_Button: "*",
-    Footer_Input_First_Name_Label: "*",
-    Footer_Input_Last_Name_Label: "*",
-    Footer_Input_Email_Label: "*",
-    Footer_Input_Company_Label: "*",
-    Footer: "*",
-    Right_Company: "*",
-    Right_Reserved: "*",
-    Footer_Form_End_Content: "*",
-    Footer_Form_End_Button: "*",
+    SEO: { populate: "*" },
+    Section_1_Title: "*",
+    Section_1_Content: "*",
+    Section_1_Image: "*",
+    Section_1_Image_Preview: "*",
+    Section_1_Button: "*",
+    Section_2_Title: "*",
+    Section_2_Media_List: { populate: "*" },
+    Section_2_Media: { populate: "*" },
+    Section_3_Type: "*",
+    Section_3_Title: "*",
+    Section_3_Title_Styled_Keyword: "*",
+    Section_3_Content: "*",
+    Section_3_Image: "*",
+    Section_3_Feature_List: "*",
+    Section_3_Button: "*",
+    Section_4_Page_Intro_List: { populate: "*" },
+    Section_5_Title: "*",
+    Section_5_Logo_List: "*",
+    Section_6_Title: "*",
+    Section_6_Testimonial_List: "*",
+    Section_7_Title: "*",
+    Section_7_FAQ_List: { populate: "*" },
+    Section_8_Content: "*",
+    Section_8_Button: "*",
+    Section_8_Bg: "*",
   },
-  locale: 'zh-TW',
 }
 
 const sconfig = {
@@ -48,44 +38,16 @@ const sconfig = {
 }
 
 const instance = createAxiosInstance(sconfig)
+loadContentTypes({  axiosInstance: instance })
+
 const result = loadSingleTypes({
   axiosInstance: instance,
-  singularName: 'layout-content',
+  singularName: 'front-content',
   query,
   locales: ['en', 'zh-Hant-TW', 'zh-Hans-CN'],
   limit: 500
 })
 
-console.log(result)
-
-// const options = {
-//   hostname: 'dev-strapi4.bluex.trade',
-//   path: '/api/layout-content?' + queryParams,
-//   port: 1337,
-//   method: 'GET',
-//   headers: {
-//     'Content-Type': 'application/json',
-//     'Content-Length': data.length,
-//     Authorization: 'Apikey ' + process.env.STRAPI_APIKEY,
-//     'User-Agent': 'Node',
-//   },
-// };
-
-// const req = https.request(options, (res) => {
-//   let data = '';
-//   console.log(`statusCode: ${res.statusCode}`);
-
-//   res.on('data', (d) => {
-//     data += d;
-//   });
-//   res.on('end', () => {
-//     console.log(JSON.parse(data).data);
-//   });
-// });
-
-// req.on('error', (error) => {
-//   console.error(error);
-// });
-
-// req.write(data);
-// req.end();
+result.then((res) => {
+  process.stdout.write(JSON.stringify(res) + "\n")
+})

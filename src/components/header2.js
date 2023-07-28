@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import Image from 'next/image';
 import Link from 'next/link';
-// import { useSelector, useDispatch } from "react-redux";
 import styled from '@emotion/styled'
 import { css } from '@emotion/react'
 
@@ -17,13 +16,9 @@ import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import "react-dropdown/style.css";
 
-// import { setLocale } from "../redux/global/global.actions";
-
-// import ConsoleLog from '@/components/console-log'
 import CustomButton from "@/components/custom-button";
 import { Colors } from "@/constants/share/colors";
 import { DefaultFont } from "../constants/style/default-font";
-// import { LayoutDisplaySetting, LayoutType } from "../constants/page/layout";
 import LayoutContents from "../constants/mockup/layout-contents";
 import {
   localeList,
@@ -32,9 +27,6 @@ import {
 } from "../constants/page/layout";
 
 import { MenuDropdown } from './header-menu'
-
-import PrimaryLogo from "../images/logo/header-bluex-logo.inline.svg";
-import WhiteLogo from "../images/logo/bluex-logo.inline.svg";
 
 const i18n = 'en'
 

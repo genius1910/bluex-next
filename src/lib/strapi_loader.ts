@@ -35,6 +35,17 @@ interface loadSingleTypesRequest {
   limit: number
 }
 
+const loadContentTypes = async ({ axiosInstance }: loadSingleTypesRequest) => {
+  const options = {
+    method: "GET",
+    url: '/api/content-type-builder/content-types',
+  };
+
+  const { data: { data } } = await axiosInstance(options);
+
+  console.log('content-type data:', data)
+}
+
 const loadSingleTypes = async ({ axiosInstance, singularName, locales, query, limit }: loadSingleTypesRequest) => {
   const endpoint = `/api/${singularName}`
   const queryParams = {
@@ -55,7 +66,7 @@ const loadSingleTypes = async ({ axiosInstance, singularName, locales, query, li
         params: { ...queryParams, locale },
         // Source: https://github.com/axios/axios/issues/5058#issuecomment-1379970592
         paramsSerializer: {
-          serialize: (parameters: any) => qs.stringify(parameters, { encodeValuesOnly: true }),
+          serialize: (parameters: any) => qs.stringify(parameters, { encodeValuesOnly: true })
         },
       };
 
@@ -67,7 +78,7 @@ const loadSingleTypes = async ({ axiosInstance, singularName, locales, query, li
     // Run queries in parallel
     const localizationsData = await Promise.all(localizationsPromises);
 
-    return localizationsData.reduce((acc, entry) => ({ ...acc, [entry.locale]: entry.data }), {})
+    return localizationsData.reduce((acc, entry) => ({ ...acc, [entry.locale]: entry.data?.attributes }), {})
 
   } catch (error: any) {
     if (error?.response?.status !== 404) {
@@ -77,4 +88,4 @@ const loadSingleTypes = async ({ axiosInstance, singularName, locales, query, li
   }
 }
 
-export { loadSingleTypes, createAxiosInstance }
+export { loadSingleTypes, loadContentTypes, createAxiosInstance }

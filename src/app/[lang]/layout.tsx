@@ -1,6 +1,7 @@
+import { AvailableLangs  } from "@/fetchers/types"
 
 export async function generateStaticParams() {
-  return [{ lang: 'en' }, { lang: 'zh-TW' }, { lang: 'zh-CN' }]
+  return AvailableLangs.map((lang) => ({ lang }))
 }
 
 export default function RootLayout({
