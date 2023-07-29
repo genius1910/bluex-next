@@ -1,15 +1,14 @@
-import Image from 'next/image';
 import type { LocalizedContent } from '@/fetchers/header';
-import { AvailableLocaleType, mapLocaleToLang } from '@/fetchers/types';
 import { Locale } from '@/fetchers/langs';
-import Header2 from "./header2"
-import HeaderLinks from "./header-links"
-import { MainMenu } from './header-menu'
+import { AvailableLocaleType, mapLocaleToLang } from '@/fetchers/types';
+import HeaderLinks from "./header-links";
+import { MainMenu } from './header-menu';
+import Header2 from "./header2";
 
-import PrimaryLogo from "../images/logo/header-bluex-logo.inline.svg";
-import WhiteLogo from "../images/logo/bluex-logo.inline.svg";
-import { ChevronRightIcon } from '@heroicons/react/20/solid'
+import { ChevronRightIcon } from '@heroicons/react/20/solid';
 import Link from 'next/link';
+import WhiteLogo from "../images/logo/bluex-logo.inline.svg";
+import PrimaryLogo from "../images/logo/header-bluex-logo.inline.svg";
 
 const LogoBlock = (props: { locale: AvailableLocaleType }) => {
   return (
@@ -23,12 +22,12 @@ const LogoBlock = (props: { locale: AvailableLocaleType }) => {
         <div
           className="block laptop:hidden"
         >
-          <Image priority alt="Logo" src={WhiteLogo} />
+          <WhiteLogo />
         </div>
         <div
           className="hidden laptop:block"
         >
-          <Image priority alt="Logo" src={PrimaryLogo} />
+          <PrimaryLogo />
         </div>
       </a>
     </div>
@@ -107,7 +106,7 @@ export default function Header({ content, locale, allLocales }: HeaderProps) {
             </div>
           </div>
 
-          {/* <Header2 /> */}
+          <Header2 />
         </div>
       </div>
     </header>
