@@ -1,5 +1,7 @@
 import Image from 'next/image';
-import type { LocalizedContent, AvailableLocaleType } from '@/fetchers/header';
+import type { LocalizedContent } from '@/fetchers/header';
+import { AvailableLocaleType, mapLocaleToLang } from '@/fetchers/types';
+import { Locale } from '@/fetchers/langs';
 import Header2 from "./header2"
 import HeaderLinks from "./header-links"
 import { MainMenu } from './header-menu'
@@ -36,10 +38,10 @@ const LogoBlock = (props: { locale: AvailableLocaleType }) => {
 interface HeaderProps {
   content: LocalizedContent;
   locale: AvailableLocaleType;
-  availableLocales: AvailableLocaleType[];
+  allLocales: Locale[];
 }
 
-export default function Header({ content, locale, availableLocales }: HeaderProps) {
+export default function Header({ content, locale, allLocales }: HeaderProps) {
   // const dispatch = useDispatch();
   // const productItems = contents.Header_SubMenus.find(
   //   item => item.attachment === HeaderMobileMenu.PRODUCT
@@ -84,10 +86,10 @@ export default function Header({ content, locale, availableLocales }: HeaderProp
                 className="flex items-center"
               >
                 <MainMenu
-                  title={locale}
-                  options={availableLocales.map(locale => ({
-                    label: locale,
-                    url: `/${locale}`,
+                  title={allLocales.find(loc => loc.code === locale)?.name ?? '-'}
+                  options={allLocales.map(loc => ({
+                    label: loc.name,
+                    url: `/${mapLocaleToLang(loc.code)}`,
                   }))}
                 />
                 <Link href="/en">

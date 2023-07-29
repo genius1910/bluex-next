@@ -1,23 +1,27 @@
 //
 // lang type defines the page path of each language
-// locale type defines the language of the content in the CMS
+// locale type defines the language of the content in the CMS(Strapi)
 //
 
-const AvailableLangs = ['en', 'zh-TW', 'zh-CN'] as const;
-const AvailableLocales = ['en', 'zh-Hant-TW', 'zh-Hans-CN'] as const;
+import { reverseRecord } from "@/lib/tools";
 
-type AvailableLangType = typeof AvailableLangs[number];
-type AvailableLocaleType = typeof AvailableLocales[number];
+const constAvailableLangs = ['en', 'tw', 'cn'] as const;
+const constAvailableLocales = ['en', 'zh-Hant-TW', 'zh-Hans-CN'] as const;
+
+type AvailableLangType = typeof constAvailableLangs[number];
+type AvailableLocaleType = typeof constAvailableLocales[number];
 
 const pathLangToCmsLangMap = {
   en: 'en',
-  'zh-TW': 'zh-Hant-TW',
-  'zh-CN': 'zh-Hans-CN',
-}
+  'tw': 'zh-Hant-TW',
+  'cn': 'zh-Hans-CN',
+} as Record<AvailableLangType, AvailableLocaleType>
 
-export { AvailableLangs, AvailableLocales }
+const LocaleToLangMap = reverseRecord(pathLangToCmsLangMap);
+
 export type { AvailableLocaleType, AvailableLangType }
-
-export function mapLangToLocale(pathLang: AvailableLangType): AvailableLocaleType {
-  return pathLangToCmsLangMap[pathLang] as AvailableLocaleType;
-}
+export const defaultLocale = 'en'
+export const availableLangs = [...constAvailableLangs]
+export const availableLocales = [...constAvailableLocales]
+export const mapLangToLocale = (lang: AvailableLangType) => pathLangToCmsLangMap[lang];
+export const mapLocaleToLang = (locale: AvailableLocaleType) => LocaleToLangMap[locale];

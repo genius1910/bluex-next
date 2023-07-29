@@ -2,10 +2,14 @@
 const nextConfig = {
   output: "export",
   trailingSlash: true,
-  // serverRuntimeConfig: {
-  //   strapiUrl: process.env.STRAPI_URL,
-  //   strapiApiKey: process.env.STRAPI_APIKEY,
-  // }
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/i,
+      issuer: /\.[jt]sx?$/,
+      use: ['@svgr/webpack'],
+    })
+    return config
+  },
 }
 
 module.exports = nextConfig

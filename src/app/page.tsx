@@ -1,9 +1,11 @@
 import Home from '@/components/home'
-import { fetch as fetchHeader, defaultLocale } from '@/fetchers/header'
+import { fetch as fetchHeader } from '@/fetchers/header'
 import { fetch } from '@/fetchers/home'
-import { AvailableLocales } from '@/fetchers/types'
+import { fetchLocales } from '@/fetchers/langs'
+import { defaultLocale } from '@/fetchers/types'
 
 export default async function Page() {
+  const allLocales = await fetchLocales()
   const headerContent = await fetchHeader()
   const content = await fetch()
   return (
@@ -13,8 +15,8 @@ export default async function Page() {
           <Home
             headerContent={headerContent}
             content={content}
-            locale={defaultLocale}
-            availableLocales={[...AvailableLocales]}
+            locale={allLocales.find(locale => locale.isDefault)?.code ?? defaultLocale}
+            allLocales={allLocales}
           />
         </main>
       </body>

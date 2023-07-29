@@ -1,10 +1,6 @@
-import { createAxiosInstance, loadSingleTypes } from '@/lib/strapi_loader'
-import { AvailableLocaleType } from './types'
-
-const axiosInstance = createAxiosInstance({
-  apiURL: process.env.STRAPI_URL || '',
-  accessToken: process.env.STRAPI_APIKEY || ''
-});
+import { loadSingleTypes } from '@/lib/strapi_loader'
+import { AvailableLocaleType, availableLocales } from './types'
+import { axiosInstance } from './base';
 
 const query = {
   populate: {
@@ -107,15 +103,13 @@ interface ProductDropdownGroup {
   links: Footer[];
 }
 
-export const defaultLocale = 'en';
-
-export type { AvailableLocaleType, PageContent, LocalizedContent };
+export type { PageContent, LocalizedContent };
 
 export const fetch = async () => {
   const res = await loadSingleTypes({
     axiosInstance,
     singularName: 'layout-content',
-    locales: ['en', 'zh-Hant-TW', 'zh-Hans-CN'],
+    locales: availableLocales,
     query,
     limit: 500
   })
