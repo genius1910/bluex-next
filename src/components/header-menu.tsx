@@ -35,7 +35,7 @@ export function MainMenu({ title, optionGroups, options, buttonClassName, groupC
         <>
           <div key="d1">
             <Menu.Button
-              className={`inline-flex w-full justify-center items-center border-none bg-transparent px-2.5 py-2 text-sm font-medium text-white font-menu leading-[1.57rem] ${buttonClassName}`}
+              className={`inline-flex w-full justify-center items-center border-none bg-transparent px-2.5 py-2 text-sm font-medium text-white font-menu leading-[1.57rem] ${buttonClassName || ''}`}
             >
               {title}
               {open ? (
@@ -59,7 +59,7 @@ export function MainMenu({ title, optionGroups, options, buttonClassName, groupC
               className={
                 `before:content-[""] before:absolute before:top-[-0.313rem] before:w-0 before:h-0 before:border-b-[0.313rem] before:border-b-white before:border-x-[0.313rem]
                 before:border-x-transparent before:border-solid before:left-10
-                absolute left-0 z-10 mt-0 w-56 origin-top-left rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ${groupClassName}`
+                absolute left-0 z-10 mt-0 w-56 origin-top-left rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ${groupClassName || ''}`
               }
             >
               { groups.map((optionGroup, idx) => (
@@ -82,7 +82,7 @@ export function MainMenu({ title, optionGroups, options, buttonClassName, groupC
                     >
                       <Link
                         href={ option.url }
-                        className={`flex flex-row items-center text-gray-900 block text-xs px-4 py-2 hover:bg-gray-200 ${option.className}`}
+                        className={`flex flex-row items-center text-gray-900 block text-xs px-4 py-2 hover:bg-gray-200 ${option.className || ''}`}
                       >
                         { option.icon }
                         { option.label }
@@ -95,7 +95,6 @@ export function MainMenu({ title, optionGroups, options, buttonClassName, groupC
           </Transition>
         </>
       )}
-
     </Menu>
   )
 }
