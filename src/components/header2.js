@@ -181,19 +181,65 @@ const Header = ({
 
   return (
     <>
-          <MenuWrapper>
-            <Box sx={{ display: { xs: "none", sm: "none", md: "block" } }}>
-              <Box display="flex" alignItems="center">
-                  <MenuDropdown
-                    className="white"
-                    options={localeList.map(locale => locale.label)}
-                    onChange={onSelectLocale}
-                    arrowOpen={<ExpandLessIcon />}
-                    arrowClosed={<ExpandMoreIcon />}
-                    value={i18n}
-                  />
+      <Box sx={{ display: { sm: "block", md: "none" } }}>
+        {mobileMenu ? (
+          <MenuIconWrapper>
+            <Button onClick={() => oncCloseMobileMenu()}>
+              <CloseIcon />
+            </Button>
+          </MenuIconWrapper>
+        ) : (
+          <MenuIconWrapper>
+            <Button aria-label="Menu" onClick={() => setMobileMenu(true)}>
+              <MenuIcon />
+            </Button>
+          </MenuIconWrapper>
+        )}
+        <Slide
+          direction="down"
+          in={mobileMenu}
+          mountOnEnter
+          unmountOnExit
+          jesttestid="MobileMenuSlide"
+        >
+          <MobileMenuDropdown>
+            <Box display="flex" flexDirection="column" mb="0.938rem">
+              {
+                contents.Header_SubMenus.map(
+                  ({ links, title, attachment }, index) => (
+                    <MobileMenuItem key={`mobile-menu-${index}`}>
+                      {links.length > 0 ? (
+                        <Button
+                          onClick={() => onSwitchMobileMenu(attachment)}
+                        >
+                          <span>{title}</span>
+                          <NavigateNextIcon />
+                        </Button>
+                      ) : (
+                        <Link key={`mobile-menu-${index}`} href={attachment}>
+                          {title}
+                        </Link>
+                      )}
+                    </MobileMenuItem>
+                  )
+                )
+              }
+            </Box>
+            <Box display="flex" flexDirection="column">
+              {/* {displaySetting.Localization && isI18n && (
+                <MenuI18n>
+                  <Button
+                    onClick={() =>
+                      onSwitchMobileMenu(HeaderMobileMenu.I18N)
+                    }
+                  >
+                    <span>{i18n}</span>
+                    <NavigateNextIcon />
+                  </Button>
+                </MenuI18n>
+              )} */}
+              <Box display="flex" justifyContent="center">
                 <HeaderButton
-                  $ml="1.25rem"
                   onClick={() => NavigateExternalUrl(signInBtn?.link)}
                 >
                   <span>{signInBtn?.text}</span>
@@ -201,203 +247,136 @@ const Header = ({
                 </HeaderButton>
               </Box>
             </Box>
-          </MenuWrapper>
-          <Box sx={{ display: { sm: "block", md: "none" } }}>
-            {mobileMenu ? (
-              <MenuIconWrapper>
-                <Button onClick={() => oncCloseMobileMenu()}>
-                  <CloseIcon />
+          </MobileMenuDropdown>
+        </Slide>
+        <Slide
+          direction={mobileMenuDirection}
+          in={mobileMenu && mobileMenuIndex === HeaderMobileMenu.I18N}
+          mountOnEnter
+          unmountOnExit
+          jesttestid="MobileMenuSlide"
+        >
+          <MobileMenuDropdown>
+            <MobileMenuItem key="i18n-menu-return">
+              <MenuBackBtn
+                onClick={() => setMobileMenuIndex(HeaderMobileMenu.MENU)}
+              >
+                <div>
+                  <NavigateBeforeIcon />
+                  <span>{contents.Header_Back_Btn}</span>
+                </div>
+              </MenuBackBtn>
+            </MobileMenuItem>
+            {localeList.map((locale, index) => (
+              <MobileMenuItem key={`i18n-menu-${index}`}>
+                <Button onClick={() => onSelectLocaleMobile(locale)}>
+                  <span>{locale.label}</span>
                 </Button>
-              </MenuIconWrapper>
-            ) : (
-              <MenuIconWrapper>
-                <Button aria-label="Menu" onClick={() => setMobileMenu(true)}>
-                  <MenuIcon />
+              </MobileMenuItem>
+            ))}
+          </MobileMenuDropdown>
+        </Slide>
+        <Slide
+          direction={mobileMenuDirection}
+          in={mobileMenu && mobileMenuIndex === HeaderMobileMenu.PRODUCT}
+          mountOnEnter
+          unmountOnExit
+          jesttestid="MobileMenuSlide"
+        >
+          <MobileMenuDropdown>
+            <MobileMenuItem key="product-menu-return">
+              <MenuBackBtn
+                onClick={() => setMobileMenuIndex(HeaderMobileMenu.MENU)}
+              >
+                <div>
+                  <NavigateBeforeIcon />
+                  <span>{contents.Header_Back_Btn}</span>
+                </div>
+              </MenuBackBtn>
+            </MobileMenuItem>
+            {productItems.links.map(({ label, type, url }, index) => (
+              <MobileMenuItem key={`product-menu-${index}`}>
+                <Button
+                  onClick={() => {
+                    type === LinkType.EXTERIOR
+                      ? NavigateNewTab(url)
+                      : NavigateLocalUrl(url);
+                  }}
+                >
+                  <span>{label}</span>
                 </Button>
-              </MenuIconWrapper>
-            )}
-            <Slide
-              direction="down"
-              in={mobileMenu}
-              mountOnEnter
-              unmountOnExit
-              jesttestid="MobileMenuSlide"
-            >
-              <MobileMenuDropdown>
-                <Box display="flex" flexDirection="column" mb="0.938rem">
-                  {
-                    contents.Header_SubMenus.map(
-                      ({ links, title, attachment }, index) => (
-                        <MobileMenuItem key={`mobile-menu-${index}`}>
-                          {links.length > 0 ? (
-                            <Button
-                              onClick={() => onSwitchMobileMenu(attachment)}
-                            >
-                              <span>{title}</span>
-                              <NavigateNextIcon />
-                            </Button>
-                          ) : (
-                            <Link key={`mobile-menu-${index}`} href={attachment}>
-                              {title}
-                            </Link>
-                          )}
-                        </MobileMenuItem>
-                      )
-                    )
-                  }
-                </Box>
-                <Box display="flex" flexDirection="column">
-                  {/* {displaySetting.Localization && isI18n && (
-                    <MenuI18n>
-                      <Button
-                        onClick={() =>
-                          onSwitchMobileMenu(HeaderMobileMenu.I18N)
-                        }
-                      >
-                        <span>{i18n}</span>
-                        <NavigateNextIcon />
-                      </Button>
-                    </MenuI18n>
-                  )} */}
-                  <Box display="flex" justifyContent="center">
-                    <HeaderButton
-                      onClick={() => NavigateExternalUrl(signInBtn?.link)}
-                    >
-                      <span>{signInBtn?.text}</span>
-                      <NavigateNextIcon />
-                    </HeaderButton>
-                  </Box>
-                </Box>
-              </MobileMenuDropdown>
-            </Slide>
-            <Slide
-              direction={mobileMenuDirection}
-              in={mobileMenu && mobileMenuIndex === HeaderMobileMenu.I18N}
-              mountOnEnter
-              unmountOnExit
-              jesttestid="MobileMenuSlide"
-            >
-              <MobileMenuDropdown>
-                <MobileMenuItem key="i18n-menu-return">
-                  <MenuBackBtn
-                    onClick={() => setMobileMenuIndex(HeaderMobileMenu.MENU)}
-                  >
-                    <div>
-                      <NavigateBeforeIcon />
-                      <span>{contents.Header_Back_Btn}</span>
-                    </div>
-                  </MenuBackBtn>
-                </MobileMenuItem>
-                {localeList.map((locale, index) => (
-                  <MobileMenuItem key={`i18n-menu-${index}`}>
-                    <Button onClick={() => onSelectLocaleMobile(locale)}>
-                      <span>{locale.label}</span>
-                    </Button>
-                  </MobileMenuItem>
-                ))}
-              </MobileMenuDropdown>
-            </Slide>
-            <Slide
-              direction={mobileMenuDirection}
-              in={mobileMenu && mobileMenuIndex === HeaderMobileMenu.PRODUCT}
-              mountOnEnter
-              unmountOnExit
-              jesttestid="MobileMenuSlide"
-            >
-              <MobileMenuDropdown>
-                <MobileMenuItem key="product-menu-return">
-                  <MenuBackBtn
-                    onClick={() => setMobileMenuIndex(HeaderMobileMenu.MENU)}
-                  >
-                    <div>
-                      <NavigateBeforeIcon />
-                      <span>{contents.Header_Back_Btn}</span>
-                    </div>
-                  </MenuBackBtn>
-                </MobileMenuItem>
-                {productItems.links.map(({ label, type, url }, index) => (
-                  <MobileMenuItem key={`product-menu-${index}`}>
-                    <Button
-                      onClick={() => {
-                        type === LinkType.EXTERIOR
-                          ? NavigateNewTab(url)
-                          : NavigateLocalUrl(url);
-                      }}
-                    >
-                      <span>{label}</span>
-                    </Button>
-                  </MobileMenuItem>
-                ))}
-              </MobileMenuDropdown>
-            </Slide>
-            <Slide
-              direction={mobileMenuDirection}
-              in={mobileMenu && mobileMenuIndex === HeaderMobileMenu.COMPANY}
-              mountOnEnter
-              unmountOnExit
-              jesttestid="MobileMenuSlide"
-            >
-              <MobileMenuDropdown>
-                <MobileMenuItem key="company-menu-return">
-                  <MenuBackBtn
-                    onClick={() => setMobileMenuIndex(HeaderMobileMenu.MENU)}
-                  >
-                    <div>
-                      <NavigateBeforeIcon />
-                      <span>{contents.Header_Back_Btn}</span>
-                    </div>
-                  </MenuBackBtn>
-                </MobileMenuItem>
-                {companyItems.links.map(({ label, type, url }, index) => (
-                  <MobileMenuItem key={`company-menu-${index}`}>
-                    <Button
-                      onClick={() => {
-                        type === LinkType.EXTERIOR
-                          ? NavigateNewTab(url)
-                          : NavigateLocalUrl(url);
-                      }}
-                    >
-                      <span>{label}</span>
-                    </Button>
-                  </MobileMenuItem>
-                ))}
-              </MobileMenuDropdown>
-            </Slide>
-            <Slide
-              direction={mobileMenuDirection}
-              in={mobileMenu && mobileMenuIndex === HeaderMobileMenu.RESOURCE}
-              mountOnEnter
-              unmountOnExit
-              jesttestid="MobileMenuSlide"
-            >
-              <MobileMenuDropdown>
-                <MobileMenuItem key="resource-menu-return">
-                  <MenuBackBtn
-                    onClick={() => setMobileMenuIndex(HeaderMobileMenu.MENU)}
-                  >
-                    <div>
-                      <NavigateBeforeIcon />
-                      <span>{contents.Header_Back_Btn}</span>
-                    </div>
-                  </MenuBackBtn>
-                </MobileMenuItem>
-                {resourceItems.links.map(({ label, type, url }, index) => (
-                  <MobileMenuItem key={`resource-menu-${index}`}>
-                    <Button
-                      onClick={() => {
-                        type === LinkType.EXTERIOR
-                          ? NavigateNewTab(url)
-                          : NavigateLocalUrl(url);
-                      }}
-                    >
-                      <span>{label}</span>
-                    </Button>
-                  </MobileMenuItem>
-                ))}
-              </MobileMenuDropdown>
-            </Slide>
-          </Box>
-          </>
+              </MobileMenuItem>
+            ))}
+          </MobileMenuDropdown>
+        </Slide>
+        <Slide
+          direction={mobileMenuDirection}
+          in={mobileMenu && mobileMenuIndex === HeaderMobileMenu.COMPANY}
+          mountOnEnter
+          unmountOnExit
+          jesttestid="MobileMenuSlide"
+        >
+          <MobileMenuDropdown>
+            <MobileMenuItem key="company-menu-return">
+              <MenuBackBtn
+                onClick={() => setMobileMenuIndex(HeaderMobileMenu.MENU)}
+              >
+                <div>
+                  <NavigateBeforeIcon />
+                  <span>{contents.Header_Back_Btn}</span>
+                </div>
+              </MenuBackBtn>
+            </MobileMenuItem>
+            {companyItems.links.map(({ label, type, url }, index) => (
+              <MobileMenuItem key={`company-menu-${index}`}>
+                <Button
+                  onClick={() => {
+                    type === LinkType.EXTERIOR
+                      ? NavigateNewTab(url)
+                      : NavigateLocalUrl(url);
+                  }}
+                >
+                  <span>{label}</span>
+                </Button>
+              </MobileMenuItem>
+            ))}
+          </MobileMenuDropdown>
+        </Slide>
+        <Slide
+          direction={mobileMenuDirection}
+          in={mobileMenu && mobileMenuIndex === HeaderMobileMenu.RESOURCE}
+          mountOnEnter
+          unmountOnExit
+          jesttestid="MobileMenuSlide"
+        >
+          <MobileMenuDropdown>
+            <MobileMenuItem key="resource-menu-return">
+              <MenuBackBtn
+                onClick={() => setMobileMenuIndex(HeaderMobileMenu.MENU)}
+              >
+                <div>
+                  <NavigateBeforeIcon />
+                  <span>{contents.Header_Back_Btn}</span>
+                </div>
+              </MenuBackBtn>
+            </MobileMenuItem>
+            {resourceItems.links.map(({ label, type, url }, index) => (
+              <MobileMenuItem key={`resource-menu-${index}`}>
+                <Button
+                  onClick={() => {
+                    type === LinkType.EXTERIOR
+                      ? NavigateNewTab(url)
+                      : NavigateLocalUrl(url);
+                  }}
+                >
+                  <span>{label}</span>
+                </Button>
+              </MobileMenuItem>
+            ))}
+          </MobileMenuDropdown>
+        </Slide>
+      </Box>
+    </>
   );
 };
 

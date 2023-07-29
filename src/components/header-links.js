@@ -13,7 +13,7 @@ export default function HeaderLinks({ contents }) {
             return {
               label: link?.label,
               url: link?.url,
-              className: 'text-[#009bd2] font-bold',
+              className: 'text-primary font-bold',
               icon: <div
                 className='block content-[""] w-[0.313rem] h-[0.313rem] rotate-45 bg-[orange] left-1 ml-1 mr-2'
               />,
