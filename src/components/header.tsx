@@ -7,6 +7,7 @@ import { MainMenu } from './header-menu'
 import PrimaryLogo from "../images/logo/header-bluex-logo.inline.svg";
 import WhiteLogo from "../images/logo/bluex-logo.inline.svg";
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
+import Link from 'next/link';
 
 const LogoBlock = (props: { locale: AvailableLocaleType }) => {
   return (
@@ -82,23 +83,24 @@ export default function Header({ content, locale, availableLocales }: HeaderProp
               <div
                 className="flex items-center"
               >
-                {/* <MainMenu
-                  className="white"
+                <MainMenu
+                  title={locale}
                   options={availableLocales.map(locale => ({
-                    label: locale.label,
+                    label: locale,
                     url: `/${locale}`,
                   }))}
-                  // value={i18n}
-                /> */}
-                <button
-                  className="flex w-[6.6rem] h-[2rem] text-sm leading-normal font-bold normal-case text-center
-                    text-white px-2 py-1.5 bg-[#009bd2] rounded-[18px] border-none items-center justify-center hover:bg-[#00afec]
-                    ml-5"
-                  // onClick={() => NavigateExternalUrl(signInBtn?.link)}
-                >
-                  <span>{content.Header_SignIn_Btn?.text}</span>
-                  <ChevronRightIcon className="w-6 h-6" />
-                </button>
+                />
+                <Link href="/en">
+                  <button
+                    className="flex w-[6.6rem] h-[2rem] text-sm leading-normal font-bold normal-case text-center
+                      text-white px-2 py-1.5 bg-[#009bd2] rounded-[18px] border-none items-center justify-center hover:bg-[#00afec]
+                      ml-5"
+                    // onClick={() => NavigateExternalUrl(signInBtn?.link)}
+                  >
+                    <span>{content.Header_SignIn_Btn?.text}</span>
+                    <ChevronRightIcon className="w-6 h-6" />
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
