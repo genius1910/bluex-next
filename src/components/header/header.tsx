@@ -1,13 +1,13 @@
 import { LinkType, type LocalizedContent } from '@/cms/header';
 import { Locale } from '@/cms/langs';
 import { AvailableLocaleType, mapLocaleToLang } from '@/cms/types';
-import { MainMenu } from './header-menu';
 import MobileDisclosure from "@/components/header/mobile-disclosure";
+import { MainMenu } from './header-menu';
 
-import { ChevronRightIcon } from '@heroicons/react/20/solid';
-import Link from 'next/link';
+import NavNextIcon from '@/images/icon/nav-next.svg';
 import WhiteLogo from "@/images/logo/bluex-logo.inline.svg";
 import PrimaryLogo from "@/images/logo/header-bluex-logo.inline.svg";
+import Link from 'next/link';
 
 const HeaderLinks = ({ content, locale }: { content: LocalizedContent, locale: AvailableLocaleType }) => {
   return <>
@@ -100,7 +100,7 @@ function DesktopNavBar({ content, locale, allLocales }: HeaderProps) {
                   ml-5"
               >
                 <span>{content.Header_SignIn_Btn?.text}</span>
-                <ChevronRightIcon className="w-6 h-6" />
+                <NavNextIcon className="w-6 h-6" />
               </button>
             </Link>
           </div>

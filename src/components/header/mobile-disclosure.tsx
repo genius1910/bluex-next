@@ -5,11 +5,11 @@ import { Locale } from '@/cms/langs';
 import { AvailableLocaleType } from '@/cms/types';
 import CloseIcon from '@/images/icon/close.svg';
 import MenuIcon from '@/images/icon/menu.svg';
+import NavBeforeIcon from '@/images/icon/nav-before.svg';
+import NavNextIcon from '@/images/icon/nav-next.svg';
 import { Disclosure, Transition } from '@headlessui/react';
+import { Button, Slide } from "@mui/material";
 import Link from 'next/link';
-import { Box, Button, Slide } from "@mui/material";
-import { ChevronLeftIcon } from '@heroicons/react/20/solid';
-import { ChevronRightIcon } from '@heroicons/react/20/solid';
 import { useState } from 'react';
 
 interface MenuDrarwerProps {
@@ -41,7 +41,7 @@ function MenuDrarwer({ content, locale, open, links, onExited }: MenuDrarwerProp
               <div
                 className='w-full flex text-primary text-sm font-menu font-medium leading-[1.57rem] pl-[1.875rem] pr-5 py-[0.938rem] text-inital'
               >
-                <ChevronLeftIcon className="w-6 h-6" />
+                <NavBeforeIcon className="w-6 h-6" />
                 <span className='ml-3'>{content.Header_Back_Btn}</span>
               </div>
             </Button>
@@ -118,7 +118,7 @@ function MenuPanel({ content, locale, allLocales, open}: MenuPanelProps) {
                           className='w-full flex text-submenu text-sm font-menu font-medium leading-[1.57rem] pl-[1.875rem] pr-5 py-[0.938rem] justify-between text-inital'
                         >
                           <span>{title}</span>
-                          <ChevronRightIcon className="w-6 h-6" />
+                          <NavNextIcon className="w-6 h-6" />
                         </div>
                       </Button>
                     ) : (
@@ -166,7 +166,7 @@ function MenuPanel({ content, locale, allLocales, open}: MenuPanelProps) {
                   href={content.Header_SignIn_Btn?.link || '/'}
                 >
                   <span>{content.Header_SignIn_Btn?.text}</span>
-                  <ChevronRightIcon className="w-6 h-6" />
+                  <NavNextIcon className="w-6 h-6" />
                 </Link>
               </Button>
             </div>
