@@ -3,7 +3,7 @@
 import { Fragment } from 'react'
 import Link from 'next/link';
 import { Menu, Transition } from '@headlessui/react'
-import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/20/solid'
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 
 interface OptionGroupType {
@@ -38,11 +38,10 @@ export function MainMenu({ title, optionGroups, options, buttonClassName, groupC
               className={`inline-flex w-full justify-center items-center border-none bg-transparent px-2.5 py-2 text-sm font-medium text-white font-menu leading-[1.57rem] ${buttonClassName || ''}`}
             >
               {title}
-              {open ? (
-                <ChevronUpIcon className="-mr-1 h-5 w-5 text-white" aria-hidden="true" />
-              ) : (
-                <ChevronDownIcon className="-mr-1 h-5 w-5 text-white" aria-hidden="true" />
-              )}
+              <ChevronDownIcon
+                className={`-mr-1 h-5 w-5 text-white transform duration-150 ${open ? 'rotate-180' : 'rotate-0'}`}
+                aria-hidden="true"
+              />
             </Menu.Button>
           </div>
 
