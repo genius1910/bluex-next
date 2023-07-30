@@ -9,7 +9,7 @@ import WhiteLogo from "@/images/logo/bluex-logo.inline.svg";
 import PrimaryLogo from "@/images/logo/header-bluex-logo.inline.svg";
 import Link from 'next/link';
 
-const HeaderLinks = ({ content, locale }: { content: LocalizedContent, locale: AvailableLocaleType }) => {
+const HeaderMenus = ({ content, locale }: { content: LocalizedContent, locale: AvailableLocaleType }) => {
   return <>
     <MainMenu
       title={content.Product_Dropdown_Label || '-'}
@@ -80,7 +80,7 @@ function DesktopNavBar({ content, locale, allLocales }: HeaderProps) {
           <div // LinksWrapper
             className="flex flex-row items-center ml-[4.413rem] text-white"
           >
-            <HeaderLinks content={content} locale={locale} />
+            <HeaderMenus content={content} locale={locale} />
           </div>
 
           <div // right section of header
