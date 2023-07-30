@@ -1,4 +1,4 @@
-import { availableLangs  } from "@/fetchers/types"
+import { availableLangs  } from "@/cms/types"
 
 export async function generateStaticParams() {
   return availableLangs.map((lang) => ({ lang }))

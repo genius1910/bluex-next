@@ -1,8 +1,8 @@
-import { AvailableLocaleType } from '@/fetchers/types';
-import { Locale } from '@/fetchers/langs';
-import type { PageContent as HeaderContent } from '@/fetchers/header';
-import type { PageContent } from '@/fetchers/home';
-import Header from '@/components/header'
+import { AvailableLocaleType } from '@/cms/types';
+import { Locale } from '@/cms/langs';
+import type { PageContent as HeaderContent } from '@/cms/header';
+import type { PageContent } from '@/cms/home';
+import Header from '@/components/header/header'
 import FrontMainSection from '@/components/main-section'
 // import FrontContents from "@/constants/mockup/front-contents";
 

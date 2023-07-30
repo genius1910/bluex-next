@@ -24,6 +24,7 @@ module.exports = {
       },
       colors: {
         'primary': '#009bd2',
+        'submenu': '#18335e',
       },
     },
   },
