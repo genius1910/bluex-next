@@ -3,7 +3,7 @@
 import { Fragment } from 'react'
 import Link from 'next/link';
 import { Menu, Transition } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import ChevronDownIcon from '@/images/icon/chevron-down.svg'
 
 
 interface OptionGroupType {
@@ -39,7 +39,7 @@ export function MainMenu({ title, optionGroups, options, buttonClassName, groupC
             >
               {title}
               <ChevronDownIcon
-                className={`-mr-1 h-5 w-5 text-white transform duration-150 ${open ? 'rotate-180' : 'rotate-0'}`}
+                className={`-mr-1 h-6 w-6 text-white transform duration-150 ${open ? 'rotate-180' : 'rotate-0'}`}
                 aria-hidden="true"
               />
             </Menu.Button>
