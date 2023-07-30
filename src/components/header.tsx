@@ -89,17 +89,6 @@ interface HeaderProps {
 }
 
 export default function Header({ content, locale, allLocales }: HeaderProps) {
-  // const dispatch = useDispatch();
-  // const productItems = content.Header_SubMenus.find(
-  //   item => item.attachment === HeaderMobileMenu.PRODUCT
-  // );
-  // const companyItems = content.Header_SubMenus.find(
-  //   item => item.attachment === HeaderMobileMenu.COMPANY
-  // );
-  // const resourceItems = content.Header_SubMenus.find(
-  //   item => item.attachment === HeaderMobileMenu.RESOURCE
-  // );
-
   return (
     <header
       className="absolute z-[1000] w-full h-[5.875rem] box-border px-0 py-[2.188rem] laptop:bg-white laptop:fixed"
