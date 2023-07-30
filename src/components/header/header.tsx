@@ -1,4 +1,4 @@
-import type { LocalizedContent } from '@/cms/header';
+import { LinkType, type LocalizedContent } from '@/cms/header';
 import { Locale } from '@/cms/langs';
 import { AvailableLocaleType, mapLocaleToLang } from '@/cms/types';
 import { MainMenu } from './header-menu';
@@ -9,7 +9,7 @@ import Link from 'next/link';
 import WhiteLogo from "@/images/logo/bluex-logo.inline.svg";
 import PrimaryLogo from "@/images/logo/header-bluex-logo.inline.svg";
 
-const HeaderLinks = ({ content }: { content: LocalizedContent }) => {
+const HeaderLinks = ({ content, locale }: { content: LocalizedContent, locale: AvailableLocaleType }) => {
   return <>
     <MainMenu
       title={content.Product_Dropdown_Label || '-'}
@@ -20,7 +20,7 @@ const HeaderLinks = ({ content }: { content: LocalizedContent }) => {
           options: group?.links.filter(Boolean).map(link => {
             return {
               label: link.label,
-              url: link.url || '#',
+              url: link.type === LinkType.Interior ? `/${locale}${link.url}` : link.url || '#',
               className: 'text-primary font-bold',
               icon: <div
                 className='block content-[""] w-[0.313rem] h-[0.313rem] rotate-45 bg-[orange] left-1 ml-1 mr-2'
@@ -40,14 +40,14 @@ const HeaderLinks = ({ content }: { content: LocalizedContent }) => {
             optionGroups={links.filter(Boolean).map(link => ({
               options:[{
                 label: link.label,
-                url: link.url || '#',
+                url: link.type === LinkType.Interior ? `/${locale}${link.url}` : link.url || '#',
               }]
             }))}
           />
         ) : (
           <Link
             key={`header-list-${index}`}
-            href={attachment || '#'}
+            href={attachment?.startsWith('https://') ? attachment : `/${locale}${attachment}` || '#'}
             className='px-2.5 py-2 text-sm font-medium text-white'
           >
             {title}
@@ -80,7 +80,7 @@ function DesktopNavBar({ content, locale, allLocales }: HeaderProps) {
           <div // LinksWrapper
             className="flex flex-row items-center ml-[4.413rem] text-white"
           >
-            <HeaderLinks content={content} />
+            <HeaderLinks content={content} locale={locale} />
           </div>
 
           <div // right section of header

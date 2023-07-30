@@ -9,6 +9,11 @@ export default async function Page({ params }: { params: { lang: string } }) {
   const headerContent = await fetchHeader()
   const content = await fetch()
   const locale = mapLangToLocale(params.lang as AvailableLangType);
+
+  if (!locale) {
+    return false
+  }
+
   return (
     <Home
       headerContent={headerContent}

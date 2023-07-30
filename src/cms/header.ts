@@ -67,17 +67,17 @@ interface LocalizedContent {
   Header_SubMenus:               HeaderSubMenu[];
   Header_SignIn_Btn:             HeaderSignInBtn;
   Site_Map:                      HeaderSubMenu[];
-  Footer:                        Footer[];
+  Footer:                        LinkTarget[];
 }
 
-interface Footer {
+export interface LinkTarget {
   id:    number;
   label: string;
   url:   null | string;
-  type:  Type;
+  type:  LinkType;
 }
 
-enum Type {
+export enum LinkType {
   Exterior = "EXTERIOR",
   Interior = "INTERIOR",
   Text = "TEXT",
@@ -93,14 +93,14 @@ interface HeaderSubMenu {
   id:         number;
   title:      string;
   attachment: null | string;
-  links:      Footer[];
+  links:      LinkTarget[];
 }
 
 interface ProductDropdownGroup {
   id:    number;
   name:  string;
   type:  string;
-  links: Footer[];
+  links: LinkTarget[];
 }
 
 export type { PageContent, LocalizedContent };
