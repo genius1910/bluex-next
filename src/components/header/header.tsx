@@ -5,8 +5,8 @@ import MobileDisclosure from "@/components/header/mobile-disclosure";
 import { MainMenu } from './header-menu';
 
 import NavNextIcon from '@/images/icon/nav-next.svg';
-import WhiteLogo from "@/images/logo/bluex-logo.inline.svg";
-import PrimaryLogo from "@/images/logo/header-bluex-logo.inline.svg";
+import WhiteLogo from "@/images/logo/bxwlogo.svg";
+import PrimaryLogo from "@/images/logo/bxblogo.svg";
 import Link from 'next/link';
 
 const HeaderMenus = ({ content, locale }: { content: LocalizedContent, locale: AvailableLocaleType }) => {
@@ -61,7 +61,7 @@ const HeaderMenus = ({ content, locale }: { content: LocalizedContent, locale: A
 function DesktopNavBar({ content, locale, allLocales }: HeaderProps) {
   return (
     <div
-      className='flex flex-col h-full justify-center laptop:hidden'
+      className='hidden lg:flex flex-col h-full justify-center'
     >
       <div
         className="w-[60rem] mx-auto my-0"
@@ -113,7 +113,7 @@ function DesktopNavBar({ content, locale, allLocales }: HeaderProps) {
 function MobileNavBar({ content, locale, allLocales }: HeaderProps) {
   return (
     <div
-      className="hidden laptop:flex my-0 w-full h-full bg-white justify-between"
+      className="flex lg:hidden my-0 w-full h-full bg-white justify-between"
     >
       <div
         className='flex flex-col h-full w-full bg-white justify-center z-[1000]'

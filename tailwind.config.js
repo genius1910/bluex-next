@@ -11,10 +11,13 @@ module.exports = {
       'serif': ['Roboto', 'serif'],
       'title': ['lato'],
       'menu': ['Inter', 'sans-serif'],
+      'btn': ['lato'],
     },
     screens: {
-      'laptop': { max: '960px' },
-      'mobile': { max: '425px' },
+      'md': { min: '425px' },
+      'lg': { min: '960px' },
+      'mobilex': { max: '425px' },
+      'laptopx': { max: '960px' },
     },
     extend: {
       backgroundImage: {

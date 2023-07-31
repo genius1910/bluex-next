@@ -4,7 +4,6 @@ import type { PageContent as HeaderContent } from '@/cms/header';
 import type { PageContent } from '@/cms/home';
 import Header from '@/components/header/header'
 import FrontMainSection from '@/components/main-section'
-// import FrontContents from "@/constants/mockup/front-contents";
 
 export default function Home(props: {
   headerContent: HeaderContent,

@@ -9,7 +9,7 @@ export default function FrontMainSection({ contents }) {
     >
       <video
         id="BGMainVideo"
-        className="relative w-screen mb-[-0.5rem] laptop:h-[41.75rem] laptop:w-auto mobile:h-[47.5rem]"
+        className="relative w-screen mb-[-0.5rem] laptopx:h-[41.75rem] laptopx:w-auto mobilex:h-[47.5rem]"
         autoPlay={"autoplay"}
         preload="auto"
         muted
@@ -32,11 +32,11 @@ export default function FrontMainSection({ contents }) {
       >
         <div
           // MainSectionContent
-          className="flex flex-row w-[60rem] mx-auto my-0 overflow-x-visible box-border box-sizing laptop:w-full laptop:box-border laptop:px-5 mobile:flex-col"
+          className="flex flex-col md:flex-row w-full lg:w-[60rem] box-border md:px-5 mx-auto my-0 overflow-x-visible box-border box-sizing"
         >
           <div
             // TitleWrapper
-            className="w-[25rem] flex flex-col mr-[6.25rem] laptop:mr-0 mobile:w-full"
+            className="w-[25rem] flex flex-col mr-[6.25rem] laptopx:mr-0 mobilex:w-full"
           >
             <div
               // Title

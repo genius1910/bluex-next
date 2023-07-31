@@ -3,6 +3,13 @@ import { fetch as fetchHeader } from '@/cms/header'
 import { fetch } from '@/cms/home'
 import { fetchLocales } from '@/cms/langs'
 import { defaultLocale } from '@/cms/types'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  other: {
+    lang: 'en',
+  }
+}
 
 export default async function Page() {
   const allLocales = await fetchLocales()

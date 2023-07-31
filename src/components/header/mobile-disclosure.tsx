@@ -35,11 +35,11 @@ function MenuDrarwer({ content, locale, open, links, onExited }: MenuDrarwerProp
           className="flex flex-col mb-[0.938rem]"
         >
             <Button
-              sx={{width: '100%', textTransform: 'initial'}}
+              sx={{width: '100%', textTransform: 'initial', letterSpacing: 'normal', lineHeight: '1.57rem', padding: '0.938rem 1.25rem 0.938rem 1.875rem'}}
               onClick={() => setActive(false)}
             >
               <div
-                className='w-full flex text-primary text-sm font-menu font-medium leading-[1.57rem] pl-[1.875rem] pr-5 py-[0.938rem] text-inital'
+                className='w-full flex text-primary text-sm font-menu font-medium leading-[1.57rem] text-inital'
               >
                 <NavBeforeIcon className="w-6 h-6" />
                 <span className='ml-3'>{content.Header_Back_Btn}</span>
@@ -53,14 +53,14 @@ function MenuDrarwer({ content, locale, open, links, onExited }: MenuDrarwerProp
                   key={`mobile-menu-${index}`}
                 >
                   <Button
-                    sx={{width: '100%', textTransform: 'initial'}}
+                    sx={{width: '100%', textTransform: 'initial', letterSpacing: 'normal', lineHeight: '1.57rem', padding: '0.938rem 1.25rem 0.938rem 1.875rem'}}
                   >
                     { type === LinkType.Text ? (
                       <div>{label}</div>
                     ) : (
                       <Link
                         key={`mobile-menu-${index}`}
-                        className='w-full flex text-submenu text-sm font-menu font-medium leading-[1.57rem] pl-[1.875rem] pr-5 py-[0.938rem] text-inital'
+                        className='w-full flex text-submenu text-sm font-menu font-medium leading-[1.57rem] text-inital'
                         href={type === LinkType.Interior ? `/${locale}${url}` : url || '#'}
                       >
                         {label}
@@ -108,14 +108,14 @@ function MenuPanel({ content, locale, allLocales, open}: MenuPanelProps) {
                   >
                     {links.length > 0 ? (
                       <Button
-                        sx={{width: '100%', textTransform: 'initial'}}
+                        sx={{width: '100%', textTransform: 'initial', letterSpacing: 'normal', lineHeight: '1.57rem', padding: '0.938rem 1.25rem 0.938rem 1.875rem'}}
                         onClick={() => {
                           setDrawActive(true)
                           setSubmenuLinks(links)
                         }}
                       >
                         <div
-                          className='w-full flex text-submenu text-sm font-menu font-medium leading-[1.57rem] pl-[1.875rem] pr-5 py-[0.938rem] justify-between text-inital'
+                          className='w-full flex text-submenu text-sm font-menu font-medium leading-[1.57rem] justify-between text-inital'
                         >
                           <span>{title}</span>
                           <NavNextIcon className="w-6 h-6" />
@@ -123,11 +123,11 @@ function MenuPanel({ content, locale, allLocales, open}: MenuPanelProps) {
                       </Button>
                     ) : (
                       <Button
-                        sx={{width: '100%', textTransform: 'initial'}}
+                        sx={{width: '100%', textTransform: 'initial', letterSpacing: 'normal', lineHeight: '1.57rem', padding: '0.938rem 1.25rem 0.938rem 1.875rem'}}
                       >
                         <Link
                           key={`mobile-menu-${index}`}
-                          className='w-full flex text-submenu text-sm font-menu font-medium leading-[1.57rem] pl-[1.875rem] pr-5 py-[0.938rem] text-inital'
+                          className='w-full flex text-submenu text-sm font-menu font-medium leading-[1.57rem] text-inital'
                           href={attachment || '#'}
                         >
                           {title}
@@ -154,15 +154,15 @@ function MenuPanel({ content, locale, allLocales, open}: MenuPanelProps) {
                 </Button>
               </MenuI18n>
             )} */}
-            <div
+
+            <div // sign in button
               className="flex justify-center"
             >
               <Button
-                sx={{textTransform: 'initial', wudth: '6.6rem', height: '2rem', backgroundColor: '#009bd2', borderRadius: '18px', border: 'none', '&:hover': {backgroundColor: '#009bd2'}}}
-                className="flex w-[6.6rem] h-[2rem] "
+                sx={{textTransform: 'initial', width: '6.6rem', height: '2rem', backgroundColor: '#009bd2', borderRadius: '18px', border: 'none', letterSpacing: 'normal', '&:hover': {backgroundColor: '#009bd2'}}}
                 >
                 <Link
-                  className="flex text-sm leading-normal font-bold normal-case text-center text-white px-2 py-1.5 items-center justify-center"
+                  className="flex text-sm leading-normal font-btn font-bold normal-case text-center text-white px-2 py-1.5 items-center justify-center"
                   href={content.Header_SignIn_Btn?.link || '/'}
                 >
                   <span>{content.Header_SignIn_Btn?.text}</span>
