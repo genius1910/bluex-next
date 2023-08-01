@@ -92,14 +92,15 @@ interface loadCollectionTypesRequest {
   axiosInstance: AxiosInstance
   collectionName: string
   query: any
-  locales: string[]
-  limit: number
+  locale: string
+  pageSize?: number
+  page: number
+  sort?: string
 }
 
 interface CollectionResponse {
   data: CollectionEntry[]
   meta: Meta
-
 }
 
 interface CollectionEntry {
@@ -119,53 +120,34 @@ interface Pagination {
 }
 
 
-const loadCollectionTypes = async ({ axiosInstance, collectionName, locales, query, limit }: loadCollectionTypesRequest) => {
+const loadCollectionTypes = async ({ axiosInstance, collectionName, locale, query, page, pageSize, sort }: loadCollectionTypesRequest) => {
   const endpoint = `/api/${collectionName}`
-  const queryParams = {
+  const params = {
     ...query,
+    locale,
+    ...( sort && { sort } ),
     pagination: {
-      pageSize: limit || 250,
-      page: 1,
+      pageSize: pageSize || 250,
+      page,
     },
     populate: query?.populate || "*",
   }
+  const options = {
+    method: "GET",
+    url: endpoint,
+    params,
+    // Source: https://github.com/axios/axios/issues/5058#issuecomment-1379970592
+    paramsSerializer: {
+      serialize: (parameters: any) => qs.stringify(parameters, { encodeValuesOnly: true })
+    },
+  };
 
   try {
-    // Fetch localizations of this entry if there are any
-    const localizationsPromises = locales.map(async (locale) => {
-      const options = {
-        method: "GET",
-        url: endpoint,
-        params: {
-          ...query,
-          locale,
-          pagination: {
-            pageSize: limit || 250,
-            page: 1,
-          },
-          populate: query?.populate || "*",
-        },
-        // Source: https://github.com/axios/axios/issues/5058#issuecomment-1379970592
-        paramsSerializer: {
-          serialize: (parameters: any) => qs.stringify(parameters, { encodeValuesOnly: true })
-        },
-      };
-
-      const { data: { data } } = await axiosInstance(options);
-
-      return { data, locale };
-    });
-
-    // Run queries in parallel
-    const localizationsData = await Promise.all(localizationsPromises);
-
-    return localizationsData.reduce((acc, entry) => ({ ...acc, [entry.locale]: entry.data?.attributes }), {})
+    const { data }: { data: CollectionResponse } = await axiosInstance(options);
+    return data
 
   } catch (error: any) {
-    if (error?.response?.status !== 404) {
-      throw new Error(`Failed to fetch data from Strapi for ${collectionName}, error: ${error}`);
-    }
-    return [];
+    throw new Error(`Failed to fetch data from Strapi for ${collectionName}, error: ${error}`);
   }
 }
 

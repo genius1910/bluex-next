@@ -1,34 +1,18 @@
-import { createAxiosInstance, loadContentTypes, loadSingleTypes } from '@/lib/strapi_loader';
+import { createAxiosInstance, loadCollectionTypes } from '@/lib/strapi_loader';
 require('dotenv').config();
 
 const query = {
   populate: {
     SEO: { populate: "*" },
-    Section_1_Title: "*",
-    Section_1_Content: "*",
-    Section_1_Image: "*",
-    Section_1_Image_Preview: "*",
-    Section_1_Button: "*",
-    Section_2_Title: "*",
-    Section_2_Media_List: { populate: "*" },
-    Section_2_Media: { populate: "*" },
-    Section_3_Type: "*",
-    Section_3_Title: "*",
-    Section_3_Title_Styled_Keyword: "*",
-    Section_3_Content: "*",
-    Section_3_Image: "*",
-    Section_3_Feature_List: "*",
-    Section_3_Button: "*",
-    Section_4_Page_Intro_List: { populate: "*" },
-    Section_5_Title: "*",
-    Section_5_Logo_List: "*",
-    Section_6_Title: "*",
-    Section_6_Testimonial_List: "*",
-    Section_7_Title: "*",
-    Section_7_FAQ_List: { populate: "*" },
-    Section_8_Content: "*",
-    Section_8_Button: "*",
-    Section_8_Bg: "*",
+    Url: "*",
+    Title: "*",
+    Category: "*",
+    Type: "*",
+    Author: "*",
+    Date: "*",
+    UpdateDate: "*",
+    Image: "*",
+    ContentList: { populate: "*" },
   },
 }
 
@@ -38,16 +22,18 @@ const sconfig = {
 }
 
 const instance = createAxiosInstance(sconfig)
-loadContentTypes({  axiosInstance: instance })
 
-const result = loadSingleTypes({
+const result = loadCollectionTypes({
   axiosInstance: instance,
-  singularName: 'front-content',
+  collectionName: 'blogs',
   query,
-  locales: ['en', 'zh-Hant-TW', 'zh-Hans-CN'],
-  limit: 500
+  // locales: ['en', 'zh-Hant-TW', 'zh-Hans-CN'],
+  locate: 'en',
+  pageSize: 20,
+  page: 1,
+  sort: 'Date:desc',
 })
 
 result.then((res) => {
-  process.stdout.write(JSON.stringify(res) + "\n")
+  // process.stdout.write(JSON.stringify(res) + "\n")
 })
