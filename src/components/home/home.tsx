@@ -9,7 +9,7 @@ export default function Home(props: {
   const localizedContent = props.content[props.locale]
   return (
     <>
-      <FrontMainSection contents={localizedContent} />
+      <FrontMainSection content={localizedContent} />
     </>
   )
 }

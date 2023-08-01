@@ -1,6 +1,7 @@
-import { loadSingleTypes } from '@/lib/strapi_loader'
-import { AvailableLocaleType, availableLocales } from './types'
-import { axiosInstance } from './base';
+import HeaderContent from '@/constants/mockup/header-content.json';
+import { loadSingleTypes } from '@/lib/strapi_loader';
+import { axiosInstance, useMockData } from './base';
+import { AvailableLocaleType, availableLocales } from './types';
 
 const query = {
   populate: {
@@ -58,9 +59,6 @@ interface LocalizedContent {
   Footer_Form_Button:            string;
   Footer_Form_End_Button:        string;
   Footer_Form_End_Content:       string;
-  createdAt:                     Date;
-  updatedAt:                     Date;
-  publishedAt:                   Date;
   locale:                        string;
   Product_Dropdown_Label:        null | string;
   Product_Dropdown_Groups:       ProductDropdownGroup[];
@@ -103,12 +101,16 @@ interface ProductDropdownGroup {
   links: LinkTarget[];
 }
 
-export type { PageContent, LocalizedContent };
+export type { LocalizedContent, PageContent };
 
 export const fetch = async () => {
+  if (useMockData) {
+    return HeaderContent as PageContent
+  }
+
   const res = await loadSingleTypes({
     axiosInstance,
-    singularName: 'layout-content',
+    singularName: 'layout-contentxxxx',
     locales: availableLocales,
     query,
     limit: 500

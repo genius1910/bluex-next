@@ -1,6 +1,7 @@
-import { loadSingleTypes } from '@/lib/strapi_loader'
-import { AvailableLocaleType, availableLocales } from './types'
-import { axiosInstance } from './base';
+import HomeContent from '@/constants/mockup/home-content.json';
+import { loadSingleTypes } from '@/lib/strapi_loader';
+import { axiosInstance, useMockData } from './base';
+import { AvailableLocaleType, availableLocales } from './types';
 
 const query = {
   populate: {
@@ -43,16 +44,13 @@ interface LocalizedContent {
   Section_3_Title:                string;
   Section_5_Title:                string;
   Section_6_Title:                string;
-  createdAt:                      Date;
-  updatedAt:                      Date;
-  publishedAt:                    Date;
   locale:                         string;
-  Section_2_Title:                string;
-  Section_3_Type:                 string;
-  Section_3_Title_Styled_Keyword: string;
-  Section_3_Content:              string;
-  Section_8_Content:              string;
-  Section_7_Title:                string;
+  Section_2_Title:                string | null;
+  Section_3_Type:                 string | null;
+  Section_3_Title_Styled_Keyword: string | null;
+  Section_3_Content:              string | null;
+  Section_8_Content:              string | null;
+  Section_7_Title:                string | null;
   SEO:                            SEO;
   Section_1_Image:                Image;
   Section_1_Image_Preview:        Image;
@@ -60,12 +58,12 @@ interface LocalizedContent {
   Section_2_Media_List:           MediaList[];
   Section_3_Image:                Image;
   Section_3_Feature_List:         FeatureList[];
-  Section_3_Button:               Button;
+  Section_3_Button:               Button | null;
   Section_4_Page_Intro_List:      PageIntroList[];
   Section_5_Logo_List:            ImageList;
   Section_6_Testimonial_List:     TestimonialList[];
   Section_7_FAQ_List:             FAQList[];
-  Section_8_Button:               Button;
+  Section_8_Button:               Button | null;
   Section_8_Bg:                   Image;
 }
 
@@ -123,8 +121,6 @@ export interface ImageAttributes {
   previewUrl:        null;
   // provider:          Provider;
   provider_metadata: null;
-  createdAt:         Date;
-  updatedAt:         Date;
 }
 
 export interface MediaInfo {
@@ -169,9 +165,13 @@ export interface PageIntroList {
 }
 
 
-export type { PageContent, LocalizedContent };
+export type { LocalizedContent, PageContent };
 
 export const fetch = async () => {
+  if (useMockData) {
+    return HomeContent as PageContent;
+  }
+
   const res = await loadSingleTypes({
     axiosInstance,
     singularName: 'front-content',

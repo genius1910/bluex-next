@@ -1,0 +1,3141 @@
+{
+  "en": {
+    "Section_1_Title": "Unlock business growth with streamlined logistics and payments",
+    "Section_1_Content": "An all-in-one platform that amplifies cash flow for buyers and sellers. Buyers get flexible pay later options and sellers get paid instantly. Built for growing businesses who want healthier cash flows.",
+    "Section_3_Title": "Get   Extra Time   to Pay Your Invoices",
+    "Section_5_Title": "Trusted by top businesses and over \n<span>20,000 shippers and manufacturers</span>",
+    "Section_6_Title": "What Our Customers Are Saying",
+    "createdAt": "2021-09-06T03:22:03.526Z",
+    "updatedAt": "2023-06-21T04:38:09.230Z",
+    "publishedAt": "2021-09-06T03:23:24.537Z",
+    "locale": "en",
+    "Section_2_Title": "**A Trusted Partner**\nin Security and Technology",
+    "Section_3_Type": "BlueX Pay-it-Later",
+    "Section_3_Title_Styled_Keyword": "Extra Time",
+    "Section_3_Content": "Increase your cash flow when you can pay your vendors later.",
+    "Section_8_Content": "Set up your **FREE** consulting session with our experts now",
+    "Section_7_Title": "Frequently Asked Questions",
+    "SEO": {
+      "id": 589,
+      "title": "BlueX | Better Business Payments for Global Supply Chain Players",
+      "description": "The global b2b trade finance platform for payments and pay-it-later for scaling international trade, amplifying cash flows, and expediting cargo releases.\n\nImprove your business cash flow and get more time to pay with BlueX Pay-it-Later, which offers up to 1 million in funds in around 48 hours. You can use it for all your logistics services and your cargo. Simply sign up online for free and upload your invoice online. Whether your business is growing and needs cash to buy more goods or wants more time for your outstanding invoice, BlueX can help.\n",
+      "image": {
+        "data": {
+          "id": 151,
+          "attributes": {
+            "name": "front-main-2.jpg",
+            "alternativeText": "",
+            "caption": "",
+            "width": 825,
+            "height": 552,
+            "formats": {
+              "small": {
+                "ext": ".jpg",
+                "url": "/uploads/small_front_main_2_77384590b3.jpg",
+                "hash": "small_front_main_2_77384590b3",
+                "mime": "image/jpeg",
+                "name": "small_front-main-2.jpg",
+                "path": null,
+                "size": 20.69,
+                "width": 500,
+                "height": 335
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/uploads/medium_front_main_2_77384590b3.jpg",
+                "hash": "medium_front_main_2_77384590b3",
+                "mime": "image/jpeg",
+                "name": "medium_front-main-2.jpg",
+                "path": null,
+                "size": 37.32,
+                "width": 750,
+                "height": 502
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/uploads/thumbnail_front_main_2_77384590b3.jpg",
+                "hash": "thumbnail_front_main_2_77384590b3",
+                "mime": "image/jpeg",
+                "name": "thumbnail_front-main-2.jpg",
+                "path": null,
+                "size": 6.31,
+                "width": 233,
+                "height": 156
+              }
+            },
+            "hash": "front_main_2_77384590b3",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 43.63,
+            "url": "/uploads/front_main_2_77384590b3.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-08-05T09:07:33.524Z",
+            "updatedAt": "2022-12-07T04:40:46.218Z"
+          }
+        }
+      }
+    },
+    "Section_1_Image": {
+      "data": {
+        "id": 156,
+        "attributes": {
+          "name": "BlueX Page animated background_WhatsApp Video 2022-08-26 at 7.54.42 PM.mp4",
+          "alternativeText": "",
+          "caption": "",
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "Blue_X_Page_animated_background_Whats_App_Video_2022_08_26_at_7_54_42_PM_905b94067b",
+          "ext": ".mp4",
+          "mime": "video/mp4",
+          "size": 21928.77,
+          "url": "/uploads/Blue_X_Page_animated_background_Whats_App_Video_2022_08_26_at_7_54_42_PM_905b94067b.mp4",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2022-08-31T07:16:12.407Z",
+          "updatedAt": "2022-08-31T07:16:12.432Z"
+        }
+      }
+    },
+    "Section_1_Image_Preview": {
+      "data": {
+        "id": 427,
+        "attributes": {
+          "name": "BlueX Page animated background preview.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 1920,
+          "height": 1080,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "/uploads/large_Blue_X_Page_animated_background_preview_4b504b22b9.jpg",
+              "hash": "large_Blue_X_Page_animated_background_preview_4b504b22b9",
+              "mime": "image/jpeg",
+              "name": "large_BlueX Page animated background preview.jpg",
+              "path": null,
+              "size": 144.33,
+              "width": 1000,
+              "height": 563
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "/uploads/small_Blue_X_Page_animated_background_preview_4b504b22b9.jpg",
+              "hash": "small_Blue_X_Page_animated_background_preview_4b504b22b9",
+              "mime": "image/jpeg",
+              "name": "small_BlueX Page animated background preview.jpg",
+              "path": null,
+              "size": 42.07,
+              "width": 500,
+              "height": 281
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "/uploads/medium_Blue_X_Page_animated_background_preview_4b504b22b9.jpg",
+              "hash": "medium_Blue_X_Page_animated_background_preview_4b504b22b9",
+              "mime": "image/jpeg",
+              "name": "medium_BlueX Page animated background preview.jpg",
+              "path": null,
+              "size": 87.1,
+              "width": 750,
+              "height": 422
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "/uploads/thumbnail_Blue_X_Page_animated_background_preview_4b504b22b9.jpg",
+              "hash": "thumbnail_Blue_X_Page_animated_background_preview_4b504b22b9",
+              "mime": "image/jpeg",
+              "name": "thumbnail_BlueX Page animated background preview.jpg",
+              "path": null,
+              "size": 12.32,
+              "width": 245,
+              "height": 138
+            }
+          },
+          "hash": "Blue_X_Page_animated_background_preview_4b504b22b9",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 424.48,
+          "url": "/uploads/Blue_X_Page_animated_background_preview_4b504b22b9.jpg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-06-21T04:38:00.910Z",
+          "updatedAt": "2023-06-21T04:38:00.910Z"
+        }
+      }
+    },
+    "Section_1_Button": {
+      "id": 22,
+      "text": "Talk to an Expert",
+      "link": "https://meetings.hubspot.com/jim-wu/general-sales-meeting"
+    },
+    "Section_2_Media_List": [
+      {
+        "id": 77,
+        "image": {
+          "data": {
+            "id": 160,
+            "attributes": {
+              "name": "award_AICPA_SOC.png",
+              "alternativeText": "",
+              "caption": "",
+              "width": 87,
+              "height": 87,
+              "formats": null,
+              "hash": "award_AICPA_SOC_d9b85aa9ee",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 7.08,
+              "url": "/uploads/award_AICPA_SOC_d9b85aa9ee.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-11T05:44:26.883Z",
+              "updatedAt": "2022-10-11T05:44:26.902Z"
+            }
+          }
+        },
+        "description": {
+          "id": 514,
+          "title": "SOC 2 Type II Compliant Security Level",
+          "content": null
+        }
+      },
+      {
+        "id": 89,
+        "image": {
+          "data": {
+            "id": 162,
+            "attributes": {
+              "name": "award_freighttech.png",
+              "alternativeText": "",
+              "caption": "",
+              "width": 103,
+              "height": 55,
+              "formats": null,
+              "hash": "award_freighttech_8838d1a590",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 2.46,
+              "url": "/uploads/award_freighttech_8838d1a590.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-11T05:45:40.301Z",
+              "updatedAt": "2022-10-11T05:45:40.320Z"
+            }
+          }
+        },
+        "description": {
+          "id": 547,
+          "title": "APEA Fast Enterprise Award 2022",
+          "content": null
+        }
+      },
+      {
+        "id": 78,
+        "image": {
+          "data": {
+            "id": 174,
+            "attributes": {
+              "name": "APEA 2022 Logo - PNG.png",
+              "alternativeText": "",
+              "caption": "",
+              "width": 1889,
+              "height": 2481,
+              "formats": {
+                "large": {
+                  "ext": ".png",
+                  "url": "/uploads/large_APEA_2022_Logo_PNG_79e385b749.png",
+                  "hash": "large_APEA_2022_Logo_PNG_79e385b749",
+                  "mime": "image/png",
+                  "name": "large_APEA 2022 Logo - PNG.png",
+                  "path": null,
+                  "size": 136.76,
+                  "width": 761,
+                  "height": 1000
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "/uploads/small_APEA_2022_Logo_PNG_79e385b749.png",
+                  "hash": "small_APEA_2022_Logo_PNG_79e385b749",
+                  "mime": "image/png",
+                  "name": "small_APEA 2022 Logo - PNG.png",
+                  "path": null,
+                  "size": 56.84,
+                  "width": 381,
+                  "height": 500
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "/uploads/medium_APEA_2022_Logo_PNG_79e385b749.png",
+                  "hash": "medium_APEA_2022_Logo_PNG_79e385b749",
+                  "mime": "image/png",
+                  "name": "medium_APEA 2022 Logo - PNG.png",
+                  "path": null,
+                  "size": 95.02,
+                  "width": 571,
+                  "height": 750
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_APEA_2022_Logo_PNG_79e385b749.png",
+                  "hash": "thumbnail_APEA_2022_Logo_PNG_79e385b749",
+                  "mime": "image/png",
+                  "name": "thumbnail_APEA 2022 Logo - PNG.png",
+                  "path": null,
+                  "size": 11.34,
+                  "width": 119,
+                  "height": 156
+                }
+              },
+              "hash": "APEA_2022_Logo_PNG_79e385b749",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 134.76,
+              "url": "/uploads/APEA_2022_Logo_PNG_79e385b749.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-11-23T06:01:18.667Z",
+              "updatedAt": "2022-11-23T06:01:18.687Z"
+            }
+          }
+        },
+        "description": {
+          "id": 515,
+          "title": "Best Companies to Work for in Asia 2021",
+          "content": null
+        }
+      },
+      {
+        "id": 79,
+        "image": {
+          "data": {
+            "id": 163,
+            "attributes": {
+              "name": "award_freight_management.png",
+              "alternativeText": "",
+              "caption": "",
+              "width": 108,
+              "height": 107,
+              "formats": null,
+              "hash": "award_freight_management_46fbdb1247",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 12.62,
+              "url": "/uploads/award_freight_management_46fbdb1247.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-11T05:45:59.079Z",
+              "updatedAt": "2022-12-12T04:00:58.811Z"
+            }
+          }
+        },
+        "description": {
+          "id": 516,
+          "title": "2021 Freighwaves Freight Tech 100 Winners",
+          "content": null
+        }
+      },
+      {
+        "id": 80,
+        "image": {
+          "data": {
+            "id": 161,
+            "attributes": {
+              "name": "award_HR_Asia.png",
+              "alternativeText": "",
+              "caption": "",
+              "width": 76,
+              "height": 97,
+              "formats": null,
+              "hash": "award_HR_Asia_08fdddcb48",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 5.88,
+              "url": "/uploads/award_HR_Asia_08fdddcb48.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-11T05:45:03.755Z",
+              "updatedAt": "2022-10-11T05:45:03.779Z"
+            }
+          }
+        },
+        "description": {
+          "id": 517,
+          "title": "Logistics Tech Outlook’s Company of the Year 2021",
+          "content": null
+        }
+      }
+    ],
+    "Section_3_Image": {
+      "data": {
+        "id": 237,
+        "attributes": {
+          "name": "front-calendar.svg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 528,
+          "height": 408,
+          "formats": null,
+          "hash": "front_calendar_b101f14987",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 156.44,
+          "url": "/uploads/front_calendar_b101f14987.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2022-12-30T08:41:59.705Z",
+          "updatedAt": "2022-12-30T08:41:59.705Z"
+        }
+      }
+    },
+    "Section_3_Feature_List": [
+      {
+        "id": 77,
+        "content": "> Fast access to up to $1M funds"
+      },
+      {
+        "id": 76,
+        "content": "> Up to 100% of net invoice value"
+      },
+      {
+        "id": 74,
+        "content": "> $0 set-up fee"
+      },
+      {
+        "id": 75,
+        "content": "> Net 30/60 day terms"
+      }
+    ],
+    "Section_3_Button": {
+      "id": 84,
+      "text": "Learn More",
+      "link": "/pay-it-later"
+    },
+    "Section_4_Page_Intro_List": [
+      {
+        "id": 1,
+        "title": "BlueX Payments",
+        "content": "A better way to send and receive payments across borders.",
+        "attachment": null,
+        "button": {
+          "id": 85,
+          "text": "Learn More",
+          "link": "/pay-it-later"
+        },
+        "background": {
+          "data": {
+            "id": 240,
+            "attributes": {
+              "name": "front-page-intro-bg-1.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 484,
+              "height": 535,
+              "formats": null,
+              "hash": "front_page_intro_bg_1_df7c2e9aa1",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 64.8,
+              "url": "/uploads/front_page_intro_bg_1_df7c2e9aa1.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-01-02T04:26:01.480Z",
+              "updatedAt": "2023-01-02T04:26:01.480Z"
+            }
+          }
+        }
+      },
+      {
+        "id": 2,
+        "title": "BlueX e-Commerce",
+        "content": "Your company’s own-branded ocean freight e-commerce system with dynamic pricing.",
+        "attachment": {
+          "id": 86,
+          "text": "API Available",
+          "link": "/for-developer"
+        },
+        "button": {
+          "id": 87,
+          "text": "Learn More",
+          "link": "/ecommerce"
+        },
+        "background": {
+          "data": {
+            "id": 241,
+            "attributes": {
+              "name": "front-page-intro-bg-2.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 484,
+              "height": 535,
+              "formats": null,
+              "hash": "front_page_intro_bg_2_d2a2c090e8",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 141.47,
+              "url": "/uploads/front_page_intro_bg_2_d2a2c090e8.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-01-02T04:26:14.608Z",
+              "updatedAt": "2023-01-02T04:26:14.608Z"
+            }
+          }
+        }
+      }
+    ],
+    "Section_5_Logo_List": {
+      "data": [
+        {
+          "id": 99,
+          "attributes": {
+            "name": "company-logo-hapaglioyd.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 220,
+            "height": 80,
+            "formats": null,
+            "hash": "company_logo_hapaglioyd_350ccee54b",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 1.43,
+            "url": "/uploads/company_logo_hapaglioyd_350ccee54b.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.310Z",
+            "updatedAt": "2022-03-23T02:38:47.413Z"
+          }
+        },
+        {
+          "id": 105,
+          "attributes": {
+            "name": "company-logo-evergreen.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_evergreen_3e057bdf3a.webp",
+                "hash": "small_company_logo_evergreen_3e057bdf3a",
+                "mime": "image/webp",
+                "name": "small_company-logo-evergreen.webp",
+                "path": null,
+                "size": 7.06,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_evergreen_3e057bdf3a.webp",
+                "hash": "thumbnail_company_logo_evergreen_3e057bdf3a",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-evergreen.webp",
+                "path": null,
+                "size": 3.55,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_evergreen_3e057bdf3a",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 7.28,
+            "url": "/uploads/company_logo_evergreen_3e057bdf3a.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.574Z",
+            "updatedAt": "2022-03-23T02:38:47.626Z"
+          }
+        },
+        {
+          "id": 107,
+          "attributes": {
+            "name": "company-logo-one.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_one_03971fc74d.webp",
+                "hash": "small_company_logo_one_03971fc74d",
+                "mime": "image/webp",
+                "name": "small_company-logo-one.webp",
+                "path": null,
+                "size": 2.3,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_one_03971fc74d.webp",
+                "hash": "thumbnail_company_logo_one_03971fc74d",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-one.webp",
+                "path": null,
+                "size": 1.39,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_one_03971fc74d",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 1.91,
+            "url": "/uploads/company_logo_one_03971fc74d.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.620Z",
+            "updatedAt": "2022-03-23T02:38:47.653Z"
+          }
+        },
+        {
+          "id": 106,
+          "attributes": {
+            "name": "company-logo-wanhailines.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_wanhailines_1173c7cf2e.webp",
+                "hash": "small_company_logo_wanhailines_1173c7cf2e",
+                "mime": "image/webp",
+                "name": "small_company-logo-wanhailines.webp",
+                "path": null,
+                "size": 9.51,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_wanhailines_1173c7cf2e.webp",
+                "hash": "thumbnail_company_logo_wanhailines_1173c7cf2e",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-wanhailines.webp",
+                "path": null,
+                "size": 4.41,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_wanhailines_1173c7cf2e",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 10.37,
+            "url": "/uploads/company_logo_wanhailines_1173c7cf2e.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.618Z",
+            "updatedAt": "2022-03-23T02:38:47.653Z"
+          }
+        },
+        {
+          "id": 103,
+          "attributes": {
+            "name": "company-logo-maersk.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_maersk_158ea60cda.webp",
+                "hash": "thumbnail_company_logo_maersk_158ea60cda",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-maersk.webp",
+                "path": null,
+                "size": 2.29,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_maersk_158ea60cda",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 2.28,
+            "url": "/uploads/company_logo_maersk_158ea60cda.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.414Z",
+            "updatedAt": "2022-03-23T02:38:47.553Z"
+          }
+        },
+        {
+          "id": 97,
+          "attributes": {
+            "name": "company-logo-hmm.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 220,
+            "height": 80,
+            "formats": null,
+            "hash": "company_logo_hmm_ab477a1302",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 1.1,
+            "url": "/uploads/company_logo_hmm_ab477a1302.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.289Z",
+            "updatedAt": "2022-03-23T02:38:47.401Z"
+          }
+        },
+        {
+          "id": 108,
+          "attributes": {
+            "name": "company-logo-cosco.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 220,
+            "height": 80,
+            "formats": null,
+            "hash": "company_logo_cosco_5ed1c1a60d",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 2.7,
+            "url": "/uploads/company_logo_cosco_5ed1c1a60d.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:39:15.259Z",
+            "updatedAt": "2022-03-23T02:39:15.286Z"
+          }
+        },
+        {
+          "id": 98,
+          "attributes": {
+            "name": "company-logo-zim.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 220,
+            "height": 80,
+            "formats": null,
+            "hash": "company_logo_zim_1af408918b",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 1.23,
+            "url": "/uploads/company_logo_zim_1af408918b.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.308Z",
+            "updatedAt": "2022-03-23T02:38:47.393Z"
+          }
+        },
+        {
+          "id": 100,
+          "attributes": {
+            "name": "company-logo-oocl.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_oocl_3a7d3f9969.webp",
+                "hash": "thumbnail_company_logo_oocl_3a7d3f9969",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-oocl.webp",
+                "path": null,
+                "size": 3.01,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_oocl_3a7d3f9969",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 3.63,
+            "url": "/uploads/company_logo_oocl_3a7d3f9969.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.385Z",
+            "updatedAt": "2022-03-23T02:38:47.497Z"
+          }
+        },
+        {
+          "id": 102,
+          "attributes": {
+            "name": "company-logo-cmacgm.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_cmacgm_a4af0d630f.webp",
+                "hash": "thumbnail_company_logo_cmacgm_a4af0d630f",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-cmacgm.webp",
+                "path": null,
+                "size": 2.95,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_cmacgm_a4af0d630f",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 3.99,
+            "url": "/uploads/company_logo_cmacgm_a4af0d630f.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.385Z",
+            "updatedAt": "2022-03-23T02:38:47.538Z"
+          }
+        },
+        {
+          "id": 104,
+          "attributes": {
+            "name": "company-logo-msc.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_msc_8f86bcc984.webp",
+                "hash": "small_company_logo_msc_8f86bcc984",
+                "mime": "image/webp",
+                "name": "small_company-logo-msc.webp",
+                "path": null,
+                "size": 4.1,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_msc_8f86bcc984.webp",
+                "hash": "thumbnail_company_logo_msc_8f86bcc984",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-msc.webp",
+                "path": null,
+                "size": 1.91,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_msc_8f86bcc984",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 3.25,
+            "url": "/uploads/company_logo_msc_8f86bcc984.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.550Z",
+            "updatedAt": "2022-03-23T02:38:47.614Z"
+          }
+        },
+        {
+          "id": 88,
+          "attributes": {
+            "name": "company-logo-catapult.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_catapult_1962871729.webp",
+                "hash": "small_company_logo_catapult_1962871729",
+                "mime": "image/webp",
+                "name": "small_company-logo-catapult.webp",
+                "path": null,
+                "size": 8.25,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_catapult_1962871729.webp",
+                "hash": "thumbnail_company_logo_catapult_1962871729",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-catapult.webp",
+                "path": null,
+                "size": 3.67,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_catapult_1962871729",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 8.91,
+            "url": "/uploads/company_logo_catapult_1962871729.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:12:58.132Z",
+            "updatedAt": "2022-03-16T05:12:58.168Z"
+          }
+        },
+        {
+          "id": 89,
+          "attributes": {
+            "name": "company-logo-cargofive.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_cargofive_c67641ad3e.webp",
+                "hash": "small_company_logo_cargofive_c67641ad3e",
+                "mime": "image/webp",
+                "name": "small_company-logo-cargofive.webp",
+                "path": null,
+                "size": 8.47,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_cargofive_c67641ad3e.webp",
+                "hash": "thumbnail_company_logo_cargofive_c67641ad3e",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-cargofive.webp",
+                "path": null,
+                "size": 3.64,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_cargofive_c67641ad3e",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 9.22,
+            "url": "/uploads/company_logo_cargofive_c67641ad3e.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:13:31.797Z",
+            "updatedAt": "2022-03-16T05:13:31.835Z"
+          }
+        },
+        {
+          "id": 90,
+          "attributes": {
+            "name": "company-logo-webcargo.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_webcargo_988a9b6aff.webp",
+                "hash": "thumbnail_company_logo_webcargo_988a9b6aff",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-webcargo.webp",
+                "path": null,
+                "size": 3.49,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_webcargo_988a9b6aff",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 4.8,
+            "url": "/uploads/company_logo_webcargo_988a9b6aff.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:13:40.431Z",
+            "updatedAt": "2022-03-16T05:13:40.457Z"
+          }
+        },
+        {
+          "id": 91,
+          "attributes": {
+            "name": "company-logo-okargo.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_okargo_377c3e2283.webp",
+                "hash": "small_company_logo_okargo_377c3e2283",
+                "mime": "image/webp",
+                "name": "small_company-logo-okargo.webp",
+                "path": null,
+                "size": 7.2,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_okargo_377c3e2283.webp",
+                "hash": "thumbnail_company_logo_okargo_377c3e2283",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-okargo.webp",
+                "path": null,
+                "size": 3.46,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_okargo_377c3e2283",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 7.04,
+            "url": "/uploads/company_logo_okargo_377c3e2283.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:13:56.801Z",
+            "updatedAt": "2022-03-16T05:13:56.831Z"
+          }
+        },
+        {
+          "id": 92,
+          "attributes": {
+            "name": "company-logo-pls.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_pls_f2466127c9.webp",
+                "hash": "thumbnail_company_logo_pls_f2466127c9",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-pls.webp",
+                "path": null,
+                "size": 3.35,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_pls_f2466127c9",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 5.25,
+            "url": "/uploads/company_logo_pls_f2466127c9.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:14:06.325Z",
+            "updatedAt": "2022-03-16T05:14:06.349Z"
+          }
+        },
+        {
+          "id": 93,
+          "attributes": {
+            "name": "company-logo-freightify.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 220,
+            "height": 80,
+            "formats": null,
+            "hash": "company_logo_freightify_b49818bf2b",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 1.34,
+            "url": "/uploads/company_logo_freightify_b49818bf2b.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:14:16.105Z",
+            "updatedAt": "2022-03-16T05:14:16.129Z"
+          }
+        },
+        {
+          "id": 137,
+          "attributes": {
+            "name": "ceva logo.png",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/uploads/thumbnail_ceva_logo_10e11a98a5.png",
+                "hash": "thumbnail_ceva_logo_10e11a98a5",
+                "mime": "image/png",
+                "name": "thumbnail_ceva logo.png",
+                "path": null,
+                "size": 5.8,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "ceva_logo_10e11a98a5",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 4.09,
+            "url": "/uploads/ceva_logo_10e11a98a5.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-05-19T08:31:56.244Z",
+            "updatedAt": "2022-05-19T08:31:56.267Z"
+          }
+        }
+      ]
+    },
+    "Section_6_Testimonial_List": [
+      {
+        "id": 7,
+        "content": "International Door Closers has really enjoyed using BlueX Pay-it-Later. With the service, my invoices have been fully taken care of, and my suppliers receive payments on time, not to mention my cashflow has greatly improved. With their easy-to-use dashboard, I can track and see all of my payments, and their customer support team has been helpful whenever I have questions. BlueX has gone above and beyond to accommodate my requests.",
+        "name": "Paola Beltrán",
+        "position": "Office Manager",
+        "company": "International Door Closers Inc."
+      },
+      {
+        "id": 1,
+        "content": "Blue X Pay-It-Later is a great idea for businesses like ours. It helped us to improve our cash flow so that we could manage our financials and grow our company as planned. Working with the support team is another pleasure – the digital platform is easy to use, but when we have questions, it's easy to get the help we need. Having a great business relationship with BlueX has been a once-in-a-lifetime wonderful experience.",
+        "name": "Guss Kim",
+        "position": "General Manager",
+        "company": "Like Dreams"
+      },
+      {
+        "id": 6,
+        "content": "Using BlueX Pay-it-Later has been extremely helpful to us, and our vendors. The dashboard is easy to navigate; having the ability to submit payments on time with the ease of a click of a button has been the best!\n\nAdditionally, being able to view and pay BlueX invoices directly is a huge plus. They have provided us excellent customer service, anytime we’ve needed them.",
+        "name": "Greg Stringer",
+        "position": "General Manager",
+        "company": "The Gifting Group"
+      },
+      {
+        "id": 2,
+        "content": "Evergreen Marine joined the CarrierX initiative and will launch with the platform because the solution has the potential to be the most effective monetization channel for all of our space, globally.",
+        "name": "Eric Wang",
+        "position": "Head of Marketing and Sales",
+        "company": "Evergreen Marine Corporation"
+      },
+      {
+        "id": 3,
+        "content": "The rising costs of our shipping are more manageable thanks to BlueX Pay-it-Later’s funds and payment terms. As a result, we now have the time to effortlessly get our cargo and products to market and pay back our freight expenses. It’s a game-changer for any business struggling with the rising freight costs.",
+        "name": "Josephine Huang",
+        "position": "President",
+        "company": "Soho Kitchen Studio"
+      },
+      {
+        "id": 4,
+        "content": "With BlueX Pay, creating an invoice and getting paid is so fast and simple. We’ve been able to cut time and money spent on payment processing and reconciliation. And of course, BlueX Pay makes our payers’ lives easier, so they love working with us. Being able to offer them a simple and intuitive solution is great for business.",
+        "name": "Pohsun Huang",
+        "position": "CFO",
+        "company": "Tian Rong Logistics, Inc."
+      }
+    ],
+    "Section_7_FAQ_List": [
+      {
+        "id": 941,
+        "title": "Why should I use BlueX Pay-it-Later?",
+        "content": "BlueX pays your vendors on your behalf, so you can get your goods first and pay for them later. We have years of experience in the supply chain, working with the largest ocean carriers and global freight forwarders. There is no application fee or collateral needed; instead, we charge a low handling fee.",
+        "titleSize": 18
+      },
+      {
+        "id": 942,
+        "title": "How does it work?",
+        "content": "[Sign up](https://portal.bluexpay.com/signup/company_info) is quick and easy! Once approved, BlueX will provide you with a Pay-it-Later limit that you can use for invoices of your cargo, freight and logistics services.",
+        "titleSize": 18
+      },
+      {
+        "id": 943,
+        "title": "How long do I get to pay my invoice?",
+        "content": "We offer net 30 or 60 day terms. You can select the terms each time you submit an invoice to get paid.",
+        "titleSize": 18
+      },
+      {
+        "id": 944,
+        "title": "How do vendor payments work?",
+        "content": "We make the payment to your vendor on your behalf by your scheduled payment date via ACH, Fedwire, or SWIFT. It doesn’t cost anything for your vendor to receive payments, and it doesn’t change their billing process.",
+        "titleSize": 18
+      },
+      {
+        "id": 945,
+        "title": "How do I sign up?",
+        "content": "Sign up takes less than 5 minutes! Please click [here](https://portal.bluexpay.com/signup/company_info) to sign up. Contact us at [sales@bluexpay.com](mailto:sales@bluexpay.com) if you have any questions.",
+        "titleSize": 18
+      }
+    ],
+    "Section_8_Button": {
+      "id": 88,
+      "text": "Contact Us",
+      "link": "https://meetings.hubspot.com/jim-wu"
+    },
+    "Section_8_Bg": {
+      "data": {
+        "id": 234,
+        "attributes": {
+          "name": "career-main-bg.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 1440,
+          "height": 651,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "/uploads/large_career_main_bg_32a91d9ea3.jpg",
+              "hash": "large_career_main_bg_32a91d9ea3",
+              "mime": "image/jpeg",
+              "name": "large_career-main-bg.jpg",
+              "path": null,
+              "size": 32.43,
+              "width": 1000,
+              "height": 452
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "/uploads/small_career_main_bg_32a91d9ea3.jpg",
+              "hash": "small_career_main_bg_32a91d9ea3",
+              "mime": "image/jpeg",
+              "name": "small_career-main-bg.jpg",
+              "path": null,
+              "size": 10.85,
+              "width": 500,
+              "height": 226
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "/uploads/medium_career_main_bg_32a91d9ea3.jpg",
+              "hash": "medium_career_main_bg_32a91d9ea3",
+              "mime": "image/jpeg",
+              "name": "medium_career-main-bg.jpg",
+              "path": null,
+              "size": 20.74,
+              "width": 750,
+              "height": 339
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "/uploads/thumbnail_career_main_bg_32a91d9ea3.jpg",
+              "hash": "thumbnail_career_main_bg_32a91d9ea3",
+              "mime": "image/jpeg",
+              "name": "thumbnail_career-main-bg.jpg",
+              "path": null,
+              "size": 3.21,
+              "width": 245,
+              "height": 110
+            }
+          },
+          "hash": "career_main_bg_32a91d9ea3",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 54.4,
+          "url": "/uploads/career_main_bg_32a91d9ea3.jpg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2022-12-28T05:18:39.851Z",
+          "updatedAt": "2022-12-28T05:18:39.851Z"
+        }
+      }
+    }
+  },
+  "zh-Hant-TW": {
+    "Section_1_Title": "全球供應鏈首選的金流服務平台\n",
+    "Section_1_Content": "專為企業量身打造，提供安全且彈性的融資選擇與即時付款的整合式金流服務平台，幫助您拓展全球業務。",
+    "Section_3_Title": "創新的支付選擇，成為您財務團隊的<span>強大後盾</span>",
+    "Section_5_Title": "深受國際<span>龍頭企業</span>信賴！",
+    "Section_6_Title": "現在就加入",
+    "createdAt": "2021-09-06T03:24:31.917Z",
+    "updatedAt": "2022-11-23T09:09:26.524Z",
+    "publishedAt": "2021-09-06T03:24:33.715Z",
+    "locale": "zh-Hant-TW",
+    "Section_2_Title": null,
+    "Section_3_Type": null,
+    "Section_3_Title_Styled_Keyword": null,
+    "Section_3_Content": null,
+    "Section_8_Content": null,
+    "Section_7_Title": null,
+    "SEO": {
+      "id": 591,
+      "title": "BlueX Pay | Better Business Payments for Global Supply Chain Players",
+      "description": "The global b2b payments and pay-it-later platforms for scaling international trade, amplifying cash flows, and expediting cargo releases.",
+      "image": {
+        "data": {
+          "id": 151,
+          "attributes": {
+            "name": "front-main-2.jpg",
+            "alternativeText": "",
+            "caption": "",
+            "width": 825,
+            "height": 552,
+            "formats": {
+              "small": {
+                "ext": ".jpg",
+                "url": "/uploads/small_front_main_2_77384590b3.jpg",
+                "hash": "small_front_main_2_77384590b3",
+                "mime": "image/jpeg",
+                "name": "small_front-main-2.jpg",
+                "path": null,
+                "size": 20.69,
+                "width": 500,
+                "height": 335
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/uploads/medium_front_main_2_77384590b3.jpg",
+                "hash": "medium_front_main_2_77384590b3",
+                "mime": "image/jpeg",
+                "name": "medium_front-main-2.jpg",
+                "path": null,
+                "size": 37.32,
+                "width": 750,
+                "height": 502
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/uploads/thumbnail_front_main_2_77384590b3.jpg",
+                "hash": "thumbnail_front_main_2_77384590b3",
+                "mime": "image/jpeg",
+                "name": "thumbnail_front-main-2.jpg",
+                "path": null,
+                "size": 6.31,
+                "width": 233,
+                "height": 156
+              }
+            },
+            "hash": "front_main_2_77384590b3",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 43.63,
+            "url": "/uploads/front_main_2_77384590b3.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-08-05T09:07:33.524Z",
+            "updatedAt": "2022-12-07T04:40:46.218Z"
+          }
+        }
+      }
+    },
+    "Section_1_Image": {
+      "data": {
+        "id": 156,
+        "attributes": {
+          "name": "BlueX Page animated background_WhatsApp Video 2022-08-26 at 7.54.42 PM.mp4",
+          "alternativeText": "",
+          "caption": "",
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "Blue_X_Page_animated_background_Whats_App_Video_2022_08_26_at_7_54_42_PM_905b94067b",
+          "ext": ".mp4",
+          "mime": "video/mp4",
+          "size": 21928.77,
+          "url": "/uploads/Blue_X_Page_animated_background_Whats_App_Video_2022_08_26_at_7_54_42_PM_905b94067b.mp4",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2022-08-31T07:16:12.407Z",
+          "updatedAt": "2022-08-31T07:16:12.432Z"
+        }
+      }
+    },
+    "Section_1_Image_Preview": {
+      "data": null
+    },
+    "Section_1_Button": {
+      "id": 23,
+      "text": "立刻註冊",
+      "link": "https://portal.bluexpay.com/signup/choose_portal"
+    },
+    "Section_2_Media_List": [
+      {
+        "id": 85,
+        "image": {
+          "data": {
+            "id": 160,
+            "attributes": {
+              "name": "award_AICPA_SOC.png",
+              "alternativeText": "",
+              "caption": "",
+              "width": 87,
+              "height": 87,
+              "formats": null,
+              "hash": "award_AICPA_SOC_d9b85aa9ee",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 7.08,
+              "url": "/uploads/award_AICPA_SOC_d9b85aa9ee.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-11T05:44:26.883Z",
+              "updatedAt": "2022-10-11T05:44:26.902Z"
+            }
+          }
+        },
+        "description": {
+          "id": 522,
+          "title": "SOC 2 Type II Compliant Security Level",
+          "content": null
+        }
+      },
+      {
+        "id": 90,
+        "image": {
+          "data": {
+            "id": 174,
+            "attributes": {
+              "name": "APEA 2022 Logo - PNG.png",
+              "alternativeText": "",
+              "caption": "",
+              "width": 1889,
+              "height": 2481,
+              "formats": {
+                "large": {
+                  "ext": ".png",
+                  "url": "/uploads/large_APEA_2022_Logo_PNG_79e385b749.png",
+                  "hash": "large_APEA_2022_Logo_PNG_79e385b749",
+                  "mime": "image/png",
+                  "name": "large_APEA 2022 Logo - PNG.png",
+                  "path": null,
+                  "size": 136.76,
+                  "width": 761,
+                  "height": 1000
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "/uploads/small_APEA_2022_Logo_PNG_79e385b749.png",
+                  "hash": "small_APEA_2022_Logo_PNG_79e385b749",
+                  "mime": "image/png",
+                  "name": "small_APEA 2022 Logo - PNG.png",
+                  "path": null,
+                  "size": 56.84,
+                  "width": 381,
+                  "height": 500
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "/uploads/medium_APEA_2022_Logo_PNG_79e385b749.png",
+                  "hash": "medium_APEA_2022_Logo_PNG_79e385b749",
+                  "mime": "image/png",
+                  "name": "medium_APEA 2022 Logo - PNG.png",
+                  "path": null,
+                  "size": 95.02,
+                  "width": 571,
+                  "height": 750
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_APEA_2022_Logo_PNG_79e385b749.png",
+                  "hash": "thumbnail_APEA_2022_Logo_PNG_79e385b749",
+                  "mime": "image/png",
+                  "name": "thumbnail_APEA 2022 Logo - PNG.png",
+                  "path": null,
+                  "size": 11.34,
+                  "width": 119,
+                  "height": 156
+                }
+              },
+              "hash": "APEA_2022_Logo_PNG_79e385b749",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 134.76,
+              "url": "/uploads/APEA_2022_Logo_PNG_79e385b749.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-11-23T06:01:18.667Z",
+              "updatedAt": "2022-11-23T06:01:18.687Z"
+            }
+          }
+        },
+        "description": {
+          "id": 548,
+          "title": "APEA Fast Enterprise Award 2022",
+          "content": null
+        }
+      },
+      {
+        "id": 86,
+        "image": {
+          "data": {
+            "id": 161,
+            "attributes": {
+              "name": "award_HR_Asia.png",
+              "alternativeText": "",
+              "caption": "",
+              "width": 76,
+              "height": 97,
+              "formats": null,
+              "hash": "award_HR_Asia_08fdddcb48",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 5.88,
+              "url": "/uploads/award_HR_Asia_08fdddcb48.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-11T05:45:03.755Z",
+              "updatedAt": "2022-10-11T05:45:03.779Z"
+            }
+          }
+        },
+        "description": {
+          "id": 523,
+          "title": "Best Companies to Work for in Asia 2021",
+          "content": null
+        }
+      },
+      {
+        "id": 87,
+        "image": {
+          "data": {
+            "id": 162,
+            "attributes": {
+              "name": "award_freighttech.png",
+              "alternativeText": "",
+              "caption": "",
+              "width": 103,
+              "height": 55,
+              "formats": null,
+              "hash": "award_freighttech_8838d1a590",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 2.46,
+              "url": "/uploads/award_freighttech_8838d1a590.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-11T05:45:40.301Z",
+              "updatedAt": "2022-10-11T05:45:40.320Z"
+            }
+          }
+        },
+        "description": {
+          "id": 524,
+          "title": "2021 Freighwaves Freight Tech 100 Winners",
+          "content": null
+        }
+      },
+      {
+        "id": 88,
+        "image": {
+          "data": {
+            "id": 163,
+            "attributes": {
+              "name": "award_freight_management.png",
+              "alternativeText": "",
+              "caption": "",
+              "width": 108,
+              "height": 107,
+              "formats": null,
+              "hash": "award_freight_management_46fbdb1247",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 12.62,
+              "url": "/uploads/award_freight_management_46fbdb1247.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-11T05:45:59.079Z",
+              "updatedAt": "2022-12-12T04:00:58.811Z"
+            }
+          }
+        },
+        "description": {
+          "id": 525,
+          "title": "Logistics Tech Outlook’s Company of the Year 2021",
+          "content": null
+        }
+      }
+    ],
+    "Section_3_Image": {
+      "data": null
+    },
+    "Section_3_Feature_List": [],
+    "Section_3_Button": null,
+    "Section_4_Page_Intro_List": [],
+    "Section_5_Logo_List": {
+      "data": [
+        {
+          "id": 99,
+          "attributes": {
+            "name": "company-logo-hapaglioyd.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 220,
+            "height": 80,
+            "formats": null,
+            "hash": "company_logo_hapaglioyd_350ccee54b",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 1.43,
+            "url": "/uploads/company_logo_hapaglioyd_350ccee54b.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.310Z",
+            "updatedAt": "2022-03-23T02:38:47.413Z"
+          }
+        },
+        {
+          "id": 105,
+          "attributes": {
+            "name": "company-logo-evergreen.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_evergreen_3e057bdf3a.webp",
+                "hash": "small_company_logo_evergreen_3e057bdf3a",
+                "mime": "image/webp",
+                "name": "small_company-logo-evergreen.webp",
+                "path": null,
+                "size": 7.06,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_evergreen_3e057bdf3a.webp",
+                "hash": "thumbnail_company_logo_evergreen_3e057bdf3a",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-evergreen.webp",
+                "path": null,
+                "size": 3.55,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_evergreen_3e057bdf3a",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 7.28,
+            "url": "/uploads/company_logo_evergreen_3e057bdf3a.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.574Z",
+            "updatedAt": "2022-03-23T02:38:47.626Z"
+          }
+        },
+        {
+          "id": 107,
+          "attributes": {
+            "name": "company-logo-one.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_one_03971fc74d.webp",
+                "hash": "small_company_logo_one_03971fc74d",
+                "mime": "image/webp",
+                "name": "small_company-logo-one.webp",
+                "path": null,
+                "size": 2.3,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_one_03971fc74d.webp",
+                "hash": "thumbnail_company_logo_one_03971fc74d",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-one.webp",
+                "path": null,
+                "size": 1.39,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_one_03971fc74d",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 1.91,
+            "url": "/uploads/company_logo_one_03971fc74d.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.620Z",
+            "updatedAt": "2022-03-23T02:38:47.653Z"
+          }
+        },
+        {
+          "id": 106,
+          "attributes": {
+            "name": "company-logo-wanhailines.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_wanhailines_1173c7cf2e.webp",
+                "hash": "small_company_logo_wanhailines_1173c7cf2e",
+                "mime": "image/webp",
+                "name": "small_company-logo-wanhailines.webp",
+                "path": null,
+                "size": 9.51,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_wanhailines_1173c7cf2e.webp",
+                "hash": "thumbnail_company_logo_wanhailines_1173c7cf2e",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-wanhailines.webp",
+                "path": null,
+                "size": 4.41,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_wanhailines_1173c7cf2e",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 10.37,
+            "url": "/uploads/company_logo_wanhailines_1173c7cf2e.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.618Z",
+            "updatedAt": "2022-03-23T02:38:47.653Z"
+          }
+        },
+        {
+          "id": 103,
+          "attributes": {
+            "name": "company-logo-maersk.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_maersk_158ea60cda.webp",
+                "hash": "thumbnail_company_logo_maersk_158ea60cda",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-maersk.webp",
+                "path": null,
+                "size": 2.29,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_maersk_158ea60cda",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 2.28,
+            "url": "/uploads/company_logo_maersk_158ea60cda.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.414Z",
+            "updatedAt": "2022-03-23T02:38:47.553Z"
+          }
+        },
+        {
+          "id": 97,
+          "attributes": {
+            "name": "company-logo-hmm.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 220,
+            "height": 80,
+            "formats": null,
+            "hash": "company_logo_hmm_ab477a1302",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 1.1,
+            "url": "/uploads/company_logo_hmm_ab477a1302.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.289Z",
+            "updatedAt": "2022-03-23T02:38:47.401Z"
+          }
+        },
+        {
+          "id": 108,
+          "attributes": {
+            "name": "company-logo-cosco.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 220,
+            "height": 80,
+            "formats": null,
+            "hash": "company_logo_cosco_5ed1c1a60d",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 2.7,
+            "url": "/uploads/company_logo_cosco_5ed1c1a60d.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:39:15.259Z",
+            "updatedAt": "2022-03-23T02:39:15.286Z"
+          }
+        },
+        {
+          "id": 98,
+          "attributes": {
+            "name": "company-logo-zim.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 220,
+            "height": 80,
+            "formats": null,
+            "hash": "company_logo_zim_1af408918b",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 1.23,
+            "url": "/uploads/company_logo_zim_1af408918b.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.308Z",
+            "updatedAt": "2022-03-23T02:38:47.393Z"
+          }
+        },
+        {
+          "id": 100,
+          "attributes": {
+            "name": "company-logo-oocl.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_oocl_3a7d3f9969.webp",
+                "hash": "thumbnail_company_logo_oocl_3a7d3f9969",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-oocl.webp",
+                "path": null,
+                "size": 3.01,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_oocl_3a7d3f9969",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 3.63,
+            "url": "/uploads/company_logo_oocl_3a7d3f9969.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.385Z",
+            "updatedAt": "2022-03-23T02:38:47.497Z"
+          }
+        },
+        {
+          "id": 102,
+          "attributes": {
+            "name": "company-logo-cmacgm.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_cmacgm_a4af0d630f.webp",
+                "hash": "thumbnail_company_logo_cmacgm_a4af0d630f",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-cmacgm.webp",
+                "path": null,
+                "size": 2.95,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_cmacgm_a4af0d630f",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 3.99,
+            "url": "/uploads/company_logo_cmacgm_a4af0d630f.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.385Z",
+            "updatedAt": "2022-03-23T02:38:47.538Z"
+          }
+        },
+        {
+          "id": 104,
+          "attributes": {
+            "name": "company-logo-msc.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_msc_8f86bcc984.webp",
+                "hash": "small_company_logo_msc_8f86bcc984",
+                "mime": "image/webp",
+                "name": "small_company-logo-msc.webp",
+                "path": null,
+                "size": 4.1,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_msc_8f86bcc984.webp",
+                "hash": "thumbnail_company_logo_msc_8f86bcc984",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-msc.webp",
+                "path": null,
+                "size": 1.91,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_msc_8f86bcc984",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 3.25,
+            "url": "/uploads/company_logo_msc_8f86bcc984.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.550Z",
+            "updatedAt": "2022-03-23T02:38:47.614Z"
+          }
+        },
+        {
+          "id": 88,
+          "attributes": {
+            "name": "company-logo-catapult.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_catapult_1962871729.webp",
+                "hash": "small_company_logo_catapult_1962871729",
+                "mime": "image/webp",
+                "name": "small_company-logo-catapult.webp",
+                "path": null,
+                "size": 8.25,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_catapult_1962871729.webp",
+                "hash": "thumbnail_company_logo_catapult_1962871729",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-catapult.webp",
+                "path": null,
+                "size": 3.67,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_catapult_1962871729",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 8.91,
+            "url": "/uploads/company_logo_catapult_1962871729.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:12:58.132Z",
+            "updatedAt": "2022-03-16T05:12:58.168Z"
+          }
+        },
+        {
+          "id": 89,
+          "attributes": {
+            "name": "company-logo-cargofive.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_cargofive_c67641ad3e.webp",
+                "hash": "small_company_logo_cargofive_c67641ad3e",
+                "mime": "image/webp",
+                "name": "small_company-logo-cargofive.webp",
+                "path": null,
+                "size": 8.47,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_cargofive_c67641ad3e.webp",
+                "hash": "thumbnail_company_logo_cargofive_c67641ad3e",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-cargofive.webp",
+                "path": null,
+                "size": 3.64,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_cargofive_c67641ad3e",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 9.22,
+            "url": "/uploads/company_logo_cargofive_c67641ad3e.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:13:31.797Z",
+            "updatedAt": "2022-03-16T05:13:31.835Z"
+          }
+        },
+        {
+          "id": 90,
+          "attributes": {
+            "name": "company-logo-webcargo.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_webcargo_988a9b6aff.webp",
+                "hash": "thumbnail_company_logo_webcargo_988a9b6aff",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-webcargo.webp",
+                "path": null,
+                "size": 3.49,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_webcargo_988a9b6aff",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 4.8,
+            "url": "/uploads/company_logo_webcargo_988a9b6aff.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:13:40.431Z",
+            "updatedAt": "2022-03-16T05:13:40.457Z"
+          }
+        },
+        {
+          "id": 91,
+          "attributes": {
+            "name": "company-logo-okargo.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_okargo_377c3e2283.webp",
+                "hash": "small_company_logo_okargo_377c3e2283",
+                "mime": "image/webp",
+                "name": "small_company-logo-okargo.webp",
+                "path": null,
+                "size": 7.2,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_okargo_377c3e2283.webp",
+                "hash": "thumbnail_company_logo_okargo_377c3e2283",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-okargo.webp",
+                "path": null,
+                "size": 3.46,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_okargo_377c3e2283",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 7.04,
+            "url": "/uploads/company_logo_okargo_377c3e2283.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:13:56.801Z",
+            "updatedAt": "2022-03-16T05:13:56.831Z"
+          }
+        },
+        {
+          "id": 92,
+          "attributes": {
+            "name": "company-logo-pls.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_pls_f2466127c9.webp",
+                "hash": "thumbnail_company_logo_pls_f2466127c9",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-pls.webp",
+                "path": null,
+                "size": 3.35,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_pls_f2466127c9",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 5.25,
+            "url": "/uploads/company_logo_pls_f2466127c9.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:14:06.325Z",
+            "updatedAt": "2022-03-16T05:14:06.349Z"
+          }
+        },
+        {
+          "id": 93,
+          "attributes": {
+            "name": "company-logo-freightify.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 220,
+            "height": 80,
+            "formats": null,
+            "hash": "company_logo_freightify_b49818bf2b",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 1.34,
+            "url": "/uploads/company_logo_freightify_b49818bf2b.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:14:16.105Z",
+            "updatedAt": "2022-03-16T05:14:16.129Z"
+          }
+        },
+        {
+          "id": 137,
+          "attributes": {
+            "name": "ceva logo.png",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/uploads/thumbnail_ceva_logo_10e11a98a5.png",
+                "hash": "thumbnail_ceva_logo_10e11a98a5",
+                "mime": "image/png",
+                "name": "thumbnail_ceva logo.png",
+                "path": null,
+                "size": 5.8,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "ceva_logo_10e11a98a5",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 4.09,
+            "url": "/uploads/ceva_logo_10e11a98a5.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-05-19T08:31:56.244Z",
+            "updatedAt": "2022-05-19T08:31:56.267Z"
+          }
+        }
+      ]
+    },
+    "Section_6_Testimonial_List": [],
+    "Section_7_FAQ_List": [],
+    "Section_8_Button": null,
+    "Section_8_Bg": {
+      "data": null
+    }
+  },
+  "zh-Hans-CN": {
+    "Section_1_Title": "全球供应链首选收付平台",
+    "Section_1_Content": "专为供应链打造即时付款的收付平台，帮助您拓展全球业务，同时提供安全灵活的融资选择，让企业的现金流更加稳定。\n",
+    "Section_3_Title": "超乎想象的支付平台，成为您财务团队的<span>强大后盾</span>",
+    "Section_5_Title": "世界级供应链企业<span>信赖首选</span>",
+    "Section_6_Title": "马上加入",
+    "createdAt": "2021-09-06T03:23:14.049Z",
+    "updatedAt": "2022-11-23T09:09:45.689Z",
+    "publishedAt": "2021-09-06T03:23:29.181Z",
+    "locale": "zh-Hans-CN",
+    "Section_2_Title": null,
+    "Section_3_Type": null,
+    "Section_3_Title_Styled_Keyword": null,
+    "Section_3_Content": null,
+    "Section_8_Content": null,
+    "Section_7_Title": null,
+    "SEO": {
+      "id": 592,
+      "title": "BlueX Pay | Better Business Payments for Global Supply Chain Players",
+      "description": "The global b2b payments and pay-it-later platforms for scaling international trade, amplifying cash flows, and expediting cargo releases.",
+      "image": {
+        "data": {
+          "id": 151,
+          "attributes": {
+            "name": "front-main-2.jpg",
+            "alternativeText": "",
+            "caption": "",
+            "width": 825,
+            "height": 552,
+            "formats": {
+              "small": {
+                "ext": ".jpg",
+                "url": "/uploads/small_front_main_2_77384590b3.jpg",
+                "hash": "small_front_main_2_77384590b3",
+                "mime": "image/jpeg",
+                "name": "small_front-main-2.jpg",
+                "path": null,
+                "size": 20.69,
+                "width": 500,
+                "height": 335
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/uploads/medium_front_main_2_77384590b3.jpg",
+                "hash": "medium_front_main_2_77384590b3",
+                "mime": "image/jpeg",
+                "name": "medium_front-main-2.jpg",
+                "path": null,
+                "size": 37.32,
+                "width": 750,
+                "height": 502
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/uploads/thumbnail_front_main_2_77384590b3.jpg",
+                "hash": "thumbnail_front_main_2_77384590b3",
+                "mime": "image/jpeg",
+                "name": "thumbnail_front-main-2.jpg",
+                "path": null,
+                "size": 6.31,
+                "width": 233,
+                "height": 156
+              }
+            },
+            "hash": "front_main_2_77384590b3",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 43.63,
+            "url": "/uploads/front_main_2_77384590b3.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-08-05T09:07:33.524Z",
+            "updatedAt": "2022-12-07T04:40:46.218Z"
+          }
+        }
+      }
+    },
+    "Section_1_Image": {
+      "data": {
+        "id": 156,
+        "attributes": {
+          "name": "BlueX Page animated background_WhatsApp Video 2022-08-26 at 7.54.42 PM.mp4",
+          "alternativeText": "",
+          "caption": "",
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "Blue_X_Page_animated_background_Whats_App_Video_2022_08_26_at_7_54_42_PM_905b94067b",
+          "ext": ".mp4",
+          "mime": "video/mp4",
+          "size": 21928.77,
+          "url": "/uploads/Blue_X_Page_animated_background_Whats_App_Video_2022_08_26_at_7_54_42_PM_905b94067b.mp4",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2022-08-31T07:16:12.407Z",
+          "updatedAt": "2022-08-31T07:16:12.432Z"
+        }
+      }
+    },
+    "Section_1_Image_Preview": {
+      "data": null
+    },
+    "Section_1_Button": {
+      "id": 24,
+      "text": "立即注册",
+      "link": "https://portal.bluexpay.com/signup/choose_portal"
+    },
+    "Section_2_Media_List": [
+      {
+        "id": 81,
+        "image": {
+          "data": {
+            "id": 160,
+            "attributes": {
+              "name": "award_AICPA_SOC.png",
+              "alternativeText": "",
+              "caption": "",
+              "width": 87,
+              "height": 87,
+              "formats": null,
+              "hash": "award_AICPA_SOC_d9b85aa9ee",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 7.08,
+              "url": "/uploads/award_AICPA_SOC_d9b85aa9ee.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-11T05:44:26.883Z",
+              "updatedAt": "2022-10-11T05:44:26.902Z"
+            }
+          }
+        },
+        "description": {
+          "id": 518,
+          "title": "SOC 2 Type II Compliant Security Level",
+          "content": null
+        }
+      },
+      {
+        "id": 91,
+        "image": {
+          "data": {
+            "id": 174,
+            "attributes": {
+              "name": "APEA 2022 Logo - PNG.png",
+              "alternativeText": "",
+              "caption": "",
+              "width": 1889,
+              "height": 2481,
+              "formats": {
+                "large": {
+                  "ext": ".png",
+                  "url": "/uploads/large_APEA_2022_Logo_PNG_79e385b749.png",
+                  "hash": "large_APEA_2022_Logo_PNG_79e385b749",
+                  "mime": "image/png",
+                  "name": "large_APEA 2022 Logo - PNG.png",
+                  "path": null,
+                  "size": 136.76,
+                  "width": 761,
+                  "height": 1000
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "/uploads/small_APEA_2022_Logo_PNG_79e385b749.png",
+                  "hash": "small_APEA_2022_Logo_PNG_79e385b749",
+                  "mime": "image/png",
+                  "name": "small_APEA 2022 Logo - PNG.png",
+                  "path": null,
+                  "size": 56.84,
+                  "width": 381,
+                  "height": 500
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "/uploads/medium_APEA_2022_Logo_PNG_79e385b749.png",
+                  "hash": "medium_APEA_2022_Logo_PNG_79e385b749",
+                  "mime": "image/png",
+                  "name": "medium_APEA 2022 Logo - PNG.png",
+                  "path": null,
+                  "size": 95.02,
+                  "width": 571,
+                  "height": 750
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_APEA_2022_Logo_PNG_79e385b749.png",
+                  "hash": "thumbnail_APEA_2022_Logo_PNG_79e385b749",
+                  "mime": "image/png",
+                  "name": "thumbnail_APEA 2022 Logo - PNG.png",
+                  "path": null,
+                  "size": 11.34,
+                  "width": 119,
+                  "height": 156
+                }
+              },
+              "hash": "APEA_2022_Logo_PNG_79e385b749",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 134.76,
+              "url": "/uploads/APEA_2022_Logo_PNG_79e385b749.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-11-23T06:01:18.667Z",
+              "updatedAt": "2022-11-23T06:01:18.687Z"
+            }
+          }
+        },
+        "description": {
+          "id": 549,
+          "title": "APEA Fast Enterprise Award 2022",
+          "content": null
+        }
+      },
+      {
+        "id": 82,
+        "image": {
+          "data": {
+            "id": 161,
+            "attributes": {
+              "name": "award_HR_Asia.png",
+              "alternativeText": "",
+              "caption": "",
+              "width": 76,
+              "height": 97,
+              "formats": null,
+              "hash": "award_HR_Asia_08fdddcb48",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 5.88,
+              "url": "/uploads/award_HR_Asia_08fdddcb48.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-11T05:45:03.755Z",
+              "updatedAt": "2022-10-11T05:45:03.779Z"
+            }
+          }
+        },
+        "description": {
+          "id": 519,
+          "title": "Best Companies to Work for in Asia 2021",
+          "content": null
+        }
+      },
+      {
+        "id": 83,
+        "image": {
+          "data": {
+            "id": 162,
+            "attributes": {
+              "name": "award_freighttech.png",
+              "alternativeText": "",
+              "caption": "",
+              "width": 103,
+              "height": 55,
+              "formats": null,
+              "hash": "award_freighttech_8838d1a590",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 2.46,
+              "url": "/uploads/award_freighttech_8838d1a590.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-11T05:45:40.301Z",
+              "updatedAt": "2022-10-11T05:45:40.320Z"
+            }
+          }
+        },
+        "description": {
+          "id": 520,
+          "title": "2021 Freighwaves Freight Tech 100 Winners",
+          "content": null
+        }
+      },
+      {
+        "id": 84,
+        "image": {
+          "data": {
+            "id": 163,
+            "attributes": {
+              "name": "award_freight_management.png",
+              "alternativeText": "",
+              "caption": "",
+              "width": 108,
+              "height": 107,
+              "formats": null,
+              "hash": "award_freight_management_46fbdb1247",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 12.62,
+              "url": "/uploads/award_freight_management_46fbdb1247.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-11T05:45:59.079Z",
+              "updatedAt": "2022-12-12T04:00:58.811Z"
+            }
+          }
+        },
+        "description": {
+          "id": 521,
+          "title": "Logistics Tech Outlook’s Company of the Year 2021",
+          "content": null
+        }
+      }
+    ],
+    "Section_3_Image": {
+      "data": null
+    },
+    "Section_3_Feature_List": [],
+    "Section_3_Button": null,
+    "Section_4_Page_Intro_List": [],
+    "Section_5_Logo_List": {
+      "data": [
+        {
+          "id": 99,
+          "attributes": {
+            "name": "company-logo-hapaglioyd.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 220,
+            "height": 80,
+            "formats": null,
+            "hash": "company_logo_hapaglioyd_350ccee54b",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 1.43,
+            "url": "/uploads/company_logo_hapaglioyd_350ccee54b.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.310Z",
+            "updatedAt": "2022-03-23T02:38:47.413Z"
+          }
+        },
+        {
+          "id": 105,
+          "attributes": {
+            "name": "company-logo-evergreen.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_evergreen_3e057bdf3a.webp",
+                "hash": "small_company_logo_evergreen_3e057bdf3a",
+                "mime": "image/webp",
+                "name": "small_company-logo-evergreen.webp",
+                "path": null,
+                "size": 7.06,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_evergreen_3e057bdf3a.webp",
+                "hash": "thumbnail_company_logo_evergreen_3e057bdf3a",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-evergreen.webp",
+                "path": null,
+                "size": 3.55,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_evergreen_3e057bdf3a",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 7.28,
+            "url": "/uploads/company_logo_evergreen_3e057bdf3a.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.574Z",
+            "updatedAt": "2022-03-23T02:38:47.626Z"
+          }
+        },
+        {
+          "id": 107,
+          "attributes": {
+            "name": "company-logo-one.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_one_03971fc74d.webp",
+                "hash": "small_company_logo_one_03971fc74d",
+                "mime": "image/webp",
+                "name": "small_company-logo-one.webp",
+                "path": null,
+                "size": 2.3,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_one_03971fc74d.webp",
+                "hash": "thumbnail_company_logo_one_03971fc74d",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-one.webp",
+                "path": null,
+                "size": 1.39,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_one_03971fc74d",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 1.91,
+            "url": "/uploads/company_logo_one_03971fc74d.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.620Z",
+            "updatedAt": "2022-03-23T02:38:47.653Z"
+          }
+        },
+        {
+          "id": 106,
+          "attributes": {
+            "name": "company-logo-wanhailines.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_wanhailines_1173c7cf2e.webp",
+                "hash": "small_company_logo_wanhailines_1173c7cf2e",
+                "mime": "image/webp",
+                "name": "small_company-logo-wanhailines.webp",
+                "path": null,
+                "size": 9.51,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_wanhailines_1173c7cf2e.webp",
+                "hash": "thumbnail_company_logo_wanhailines_1173c7cf2e",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-wanhailines.webp",
+                "path": null,
+                "size": 4.41,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_wanhailines_1173c7cf2e",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 10.37,
+            "url": "/uploads/company_logo_wanhailines_1173c7cf2e.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.618Z",
+            "updatedAt": "2022-03-23T02:38:47.653Z"
+          }
+        },
+        {
+          "id": 103,
+          "attributes": {
+            "name": "company-logo-maersk.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_maersk_158ea60cda.webp",
+                "hash": "thumbnail_company_logo_maersk_158ea60cda",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-maersk.webp",
+                "path": null,
+                "size": 2.29,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_maersk_158ea60cda",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 2.28,
+            "url": "/uploads/company_logo_maersk_158ea60cda.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.414Z",
+            "updatedAt": "2022-03-23T02:38:47.553Z"
+          }
+        },
+        {
+          "id": 97,
+          "attributes": {
+            "name": "company-logo-hmm.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 220,
+            "height": 80,
+            "formats": null,
+            "hash": "company_logo_hmm_ab477a1302",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 1.1,
+            "url": "/uploads/company_logo_hmm_ab477a1302.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.289Z",
+            "updatedAt": "2022-03-23T02:38:47.401Z"
+          }
+        },
+        {
+          "id": 108,
+          "attributes": {
+            "name": "company-logo-cosco.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 220,
+            "height": 80,
+            "formats": null,
+            "hash": "company_logo_cosco_5ed1c1a60d",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 2.7,
+            "url": "/uploads/company_logo_cosco_5ed1c1a60d.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:39:15.259Z",
+            "updatedAt": "2022-03-23T02:39:15.286Z"
+          }
+        },
+        {
+          "id": 98,
+          "attributes": {
+            "name": "company-logo-zim.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 220,
+            "height": 80,
+            "formats": null,
+            "hash": "company_logo_zim_1af408918b",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 1.23,
+            "url": "/uploads/company_logo_zim_1af408918b.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.308Z",
+            "updatedAt": "2022-03-23T02:38:47.393Z"
+          }
+        },
+        {
+          "id": 100,
+          "attributes": {
+            "name": "company-logo-oocl.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_oocl_3a7d3f9969.webp",
+                "hash": "thumbnail_company_logo_oocl_3a7d3f9969",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-oocl.webp",
+                "path": null,
+                "size": 3.01,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_oocl_3a7d3f9969",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 3.63,
+            "url": "/uploads/company_logo_oocl_3a7d3f9969.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.385Z",
+            "updatedAt": "2022-03-23T02:38:47.497Z"
+          }
+        },
+        {
+          "id": 102,
+          "attributes": {
+            "name": "company-logo-cmacgm.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_cmacgm_a4af0d630f.webp",
+                "hash": "thumbnail_company_logo_cmacgm_a4af0d630f",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-cmacgm.webp",
+                "path": null,
+                "size": 2.95,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_cmacgm_a4af0d630f",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 3.99,
+            "url": "/uploads/company_logo_cmacgm_a4af0d630f.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.385Z",
+            "updatedAt": "2022-03-23T02:38:47.538Z"
+          }
+        },
+        {
+          "id": 104,
+          "attributes": {
+            "name": "company-logo-msc.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_msc_8f86bcc984.webp",
+                "hash": "small_company_logo_msc_8f86bcc984",
+                "mime": "image/webp",
+                "name": "small_company-logo-msc.webp",
+                "path": null,
+                "size": 4.1,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_msc_8f86bcc984.webp",
+                "hash": "thumbnail_company_logo_msc_8f86bcc984",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-msc.webp",
+                "path": null,
+                "size": 1.91,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_msc_8f86bcc984",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 3.25,
+            "url": "/uploads/company_logo_msc_8f86bcc984.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-23T02:38:47.550Z",
+            "updatedAt": "2022-03-23T02:38:47.614Z"
+          }
+        },
+        {
+          "id": 88,
+          "attributes": {
+            "name": "company-logo-catapult.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_catapult_1962871729.webp",
+                "hash": "small_company_logo_catapult_1962871729",
+                "mime": "image/webp",
+                "name": "small_company-logo-catapult.webp",
+                "path": null,
+                "size": 8.25,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_catapult_1962871729.webp",
+                "hash": "thumbnail_company_logo_catapult_1962871729",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-catapult.webp",
+                "path": null,
+                "size": 3.67,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_catapult_1962871729",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 8.91,
+            "url": "/uploads/company_logo_catapult_1962871729.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:12:58.132Z",
+            "updatedAt": "2022-03-16T05:12:58.168Z"
+          }
+        },
+        {
+          "id": 89,
+          "attributes": {
+            "name": "company-logo-cargofive.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_cargofive_c67641ad3e.webp",
+                "hash": "small_company_logo_cargofive_c67641ad3e",
+                "mime": "image/webp",
+                "name": "small_company-logo-cargofive.webp",
+                "path": null,
+                "size": 8.47,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_cargofive_c67641ad3e.webp",
+                "hash": "thumbnail_company_logo_cargofive_c67641ad3e",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-cargofive.webp",
+                "path": null,
+                "size": 3.64,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_cargofive_c67641ad3e",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 9.22,
+            "url": "/uploads/company_logo_cargofive_c67641ad3e.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:13:31.797Z",
+            "updatedAt": "2022-03-16T05:13:31.835Z"
+          }
+        },
+        {
+          "id": 90,
+          "attributes": {
+            "name": "company-logo-webcargo.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_webcargo_988a9b6aff.webp",
+                "hash": "thumbnail_company_logo_webcargo_988a9b6aff",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-webcargo.webp",
+                "path": null,
+                "size": 3.49,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_webcargo_988a9b6aff",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 4.8,
+            "url": "/uploads/company_logo_webcargo_988a9b6aff.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:13:40.431Z",
+            "updatedAt": "2022-03-16T05:13:40.457Z"
+          }
+        },
+        {
+          "id": 91,
+          "attributes": {
+            "name": "company-logo-okargo.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 660,
+            "height": 240,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "/uploads/small_company_logo_okargo_377c3e2283.webp",
+                "hash": "small_company_logo_okargo_377c3e2283",
+                "mime": "image/webp",
+                "name": "small_company-logo-okargo.webp",
+                "path": null,
+                "size": 7.2,
+                "width": 500,
+                "height": 182
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_okargo_377c3e2283.webp",
+                "hash": "thumbnail_company_logo_okargo_377c3e2283",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-okargo.webp",
+                "path": null,
+                "size": 3.46,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_okargo_377c3e2283",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 7.04,
+            "url": "/uploads/company_logo_okargo_377c3e2283.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:13:56.801Z",
+            "updatedAt": "2022-03-16T05:13:56.831Z"
+          }
+        },
+        {
+          "id": 92,
+          "attributes": {
+            "name": "company-logo-pls.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "/uploads/thumbnail_company_logo_pls_f2466127c9.webp",
+                "hash": "thumbnail_company_logo_pls_f2466127c9",
+                "mime": "image/webp",
+                "name": "thumbnail_company-logo-pls.webp",
+                "path": null,
+                "size": 3.35,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "company_logo_pls_f2466127c9",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 5.25,
+            "url": "/uploads/company_logo_pls_f2466127c9.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:14:06.325Z",
+            "updatedAt": "2022-03-16T05:14:06.349Z"
+          }
+        },
+        {
+          "id": 93,
+          "attributes": {
+            "name": "company-logo-freightify.webp",
+            "alternativeText": "",
+            "caption": "",
+            "width": 220,
+            "height": 80,
+            "formats": null,
+            "hash": "company_logo_freightify_b49818bf2b",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 1.34,
+            "url": "/uploads/company_logo_freightify_b49818bf2b.webp",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-03-16T05:14:16.105Z",
+            "updatedAt": "2022-03-16T05:14:16.129Z"
+          }
+        },
+        {
+          "id": 137,
+          "attributes": {
+            "name": "ceva logo.png",
+            "alternativeText": "",
+            "caption": "",
+            "width": 440,
+            "height": 160,
+            "formats": {
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/uploads/thumbnail_ceva_logo_10e11a98a5.png",
+                "hash": "thumbnail_ceva_logo_10e11a98a5",
+                "mime": "image/png",
+                "name": "thumbnail_ceva logo.png",
+                "path": null,
+                "size": 5.8,
+                "width": 245,
+                "height": 89
+              }
+            },
+            "hash": "ceva_logo_10e11a98a5",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 4.09,
+            "url": "/uploads/ceva_logo_10e11a98a5.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-05-19T08:31:56.244Z",
+            "updatedAt": "2022-05-19T08:31:56.267Z"
+          }
+        }
+      ]
+    },
+    "Section_6_Testimonial_List": [],
+    "Section_7_FAQ_List": [],
+    "Section_8_Button": null,
+    "Section_8_Bg": {
+      "data": null
+    }
+  }
+}

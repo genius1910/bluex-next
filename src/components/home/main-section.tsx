@@ -1,8 +1,9 @@
+import { LocalizedContent } from "@/cms/home";
 import parse from "html-react-parser";
 
 // import BackgroundVideo from "../../images/front-main/BlueX Page animated background.mp4";
 
-export default function FrontMainSection({ contents }) {
+export default function FrontMainSection({ content }: { content: LocalizedContent }) {
   return (
     <div
       className="relative w-full h-fit bg-white overflow-hidden"
@@ -10,7 +11,7 @@ export default function FrontMainSection({ contents }) {
       <video
         id="BGMainVideo"
         className="relative w-screen mb-[-0.5rem] laptopx:h-[41.75rem] laptopx:w-auto mobilex:h-[47.5rem]"
-        autoPlay={"autoplay"}
+        autoPlay={true}
         preload="auto"
         muted
         loop
@@ -42,7 +43,7 @@ export default function FrontMainSection({ contents }) {
               // Title
               className="font-title w-[36rem] z-20 leading-[3rem] text-white not-italic text-[rgb(24,51,94)] text-[3.125rem] font-bold tracking-[normal] whitespace-pre-wrap text-left mb-[1.375rem]"
             >
-              {parse(contents.Section_1_Title)}
+              {parse(content.Section_1_Title)}
             </div>
             <div
               className="mb-[2.625rem]"
@@ -50,14 +51,14 @@ export default function FrontMainSection({ contents }) {
               <div
                 className="font-title font-normal not-italic text-white text-base tracking-[normal] whitespace-pre-wrap text-left"
               >
-                {contents.Section_1_Content}
+                {content.Section_1_Content}
               </div>
             </div>
             <button
               className="w-36 text-sm leading-6 font-bold normal-case text-center text-white px-2 py-1.5 bg-[#009bd2] rounded-[18px] border-none hover:bg-[#00afec]"
               // onClick={() => btnCallback(true)}
             >
-              {contents.Section_1_Button.text}
+              {content.Section_1_Button.text}
             </button>
           </div>
           {/* <ImgRelativeFrame>

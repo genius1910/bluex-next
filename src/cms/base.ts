@@ -6,3 +6,4 @@ export const axiosInstance = createAxiosInstance({
 });
 
 export const defaultLocale = 'en';
+export const useMockData = process.env.MOCK === "true";

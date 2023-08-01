@@ -1,0 +1,717 @@
+{
+  "en": {
+    "Right_Company": "BlueX Trade,",
+    "Right_Reserved": "All Rights Reserved.",
+    "Header_Back_Btn": "Back",
+    "Footer_Form_Title": "Sign up to get the latest news in freight and fintech",
+    "Footer_Input_First_Name_Label": "First Name",
+    "Footer_Input_Last_Name_Label": "Last Name",
+    "Footer_Input_Email_Label": "Email",
+    "Footer_Input_Company_Label": "Company",
+    "Footer_Form_Button": "Subscribe",
+    "Footer_Form_End_Button": "Finish",
+    "Footer_Form_End_Content": "Thank you for subscribing.",
+    "createdAt": "2021-09-29T03:32:02.187Z",
+    "updatedAt": "2023-02-10T03:05:55.991Z",
+    "publishedAt": "2021-09-29T08:36:51.768Z",
+    "locale": "en",
+    "Product_Dropdown_Label": "Products",
+    "Product_Dropdown_Groups": [
+      {
+        "id": 1,
+        "name": "For Payers",
+        "type": "group",
+        "links": [
+          {
+            "id": 93,
+            "label": "Pay-it-Later",
+            "url": "/pay-it-later",
+            "type": "INTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "For Vendors",
+        "type": "group",
+        "links": [
+          {
+            "id": 94,
+            "label": "Payments",
+            "url": "/vendor",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 95,
+            "label": "e-Commerce",
+            "url": "/ecommerce",
+            "type": "INTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "For Developers",
+        "type": "group",
+        "links": [
+          {
+            "id": 96,
+            "label": "Freight Commerce API",
+            "url": "/for-developer",
+            "type": "INTERIOR"
+          }
+        ]
+      }
+    ],
+    "Header_SubMenus": [
+      {
+        "id": 29,
+        "title": "Products",
+        "attachment": "Products",
+        "links": [
+          {
+            "id": 100,
+            "label": "For Payers",
+            "url": "/pay-it-later",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 99,
+            "label": "For Vendors",
+            "url": "/vendor",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 103,
+            "label": "e-Commerce",
+            "url": "/ecommerce",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 104,
+            "label": "Freight Commerce API",
+            "url": "/for-developer",
+            "type": "INTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "title": "Company",
+        "attachment": "Company",
+        "links": [
+          {
+            "id": 97,
+            "label": "About Us",
+            "url": "/about-us",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 102,
+            "label": "Press",
+            "url": "/in-the-news",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 98,
+            "label": "Careers",
+            "url": "/careers",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 108,
+            "label": "Security",
+            "url": "/security",
+            "type": "INTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Resources",
+        "attachment": "Resources",
+        "links": [
+          {
+            "id": 48,
+            "label": "Blog",
+            "url": "/blog",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 35,
+            "label": "FAQ",
+            "url": "https://support.bluexpay.com/en/knowledge",
+            "type": "EXTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "title": "Pricing",
+        "attachment": "/pricing",
+        "links": []
+      }
+    ],
+    "Header_SignIn_Btn": {
+      "id": 19,
+      "text": "Sign In",
+      "link": "https://portal.bluexpay.com/"
+    },
+    "Site_Map": [
+      {
+        "id": 22,
+        "title": "Products",
+        "attachment": null,
+        "links": [
+          {
+            "id": 58,
+            "label": "BlueX e-Commerce",
+            "url": "/ecommerce",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 59,
+            "label": "For Vendors",
+            "url": "/vendor",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 60,
+            "label": "For Payers",
+            "url": "/pay-it-later",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 105,
+            "label": "For Developers",
+            "url": "/for-developer/",
+            "type": "INTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "title": "Company",
+        "attachment": null,
+        "links": [
+          {
+            "id": 61,
+            "label": "About Us",
+            "url": "/about-us",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 106,
+            "label": "Press",
+            "url": "/in-the-news/",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 62,
+            "label": "Careers",
+            "url": "/careers",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 107,
+            "label": "Security",
+            "url": "/security",
+            "type": "INTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Resources",
+        "attachment": null,
+        "links": [
+          {
+            "id": 15,
+            "label": "FAQ",
+            "url": "https://support.bluexpay.com/en/knowledge",
+            "type": "EXTERIOR"
+          },
+          {
+            "id": 52,
+            "label": "Blog",
+            "url": "/blog",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 74,
+            "label": "PRODUCT STATUS",
+            "url": "https://status.bluexpay.com/#/past_30_days",
+            "type": "EXTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Keep in Touch",
+        "attachment": null,
+        "links": [
+          {
+            "id": 16,
+            "label": "US: +1-855-832-BLUE",
+            "url": null,
+            "type": "TEXT"
+          },
+          {
+            "id": 17,
+            "label": "ASIA: +886-2-2500-7833",
+            "url": null,
+            "type": "TEXT"
+          },
+          {
+            "id": 18,
+            "label": "info@bluextrade.com",
+            "url": null,
+            "type": "TEXT"
+          }
+        ]
+      }
+    ],
+    "Footer": [
+      {
+        "id": 11,
+        "label": "BlueX Trade Terms of Service",
+        "url": "/bluextrade-terms-of-service",
+        "type": "INTERIOR"
+      },
+      {
+        "id": 12,
+        "label": "BlueX Trade Privacy Policy",
+        "url": "/bluextrade-privacy-policy",
+        "type": "INTERIOR"
+      },
+      {
+        "id": 13,
+        "label": "Cookie Policy",
+        "url": "/cookie-policy",
+        "type": "INTERIOR"
+      }
+    ]
+  },
+  "zh-Hant-TW": {
+    "Right_Company": "BlueX Pay.",
+    "Right_Reserved": "版權所有",
+    "Header_Back_Btn": "返回",
+    "Footer_Form_Title": "透過註冊以獲取貨運和金融科技的最新消息",
+    "Footer_Input_First_Name_Label": "名",
+    "Footer_Input_Last_Name_Label": "姓",
+    "Footer_Input_Email_Label": "電子信箱",
+    "Footer_Input_Company_Label": "公司名稱",
+    "Footer_Form_Button": "訂閱",
+    "Footer_Form_End_Button": "結束",
+    "Footer_Form_End_Content": "謝謝您的訂閱。",
+    "createdAt": "2021-09-29T10:05:08.844Z",
+    "updatedAt": "2023-07-28T11:27:21.880Z",
+    "publishedAt": "2021-09-29T10:05:12.014Z",
+    "locale": "zh-Hant-TW",
+    "Product_Dropdown_Label": "產品",
+    "Product_Dropdown_Groups": [
+      {
+        "id": 4,
+        "name": "For Payers",
+        "type": "group",
+        "links": [
+          {
+            "id": 109,
+            "label": "Pay-It-Later",
+            "url": "/pay-it-later",
+            "type": "INTERIOR"
+          }
+        ]
+      }
+    ],
+    "Header_SubMenus": [
+      {
+        "id": 10,
+        "title": "產品",
+        "attachment": "Products",
+        "links": [
+          {
+            "id": 37,
+            "label": "收款",
+            "url": "/vendor",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 36,
+            "label": "付款",
+            "url": "/pay-it-later",
+            "type": "INTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "title": "關於我們",
+        "attachment": "/about-us",
+        "links": []
+      },
+      {
+        "id": 11,
+        "title": "資源中心",
+        "attachment": "Resources",
+        "links": [
+          {
+            "id": 38,
+            "label": "常見問題",
+            "url": "https://support.bluexpay.com/zh-hk/knowledge",
+            "type": "EXTERIOR"
+          },
+          {
+            "id": 50,
+            "label": "部落格",
+            "url": "/blog",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 46,
+            "label": "新聞稿",
+            "url": "/press-release",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 77,
+            "label": "產品狀態",
+            "url": "https://status.bluexpay.com/#/past_30_days",
+            "type": "EXTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "title": "價格",
+        "attachment": "/pricing",
+        "links": []
+      }
+    ],
+    "Header_SignIn_Btn": {
+      "id": 20,
+      "text": "登入",
+      "link": "https://portal.bluexpay.com/"
+    },
+    "Site_Map": [
+      {
+        "id": 24,
+        "title": "產品",
+        "attachment": null,
+        "links": [
+          {
+            "id": 64,
+            "label": "付款",
+            "url": "/pay-it-later",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 65,
+            "label": "收款",
+            "url": "/vendor",
+            "type": "INTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "title": "關於我們",
+        "attachment": null,
+        "links": [
+          {
+            "id": 66,
+            "label": "團隊",
+            "url": "/about-us",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 67,
+            "label": "生涯",
+            "url": "https://www.bluextrade.com/careers/",
+            "type": "EXTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "資源中心",
+        "attachment": null,
+        "links": [
+          {
+            "id": 19,
+            "label": "常見問題",
+            "url": "https://support.bluexpay.com/zh-hk/knowledge",
+            "type": "EXTERIOR"
+          },
+          {
+            "id": 53,
+            "label": "部落格",
+            "url": "/blog",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 68,
+            "label": "新聞稿",
+            "url": "/press-release",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 76,
+            "label": "產品狀態",
+            "url": "https://status.bluexpay.com/#/past_30_days",
+            "type": "EXTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "聯繫我們",
+        "attachment": null,
+        "links": [
+          {
+            "id": 20,
+            "label": "US: +1-855-832-BLUE",
+            "url": null,
+            "type": "TEXT"
+          },
+          {
+            "id": 21,
+            "label": "ASIA: +886-2-2500-7833",
+            "url": null,
+            "type": "TEXT"
+          },
+          {
+            "id": 22,
+            "label": "info@bluexpay.com",
+            "url": null,
+            "type": "TEXT"
+          }
+        ]
+      }
+    ],
+    "Footer": [
+      {
+        "id": 23,
+        "label": "服務條款",
+        "url": "/terms-of-service",
+        "type": "INTERIOR"
+      },
+      {
+        "id": 24,
+        "label": "隱私權政策",
+        "url": "/privacy-policy",
+        "type": "INTERIOR"
+      },
+      {
+        "id": 25,
+        "label": "Cookie政策",
+        "url": "/cookie-policy",
+        "type": "INTERIOR"
+      }
+    ]
+  },
+  "zh-Hans-CN": {
+    "Right_Company": "BlueX Pay.",
+    "Right_Reserved": "版权所有",
+    "Header_Back_Btn": "返回",
+    "Footer_Form_Title": "透过注册以获取货运和金融科技的最新消息",
+    "Footer_Input_First_Name_Label": "名",
+    "Footer_Input_Last_Name_Label": "姓",
+    "Footer_Input_Email_Label": "电子邮箱",
+    "Footer_Input_Company_Label": "公司名称",
+    "Footer_Form_Button": "订阅",
+    "Footer_Form_End_Button": "结束",
+    "Footer_Form_End_Content": "谢谢您的订阅。",
+    "createdAt": "2021-09-29T10:13:48.586Z",
+    "updatedAt": "2022-12-09T11:57:35.348Z",
+    "publishedAt": "2021-09-29T10:13:51.654Z",
+    "locale": "zh-Hans-CN",
+    "Product_Dropdown_Label": null,
+    "Product_Dropdown_Groups": [],
+    "Header_SubMenus": [
+      {
+        "id": 12,
+        "title": "产品",
+        "attachment": "Products",
+        "links": [
+          {
+            "id": 39,
+            "label": "针对付款人",
+            "url": "/pay-it-later",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 40,
+            "label": "针对供应商",
+            "url": "/vendor",
+            "type": "INTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "title": "关于我们",
+        "attachment": "/about-us",
+        "links": []
+      },
+      {
+        "id": 13,
+        "title": "资源中心",
+        "attachment": "Resources",
+        "links": [
+          {
+            "id": 41,
+            "label": "常见问题",
+            "url": "https://support.bluexpay.com/zh-cn/knowledge",
+            "type": "EXTERIOR"
+          },
+          {
+            "id": 51,
+            "label": "部落格",
+            "url": "/blog",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 47,
+            "label": "新闻稿",
+            "url": "/press-release",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 79,
+            "label": "产品状态",
+            "url": "https://status.bluexpay.com/#/past_30_days",
+            "type": "EXTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "title": "价格",
+        "attachment": "/pricing",
+        "links": []
+      }
+    ],
+    "Header_SignIn_Btn": {
+      "id": 21,
+      "text": "登入",
+      "link": "https://portal.bluexpay.com/"
+    },
+    "Site_Map": [
+      {
+        "id": 26,
+        "title": "产品",
+        "attachment": null,
+        "links": [
+          {
+            "id": 69,
+            "label": "针对付款人",
+            "url": "/pay-it-later",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 70,
+            "label": "针对供应商",
+            "url": "/vendor",
+            "type": "INTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "title": "关于我们",
+        "attachment": null,
+        "links": [
+          {
+            "id": 72,
+            "label": "团队",
+            "url": "/about-us",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 73,
+            "label": "生涯",
+            "url": "https://www.bluextrade.com/careers/",
+            "type": "EXTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "资源中心",
+        "attachment": null,
+        "links": [
+          {
+            "id": 26,
+            "label": "常见问题",
+            "url": "https://support.bluexpay.com/zh-cn/knowledge",
+            "type": "EXTERIOR"
+          },
+          {
+            "id": 54,
+            "label": "部落格",
+            "url": "/blog",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 71,
+            "label": "新闻稿",
+            "url": "/press-release",
+            "type": "INTERIOR"
+          },
+          {
+            "id": 78,
+            "label": "产品状态",
+            "url": "https://status.bluexpay.com/#/past_30_days",
+            "type": "EXTERIOR"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "联系我们",
+        "attachment": null,
+        "links": [
+          {
+            "id": 27,
+            "label": "US: +1-855-832-BLUE",
+            "url": null,
+            "type": "TEXT"
+          },
+          {
+            "id": 28,
+            "label": "ASIA: +886-2-2500-7833",
+            "url": null,
+            "type": "TEXT"
+          },
+          {
+            "id": 29,
+            "label": "info@bluexpay.com",
+            "url": null,
+            "type": "TEXT"
+          }
+        ]
+      }
+    ],
+    "Footer": [
+      {
+        "id": 30,
+        "label": "服务条款",
+        "url": "/terms-of-service",
+        "type": "INTERIOR"
+      },
+      {
+        "id": 31,
+        "label": "隐私权保护条款",
+        "url": "/privacy-policy",
+        "type": "INTERIOR"
+      },
+      {
+        "id": 32,
+        "label": "Cookie政策",
+        "url": "/cookie-policy",
+        "type": "INTERIOR"
+      }
+    ]
+  }
+}
