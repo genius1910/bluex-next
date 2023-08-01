@@ -1,4 +1,4 @@
-import Home from '@/components/home'
+import Home from '@/components/home/home'
 import { fetch as fetchHeader } from '@/cms/header'
 import { fetch } from '@/cms/home'
 import { fetchLocales } from '@/cms/langs'
