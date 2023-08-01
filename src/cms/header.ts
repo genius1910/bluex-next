@@ -110,7 +110,7 @@ export const fetch = async () => {
 
   const res = await loadSingleTypes({
     axiosInstance,
-    singularName: 'layout-contentxxxx',
+    singularName: 'layout-content',
     locales: availableLocales,
     query,
     limit: 500
