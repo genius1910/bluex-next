@@ -1,6 +1,6 @@
 import HomeContent from '@/constants/mockup/home-content.json';
-import { loadSingleTypes } from '@/lib/strapi_loader';
-import { axiosInstance, useMockData } from './base';
+import { loadSingleTypes } from '@/lib/strapi_adapter';
+import { baseConfig, useMockData } from './base';
 import { AvailableLocaleType, availableLocales } from './types';
 
 const query = {
@@ -173,7 +173,7 @@ export const fetch = async () => {
   }
 
   const res = await loadSingleTypes({
-    axiosInstance,
+    ...baseConfig(),
     singularName: 'front-content',
     locales: availableLocales,
     query,

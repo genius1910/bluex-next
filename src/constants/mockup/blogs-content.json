@@ -1,0 +1,1950 @@
+[
+  {
+    "Title": "US Debt and Small Business: How to Protect Your Company in Uncertain Times",
+    "Author": "BlueX",
+    "Date": "2023-06-07",
+    "Url": "US-Debt-and-Small-Business-How-to-Protect-Your-Company-in-Uncertain-Times",
+    "Type": "FinTech",
+    "PreviewText": "The US government is set to hit its borrowing limit on June 5th, but a debt ceiling deal has been reached to prevent defaulting on the $31.4 trillion debt. What are the effects of the US Debt on small businesses, and what measures can they take to reduce potential risks?",
+    "createdAt": "2023-06-07T06:50:14.332Z",
+    "updatedAt": "2023-06-12T03:43:59.978Z",
+    "publishedAt": "2023-06-07T06:55:36.830Z",
+    "locale": "en",
+    "Category": "Blog",
+    "UpdateDate": "2023-06-07",
+    "SEO": {
+      "id": 671,
+      "title": "US Debt and Small Business: How to Protect Your Company in Uncertain Times",
+      "description": "The US government is set to hit its borrowing limit on June 5th, but a debt ceiling deal has been reached to prevent defaulting on the $31.4 trillion debt. What are the effects of the US Debt on small businesses, and what measures can they take to reduce potential risks?",
+      "image": {
+        "data": {
+          "id": 425,
+          "attributes": {
+            "name": "BlueX blog_US debt.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 1200,
+            "height": 624,
+            "formats": {
+              "large": {
+                "ext": ".png",
+                "url": "/uploads/large_Blue_X_blog_US_debt_ebfd08aeb4.png",
+                "hash": "large_Blue_X_blog_US_debt_ebfd08aeb4",
+                "mime": "image/png",
+                "name": "large_BlueX blog_US debt.png",
+                "path": null,
+                "size": 963.47,
+                "width": 1000,
+                "height": 520
+              },
+              "small": {
+                "ext": ".png",
+                "url": "/uploads/small_Blue_X_blog_US_debt_ebfd08aeb4.png",
+                "hash": "small_Blue_X_blog_US_debt_ebfd08aeb4",
+                "mime": "image/png",
+                "name": "small_BlueX blog_US debt.png",
+                "path": null,
+                "size": 255.26,
+                "width": 500,
+                "height": 260
+              },
+              "medium": {
+                "ext": ".png",
+                "url": "/uploads/medium_Blue_X_blog_US_debt_ebfd08aeb4.png",
+                "hash": "medium_Blue_X_blog_US_debt_ebfd08aeb4",
+                "mime": "image/png",
+                "name": "medium_BlueX blog_US debt.png",
+                "path": null,
+                "size": 553.1,
+                "width": 750,
+                "height": 390
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/uploads/thumbnail_Blue_X_blog_US_debt_ebfd08aeb4.png",
+                "hash": "thumbnail_Blue_X_blog_US_debt_ebfd08aeb4",
+                "mime": "image/png",
+                "name": "thumbnail_BlueX blog_US debt.png",
+                "path": null,
+                "size": 68.16,
+                "width": 245,
+                "height": 127
+              }
+            },
+            "hash": "Blue_X_blog_US_debt_ebfd08aeb4",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 971.72,
+            "url": "/uploads/Blue_X_blog_US_debt_ebfd08aeb4.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2023-06-07T09:43:20.151Z",
+            "updatedAt": "2023-06-07T09:43:20.151Z"
+          }
+        }
+      }
+    },
+    "Image": {
+      "data": {
+        "id": 424,
+        "attributes": {
+          "name": "pexels-gagan-kaur-6237498.jpg",
+          "alternativeText": "US Capitol building",
+          "caption": "The US government is set to hit its borrowing limit on June 5th, but a debt ceiling deal has been reached to prevent defaulting on the $31.4 trillion debt. ",
+          "width": 6000,
+          "height": 4000,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "/uploads/large_pexels_gagan_kaur_6237498_8a8ca84d07.jpg",
+              "hash": "large_pexels_gagan_kaur_6237498_8a8ca84d07",
+              "mime": "image/jpeg",
+              "name": "large_pexels-gagan-kaur-6237498.jpg",
+              "path": null,
+              "size": 107.12,
+              "width": 1000,
+              "height": 667
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "/uploads/small_pexels_gagan_kaur_6237498_8a8ca84d07.jpg",
+              "hash": "small_pexels_gagan_kaur_6237498_8a8ca84d07",
+              "mime": "image/jpeg",
+              "name": "small_pexels-gagan-kaur-6237498.jpg",
+              "path": null,
+              "size": 32.15,
+              "width": 500,
+              "height": 333
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "/uploads/medium_pexels_gagan_kaur_6237498_8a8ca84d07.jpg",
+              "hash": "medium_pexels_gagan_kaur_6237498_8a8ca84d07",
+              "mime": "image/jpeg",
+              "name": "medium_pexels-gagan-kaur-6237498.jpg",
+              "path": null,
+              "size": 65.48,
+              "width": 750,
+              "height": 500
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "/uploads/thumbnail_pexels_gagan_kaur_6237498_8a8ca84d07.jpg",
+              "hash": "thumbnail_pexels_gagan_kaur_6237498_8a8ca84d07",
+              "mime": "image/jpeg",
+              "name": "thumbnail_pexels-gagan-kaur-6237498.jpg",
+              "path": null,
+              "size": 9.07,
+              "width": 234,
+              "height": 156
+            }
+          },
+          "hash": "pexels_gagan_kaur_6237498_8a8ca84d07",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 2318.81,
+          "url": "/uploads/pexels_gagan_kaur_6237498_8a8ca84d07.jpg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-06-07T06:14:10.356Z",
+          "updatedAt": "2023-06-07T06:50:37.624Z"
+        }
+      }
+    },
+    "ContentList": [
+      {
+        "id": 1323,
+        "title": null,
+        "content": "As the US debt ceiling crisis unfolds, there are growing concerns about its impact on the economy and various sectors, including small and medium-sized businesses (SMBs) that are particularly vulnerable to economic turmoil. What are the effects of the US Debt on small businesses, and what measures can they take to reduce potential risks?",
+        "titleSize": 24
+      },
+      {
+        "id": 1324,
+        "title": "What happened?",
+        "content": "The US government is set to hit its borrowing limit on June 5th, but a debt ceiling deal has been reached to prevent defaulting on the $31.4 trillion debt. \n\nThe deal suspends the debt ceiling until January 1st, 2025, reduces spending in various sectors, and is expected to save $1.5 trillion over a decade. Some measures include: caps on non-defense spending, ensuring funding for veterans' medical care, expanding work requirements for certain food stamp recipients, and retrieving unused COVID-19 relief funds.",
+        "titleSize": 24
+      },
+      {
+        "id": 1325,
+        "title": "How US Debt Impacts Small Businesses",
+        "content": "With a deal being reached, a direct crisis has been prevented, for now. If the bill stalls, there is [still a risk of default.](https://news.harvard.edu/gazette/story/2023/05/how-u-s-debt-limit-drama-has-hurt-economy/) Compounded by factors like inflation, rising interest rates, and slow economic growth, declining business sentiment, and concerns about credit access have been persistent.\n\nAccording to the [WSJ,](https://www.wsj.com/video/series/dion-rabouin/cpi-the-debt-ceiling-and-the-state-of-small-business-what-to-watch/439897C3-B166-4879-BE31-FEDBB376C61D) business sentiment has been consistently declining for the past 15 months, with small business optimism remaining below the 49-year average. Additionally, [a recent survey conducted by Goldman Sachs](https://www.goldmansachs.com/intelligence/pages/more-than-75-percent-of-surveyed-small-businesses-are-worried-about-credit.html) revealed that over 75% of surveyed SMBs are concerned about their access to credit, with rising interest rates and difficulties in securing affordable capital being major obstacles. \n\nIf a default happens, the repercussions include recession, credit crunch, higher inflation, and a weaker dollar, with potential turmoil in the stock and bond markets, posing additional challenges for small businesses. Those with federal contracts would be particularly affected, experiencing disrupted cash flow, while the credit crunch and high-interest rates have already made it harder for SMBs to secure loans, amplifying the economic impact.",
+        "titleSize": 24
+      },
+      {
+        "id": 1326,
+        "title": "How Small Businesses Can Handle US Debt Impact",
+        "content": "To mitigate potential risks and uncertainties, small business owners are advised to take proactive measures. These include maintaining a strong relationship with their banks, closely monitoring their financial numbers, understanding their customer profiles, and diversifying their customer base. Furthermore, it is crucial for SMBs to communicate openly with stakeholders about the potential impact and implement contingency plans to navigate the challenges ahead.\n\n**1. Maintain a Strong Banking Relationship**\nBuilding a solid relationship with your bank is crucial, even before the need for funding arises. Regularly communicate with your bank, keep them updated on your business progress, and establish trust. This proactive approach can increase the likelihood of securing credit when needed and provide a lifeline during economic uncertainties.\n\n**2. Strengthen Financial Management**\nIn times of economic uncertainty, it is essential to have a deep understanding of your business’ financials. Review your numbers regularly and identify areas where you can optimize costs and improve efficiency. This proactive analysis will empower you to make informed decisions and navigate through potential challenges.\n\n**3. Diversify Customer Base**\nOver-reliance on any single customer, particularly the federal government, can expose your business to significant risks. Consider diversifying your customer base to reduce dependence on a single source of revenue. Expanding your customer reach can minimize the impact of potential disruptions caused by a debt ceiling crisis.\n\n**4. Plan for Cash Flow Challenges**\nPrepare for potential disruptions in cash flow by maintaining adequate reserves. Increase your cash reserves and be cautious with expenditures, ensuring that essential business operations can continue even in a challenging economic environment. Communicate your plans and potential delays to stakeholders in advance to manage expectations effectively.\n",
+        "titleSize": 24
+      },
+      {
+        "id": 1327,
+        "title": "Seek Alternative Financing Options",
+        "content": "Many small businesses are already experiencing difficulties in accessing credit, with concerns over rising interest rates and a credit crunch. [Diversifying funding sources](https://www.bluextrade.com/blog/Small-businesses-can-improve-cash-flow-in-2023-using-these-approaches) allows small businesses to explore alternative financing options, such as buy now, pay later platforms, or loans from non-profit organizations, to cushion the impact of limited credit availability.\n\nBlueX offers an alternative to small businesses looking to boost their cash flow through a B2B pay-later solution. With BlueX Pay-it-Later, businesses can quickly access up to $1 million for their cargo and logistics costs. Getting approval normally takes less than 48 hours, and there’s a flexible net 30/60-day repayment period for invoices. The service doesn’t charge any subscription or set-up fees, and it comes with timely payments to your vendors. This way, you can have more time to pay and concentrate on achieving the business growth you desire.\n\nIf you’re interested in knowing more about the service, reach out to [the BlueX team](https://www.bluextrade.com/pay-it-later/) on how to make better payments and amplify your cash flow.",
+        "titleSize": 24
+      },
+      {
+        "id": 1328,
+        "title": "Conclusion",
+        "content": "While the US debt ceiling crisis presents more uncertainties for small businesses, proactive planning, and strategic measures can help mitigate its impact. By nurturing banking relationships, strengthening financial management practices, diversifying customer bases, exploring alternative financing options, and preparing for cash flow challenges, small businesses can navigate through this crisis and ensure their long-term success. Stay informed and adaptable, as external factors evolve, and be ready to adjust your strategies accordingly.",
+        "titleSize": 24
+      }
+    ]
+  },
+  {
+    "Title": "How bank collapses can impact cash flow and four ways small businesses can cope",
+    "Author": "BlueX",
+    "Date": "2023-05-15",
+    "Url": "How-bank-collapses-can-impact-cash-flow-and-four-ways-small-businesses-can-cope",
+    "Type": "FinTech",
+    "PreviewText": "From a financial perspective, the first half of 2023 will probably be remembered for the cascade of bank collapses that shook the economy: Silicon Valley Bank, First Republic Bank, and Signature Bank. While federal regulators are working to control the damage, many small to medium-sized businesses that survive from quarter to quarter or even month to month are facing even greater financial uncertainty than the year before. ",
+    "createdAt": "2023-05-15T09:54:23.362Z",
+    "updatedAt": "2023-06-12T03:43:43.127Z",
+    "publishedAt": "2023-05-15T13:45:02.683Z",
+    "locale": "en",
+    "Category": "Blog",
+    "UpdateDate": "2023-05-15",
+    "SEO": {
+      "id": 670,
+      "title": "How bank collapses can impact cash flow and four ways small businesses can cope",
+      "description": "From a financial perspective, the first half of 2023 will probably be remembered for the cascade of bank collapses that shook the economy: Silicon Valley Bank, First Republic Bank, and Signature Bank. While federal regulators are working to control the damage, many small to medium-sized businesses that survive from quarter to quarter or even month to month are facing even greater financial uncertainty than the year before. ",
+      "image": {
+        "data": {
+          "id": 421,
+          "attributes": {
+            "name": "iStock-1040303566.jpg",
+            "alternativeText": "How bank collapses can impact cash flow and four ways small businesses can cope",
+            "caption": null,
+            "width": 3872,
+            "height": 2571,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "/uploads/large_i_Stock_1040303566_02176eb635.jpg",
+                "hash": "large_i_Stock_1040303566_02176eb635",
+                "mime": "image/jpeg",
+                "name": "large_iStock-1040303566.jpg",
+                "path": null,
+                "size": 105.39,
+                "width": 1000,
+                "height": 664
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "/uploads/small_i_Stock_1040303566_02176eb635.jpg",
+                "hash": "small_i_Stock_1040303566_02176eb635",
+                "mime": "image/jpeg",
+                "name": "small_iStock-1040303566.jpg",
+                "path": null,
+                "size": 35.43,
+                "width": 500,
+                "height": 332
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/uploads/medium_i_Stock_1040303566_02176eb635.jpg",
+                "hash": "medium_i_Stock_1040303566_02176eb635",
+                "mime": "image/jpeg",
+                "name": "medium_iStock-1040303566.jpg",
+                "path": null,
+                "size": 65.96,
+                "width": 750,
+                "height": 497
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/uploads/thumbnail_i_Stock_1040303566_02176eb635.jpg",
+                "hash": "thumbnail_i_Stock_1040303566_02176eb635",
+                "mime": "image/jpeg",
+                "name": "thumbnail_iStock-1040303566.jpg",
+                "path": null,
+                "size": 10.89,
+                "width": 235,
+                "height": 156
+              }
+            },
+            "hash": "i_Stock_1040303566_02176eb635",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 1239.92,
+            "url": "/uploads/i_Stock_1040303566_02176eb635.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2023-05-15T09:55:54.421Z",
+            "updatedAt": "2023-05-15T13:33:09.310Z"
+          }
+        }
+      }
+    },
+    "Image": {
+      "data": {
+        "id": 421,
+        "attributes": {
+          "name": "iStock-1040303566.jpg",
+          "alternativeText": "How bank collapses can impact cash flow and four ways small businesses can cope",
+          "caption": null,
+          "width": 3872,
+          "height": 2571,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "/uploads/large_i_Stock_1040303566_02176eb635.jpg",
+              "hash": "large_i_Stock_1040303566_02176eb635",
+              "mime": "image/jpeg",
+              "name": "large_iStock-1040303566.jpg",
+              "path": null,
+              "size": 105.39,
+              "width": 1000,
+              "height": 664
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "/uploads/small_i_Stock_1040303566_02176eb635.jpg",
+              "hash": "small_i_Stock_1040303566_02176eb635",
+              "mime": "image/jpeg",
+              "name": "small_iStock-1040303566.jpg",
+              "path": null,
+              "size": 35.43,
+              "width": 500,
+              "height": 332
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "/uploads/medium_i_Stock_1040303566_02176eb635.jpg",
+              "hash": "medium_i_Stock_1040303566_02176eb635",
+              "mime": "image/jpeg",
+              "name": "medium_iStock-1040303566.jpg",
+              "path": null,
+              "size": 65.96,
+              "width": 750,
+              "height": 497
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "/uploads/thumbnail_i_Stock_1040303566_02176eb635.jpg",
+              "hash": "thumbnail_i_Stock_1040303566_02176eb635",
+              "mime": "image/jpeg",
+              "name": "thumbnail_iStock-1040303566.jpg",
+              "path": null,
+              "size": 10.89,
+              "width": 235,
+              "height": 156
+            }
+          },
+          "hash": "i_Stock_1040303566_02176eb635",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 1239.92,
+          "url": "/uploads/i_Stock_1040303566_02176eb635.jpg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-05-15T09:55:54.421Z",
+          "updatedAt": "2023-05-15T13:33:09.310Z"
+        }
+      }
+    },
+    "ContentList": [
+      {
+        "id": 1319,
+        "title": null,
+        "content": "From a financial perspective, the first half of 2023 will probably be remembered for the cascade of bank collapses that shook the economy: Silicon Valley Bank, First Republic Bank, and Signature Bank. While federal regulators are working to control the damage, many small to medium-sized businesses that survive from quarter to quarter or even month to month are facing even greater financial uncertainty than the year before. ",
+        "titleSize": 24
+      },
+      {
+        "id": 1320,
+        "title": "What happened? ",
+        "content": "- On March 10th, **Silicon Valley Bank (SVB)** was shut down by regulators in California. Though there were multiple factors, the main reason was that its investments had greatly decreased in value, leading depositors to withdraw large sums at once.\n- On March 12th, just two days later, **Signature Bank** was closed down after account holders withdrew large sums of money following the collapse of SVB. \n- On May 1st, **First Republic Bank (FRB)** became the second-largest bank collapse in U.S. history when most of its business was sold to JPMorgan Chase after it was seized by federal regulators. The main cause was a cascade effect of runs on deposits produced by the closing of SVB and Signature Bank. \n- According to the New York Times, the three banks [combined held more in inflation-adjusted assets](https://www.nytimes.com/interactive/2023/business/bank-failures-svb-first-republic-signature.html) than the 25 U.S. banks that collapsed in the financial crisis of 2008. \n\n![image1.png](/uploads/image1_278db2c02d.png)\nSource: [New York Times](https://www.nytimes.com/interactive/2023/business/bank-failures-svb-first-republic-signature.html) via data from Federal Deposit Insurance Corporation. (Adjusted for inflation)",
+        "titleSize": 24
+      },
+      {
+        "id": 1321,
+        "title": "The impact of the collapses on U.S. small to medium-sized businesses",
+        "content": "If you are a small to medium-sized business in the U.S., you may already be feeling the effects of the bank collapses on your cash flow, which can include:\n\n\n1. <u>Temporary loss of access to insured funds:</u> Businesses that relied on one of the three closed banks may temporarily lose access to insured funds until they are returned by the Federal Deposit Insurance Corporation (FDIC). \n\n1. <u>Bank stress and tightening credit:</u> According to the Federal Reserve’s latest quarterly Senior Loan Officer Opinion Survey (SLOOS), [lenders are tightening standards](https://edition.cnn.com/2023/05/08/economy/fed-senior-loan-officer-opinion-survey-q1/index.html) in the wake of the banking turmoil. [Close to 50% of banks surveyed](https://www.reuters.com/business/finance/banks-tighten-credit-terms-see-loan-demand-drop-fed-survey-shows-2023-05-08/) said that lending standards were slightly more stringent to small businesses compared to January of this year.\n\n1. <u>Another interest rate rise:</u> In late March, The Federal Reserve [decided to raise rates by 0.25%](https://www.bbc.com/news/business-65041649) even while the banking collapse was happening. This has also led to higher interest rates on business financing in the short term. ",
+        "titleSize": 24
+      },
+      {
+        "id": 1322,
+        "title": "What businesses can do to maintain healthy capital flow",
+        "content": "**Prioritize a healthy balance sheet over growth:** In these times of economic disruption, focusing on the fundamentals of cash flow management and maintaining a healthy balance sheet should sometimes take precedence over business growth. You can consider pausing plans to grow your business and instead look at how to keep capital stable in the long-term beyond just this month or quarter.  \n\n**Digitize your AR:** Moving your legacy AR processes onto a digital platform at this timing is not just helpful, it’s essential. Such platforms are shown to greatly improve invoice reconciliation, reduce days sales outstanding (DSO), and increase overall visibility and efficiency in the payment process. If you’re not able to see all of your payment data in a single window, maintaining long-term visibility over your capital will become increasingly difficult.   \n\n**Inventory financing or A/R factoring:** There are more and more creative ways to finance your business besides credit cards and bank loans. If you are a retail business that struggles to purchase the stock you need for seasonal demands, you can consider inventory financing, which is using the inventory you need to buy as collateral for itself. Or, businesses with credit histories too short to get loans can try accounts receivable (A/R) factoring, or selling your invoices to a third party company for an advance on a portion of the invoice value. You can contact BlueX Sales for more information about our related solutions. \n\n**Use Pay-it-Later to maintain strong cash flow:** Just by giving you more time to pay, B2B Pay-it-Later (PIL) solutions can help to offset rising supply costs and help your business acquire more inventory. B2B PIL is an ideal solution for companies looking to modernize their payment systems, reduce costs, and improve their competitive advantage.\n\nFor example, [BlueX Pay-it-Later](https://www.bluextrade.com/pay-it-later/) offers pay-later options for your cargo and all your logistics invoices, providing financing options with up to 100% of net invoice value and up to 1 million in funds available in 48 hours. BlueX will pay your vendor on time, and you can choose between net 30/60-day terms every time you submit an application. Moreover, BlueX supports different payment methods, including offline remittance, same-day ACH, and SWIFT. \n\nTo learn more, contact the BlueX sales team at [sales@bluexpay.com](sales@bluexpay.com)",
+        "titleSize": 24
+      }
+    ]
+  },
+  {
+    "Title": "The Future of Finance: Top Innovations Driving Growth in the B2B Landscape in 2023",
+    "Author": "BlueX",
+    "Date": "2023-04-17",
+    "Url": "The-Future-of-Finance-Top-Innovations-Driving-Growth-in-the-B2B-Landscape-in-2023",
+    "Type": "FinTech",
+    "PreviewText": "The future of finance in the B2B landscape in 2023 looks promising with the emergence of innovative technologies. AI is transforming trade finance, while embedded finance is a rapidly growing trend that promises to enhance customer experience and provide cost and risk benefits to companies. The Buy-Now-Pay-Later (BNPL) model for businesses is also gaining popularity, particularly in the B2B sector. Solutions such as BlueX Pay-it-Later are providing SMBs with a powerful tool for enhancing their cash flow and competitive advantage. This can be especially helpful during times of economic volatility. ",
+    "createdAt": "2023-04-17T02:45:36.810Z",
+    "updatedAt": "2023-05-05T03:15:33.589Z",
+    "publishedAt": "2023-04-17T04:32:22.100Z",
+    "locale": "en",
+    "Category": "Blog",
+    "UpdateDate": "2023-04-17",
+    "SEO": {
+      "id": 669,
+      "title": "The Future of Finance: Top Innovations Driving Growth in the B2B Landscape in 2023",
+      "description": "The future of finance in the B2B landscape in 2023 looks promising with the emergence of innovative technologies. AI is transforming trade finance, while embedded finance is a rapidly growing trend that promises to enhance customer experience and provide cost and risk benefits to companies. The Buy-Now-Pay-Later (BNPL) model for businesses is also gaining popularity, particularly in the B2B sector. Solutions such as BlueX Pay-it-Later are providing SMBs with a powerful tool for enhancing their cash flow and competitive advantage. This can be especially helpful during times of economic volatility. ",
+      "image": {
+        "data": {
+          "id": 417,
+          "attributes": {
+            "name": "iStock-1434132794.jpg",
+            "alternativeText": "The future of finance",
+            "caption": null,
+            "width": 8192,
+            "height": 4174,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "/uploads/large_i_Stock_1434132794_79fd3089d6.jpg",
+                "hash": "large_i_Stock_1434132794_79fd3089d6",
+                "mime": "image/jpeg",
+                "name": "large_iStock-1434132794.jpg",
+                "path": null,
+                "size": 57.86,
+                "width": 1000,
+                "height": 509
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "/uploads/small_i_Stock_1434132794_79fd3089d6.jpg",
+                "hash": "small_i_Stock_1434132794_79fd3089d6",
+                "mime": "image/jpeg",
+                "name": "small_iStock-1434132794.jpg",
+                "path": null,
+                "size": 22.15,
+                "width": 500,
+                "height": 254
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/uploads/medium_i_Stock_1434132794_79fd3089d6.jpg",
+                "hash": "medium_i_Stock_1434132794_79fd3089d6",
+                "mime": "image/jpeg",
+                "name": "medium_iStock-1434132794.jpg",
+                "path": null,
+                "size": 38.53,
+                "width": 750,
+                "height": 382
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/uploads/thumbnail_i_Stock_1434132794_79fd3089d6.jpg",
+                "hash": "thumbnail_i_Stock_1434132794_79fd3089d6",
+                "mime": "image/jpeg",
+                "name": "thumbnail_iStock-1434132794.jpg",
+                "path": null,
+                "size": 8.07,
+                "width": 245,
+                "height": 125
+              }
+            },
+            "hash": "i_Stock_1434132794_79fd3089d6",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 2440.57,
+            "url": "/uploads/i_Stock_1434132794_79fd3089d6.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2023-04-17T04:29:58.775Z",
+            "updatedAt": "2023-04-17T04:32:05.642Z"
+          }
+        }
+      }
+    },
+    "Image": {
+      "data": {
+        "id": 417,
+        "attributes": {
+          "name": "iStock-1434132794.jpg",
+          "alternativeText": "The future of finance",
+          "caption": null,
+          "width": 8192,
+          "height": 4174,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "/uploads/large_i_Stock_1434132794_79fd3089d6.jpg",
+              "hash": "large_i_Stock_1434132794_79fd3089d6",
+              "mime": "image/jpeg",
+              "name": "large_iStock-1434132794.jpg",
+              "path": null,
+              "size": 57.86,
+              "width": 1000,
+              "height": 509
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "/uploads/small_i_Stock_1434132794_79fd3089d6.jpg",
+              "hash": "small_i_Stock_1434132794_79fd3089d6",
+              "mime": "image/jpeg",
+              "name": "small_iStock-1434132794.jpg",
+              "path": null,
+              "size": 22.15,
+              "width": 500,
+              "height": 254
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "/uploads/medium_i_Stock_1434132794_79fd3089d6.jpg",
+              "hash": "medium_i_Stock_1434132794_79fd3089d6",
+              "mime": "image/jpeg",
+              "name": "medium_iStock-1434132794.jpg",
+              "path": null,
+              "size": 38.53,
+              "width": 750,
+              "height": 382
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "/uploads/thumbnail_i_Stock_1434132794_79fd3089d6.jpg",
+              "hash": "thumbnail_i_Stock_1434132794_79fd3089d6",
+              "mime": "image/jpeg",
+              "name": "thumbnail_iStock-1434132794.jpg",
+              "path": null,
+              "size": 8.07,
+              "width": 245,
+              "height": 125
+            }
+          },
+          "hash": "i_Stock_1434132794_79fd3089d6",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 2440.57,
+          "url": "/uploads/i_Stock_1434132794_79fd3089d6.jpg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-04-17T04:29:58.775Z",
+          "updatedAt": "2023-04-17T04:32:05.642Z"
+        }
+      }
+    },
+    "ContentList": [
+      {
+        "id": 1312,
+        "title": "The Finance Innovation Landscape for 2023",
+        "content": "In 2023, finance innovation is becoming a top priority for businesses. Companies are turning to fintech to increase their chances of success in the face of increasing anxiety over the future economy. According to [a PYMNTS and Corcentric survey of 500 CFOs across industries,](https://www.pymnts.com/digital-payments/2023/what-500-cfos-now-say-is-their-2023-top-payments-priority) over 90% of those surveyed expect a global recession within the next year, which is triggering investments in their digital payments infrastructure and speeding up changes in the finance landscape. In this article, we will explore some innovations emerging as the key frontrunners for 2023: AI, Embedded Finance, and Buy-Now-Pay-Later (BNPL) for businesses.",
+        "titleSize": 24
+      },
+      {
+        "id": 1313,
+        "title": "AI and its Impact on Finance",
+        "content": "AI is currently the technology seizing everyone's attention. AI-powered chatbots, such as Generative AI Chatbot ChatGPT, have played a significant role in transforming the landscape. The focus on AI is usually on the potential impact on the job force, but [data from payment service provider PayU indicates](https://www.pymnts.com/news/artificial-intelligence/2023/ai-becomes-the-human-machine-bridge-that-makes-payments-safe-and-smart/) that almost 70% of fintechs will be impacted by the technology in the next ten years. [Use cases](https://www.financemagnates.com/fintech/education-centre/the-role-of-ai-in-the-future-of-fintech/) include helping lenders make loan decisions, aiding businesses to better detect and avoid fraud, and improving back-office operations and customer service.\n\nAI is also [transforming trade finance.](https://www.bluextrade.com/blog/How-AI-Will-Transform-Trade-Finance) AI GPT models can help automate many of the processes involved in trade finance, such as document verification and compliance checks, which will ultimately lead to financing that is delivered faster at a cost that is appropriate for the risk. AI GPT models in trade finance can also help reduce the time and cost involved in document verification by quickly verifying a document's authenticity and flagging any discrepancies. AI can also help improve compliance and underwriting by checking for compliance with regulatory agencies, analyzing data from various sources to help underwriters make more informed decisions, and detecting fraud more effectively. By embracing AI technologies, businesses in the financial industry can enhance efficiency, reduce costs, and develop innovative business models that are designed for the future.\n",
+        "titleSize": 24
+      },
+      {
+        "id": 1314,
+        "title": "Embedded Finance: A Major Trend for 2023",
+        "content": "Embedded finance is a rapidly growing trend that is [expected to double in size to $51 billion by 2026.](https://www.bain.com/insights/embedded-finance/) The B2B payments market is anticipated to be the biggest potential market, estimated to reach $33.3 trillion in size by 2026. Companies that want to capitalize on this opportunity should consider incorporating software into their commercial processes to enhance the customer experience and stay competitive. In 2026, the transaction value of embedded finance is expected to surge from $2.6 trillion to $7 trillion.\n\nEmbedded finance promises to improve customer experiences and financial access, and provide cost and risk benefits to companies, which is why the demand for it is expected to continue to grow. This new ecosystem requires four main participants: the end customer, platforms that own the customer relationship, software enablers that help meet complex regulatory and technological requirements, and a regulatory services or license provider. While payments and lending currently dominate the embedded finance landscape, insurance, tax, and accounting are also expected to contribute to growth in the future. Despite the rapid growth of embedded financial services, there hasn't been as much quantitative exploration of the industry's dynamics, and different sectors and services are developing at different rates.\n",
+        "titleSize": 24
+      },
+      {
+        "id": 1316,
+        "title": "Buy-Now-Pay-Later (BNPL) for Businesses",
+        "content": "The Buy-Now-Pay-Later (BNPL) or Pay-it-Later (PIL) model for businesses is gaining popularity, with B2B PIL looking especially promising. B2B BNPL offers many benefits that can help small and medium-sized businesses (SMBs) overcome economic challenges and grow their businesses. Companies can benefit from reduced interest payments and a much simpler method of making purchases. Moreover, B2B PIL allows third-party credit and risk-management tools that speed up credit approval and reduce repayment risk, leading to simplified cash flow management for businesses. According to [the PYMNTS report released in 2023,](https://www.pymnts.com/tracker/buy-now-pay-later-small-business-automation-b2b-supplier-payment/) B2B payments are critical to the modern economy, with a global volume of $120 trillion per year and the industry valued at $103 billion as of 2022. \n\nIn [a Forbes survey on the status quo of small businesses in 2023,](https://www.forbes.com/advisor/business/small-business-statistics/) it was found that inventory was one of the highest expenses for small businesses, representing an average of 17 to 25% of their spending. While inventory is crucial for generating revenue in the long term, the upfront cost of purchasing inventory can be a significant burden for small businesses with limited working capital, especially during peak seasons when stock needs to be high. SMBs can use BNPL to offset rising supply costs, pay suppliers in installments, and acquire more inventory, simply by getting more time to pay. By easing the burden on payment terms and their accounting teams, BNPL can help companies cut costs and improve cash flow, making it a powerful tool for improving the quality of life for small businesses worldwide. Furthermore, by simplifying the payment process, BNPL can help businesses avoid payment delays, cash management challenges, and other issues that may hinder their competitive standing in the marketplace. Overall, B2B BNPL is an ideal solution for companies looking to modernize their payment systems, reduce costs, and improve their competitive advantage.\n\nThis is where [BlueX](https://www.bluextrade.com/) steps in to help businesses grow. BlueX Pay-it-Later offers pay-later options for your cargo and all your logistics invoices, whether it’s air freight, ocean freight, trucking, or warehousing. BlueX provides financing options with up to 100% of net invoice value and up to 1 million in funds available in 48 hours. BlueX will pay your vendor on time, and you can choose between net 30/60-day terms every time you submit an application. Moreover, BlueX supports different payment methods, including offline remittance, same-day ACH, and SWIFT. Besides having more time to pay for various types of invoices, BlueX makes payments to your vendor on time so you can get your goods more quickly.",
+        "titleSize": 24
+      },
+      {
+        "id": 1315,
+        "title": "Advancements in B2B Finance",
+        "content": "In conclusion, the future of finance in the B2B landscape in 2023 looks promising with the emergence of innovative technologies. AI is transforming trade finance by automating processes and improving compliance, while embedded finance is a rapidly growing trend that promises to enhance customer experience and provide cost and risk benefits to companies. The Buy-Now-Pay-Later (BNPL) model for businesses is also gaining popularity, particularly in the B2B sector. Solutions such as [BlueX Pay-it-Later](https://www.bluextrade.com/pay-it-later/) are providing SMBs with a powerful tool for enhancing their cash flow and competitive advantage. This can be especially helpful during times of economic volatility. \n\nAs businesses continue to embrace these innovations, they can expect to see enhanced efficiency, reduced costs, and improved customer experiences. The future of finance is undoubtedly exciting, and companies that stay ahead of the curve by incorporating these innovations into their operations can expect to reap significant rewards. Overall, AI, embedded finance, and BNPL are top innovations that will continue to drive growth in the B2B landscape in 2023 and beyond.\n",
+        "titleSize": 24
+      }
+    ]
+  },
+  {
+    "Title": "How Freight Fintech will Change Global Logistics for SMEs in 2022",
+    "Author": "BlueX",
+    "Date": "2023-03-31",
+    "Url": "How-Freight-Fintech-will-Change-Global-Logistics-for-SMEs-in-2022",
+    "Type": "FinTech",
+    "PreviewText": "Small and medium-sized enterprises (SMEs) are at a significant disadvantage when facing the logistics challenges of 2022. As SMEs become increasingly dependent on international trade, they in turn become far more vulnerable to disruptions in the current global freight environment. The rise in trade volatility is requiring SMEs to figure out how to adapt.",
+    "createdAt": "2023-03-31T06:08:48.367Z",
+    "updatedAt": "2023-05-05T03:16:43.254Z",
+    "publishedAt": "2023-03-31T06:27:57.027Z",
+    "locale": "en",
+    "Category": "WhitePaper",
+    "UpdateDate": "2023-03-31",
+    "SEO": {
+      "id": 658,
+      "title": "How Freight Fintech will Change Global Logistics for SMEs in 2022",
+      "description": "Small and medium-sized enterprises (SMEs) are at a significant disadvantage when facing the logistics challenges of 2022. As SMEs become increasingly dependent on international trade, they in turn become far more vulnerable to disruptions in the current global freight environment. The rise in trade volatility is requiring SMEs to figure out how to adapt.",
+      "image": {
+        "data": {
+          "id": 407,
+          "attributes": {
+            "name": "pexels-fatih-turan-8777703.jpg",
+            "alternativeText": "Freight",
+            "caption": null,
+            "width": 2050,
+            "height": 1381,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "/uploads/large_pexels_fatih_turan_8777703_55c6665727.jpg",
+                "hash": "large_pexels_fatih_turan_8777703_55c6665727",
+                "mime": "image/jpeg",
+                "name": "large_pexels-fatih-turan-8777703.jpg",
+                "path": null,
+                "size": 188.41,
+                "width": 1000,
+                "height": 674
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "/uploads/small_pexels_fatih_turan_8777703_55c6665727.jpg",
+                "hash": "small_pexels_fatih_turan_8777703_55c6665727",
+                "mime": "image/jpeg",
+                "name": "small_pexels-fatih-turan-8777703.jpg",
+                "path": null,
+                "size": 54.49,
+                "width": 500,
+                "height": 337
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/uploads/medium_pexels_fatih_turan_8777703_55c6665727.jpg",
+                "hash": "medium_pexels_fatih_turan_8777703_55c6665727",
+                "mime": "image/jpeg",
+                "name": "medium_pexels-fatih-turan-8777703.jpg",
+                "path": null,
+                "size": 112.56,
+                "width": 750,
+                "height": 505
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/uploads/thumbnail_pexels_fatih_turan_8777703_55c6665727.jpg",
+                "hash": "thumbnail_pexels_fatih_turan_8777703_55c6665727",
+                "mime": "image/jpeg",
+                "name": "thumbnail_pexels-fatih-turan-8777703.jpg",
+                "path": null,
+                "size": 13.81,
+                "width": 232,
+                "height": 156
+              }
+            },
+            "hash": "pexels_fatih_turan_8777703_55c6665727",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 712.32,
+            "url": "/uploads/pexels_fatih_turan_8777703_55c6665727.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2023-03-31T06:30:57.037Z",
+            "updatedAt": "2023-03-31T06:45:41.022Z"
+          }
+        }
+      }
+    },
+    "Image": {
+      "data": {
+        "id": 407,
+        "attributes": {
+          "name": "pexels-fatih-turan-8777703.jpg",
+          "alternativeText": "Freight",
+          "caption": null,
+          "width": 2050,
+          "height": 1381,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "/uploads/large_pexels_fatih_turan_8777703_55c6665727.jpg",
+              "hash": "large_pexels_fatih_turan_8777703_55c6665727",
+              "mime": "image/jpeg",
+              "name": "large_pexels-fatih-turan-8777703.jpg",
+              "path": null,
+              "size": 188.41,
+              "width": 1000,
+              "height": 674
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "/uploads/small_pexels_fatih_turan_8777703_55c6665727.jpg",
+              "hash": "small_pexels_fatih_turan_8777703_55c6665727",
+              "mime": "image/jpeg",
+              "name": "small_pexels-fatih-turan-8777703.jpg",
+              "path": null,
+              "size": 54.49,
+              "width": 500,
+              "height": 337
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "/uploads/medium_pexels_fatih_turan_8777703_55c6665727.jpg",
+              "hash": "medium_pexels_fatih_turan_8777703_55c6665727",
+              "mime": "image/jpeg",
+              "name": "medium_pexels-fatih-turan-8777703.jpg",
+              "path": null,
+              "size": 112.56,
+              "width": 750,
+              "height": 505
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "/uploads/thumbnail_pexels_fatih_turan_8777703_55c6665727.jpg",
+              "hash": "thumbnail_pexels_fatih_turan_8777703_55c6665727",
+              "mime": "image/jpeg",
+              "name": "thumbnail_pexels-fatih-turan-8777703.jpg",
+              "path": null,
+              "size": 13.81,
+              "width": 232,
+              "height": 156
+            }
+          },
+          "hash": "pexels_fatih_turan_8777703_55c6665727",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 712.32,
+          "url": "/uploads/pexels_fatih_turan_8777703_55c6665727.jpg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-31T06:30:57.037Z",
+          "updatedAt": "2023-03-31T06:45:41.022Z"
+        }
+      }
+    },
+    "ContentList": [
+      {
+        "id": 1303,
+        "title": "SMEs are struggling with today’s logistics challenges",
+        "content": "Small and medium-sized enterprises (SMEs)  – which can include both importers and exporters, BCOs (Beneficial Cargo Owners), and shippers – are at a significant disadvantage when facing the logistics challenges of 2022. As SMEs become increasingly dependent on international trade, they in turn become far more vulnerable to disruptions in the current global freight environment. \n\n![image6.png](/uploads/image6_9be4769147.png)\n\nThe rise in trade volatility is requiring SMEs to figure out how to adapt. Recent events such as COVID-19-related lockdowns, port labor disputes, rising inflation, and geopolitical conflicts like the war in Ukraine, all pose unprecedented threats to the logistics world. SMEs currently lack the established infrastructure and financial safety net of large international companies, meaning disruption from one of the above issues could easily knock down the stability of their business. These global issues are raising unique challenges for SMEs who move goods internationally. ",
+        "titleSize": 24
+      },
+      {
+        "id": 1304,
+        "title": "SME Challenge: Higher priced freight fees and longer cargo trips are stretching balance sheets",
+        "content": "[Freightos Baltic Index (FBX)](https://fbx.freightos.com/) shows that while rates are lower than the level that they were at this time last year, they are still [several times higher than the pre-pandemic norm.](https://www.freightos.com/freight-resources/coronavirus-updates/)\n\nEnvironmental regulation, while an extremely positive trend for the high carbon freight industry overall, will also be a factor in higher shipping rates. The International Maritime Organization (IMO) has mandated a [carbon intensity reduction of 2% per year between 2023 and 2026,](https://www.eukor.com/news/imos-cii-let-us-take-you-through-it#:~:text=The%20CII%20regulation%20is%20progressive,perhaps%20at%20a%20changed%20level.) with a[ long-term target of a 40% reduction by 2030.](https://www.spglobal.com/commodityinsights/en/market-insights/latest-news/oil/011322-shipping-efficiency-targets-could-prompt-slower-speeds-and-reduced-capacity-market-sources) According to market sources, these [higher efficiency targets will result in slower cargo times and a limit in de facto container capacity by 3-5%,](https://www.spglobal.com/commodityinsights/en/market-insights/latest-news/oil/011322-shipping-efficiency-targets-could-prompt-slower-speeds-and-reduced-capacity-market-sources) as lower emissions require lower speeds, which in turn means higher freight rates. \n\nEven more disheartening is the fact that while freight and shipping prices are lowering overall, they are unlikely to drop to pre-pandemic levels any time soon, creating more financial uncertainty for SMEs amid the recent inflation. According to a report from Fintech company Wave, [one in three US small business owners were concerned about inflation impacting their business](https://www.globenewswire.com/en/news-release/2022/04/20/2425431/0/en/The-State-of-Small-Business-in-2022-Majority-of-Owners-Have-Less-Than-5-000-Free-Cash-Flow-Wave-Survey-Finds.html) financially in the year ahead.  \n\nThese increasing prices to transport goods to other countries often take a huge bite out of SMEs’ already limited business capital and create potentially unmanageable burdens. \n",
+        "titleSize": 24
+      },
+      {
+        "id": 1305,
+        "title": "Stretched balance sheets lead to additional cash flow needs",
+        "content": "As mentioned above, one of the biggest challenges for SMEs is limited cash flow in the face of unexpected disruptions to their business. The Wave report showed that [57% of US small business owners surveyed have less than $5,000 set aside for a financial crisis,](https://www.globenewswire.com/en/news-release/2022/04/20/2425431/0/en/The-State-of-Small-Business-in-2022-Majority-of-Owners-Have-Less-Than-5-000-Free-Cash-Flow-Wave-Survey-Finds.html) while 48% said they would be unable to pivot to additional revenue streams in the case of such an event.  \n\nExtended delays in cargo release also serve to exacerbate the problem. What’s more, payment delays for cross-border transactions bring added complications when compared to domestic exchanges, as they tend to be longer and disputes are far more difficult to resolve, which could stretch an SME’s already thin capital to the brink. ",
+        "titleSize": 24
+      },
+      {
+        "id": 1306,
+        "title": "SMEs (importers/exporters) cash flow and payment needs remain underserved by banks",
+        "content": "However, even as SMEs’ cash flow challenges increase, their financing and payment services options from banks remain limited. \n\n![image5.png](/uploads/image5_ac9935d9bc.png)\n\nEven though [SMEs contribute up to 70% of global GDP,](https://www.weforum.org/whitepapers/future-readiness-of-smes-mobilizing-the-sme-sector-to-drive-widespread-sustainability-and-prosperity#:~:text=Small%20and%20medium%2Dsized%20enterprises,to%2070%25%20of%20global%20GDP.) [data from McKinsey still points to a $1.7 trillion SME trade financing gap,](https://www.mckinsey.com/industries/financial-services/our-insights/reconceiving-the-global-trade-finance-ecosystem) with [40% of SME credit applications being rejected.](https://www.mckinsey.com/industries/financial-services/our-insights/reconceiving-the-global-trade-finance-ecosystem)\n\nThis gap can be largely attributed to the fact that it’s easier for banks to do business with large size companies, for a variety of reasons. \n\n![image2.png](/uploads/image2_69811104cb.png)\n\nTo begin with, SMEs are seen as posing a higher risk to banks due to the difficulty in accessing uniform trade, financial, and regulatory data across regions. Underwriting SMEs is also much more challenging as they lack the historical data of larger enterprises. \n\nFrom a bank’s perspective, SMEs are also a lower-margin business – it would require the same amount of work to provide financing support to a small business but result in lower earnings when compared to a large-sized client. Providing faster cross-border payments for SMEs would also require more white glove support.  \n\n![image3.png](/uploads/image3_b27bfde9b8.png)\n\nTo weather the logistics challenges of 2022, SMEs must have access to flexible financial solutions. While we are seeing more banks adopting the kinds of digital tools that would allow them to better service SMEs, it is unlikely traditional banking practices will evolve soon enough to serve as the first lifeline. Rather, they will form one component of a new fintech ecosystem.",
+        "titleSize": 24
+      },
+      {
+        "id": 1307,
+        "title": "How digital payments and financing can close the gap for SMEs",
+        "content": "**Supply Chain Finance (SCF) instruments open new possibilities**\n\nDespite the fact that [banks still command 80% of the global transactions marketplace,](https://capitalmonitor.ai/partner-content/smes-creative-cross-border-payment-strategies/) their generally traditional and low-tech approach means they often lack the flexibility and agility SMEs need to address their financing challenges. However, the demand for cross-border payment services from SMEs and the opportunities they create is not lost on those in the market – non-bank SCF instruments such as factoring, forfaiting, or payables finance are emerging to enable more economic equality and inclusivity.  \n\nWhat’s more, the increasing number of freight fintech solutions in the market is helping to make such SCF instruments even more accessible to SMEs to manage cash flow and the payment risks that come with overseas trade. \n\n**New freight fintech ecosystem for SMEs**\n\nSMEs’ need for digital cash management solutions increased dramatically during the pandemic due to increased volatility and virtual workplaces, a trend that is building towards an entirely new digitally-based freight ecosystem. However, the logistics and freight forwarding industries were overdue for a digital transformation long before the pandemic, and it is not traditional financial institutions leading the change, but rather an ever-growing host of fintech startups. \n\nA McKinsey survey across industries showed that [79% of respondents planned on investing in digital supply chains.](https://www.mckinsey.com/industries/financial-services/our-insights/reconceiving-the-global-trade-finance-ecosystem) Meanwhile, [one out of four companies is currently using some form of fintech in their supply chains,](https://www.sdcexec.com/software-technology/article/21122866/is-fintech-the-future-of-supply-chain#:~:text=Specific%20to%20supply%20chains%2C%20FinTech,suppliers%20to%20receive%20funds%20faster.) according to a report from CGN Global.\n\nWith regard to SMEs, awareness of these emerging B2B fintech solutions is still low, and vendors have been slow to adopt them as well. However, for those more digitally-savvy companies who seek out such solutions, there is an opportunity to close the gap in their own value chains. \n\n![image1.png](/uploads/image1_d33e28cf0c.png)\n\nBelow is a breakdown of what digital practices different players in this new freight ecosystem might adopt:     \n\n- <u>Vendors:</u> Digitization of documents and adoption of digital AR payments. \n- <u>Banks:</u> Integration of open banking APIs and embracing fintechs as partners for evolved SCF services. \n- <u>Fintechs:</u> Acquisition of richer global datasets, adoption of AI-based underwriting, and more consumer-driven, low-touch experiences.\n- <u>Payers:</u> Innovators embracing technology to evolve supply chains to compete and grow. ",
+        "titleSize": 24
+      },
+      {
+        "id": 1308,
+        "title": "SMEs’ freight fintech needs resemble that of larger enterprises",
+        "content": "The fintech needs of SMEs don’t differ greatly from those of large corporations. For example, a small-sized payer based in the US might need to make fast cross-border payments to vendors as well as require net 30/120-day terms. Meanwhile, their Asia-based vendor is focused on getting paid faster and being able to offer terms to their customers. \n\n![image7.png](/uploads/image7_83fcdd6ba3.png)\n\nThe kinds of support that freight fintechs provide to payers and vendors can be broken down into three categories:\n\n- Trade Finance: financing options for international cargo movement.\n- Logistics Finance: financing options for international logistics movement.\n- International Payments: fast and inexpensive international payments with FX.\n\nBelow are some of the core services for SMEs that we are seeing and can expect to see more of from fintechs in the new digital freight ecosystem: \n\n**Pay-it-Later solutions to improve cash flow**\n\nAs discussed above, many SMEs struggle to maintain cash flow amid the recent disruptions to the logistics industry, especially port congestion. Small-sized retailers feel the effects of blocked ports quickly and acutely, with [97% reporting that they had been impacted](https://www.logisticsmgmt.com/article/ocean_shipping_issues_are_in_the_spotlight_in_letters_to_the_white_house) by the major port and shipping delays in 2021 in a National Retail Federation survey. \n\nWhen ports are blocked and containers are unable to be unloaded, SMEs face detention and demurrage charges beyond their capacity to immediately cover. Thankfully, freight fintechs are now offering digital Pay-It-Later solutions to help SMEs release their ocean cargo and maintain cash flow for healthy business operations. \n\n**Blockchain for future value chain transparency** \n\nIn the eyes of the tech industry, blockchain is still an early-stage technology that has yet to prove its merits in sectors such as logistics. That said, many believe that SaaS products based on distributed ledger technologies will play a vital role in the digital transformation of global supply chains, and we are seeing more and more such solutions in the market. \n\nThe benefits that blockchain services offer SMEs in turning their legacy supply chains into robust and agile value chains include: \n\n- The use of stablecoins – or cryptocurrency designed to be relatively stable by being pegged to a commodity or currency – to enable faster and cheaper B2B payments. \n- Blockchain for documentation and identity management, resulting in easier KYC (Know Your Customer) and KYB (Know Your Business) verification along with global underwriting.\n- Adopting DeFi and Smart Contracts to build secured credit pools or DAOs, enabling a lower cost of capital for SMEs. \n\nA number of multinational companies are constructing the required infrastructure to provide these kinds of decentralized logistics services as well as integrate more SMEs into their global supply chains.  \n\nFor example, TradeLens is an open and neutral industry platform underpinned by blockchain technology and supported by major players in the global shipping industries, such as Maersk and Hapag-Lloyd. The platform - which runs on IBM Cloud and IBM Blockchain – has [already helped multiple companies by providing a more timely and consistent view of logistics data](https://newsroom.ibm.com/2021-06-24-Hapag-Lloyd-and-Ocean-Network-Express-Complete-TradeLens-Integration,-Join-Rapidly-Expanding-Shipping-Ecosystem-to-Further-Enhance-Trade-Digitization) for their containerized freight across the globe.\n\nAdditionally, [Walmart Canada has recently pioneered an automated invoicing and payments system](https://hbr.org/2022/01/how-walmart-canada-uses-blockchain-to-solve-supply-chain-challenges) for its 70 third-party freight carriers built on top of distributed ledger technology. The system has already helped the retailer combat vast data discrepancies in the invoice and payment process for the carriers, which before required costly reconciliation efforts and caused long payment delays.\n",
+        "titleSize": 24
+      },
+      {
+        "id": 1309,
+        "title": "BlueX Pay empowers SMEs via innovative Trade Business Platform",
+        "content": "We at BlueX Pay have a deep understanding of the freight challenges that SMEs will face in 2022 and beyond, which is why we have built the premier cash flow management platform for buyers and sellers in the global logistics market.\n\nDesigning an experience focused on the supply chain, BlueX Pay enables SMEs to send and receive payments easily in-country or across borders, whether it is bank-to-bank or via digital wallets. We have also integrated a Pay-it-Later solution to help our payers and vendors better manage cash flow – especially during peak periods. \n\n![image4.png](/uploads/image4_3535d1293b.png)\n\n**BlueX Pay-it-Later features:** \n\n- <u>Fast access to funds:</u> BlueX Pay-it-Later gives SMEs access to the funds they need to get cargo released faster. With our solution, SMEs buy now and pay later with net 30 to 60-day payment terms of up to US$1 million. Our customers avoid thousands of dollars in fees, receive their goods and generate revenues, and avoid cash flow problems. \n- <u>Improved supply chain health:</u> Our all-in-one platform amplifies cash flow for buyers and sellers. Buyers get flexible pay later options and sellers get paid instantly. \n- <u>Flexible payment terms:</u> BlueX allows SMEs to easily send and receive global payments. Even better, we pay your vendors upfront, and you pay us back 30 to 60 days later.\n\n\n**Get started optimizing your supply chain**\n\nBlueX Pay-it-Later is the smart capital choice for keeping your business’ shipments moving and riding out disruptive cargo problems in 2022 and beyond. \n\n[Sign up today](https://www.bluextrade.com/pay-it-later/) for free with a fast registration process that doesn’t impact your credit score and gives you funds on demand, and lets you pay for what you use.\n\nTo learn more, contact us at [sales@bluexpay.com](sales@bluexpay.com) ",
+        "titleSize": 24
+      }
+    ]
+  },
+  {
+    "Title": "How AI Will Transform Trade Finance ",
+    "Author": "BlueX",
+    "Date": "2023-03-28",
+    "Url": "How-AI-Will-Transform-Trade-Finance",
+    "Type": "FinTech",
+    "PreviewText": "The use of AI in trade finance has the potential to revolutionize the industry, especially the AI GPT models. By automating many of the processes involved in trade finance, businesses can reduce costs and improve efficiency. As AI technology continues to develop, we can expect to see even more innovative solutions emerge in several aspects.\n",
+    "createdAt": "2023-03-28T06:27:01.154Z",
+    "updatedAt": "2023-05-05T03:17:15.913Z",
+    "publishedAt": "2023-03-28T06:31:42.218Z",
+    "locale": "en",
+    "Category": "Blog",
+    "UpdateDate": "2023-03-28",
+    "SEO": {
+      "id": 656,
+      "title": "How AI Will Transform Trade Finance ",
+      "description": "The use of AI in trade finance has the potential to revolutionize the industry. By automating many of the processes involved in trade finance, businesses can reduce costs and improve efficiency. As AI technology continues to develop, we can expect to see even more innovative solutions emerge in several aspects. At BlueX, we believe the winners in trade finance will need to embrace these technologies to radically transform the automation and intelligence in delivering holistic trade finance products at a global scale.",
+      "image": {
+        "data": {
+          "id": 395,
+          "attributes": {
+            "name": "iStock-1335295270.jpg",
+            "alternativeText": "How AI Will Transform Trade Finance ",
+            "caption": null,
+            "width": 8192,
+            "height": 4608,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "/uploads/large_i_Stock_1335295270_ad43c84424.jpg",
+                "hash": "large_i_Stock_1335295270_ad43c84424",
+                "mime": "image/jpeg",
+                "name": "large_iStock-1335295270.jpg",
+                "path": null,
+                "size": 114.62,
+                "width": 1000,
+                "height": 563
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "/uploads/small_i_Stock_1335295270_ad43c84424.jpg",
+                "hash": "small_i_Stock_1335295270_ad43c84424",
+                "mime": "image/jpeg",
+                "name": "small_iStock-1335295270.jpg",
+                "path": null,
+                "size": 33.76,
+                "width": 500,
+                "height": 281
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/uploads/medium_i_Stock_1335295270_ad43c84424.jpg",
+                "hash": "medium_i_Stock_1335295270_ad43c84424",
+                "mime": "image/jpeg",
+                "name": "medium_iStock-1335295270.jpg",
+                "path": null,
+                "size": 67.9,
+                "width": 750,
+                "height": 422
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/uploads/thumbnail_i_Stock_1335295270_ad43c84424.jpg",
+                "hash": "thumbnail_i_Stock_1335295270_ad43c84424",
+                "mime": "image/jpeg",
+                "name": "thumbnail_iStock-1335295270.jpg",
+                "path": null,
+                "size": 9.83,
+                "width": 245,
+                "height": 138
+              }
+            },
+            "hash": "i_Stock_1335295270_ad43c84424",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 3814.62,
+            "url": "/uploads/i_Stock_1335295270_ad43c84424.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2023-03-28T06:25:07.843Z",
+            "updatedAt": "2023-03-28T06:31:35.989Z"
+          }
+        }
+      }
+    },
+    "Image": {
+      "data": {
+        "id": 395,
+        "attributes": {
+          "name": "iStock-1335295270.jpg",
+          "alternativeText": "How AI Will Transform Trade Finance ",
+          "caption": null,
+          "width": 8192,
+          "height": 4608,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "/uploads/large_i_Stock_1335295270_ad43c84424.jpg",
+              "hash": "large_i_Stock_1335295270_ad43c84424",
+              "mime": "image/jpeg",
+              "name": "large_iStock-1335295270.jpg",
+              "path": null,
+              "size": 114.62,
+              "width": 1000,
+              "height": 563
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "/uploads/small_i_Stock_1335295270_ad43c84424.jpg",
+              "hash": "small_i_Stock_1335295270_ad43c84424",
+              "mime": "image/jpeg",
+              "name": "small_iStock-1335295270.jpg",
+              "path": null,
+              "size": 33.76,
+              "width": 500,
+              "height": 281
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "/uploads/medium_i_Stock_1335295270_ad43c84424.jpg",
+              "hash": "medium_i_Stock_1335295270_ad43c84424",
+              "mime": "image/jpeg",
+              "name": "medium_iStock-1335295270.jpg",
+              "path": null,
+              "size": 67.9,
+              "width": 750,
+              "height": 422
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "/uploads/thumbnail_i_Stock_1335295270_ad43c84424.jpg",
+              "hash": "thumbnail_i_Stock_1335295270_ad43c84424",
+              "mime": "image/jpeg",
+              "name": "thumbnail_iStock-1335295270.jpg",
+              "path": null,
+              "size": 9.83,
+              "width": 245,
+              "height": 138
+            }
+          },
+          "hash": "i_Stock_1335295270_ad43c84424",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 3814.62,
+          "url": "/uploads/i_Stock_1335295270_ad43c84424.jpg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-28T06:25:07.843Z",
+          "updatedAt": "2023-03-28T06:31:35.989Z"
+        }
+      }
+    },
+    "ContentList": [
+      {
+        "id": 1296,
+        "title": null,
+        "content": "There has been tremendous excitement over the last few months around the use of AI after the launch of chatbots powered by GPT (Generative Pre-trained Transformer) models. At BlueX, we believe the winners in trade finance will need to embrace these technologies to radically transform the automation and intelligence in delivering holistic trade finance products at a global scale.\n",
+        "titleSize": 24
+      },
+      {
+        "id": 1297,
+        "title": "Automation",
+        "content": "Overall, AI GPT models can help automate many of the processes involved in trade finance, such as document verification and compliance checks. GPT models can also improve compliance, underwriting, and credit monitoring. All of these improvements will ultimately lead to financing that is delivered faster at a cost that is appropriate for the risk. \n",
+        "titleSize": 24
+      },
+      {
+        "id": 1298,
+        "title": "Increased Speed ",
+        "content": "Diving further into the benefits, AI GPT models in trade finance can help reduce the time and cost involved in document verification. For example, AI can quickly verify a document’s authenticity and flag any discrepancies, reducing the need for manual checks. This can help speed up the process of trade finance and reduce costs for lenders.\n",
+        "titleSize": 24
+      },
+      {
+        "id": 1299,
+        "title": "Compliance",
+        "content": "Another benefit of using AI GPT models in trade finance is that it can help improve compliance. AI can be programmed to check for compliance with regulations and flag any potential issues. This can help businesses avoid costly fines and penalties for non-compliance.\n",
+        "titleSize": 24
+      },
+      {
+        "id": 1300,
+        "title": "Underwriting & Risk Monitoring",
+        "content": "In addition to these benefits, AI GPT models can also help improve underwriting in trade finance. Underwriting is the process of assessing the risk associated with a particular transaction. By analyzing data from various sources, GPT-powered models can help underwriters make more informed decisions about whether to approve or reject a particular transaction.\nFor example, an AI bot could analyze data from a company’s financial statements, credit reports, and other sources to determine whether it is a good candidate for financing. The AI bot could then provide this information to an underwriter, who could use it to make a more informed decision about whether to approve the financing.\nOverall, the use of AI in trade finance has the potential to revolutionize the industry. By automating many of the processes involved in trade finance, businesses can reduce costs and improve efficiency. Additionally, AI solutions can help improve compliance and detect fraud more effectively. As AI technology continues to develop, we can expect to see even more innovative solutions emerge in this area.\n",
+        "titleSize": 24
+      },
+      {
+        "id": 1301,
+        "title": null,
+        "content": "At BlueX, we are using data science and AI to power our platform. Our goal is to make it easy for customers to provide the required documentation and receive a credit decision quickly. To achieve this goal, we have built risk models that leverage all of our unique and industry-specific data. By using the latest AI and machine learning technologies and innovative financial and supply chain data sources, we are creating a trade finance platform that is designed for the future.\n",
+        "titleSize": 24
+      }
+    ]
+  },
+  {
+    "Title": "How accounts receivable factoring can enhance your small business’s cash flow",
+    "Author": "BlueX",
+    "Date": "2023-03-20",
+    "Url": "How-accounts-receivable-factoring-can-enhance-your-small-business-cash-flow",
+    "Type": "FinTech",
+    "PreviewText": "Waiting for payments can be challenging, especially if your business is growing quickly and you have inventories sitting in your warehouse. This article will walk you through how A/R factoring works, the different kinds available, and which businesses are most likely to benefit from this approach. ",
+    "createdAt": "2023-03-20T10:07:50.414Z",
+    "updatedAt": "2023-05-05T03:17:34.094Z",
+    "publishedAt": "2023-03-20T10:09:16.110Z",
+    "locale": "en",
+    "Category": "Blog",
+    "UpdateDate": "2023-03-20",
+    "SEO": {
+      "id": 655,
+      "title": "How accounts receivable factoring can enhance your small business’s cash flow",
+      "description": "Waiting for payments can be challenging, especially if your business is growing quickly and you have inventories sitting in your warehouse. This article will walk you through how A/R factoring works, the different kinds available, and which businesses are most likely to benefit from this approach. ",
+      "image": {
+        "data": {
+          "id": 394,
+          "attributes": {
+            "name": "iStock-1128755726.jpg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 5522,
+            "height": 3808,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "/uploads/large_i_Stock_1128755726_fde92ebd38.jpg",
+                "hash": "large_i_Stock_1128755726_fde92ebd38",
+                "mime": "image/jpeg",
+                "name": "large_iStock-1128755726.jpg",
+                "path": null,
+                "size": 98.86,
+                "width": 1000,
+                "height": 690
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "/uploads/small_i_Stock_1128755726_fde92ebd38.jpg",
+                "hash": "small_i_Stock_1128755726_fde92ebd38",
+                "mime": "image/jpeg",
+                "name": "small_iStock-1128755726.jpg",
+                "path": null,
+                "size": 31.89,
+                "width": 500,
+                "height": 345
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/uploads/medium_i_Stock_1128755726_fde92ebd38.jpg",
+                "hash": "medium_i_Stock_1128755726_fde92ebd38",
+                "mime": "image/jpeg",
+                "name": "medium_iStock-1128755726.jpg",
+                "path": null,
+                "size": 61.3,
+                "width": 750,
+                "height": 517
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/uploads/thumbnail_i_Stock_1128755726_fde92ebd38.jpg",
+                "hash": "thumbnail_i_Stock_1128755726_fde92ebd38",
+                "mime": "image/jpeg",
+                "name": "thumbnail_iStock-1128755726.jpg",
+                "path": null,
+                "size": 9.49,
+                "width": 226,
+                "height": 156
+              }
+            },
+            "hash": "i_Stock_1128755726_fde92ebd38",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 2879.1,
+            "url": "/uploads/i_Stock_1128755726_fde92ebd38.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2023-03-20T09:58:40.539Z",
+            "updatedAt": "2023-03-20T10:03:55.549Z"
+          }
+        }
+      }
+    },
+    "Image": {
+      "data": {
+        "id": 394,
+        "attributes": {
+          "name": "iStock-1128755726.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 5522,
+          "height": 3808,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "/uploads/large_i_Stock_1128755726_fde92ebd38.jpg",
+              "hash": "large_i_Stock_1128755726_fde92ebd38",
+              "mime": "image/jpeg",
+              "name": "large_iStock-1128755726.jpg",
+              "path": null,
+              "size": 98.86,
+              "width": 1000,
+              "height": 690
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "/uploads/small_i_Stock_1128755726_fde92ebd38.jpg",
+              "hash": "small_i_Stock_1128755726_fde92ebd38",
+              "mime": "image/jpeg",
+              "name": "small_iStock-1128755726.jpg",
+              "path": null,
+              "size": 31.89,
+              "width": 500,
+              "height": 345
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "/uploads/medium_i_Stock_1128755726_fde92ebd38.jpg",
+              "hash": "medium_i_Stock_1128755726_fde92ebd38",
+              "mime": "image/jpeg",
+              "name": "medium_iStock-1128755726.jpg",
+              "path": null,
+              "size": 61.3,
+              "width": 750,
+              "height": 517
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "/uploads/thumbnail_i_Stock_1128755726_fde92ebd38.jpg",
+              "hash": "thumbnail_i_Stock_1128755726_fde92ebd38",
+              "mime": "image/jpeg",
+              "name": "thumbnail_iStock-1128755726.jpg",
+              "path": null,
+              "size": 9.49,
+              "width": 226,
+              "height": 156
+            }
+          },
+          "hash": "i_Stock_1128755726_fde92ebd38",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 2879.1,
+          "url": "/uploads/i_Stock_1128755726_fde92ebd38.jpg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-20T09:58:40.539Z",
+          "updatedAt": "2023-03-20T10:03:55.549Z"
+        }
+      }
+    },
+    "ContentList": [
+      {
+        "id": 1289,
+        "title": null,
+        "content": "As a small business trying to thrive in an unpredictable economy, business owners often need to use alternative financing tools to keep cash flow steady, such as inventory financing or [Pay-it-Later](https://www.bluextrade.com/pay-it-later/). Another finance tool that is used is accounts receivable factoring, or A/R factoring. \n\nThis article will walk you through how A/R factoring works, the different kinds available, and which businesses are most likely to benefit from this approach.   ",
+        "titleSize": 24
+      },
+      {
+        "id": 1291,
+        "title": "What is A/R factoring?",
+        "content": "Accounts receivable factoring, or A/R factoring, is a form of financing where businesses sell their invoices to a third-party factoring company at a discount. The company then advances a percentage of the invoice value to the business, typically 70% to 90%, and, once the business’ customer pays the invoice, the factoring company pays the business the balance, minus fees. \n\nFor example, a 90% advance rate on a $10,000 invoice would mean the factoring company sends the business $9,000 upfront, then remits the difference when the invoice is collected from the business’ customer at the end of the invoice period, less a handling fee. A/R factoring fees generally fall between 1 and 6 percent of the total invoice. In the above example, if the fee is 3%, then the factoring company would remit $700 to the business once the customer has paid the invoice.\n\nIf you’re concerned about how using A/R factoring might affect your balance sheet, don’t be. The accounts receivable would be listed as a current asset, as it typically can be converted into cash within a year. If the amount converts into cash in a period of more than one year, it is instead recorded as a long term asset. ",
+        "titleSize": 24
+      },
+      {
+        "id": 1290,
+        "title": "Reasons for using A/R factoring",
+        "content": "There are several common scenarios in which businesses select A/R factoring as a financing option:\n\n- <u>Long or unpredictable collection times:</u> Some industries, such as logistics, have extended payment terms, which can be challenging for small businesses. Factoring can provide immediate cash to keep capital stable between payments.\nSeasonal fluctuations: Businesses that experience fluctuations in revenue throughout the year use A/R factoring to help keep cash flow robust during slow seasons.\n- <u>Short credit histories:</u> Small businesses with limited credit history or poor credit scores use accounts receivable factoring as a way to access financing without their credit history being a concern.\n- <u>Uneven collections and disbursements:</u> Companies such as temporary staffing agencies pay employees on a bi-weekly basis, but their invoices are settled monthly. A/R factoring helps these companies cover their overhead in the interim. \n- <u>Dependency on other parties:</u> In the construction industry, sub-contractors only get paid once the project owner settles their invoice with the lead contractor. A/R factoring can provide immediate payment to sub-contractors, allowing them to meet their expenses and keep capital flowing into their business.\n",
+        "titleSize": 24
+      },
+      {
+        "id": 1292,
+        "title": "Types of A/R factoring ",
+        "content": "- <u>Recourse factoring:</u> If the factoring company doesn’t receive repayment from the business’ customer, the business is required to repurchase the unpaid invoice from the factoring company. The handling fees are usually lower than non-recourse factoring since the business assumes more risk.\n- <u>Non-Recourse factoring:</u> The factoring company bears the loss if the factored invoice is not settled. Handling fees are usually higher because the factoring company assumes more risk.\n",
+        "titleSize": 24
+      },
+      {
+        "id": 1293,
+        "title": "Benefits compared to other financing options",
+        "content": "A/R factoring possesses several key differences when compared to more traditional financing options like bank loans, line of credit, or credit cards:\n\n- <u>Fast approval process:</u> Factoring companies can generally approve a business within several days, while a bank loan can take weeks or even several months.\n- <u>Customer credit history:</u> Bank loans and lines of credit will need a good credit score to qualify a business for a loan. Factoring companies, however, base their approval on the credit history of the business’ customers rather than on the business itself. \n- <u>Collateral-free:</u> Bank loans will almost certainly require collateral, whereas factoring companies do not, since the financing is secured by the accounts receivable.\n- <u>Low interest charges:</u> Banks and credit cards generally come with higher interest rates. Factoring companies, meanwhile, charge fees rather than collect interest, with the rate often being based on the business’s credit history. \n- <u>Flexible repayment terms:</u> Compared to banks or credit cards, which typically require fixed monthly payments, factoring companies offer more flexible repayment terms.  \n\n",
+        "titleSize": 24
+      },
+      {
+        "id": 1294,
+        "title": "Drawbacks of A/R factoring ",
+        "content": "There are, however, some disadvantages to A/R factoring compared to other tools such as:\n\n- Higher fees \n- Loss of control over the the accounts receivable \n- Risk to customer relationships \n- Possibility of fraud or disputes \n\nAs outlined above, A/R factoring carries both advantages and disadvantages, and businesses will need to make an assessment of their needs to determine whether it is the right option. This requires looking at your cash flow needs, evaluating whether the cost is worth it, and examining how this method would impact your relationships with customers. \n",
+        "titleSize": 24
+      },
+      {
+        "id": 1295,
+        "title": null,
+        "content": "Waiting for payments can be challenging, especially if your business is growing quickly and you have inventories sitting in your warehouse. Get in touch with [the BlueX team](sales@bluexpay.com) about our A/R factoring solutions and how we can provide your business with immediate working capital.",
+        "titleSize": 24
+      }
+    ]
+  },
+  {
+    "Title": "Small businesses can improve cash flow in 2023 using these approaches",
+    "Author": "BlueX",
+    "Date": "2023-02-21",
+    "Url": "Small-businesses-can-improve-cash-flow-in-2023-using-these-approaches",
+    "Type": "FinTech",
+    "PreviewText": "Being financially agile and open to new technology can help businesses not just sustain their cash flow, but also enhance it. There are several practical and technological methods that companies can adopt to maintain a healthy working capital. For example, BlueX can assist with inventory financing. Unlike other lenders, BlueX doesn't require an assessment of the inventory's liquidation value or a minimum amount to access financing. Additionally, BlueX offers a third alternative to small businesses with its B2B Pay-it-Later solution, providing fast access to up to $1 million for cargo and logistics service needs. Businesses can get approved in less than 48 hours and have up to 60 days to pay back their invoices, with no application or setup fees. BlueX also pays vendors on time, allowing businesses to focus on growth instead of worrying about cash flow.",
+    "createdAt": "2023-02-21T03:57:32.127Z",
+    "updatedAt": "2023-05-05T03:18:07.786Z",
+    "publishedAt": "2023-02-21T04:45:09.691Z",
+    "locale": "en",
+    "Category": "Blog",
+    "UpdateDate": "2023-02-21",
+    "SEO": {
+      "id": 653,
+      "title": "Small businesses can improve cash flow in 2023 using these approaches",
+      "description": "Being financially agile and open to new technology can help businesses not just sustain their cash flow, but also enhance it. There are several practical and technological methods that companies can adopt to maintain a healthy working capital. For example, BlueX can assist with inventory financing. Unlike other lenders, BlueX doesn't require an assessment of the inventory's liquidation value or a minimum amount to access financing. Additionally, BlueX offers a third alternative to small businesses with its B2B Pay-it-Later solution, providing fast access to up to $1 million for cargo and logistics service needs. Businesses can get approved in less than 48 hours and have up to 60 days to pay back their invoices, with no application or setup fees. BlueX also pays vendors on time, allowing businesses to focus on growth instead of worrying about cash flow.",
+      "image": {
+        "data": {
+          "id": 387,
+          "attributes": {
+            "name": "image1.jpg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 1999,
+            "height": 1335,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "/uploads/large_image1_92e00ddd27.jpg",
+                "hash": "large_image1_92e00ddd27",
+                "mime": "image/jpeg",
+                "name": "large_image1.jpg",
+                "path": null,
+                "size": 83.31,
+                "width": 1000,
+                "height": 668
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "/uploads/small_image1_92e00ddd27.jpg",
+                "hash": "small_image1_92e00ddd27",
+                "mime": "image/jpeg",
+                "name": "small_image1.jpg",
+                "path": null,
+                "size": 30.28,
+                "width": 500,
+                "height": 334
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/uploads/medium_image1_92e00ddd27.jpg",
+                "hash": "medium_image1_92e00ddd27",
+                "mime": "image/jpeg",
+                "name": "medium_image1.jpg",
+                "path": null,
+                "size": 55.1,
+                "width": 750,
+                "height": 501
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/uploads/thumbnail_image1_92e00ddd27.jpg",
+                "hash": "thumbnail_image1_92e00ddd27",
+                "mime": "image/jpeg",
+                "name": "thumbnail_image1.jpg",
+                "path": null,
+                "size": 9.79,
+                "width": 234,
+                "height": 156
+              }
+            },
+            "hash": "image1_92e00ddd27",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 196.92,
+            "url": "/uploads/image1_92e00ddd27.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2023-02-21T03:56:48.217Z",
+            "updatedAt": "2023-02-21T03:56:56.340Z"
+          }
+        }
+      }
+    },
+    "Image": {
+      "data": {
+        "id": 387,
+        "attributes": {
+          "name": "image1.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 1999,
+          "height": 1335,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "/uploads/large_image1_92e00ddd27.jpg",
+              "hash": "large_image1_92e00ddd27",
+              "mime": "image/jpeg",
+              "name": "large_image1.jpg",
+              "path": null,
+              "size": 83.31,
+              "width": 1000,
+              "height": 668
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "/uploads/small_image1_92e00ddd27.jpg",
+              "hash": "small_image1_92e00ddd27",
+              "mime": "image/jpeg",
+              "name": "small_image1.jpg",
+              "path": null,
+              "size": 30.28,
+              "width": 500,
+              "height": 334
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "/uploads/medium_image1_92e00ddd27.jpg",
+              "hash": "medium_image1_92e00ddd27",
+              "mime": "image/jpeg",
+              "name": "medium_image1.jpg",
+              "path": null,
+              "size": 55.1,
+              "width": 750,
+              "height": 501
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "/uploads/thumbnail_image1_92e00ddd27.jpg",
+              "hash": "thumbnail_image1_92e00ddd27",
+              "mime": "image/jpeg",
+              "name": "thumbnail_image1.jpg",
+              "path": null,
+              "size": 9.79,
+              "width": 234,
+              "height": 156
+            }
+          },
+          "hash": "image1_92e00ddd27",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 196.92,
+          "url": "/uploads/image1_92e00ddd27.jpg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-02-21T03:56:48.217Z",
+          "updatedAt": "2023-02-21T03:56:56.340Z"
+        }
+      }
+    },
+    "ContentList": [
+      {
+        "id": 1285,
+        "title": null,
+        "content": "Ongoing economic problems like inflation, labor shortages, and the rising price of goods and services are making it harder and harder for small businesses to feel secure about their longevity. A [PYMNTS’ study](https://www.pymnts.com/study/main-street-health-q3-2022-inflation-smbs-business-retail/) conducted at the end of 2022 showed a 10% drop in the number of companies expecting revenue increases compared to the previous period in 2021, with 12% believing they may not last to see 2024.\n\nHowever, businesses who remain financially agile and open to new technology can not only maintain cash flow, but improve it. Companies can implement a range of practical and technological approaches right now to keep their working capital in the green.",
+        "titleSize": 24
+      },
+      {
+        "id": 1286,
+        "title": "Find ways to negotiate with customers and suppliers ",
+        "content": "While some contracts are fixed in stone, customers and suppliers are still human beings who may be flexible and open to discussion with regard to the timing on payments. Here are a few areas you can explore with them:\n\n<u>1) Offer discounts for early payment</u>\n\nHave you considered offering incentives for your clients to pay their invoices earlier? An early payment discount (EPD) can range from 1 to 2%, but a small loss in revenue might be worth getting fast access to cash that can be put towards urgent business needs, such as payroll or rent. Another benefit is that receiving payments early contributes to lower days sales outstanding (DSO) metrics, which can enhance your company’s overall financial health rating.     \n\n<u>2) Negotiating with suppliers on payment due dates</u>\n\nThe payment terms in most industries are generally net 30, which means that payments that are as little as a day late can have a major impact on expenses on a fixed schedule like rent or payroll. However, some supply chain partners may be open to accepting net 15 or net 20 payment terms. \n",
+        "titleSize": 24
+      },
+      {
+        "id": 1287,
+        "title": "Digitize your AP / AR processes",
+        "content": "There is an undisputed correlation between modernizing AP / AR processes and overall business growth. A [recent PYMNTS report](https://www.pymnts.com/news/b2b-payments/2022/25-percent-b2b-payments-are-made-by-check/) found that over 50% of US CFOs surveyed say that digitizing their AP / AR operations has allowed for an increase in payment types such as [ACH payments](https://www.bluextrade.com/blog/are-ach-payments-safe-in-2022-advantages-and-disadvantages), credit cards, wires, and real-time payments (RTP), among others. \n\n<u>1) Centralize your payment tools</u>\n\nEfficiency and transparency in AP / AR processes are essential to cash flow management, which is why relying on manual operations can result in wasted resources. All-in-one payment platforms offer a remedy to this scenario by bringing all of these processes – such as expenses, payroll, and revenue management – under one digital dashboard. Over 40% of main street businesses surveyed by [PYMNTS](https://www.pymnts.com/smbs/2023/small-merchants-opt-automation-over-price-hikes-manage-slowing-consumer-demand/) said that implementing an all-in-one payment platform simplified their receivables tracking, and 32% said the technology had led to improvements in working capital.   \n\nBlueX Pay, for example, offers [a payment platform](https://www.bluextrade.com/payer/) that amplifies cash flow for buyers and sellers. Businesses can set up a digital wallet to make and receive payments, as well as access Pay-it-Later services. All of the transactions can be viewed on their dashboard, which enables easy reconciliation. \n\n<u>2) Use digital payments, and encourage your supply chain to do the same</u>\n\nUsing legacy accounting processes such as mailing physical checks may avoid the costs of digital payments, but you should consider the time it takes to process the checks, which can take anywhere from days to weeks. This time loss could translate into a loss in capital which can easily  exceed a digital processing fee. This does not mean that you need to stop using checks for the vendors who prefer this approach, but it would be worthwhile to encourage other businesses in your supply chain to switch to digital payments, as  this could bring benefits to all.  \n\nAnd with the FedNow real-time payment network set to launch in the US later this year, there has never been a more advantageous time for businesses to make the move to digital payments. ",
+        "titleSize": 24
+      },
+      {
+        "id": 1288,
+        "title": "Consider alternative methods of financing",
+        "content": "An uncertain economy and limited access to bank loans are leading small businesses to search for more creative financing methods, such as [inventory financing](https://www.bluextrade.com/blog/Inventory-Financing-the-Pros-and-Cons), invoice factoring, or B2B pay-it-later solutions. Fintech companies are watching the trends and rolling out tools that connect businesses to these finance options, which can provide a lower barrier to entry and more flexible payment terms. \n\n<u>1) Inventory financing</u>\n\nWith inventory financing, businesses can put up the inventory they wish to buy as collateral for the purchase itself, such as in cases where they need additional stock for a busy season. The borrower doesn't need to pay back the lender until after they sell off all the inventory, and if the business defaults on the loan, the lender has the option to then try and sell the remaining stock themselves.  \n\nThe benefits of inventory financing include: no need to stake personal assets such as a house or car; funding is usually fast; and there’s no credit check required. However, this approach usually requires more due diligence on the part of lenders to access the inventory’s liquidation value, which can result in longer wait times for funding. And some lenders may demand a minimum amount of financing that might be too high for smaller businesses to meet. You can consider [BlueX](https://www.bluextrade.com/pay-it-later/) to assist you with inventory financing, as we don't require an assessment on the inventory's liquidation value, nor do we require a minimum amount to get the financing. \n\n<u>2) Invoice Factoring</u> \n\nInvoice factoring, also known as AR factoring, is a finance option in which the business sells its invoices to a third party at a reduced price, which allows the business fast access to working capital without needing to take out a loan. For example, a 90% advance on a $10,000 invoice would provide the business with $9,000 in cash right now, with the difference going to the factoring company upon collection of the invoice from the businesses’ customer. \n\n<u>3) BlueX Pay-it-Later</u>\n\nBlueX offers a third alternative to small businesses that need to enhance their cash flow in the form of our B2B Pay-it-Later solution. BlueX Pay-it-Later offers fast access to up to $1 million for cargo and all your logistics service needs. Businesses can get approved in less than 48 hours, and have up to 60 days to pay back their invoices. There is no application or set up fees, and we pay your vendors on time so you can pay later and focus on the goals that drive business growth.\n\nReach out to the [BlueX team](https://www.bluextrade.com/pay-it-later/) on how to make better payments and amplify your cash flow.\n",
+        "titleSize": 24
+      }
+    ]
+  },
+  {
+    "Title": "[White Paper] How Fintech Can Help Small Businesses Navigate Rising Inflation & Interest Rates",
+    "Author": "BlueX",
+    "Date": "2023-02-08",
+    "Url": "How-Fintech-Can-Help-Small-Businesses-Navigate-Rising-Inflation-and-Interest-Rates",
+    "Type": "FinTech",
+    "PreviewText": "In 2022, the costs of inflation and rising interest rates along with the labor shortages weighed down small businesses in every area. As a fintech company dedicated to developing alternative financing options for small businesses, BlueX has built payment platforms and Pay-it-Later solutions specifically for the kind of hurdles you may be facing at this moment. BlueX Pay offers an all-in-one platform designed for growing businesses who want healthier cash flows. BlueX Pay-it-Later offers fast access to up to $1 million for your cargo and all your logistic service needs. You can get approved in less than 48 hours, and have up to 60 days to pay back your invoices. With no application or set up fees, we pay your vendors on time so you can pay later and focus on the goals that drive business growth.",
+    "createdAt": "2023-02-08T03:25:04.233Z",
+    "updatedAt": "2023-05-05T03:32:57.030Z",
+    "publishedAt": "2023-02-08T04:15:20.499Z",
+    "locale": "en",
+    "Category": "Blog",
+    "UpdateDate": "2023-02-08",
+    "SEO": {
+      "id": 651,
+      "title": "[White Paper] How Fintech Can Help Small Businesses Navigate Rising Inflation & Interest Rates",
+      "description": "In 2022, the costs of inflation and rising interest rates along with the labor shortages weighed down small businesses in every area. As a fintech company dedicated to developing alternative financing options for small businesses, BlueX has built payment platforms and Pay-it-Later solutions specifically for the kind of hurdles you may be facing at this moment. BlueX Pay offers an all-in-one platform designed for growing businesses who want healthier cash flows. BlueX Pay-it-Later offers fast access to up to $1 million for your cargo and all your logistic service needs. You can get approved in less than 48 hours, and have up to 60 days to pay back your invoices. With no application or set up fees, we pay your vendors on time so you can pay later and focus on the goals that drive business growth.\n",
+      "image": {
+        "data": {
+          "id": 358,
+          "attributes": {
+            "name": "image1.jpg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 1999,
+            "height": 1125,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "/uploads/large_image1_6774416a52.jpg",
+                "hash": "large_image1_6774416a52",
+                "mime": "image/jpeg",
+                "name": "large_image1.jpg",
+                "path": null,
+                "size": 71.42,
+                "width": 1000,
+                "height": 563
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "/uploads/small_image1_6774416a52.jpg",
+                "hash": "small_image1_6774416a52",
+                "mime": "image/jpeg",
+                "name": "small_image1.jpg",
+                "path": null,
+                "size": 25.46,
+                "width": 500,
+                "height": 281
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/uploads/medium_image1_6774416a52.jpg",
+                "hash": "medium_image1_6774416a52",
+                "mime": "image/jpeg",
+                "name": "medium_image1.jpg",
+                "path": null,
+                "size": 46.62,
+                "width": 750,
+                "height": 422
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/uploads/thumbnail_image1_6774416a52.jpg",
+                "hash": "thumbnail_image1_6774416a52",
+                "mime": "image/jpeg",
+                "name": "thumbnail_image1.jpg",
+                "path": null,
+                "size": 8.8,
+                "width": 245,
+                "height": 138
+              }
+            },
+            "hash": "image1_6774416a52",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 170.1,
+            "url": "/uploads/image1_6774416a52.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2023-02-08T03:09:26.190Z",
+            "updatedAt": "2023-02-08T03:09:40.709Z"
+          }
+        }
+      }
+    },
+    "Image": {
+      "data": {
+        "id": 358,
+        "attributes": {
+          "name": "image1.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 1999,
+          "height": 1125,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "/uploads/large_image1_6774416a52.jpg",
+              "hash": "large_image1_6774416a52",
+              "mime": "image/jpeg",
+              "name": "large_image1.jpg",
+              "path": null,
+              "size": 71.42,
+              "width": 1000,
+              "height": 563
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "/uploads/small_image1_6774416a52.jpg",
+              "hash": "small_image1_6774416a52",
+              "mime": "image/jpeg",
+              "name": "small_image1.jpg",
+              "path": null,
+              "size": 25.46,
+              "width": 500,
+              "height": 281
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "/uploads/medium_image1_6774416a52.jpg",
+              "hash": "medium_image1_6774416a52",
+              "mime": "image/jpeg",
+              "name": "medium_image1.jpg",
+              "path": null,
+              "size": 46.62,
+              "width": 750,
+              "height": 422
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "/uploads/thumbnail_image1_6774416a52.jpg",
+              "hash": "thumbnail_image1_6774416a52",
+              "mime": "image/jpeg",
+              "name": "thumbnail_image1.jpg",
+              "path": null,
+              "size": 8.8,
+              "width": 245,
+              "height": 138
+            }
+          },
+          "hash": "image1_6774416a52",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 170.1,
+          "url": "/uploads/image1_6774416a52.jpg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-02-08T03:09:26.190Z",
+          "updatedAt": "2023-02-08T03:09:40.709Z"
+        }
+      }
+    },
+    "ContentList": [
+      {
+        "id": 1284,
+        "title": null,
+        "content": null,
+        "titleSize": 24
+      },
+      {
+        "id": 1272,
+        "title": "US Small Businesses are Facing Ongoing Economic Uncertainty",
+        "content": "The current economic environment is less than favorable for small businesses in the US. Inflation and interest rates have at times hit new highs, and the threat of a possible recession seems to loom around the corner. Anxieties are running high for many companies as to how to remain cash flow positive when prices suddenly rise, costs of labor are increasing, and traditional lenders remain highly risk averse. \n\nHowever, the good news is that new kinds of digital technology are rushing in to fill the gap left between small businesses and access to financing tools, providing those companies with higher degrees of agility and resilience to meet the challenges of today’s economy. Here, we’ll take an in-depth look at those challenges and the different fintech solutions emerging to arm small businesses against them.  \n",
+        "titleSize": 24
+      },
+      {
+        "id": 1270,
+        "title": "How inflation impacted small businesses in 2022 ",
+        "content": "In 2022, the costs of inflation and rising interest rates along with the labor shortages weighed down small businesses in every area. Nearly 40% of businesses surveyed by [PYMNTS](/uploads/PYMNTS_B2_B_And_Digital_Payments_Tracker_November_December_2022_0a2ea359d5.pdf) cited inflation as their biggest challenge in 2022, compared to only 23% at the beginning of that year. Areas where expenses increased included shipping, property taxes, as well as higher costs of hiring employees. According to [Forbes](https://www.forbes.com/advisor/business/small-business-statistics/), 57% of US small businesses had to cut costs in response to the above. \n\n\n![fintech stats.png](/uploads/fintech_stats_20b6696b02.png)\n\nSource: [PYMNTS](/uploads/PYMNTS_B2_B_And_Digital_Payments_Tracker_November_December_2022_0a2ea359d5.pdf), [Forbes](https://www.forbes.com/advisor/business/small-business-statistics/), [US Labor Department](https://www.cnbc.com/2022/06/13/worker-shortage-supply-chain-crisis-fuel-2022-top-states-for-business.html)\n\n\n**Labor Shortages**\n\nThe enormous talent gap that the US is currently facing has left key economic policymakers with little hope for change in the coming years. Federal Reserve Chair [Jerome Powell](https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20221214.pdf) noted at a recent press conference that the US has a “structural labor shortage” that is unlikely to be resolved anytime soon. According to the [US Labor Department](https://www.cnbc.com/2022/06/13/worker-shortage-supply-chain-crisis-fuel-2022-top-states-for-business.html), there is a gap of 5.5 million in the number of retail job openings in the US compared to the number of workers to fill them. \n\nLess available workers means that businesses must offer increasingly competitive salaries to attract talent, a cost that is much harder to meet under increased inflation and interest rates. The above Forbes report cited labor as the highest cost for small businesses in 2022, representing 70% of spending.\n\n**Inventory costs** \n\nJust behind labor in the [Forbes survey](https://www.forbes.com/advisor/business/small-business-statistics/) was inventory, which took up an average of 17 to 25% of  small business spending. Inventory should generally translate into revenue in the long run, but the purchasing of inventory can be an extremely high expense for small businesses with limited working capital, especially during peak seasons when stock needs to be high.  \n\n**Limited capital** \n\n[Forbes](https://www.forbes.com/advisor/business/small-business-statistics/) listed running out of capital as the second most common reason that small businesses failed in 2022. With less access to traditional finance tools compared to larger-sized businesses, it is often a struggle for smaller companies to amass the cash they need to cover operating expenses and maintain inventory. \n",
+        "titleSize": 24
+      },
+      {
+        "id": 1274,
+        "title": "Small business trends and outlook for 2023",
+        "content": "On the heels of a financially turbulent year, many small businesses entered 2023 with new uncertainties, particularly with regard to financing and supply chains. According to [Capterra Research](https://www.businesswire.com/news/home/20221219005042/en/%C2%A088-of-U.S.-Small-Businesses-Will-Continue-Moving-Supply-Chains-Closer-to-Home-in-2023), supply chain professionals in small business ranked inflation (65%), lack of inventory (45%), and a possible economic recession (42%) among their top three concerns going into 2023. We’ve identified several key business trends we expect to see in 2023:\n\n**Small businesses will shorten their supply chains**\n\nTo reduce costs, more and more US small businesses are moving their supply chains closer to home. According to data from the [US Chamber of Commerce](https://www.uschamber.com/small-business/inflation-concern-reaches-new-high-for-small-business-owners), more than half of small businesses surveyed have altered their supply chains to be more reliant on local suppliers. And the [Capterra Research report](https://www.businesswire.com/news/home/20221219005042/en/%C2%A088-of-U.S.-Small-Businesses-Will-Continue-Moving-Supply-Chains-Closer-to-Home-in-2023) shows that 88% of small businesses either plan to or are already switching at least some of their suppliers to companies closer to the US in 2023. \n\n**Cross border payment challenges will continue**\n\nIn line with global supply chain challenges, cross border payment systems have yet to meet the needs of small businesses, and not just those in the US. According to a joint report between [PYMNTS and Payoneer,](https://www.pymnts.com/smbs/2022/75-percent-of-small-businesses-dissatisfied-with-cross-border-payment-solutions/#:~:text=Twenty%2Dseven%20percent%20of%20SMBs,be%20very%20or%20extremely%20satisfactory.) 27% of small businesses worldwide view the complexity of cross-border payments as a drag on their growth. And only 23% of those surveyed were satisfied with their current cross-border payment solutions.  \n\n![fintech stats 2.png](/uploads/fintech_stats_2_e9ba75e9f1.png)\nSource: [Capterra Research](https://www.businesswire.com/news/home/20221219005042/en/%C2%A088-of-U.S.-Small-Businesses-Will-Continue-Moving-Supply-Chains-Closer-to-Home-in-2023), [PYMNTS & Payoneer](https://www.pymnts.com/smbs/2022/75-percent-of-small-businesses-dissatisfied-with-cross-border-payment-solutions/#:~:text=Twenty%2Dseven%20percent%20of%20SMBs,be%20very%20or%20extremely%20satisfactory.) \n\n**More small businesses will look for alternative financing options**\n\nDisruptions to cash flow and a lack of traditional lender support is pushing small businesses to search for alternative and often more creative financing methods, such as [invoice factoring](https://www.bluextrade.com/blog/Inventory-Financing-the-Pros-and-Cons), inventory financing, or Buy-Now-Pay-Later (BNPL) solutions. The advantages of these options usually include a lower barrier to entry along with more flexible payment terms, and fintech companies are innovating in line with demand to provide easier access to these financial tools.  ",
+        "titleSize": 24
+      },
+      {
+        "id": 1275,
+        "title": "How fintech is helping small businesses grow",
+        "content": "Fintech platforms have already been bridging the gap between small businesses and traditional financial institutions for several years. But with inflation and interest rate hikes still going strong into 2023, we expect to see an acceleration in this trend across all sectors. \n\nThe benefits of adopting fintech are extensive. Small businesses that incorporate new payment technology platforms and modernize their AP and AR processes are more likely to see growth in their sales, profits, and employment. A total of 93% of US CFOs surveyed by [PYMNTS](https://www.pymnts.com/news/b2b-payments/2022/25-percent-b2b-payments-are-made-by-check/) said that they are in the process of digitizing their accounting operations. Meanwhile, more than half of the same group said that digitization has allowed them to increase use of payment types such as [ACH payments](https://www.bluextrade.com/blog/are-ach-payments-safe-in-2022-advantages-and-disadvantages), credit cards, wires, and real-time payments (RTP), among others.  Businesses should continue to educate themselves on the various fintech solutions emerging and which areas of their business these tools can strengthen. \n\n**Real time payments to shorten the payment cycle** \n\nDespite the availability of new fintech solutions, numerous industries are still relying on legacy payment methods. According to [Forbes](https://www.forbes.com/sites/forbesfinancecouncil/2022/12/13/how-small-business-owners-can-help-cork-cashflow-problems/) data, paper checks remain the most common form of business-to-business (B2B) payments at 81%. The problem with checks is that they need to be physically mailed, which can take an average of 90 days to pay. For small businesses surviving from payment to payment, that could seem like an eternity. \n\nReal time payments are shaking up traditional means of sending money. Simply put, RTP networks allow small businesses and their supply chain partners to get paid in real time. By significantly shortening the payment cycle, small businesses can decrease risk for their business operations. \n  \n \n![fintech stats 3.png](/uploads/fintech_stats_3_1137b80ebd.png)\nSource: [PYMNTS](https://www.pymnts.com/news/b2b-payments/2022/25-percent-b2b-payments-are-made-by-check/), [Forbes](https://www.forbes.com/sites/forbesfinancecouncil/2022/12/13/how-small-business-owners-can-help-cork-cashflow-problems/), [PYMNTS](/uploads/PYMNTS_B2_B_And_Digital_Payments_Tracker_November_December_2022_0a2ea359d5.pdf)\n\n\nThe [Forbes](https://www.forbes.com/sites/forbesfinancecouncil/2022/12/13/how-small-business-owners-can-help-cork-cashflow-problems/) report states that most US businesses expect to be able to send and receive business real-time payments in 2023, and almost 50% are interested in using RTP for recurring or ad hoc payments, indicating a long developing demand for their service. The report also highlights how over 250 financial institutions in the US currently meet roughly 61% of demand deposit accounts on the RTP network. \n\nBoth banks and the US government understand the importance among businesses and individuals of processing payments instantly, which is why the Federal Reserve Bank aims to launch its instant payment service, U.S. FedNow, within 2023. The outlook is optimistic for the benefits the service can offer to small businesses.      \n\n**All-in-one payment solutions for more effective cash management** \n\nEconomic uncertainty is prompting an unprecedented need for smart cash management to keep businesses cash flow positive. However, many of these businesses lack the accounting manpower to optimize in this area, which is why many companies are shifting to intelligent digital cash management solutions. One example is all-in-one payment platforms. \n\nAccording to [PYMNTS](/uploads/PYMNTS_B2_B_And_Digital_Payments_Tracker_November_December_2022_0a2ea359d5.pdf), 40% of small businesses surveyed have already shifted to using online all-in-one payment platforms to manage their accounting, with more than 50% claiming the platforms have made cash management easier and 32% already seeing improvements in their cash flow.   \n\nThe benefits of implementing an all-in-one payment platform include: \n- Businesses receive a 360° view of their entire payer / payee network in one online dashboard. \n- Customization tools allow both buyers and payers to choose the payment methods that are best suited to them. \n- All-in-one platforms can enable businesses to purchase inventory via credit cards from vendors that generally don’t accept this form of payment. \n\n![image13.png](/uploads/image13_4f5882f82b.png)\n\n**Data and AI for more transparent, collaborative accounting**\n\nBuyers and vendors will inevitably have their own preferences for making and receiving payments, and a lack of transparency on either side relating to payment status can lead to increased friction. That’s why capturing business intelligence throughout the AR / AP process can be crucial to overcoming these conflicts. \n\nBeyond the visibility into payments statuses that an online platform can provide, integrating data and artificial intelligence (AI) solutions into a dashboard can help predict and prepare for future payment situations, such as which vendors are likely to pay late or when a company may need additional payroll for a busy season. What’s more, sharing this data with external payers or payees can help avoid friction for both sides as well as help prevent missed or delayed payments.\n\n**Cash flow forecasting to stay ahead of upcoming expenses** \n\nNot all operational expenses can be predicted, especially during turbulent economic times such as now. This is another scenario in which small businesses can apply business intelligence to stay prepared and to take proactive measures to ensure stable cash flow. Adding a cash flow forecasting tool to an online dashboard allows accounting to track expenses and receipts to forecast future financial health. \n\nFor example, if you require more inventory during peak seasons, a cash flow forecasting tool can use past years’ business data to give you a stronger picture of how much inventory you’ll need to buy and even identify where you can acquire it for a lower price, helping you avoid overspending. It could also help you make sure you have enough inventory so that you don’t lose any sales. Or, the tool can help you know which bills to put on hold or which invoices to pay to ensure you have enough cash to fund your employees’ payroll. \n\n**Open banking enables lender flexibility & customization**\n\nOpen banking – or the sharing of financial data between banks to third parties by APIs to offer enhanced services – is still in the developmental stage in the US. However, if we look at progress in countries like the UK – the US is likely to follow suit. According to data from software firm [Endava](https://www.endava.com/en/blog/Business/2022/Open-Banking-in-the-US#:~:text=Faster%20adoption%20in%20the%20last,than%20500%25%20in%2012%20months.), open banking is showing strong cumulative growth in the UK, with 4.5 million regular users as of the middle of 2022, 600,000 of which were small businesses.\n\nThe need has never been greater for small businesses to be able to avail themselves of open banking services. One use case is the customization for financing solutions for borrowers: open banking allows a much higher degree of flexibility to lenders, such as repayment options that can be adapted to fit the borrower (small business) as their financial situation changes over time. This is the kind of flexibility small businesses need to navigate and weather tough financial situations. \n\n**BNPL for greater business resilience** \n\nBuy-Now-Pay-Later (BNPL) solutions have seen increasing consumer adoption during the last few years due to uncertain economic conditions, and now more small businesses are taking advantage of fintech solutions providing this service. Inflation and rising interest rates can dig into companies’ cash flows and inventory, making them far more vulnerable to economic disruption.  BNPL allows small businesses to gain fast access to working capital and maintain a healthy cash flow.\n\n![image9.png](/uploads/image9_3a4f39dae3.png)",
+        "titleSize": 24
+      },
+      {
+        "id": 1278,
+        "title": "BlueX Pay empowers SMBs via logistics and inventory financing",
+        "content": "As a fintech company dedicated to developing alternative financing options for small businesses, [BlueX](https://www.bluextrade.com/) has built payment platforms and [Pay-it-Later solutions](https://www.bluextrade.com/pay-it-later/) specifically for the kind of hurdles you may be facing at this moment. \n\nBlueX offers an all-in-one platform designed for growing businesses who want healthier cash flows. Our solutions amplify cash flow for buyers and sellers, offering flexible pay later options and instant payments. Businesses can create one streamlined dashboard and wallet for their entire company in which transactions appear for strong visibility and easy reconciliation. Wallet-to-wallet payments arrive in one day and are processed instantly. \n\n![PIL-Logistics n cargo.png](/uploads/PIL_Logistics_n_cargo_2f810ade13.png)\n\n\n[BlueX Pay-it-Later](https://www.bluextrade.com/pay-it-later/) offers fast access to up to $1 million for your cargo and all your logistic service needs. You can get approved in less than 48 hours, and have up to 60 days to pay back your invoices. With no application or set up fees, we pay your vendors on time so you can pay later and focus on the goals that drive business growth.\n\nReach out to the [BlueX team](https://www.bluextrade.com/) on how to make better payments and amplify your cash flow.",
+        "titleSize": 24
+      }
+    ]
+  },
+  {
+    "Title": "How fintech can help small businesses affected by inflation and rising interest rates ",
+    "Author": "BlueX",
+    "Date": "2023-01-17",
+    "Url": "How-fintech-can-help-small-businesses-affected-by-inflation-and-rising-interest-rates",
+    "Type": "FinTech",
+    "PreviewText": "With prices rising and interest rates climbing, many small businesses struggling to maintain capital cannot secure aid from traditional financing tools such as bank loans. Thankfully, the fintech sector is sweeping in to give small businesses the opportunity to not only survive but thrive in these uncertain times. BlueX has built payment platforms and Pay-it-Later solutions specifically for the kind of hurdles you may be facing at this moment. BlueX Pay-it-Later offers fast access to up to $1 million for your cargo and all your logistic service needs.",
+    "createdAt": "2023-01-17T05:00:43.260Z",
+    "updatedAt": "2023-05-05T03:34:00.385Z",
+    "publishedAt": "2023-01-17T05:16:43.080Z",
+    "locale": "en",
+    "Category": "Blog",
+    "UpdateDate": "2023-01-17",
+    "SEO": {
+      "id": 648,
+      "title": "How fintech can help small businesses affected by inflation and rising interest rates ",
+      "description": "With prices rising and interest rates climbing, many small businesses struggling to maintain capital cannot secure aid from traditional financing tools such as bank loans. Thankfully, the fintech sector is sweeping in to give small businesses the opportunity to not only survive but thrive in these uncertain times. BlueX has built payment platforms and Pay-it-Later solutions specifically for the kind of hurdles you may be facing at this moment. BlueX Pay-it-Later offers fast access to up to $1 million for your cargo and all your logistic service needs.",
+      "image": {
+        "data": {
+          "id": 343,
+          "attributes": {
+            "name": "shutterstock_1447457060.jpg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 8617,
+            "height": 4006,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "/uploads/large_shutterstock_1447457060_2643747169.jpg",
+                "hash": "large_shutterstock_1447457060_2643747169",
+                "mime": "image/jpeg",
+                "name": "large_shutterstock_1447457060.jpg",
+                "path": null,
+                "size": 77.42,
+                "width": 1000,
+                "height": 465
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "/uploads/small_shutterstock_1447457060_2643747169.jpg",
+                "hash": "small_shutterstock_1447457060_2643747169",
+                "mime": "image/jpeg",
+                "name": "small_shutterstock_1447457060.jpg",
+                "path": null,
+                "size": 25.42,
+                "width": 500,
+                "height": 232
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/uploads/medium_shutterstock_1447457060_2643747169.jpg",
+                "hash": "medium_shutterstock_1447457060_2643747169",
+                "mime": "image/jpeg",
+                "name": "medium_shutterstock_1447457060.jpg",
+                "path": null,
+                "size": 48.08,
+                "width": 750,
+                "height": 348
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/uploads/thumbnail_shutterstock_1447457060_2643747169.jpg",
+                "hash": "thumbnail_shutterstock_1447457060_2643747169",
+                "mime": "image/jpeg",
+                "name": "thumbnail_shutterstock_1447457060.jpg",
+                "path": null,
+                "size": 8.36,
+                "width": 245,
+                "height": 114
+              }
+            },
+            "hash": "shutterstock_1447457060_2643747169",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 3625.05,
+            "url": "/uploads/shutterstock_1447457060_2643747169.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2023-01-17T04:58:54.157Z",
+            "updatedAt": "2023-02-21T04:14:06.410Z"
+          }
+        }
+      }
+    },
+    "Image": {
+      "data": {
+        "id": 343,
+        "attributes": {
+          "name": "shutterstock_1447457060.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 8617,
+          "height": 4006,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "/uploads/large_shutterstock_1447457060_2643747169.jpg",
+              "hash": "large_shutterstock_1447457060_2643747169",
+              "mime": "image/jpeg",
+              "name": "large_shutterstock_1447457060.jpg",
+              "path": null,
+              "size": 77.42,
+              "width": 1000,
+              "height": 465
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "/uploads/small_shutterstock_1447457060_2643747169.jpg",
+              "hash": "small_shutterstock_1447457060_2643747169",
+              "mime": "image/jpeg",
+              "name": "small_shutterstock_1447457060.jpg",
+              "path": null,
+              "size": 25.42,
+              "width": 500,
+              "height": 232
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "/uploads/medium_shutterstock_1447457060_2643747169.jpg",
+              "hash": "medium_shutterstock_1447457060_2643747169",
+              "mime": "image/jpeg",
+              "name": "medium_shutterstock_1447457060.jpg",
+              "path": null,
+              "size": 48.08,
+              "width": 750,
+              "height": 348
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "/uploads/thumbnail_shutterstock_1447457060_2643747169.jpg",
+              "hash": "thumbnail_shutterstock_1447457060_2643747169",
+              "mime": "image/jpeg",
+              "name": "thumbnail_shutterstock_1447457060.jpg",
+              "path": null,
+              "size": 8.36,
+              "width": 245,
+              "height": 114
+            }
+          },
+          "hash": "shutterstock_1447457060_2643747169",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 3625.05,
+          "url": "/uploads/shutterstock_1447457060_2643747169.jpg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-01-17T04:58:54.157Z",
+          "updatedAt": "2023-02-21T04:14:06.410Z"
+        }
+      }
+    },
+    "ContentList": [
+      {
+        "id": 1262,
+        "title": null,
+        "content": "2022 was the year when US small businesses' concerns centered on whether they would survive inflation and rising interest rates. According to data collected by the US Chamber of Commerce last September, half of small businesses say [inflation is their biggest challenge](https://www.uschamber.com/small-business/inflation-concern-reaches-new-high-for-small-business-owners), and 40% reported that they are very concerned about the impact of rising interest rates on their business. Data from Capterra Research put [inflation as the top concern](https://www.businesswire.com/news/home/20221219005042/en/%C2%A088-of-U.S.-Small-Businesses-Will-Continue-Moving-Supply-Chains-Closer-to-Home-in-2023) among SMB supply chain professionals going into 2023, followed close behind by inventory and the economic recession. \n\nWith prices rising and interest rates climbing, many small businesses struggling to maintain capital cannot secure aid from traditional financing tools such as bank loans. Thankfully, the fintech sector is sweeping in to give small businesses the opportunity to not only survive, but thrive in these uncertain times. \n\nIn this article, we’ll walk you through six fintech technologies that can help small businesses better manage their cash flow and meet the moment. ",
+        "titleSize": 24
+      },
+      {
+        "id": 1263,
+        "title": "1. Real time payments (RTP) to shorten the payment cycle ",
+        "content": "The biggest antagonist for small businesses trying to maintain cash flow during economic crises is time. And with prices and interest rates higher than ever, one missed payment could result in business collapse. \n\nWhy are payments in 2023 still taking so long to arrive? A major factor is that various industries have yet to adopt digital payments and are still relying on legacy payment methods, such as paper checks, which need to be physically mailed and deposited, taking up much more time. \n\nReal-time payment (RTP) networks are one of the key technologies emerging to combat this problem. RTP refers to a payment processing network used to send money electronically between banks in the US. The US government identified the need for this kind of fintech early on, which is why they are readying the Federal Reserve Banks’ instant payment service, [U.S. FedNow](https://www.frbservices.org/financial-services/fednow), to launch later this year. \n\nAccording to a Forbes survey, [almost half of US businesses](https://www.forbes.com/sites/forbesfinancecouncil/2022/12/13/how-small-business-owners-can-help-cork-cashflow-problems/?sh=5b5c540b78a8) are interested in using RTP to pay recurring or ad hoc bills, demonstrating the importance of this kind of network. \n\n- <u>Fintech solution:</u> RTP networks\n- <u>How it helps:</u> Shortens the payment cycle and reduces risk to cash flow ",
+        "titleSize": 24
+      },
+      {
+        "id": 1264,
+        "title": "2. All-in-one payment solutions for more effective cash management ",
+        "content": "Smart cash management is also pivotal to staying cash flow-positive amidst inflation, but not all small businesses have the AR / AP manpower to optimize in this area. That’s why many businesses are shifting to digital accounting solutions. \n\nPYMNTS research [found that four out of 10 SMBs](/uploads/PYMNTS_B2_B_And_Digital_Payments_Tracker_November_December_2022_0a2ea359d5.pdf) have already made the change to an online all-in-one payment platform, with more than half saying the tools have made cash management easier and 32% seeing improvements in working capital, following implementation. \n\nThe benefits of an all-in-one payment platform include:\n- Visibility of entire payer / payee network in one online dashboard  \n- Customization to let buyers and payers choose the payment methods best suited to each\n- Ability to purchase inventory from vendors that don’t accept credit card payments\n\n- <u>Fintech solution:</u> All-in-one payment platform\n- <u>How it helps:</u> Makes cash management easier and more transparent  ",
+        "titleSize": 24
+      },
+      {
+        "id": 1265,
+        "title": "3. Data and AI for more visible, collaborative AP/AR  ",
+        "content": "Following on the visibility that an all-in-one-payment platform provides for internal accounting, small businesses can integrate data and artificial intelligence (AI) for collaboration with external payers or payees. By offering transparency on the current payment statuses or forecasted payment situations, data and AI can remove friction at any stage of the payment cycle for both sides. This can help to avoid missed or delayed payments. \n\n- <u>Fintech solution:</u> Data and artificial intelligence\n- <u>How it helps:</u> Frictionless collaboration with supply chain partners",
+        "titleSize": 24
+      },
+      {
+        "id": 1266,
+        "title": "4. Cash flow forecasting to stay ahead of upcoming expenses ",
+        "content": "We have one more tool to suggest throwing on your dashboard – cash flow forecasting and management. This kind of solution turns cash management into a much more proactive process, tracking expenses and receipts to forecast your future financial status. \n\nOne use case for this tool is to better estimate your seasonal inventory needs to make sure you have the right amount of stock, avoiding overspend or lack of stock which could lead to customer loss. This is exactly the kind of data small businesses need to respond to the volatile situation created by inflation and rising interest rates.  \n\n- <u>Fintech solution:</u> Cash flow forecasting and management\n- <u>How it helps:</u> Better preparedness for fluctuating financial situations ",
+        "titleSize": 24
+      },
+      {
+        "id": 1267,
+        "title": "5. Open banking enables lender flexibility & customization ",
+        "content": "Open banking is not a new story in fintech, but it offers new advantages to small businesses facing the challenges presented by the current economic situation. For lenders, open banking allows a much higher degree of customization for financing solutions, such as repayment options that can be adapted to fit the borrower (small business) as their financial situation evolves. This can provide a degree of flexibility that traditional financing tools cannot, helping small businesses weather the tougher times more smoothly.     \n\n- <u>Fintech solution:</u> Opening banking\n- <u>How it helps:</u> More customized financing tools giving SMBs more flexible repayment terms",
+        "titleSize": 24
+      },
+      {
+        "id": 1268,
+        "title": "6. Buy-Now-Pay-Later to keep inventory strong ",
+        "content": "In the end, what small businesses need more than anything in uncertain times is access to fast capital to get over the hump. Being short on inventory or cash due to high prices leaves companies in a very vulnerable position, which is why it's worthwhile to consider B2B Buy-Now-Pay-Later (BNPL) solutions. BNPL allows small businesses feeling the weight of rising prices and interest rates to gain fast access to working capital and maintain a healthy cash flow. \n\n- <u>Fintech solution:</u> Buy-Now-Pay-Later\n- <u>How it helps:</u> Helps maintain inventory and healthy capital flow ",
+        "titleSize": 24
+      },
+      {
+        "id": 1269,
+        "title": "BlueX Pay-it-Later empowers small businesses via logistics and inventory financing",
+        "content": "As a fintech company dedicated to developing alternative financing options for small businesses, [BlueX](https://www.bluextrade.com/) has built payment platforms and Pay-it-Later solutions specifically for the kind of hurdles you may be facing at this moment. [BlueX Pay-it-Later](https://www.bluextrade.com/pay-it-later/) offers fast access to up to $1 million for your cargo and all your logistic service needs. \n\nReach out to the BlueX team on how to make better payments and amplify your cash flow. ",
+        "titleSize": 24
+      }
+    ]
+  },
+  {
+    "Title": "How SMEs can prepare their supply chains for Lunar New Year 2023",
+    "Author": "BlueX",
+    "Date": "2022-12-13",
+    "Url": "How-SMEs-can-prepare-their-supply-chains-for-Lunar-New-Year-2023",
+    "Type": "GlobalSupplyChain",
+    "PreviewText": "The Lunar New Year 2023 will start on Sunday, January 22nd and run until the Lantern Festival on Sunday, February 5th. During this time, workers at factories across the country will flood the trains and airports in a mass exodus to return home for the holiday, since for many this is the only time of year that they can see their families. If this is your first year of business operations, prepare for closing factories, skeleton crews at ports and customs, and possibly defective goods. In this article, we will explain the challenges your supply chain will face during the Lunar New Year and help you prepare contingencies for each one.  ",
+    "createdAt": "2022-12-13T04:28:55.369Z",
+    "updatedAt": "2023-05-16T01:22:26.315Z",
+    "publishedAt": "2022-12-13T04:29:00.396Z",
+    "locale": "en",
+    "Category": "Blog",
+    "UpdateDate": "2022-12-13",
+    "SEO": {
+      "id": 597,
+      "title": "How SMEs can prepare their supply chains for the Lunar New Year 2023",
+      "description": "The Lunar New Year 2023 will start on Sunday, January 22nd, and run until the Lantern Festival on Sunday, February 5th. During this time, workers at factories across the country will flood the trains and airports in a mass exodus to return home for the holiday, since for many this is the only time of year that they can see their families. If this is your first year of business operations, prepare for closing factories, skeleton crews at ports and customs, and possibly defective goods. In this article, we will explain the challenges your supply chain will face during the Lunar New Year and help you prepare contingencies for each one.  ",
+      "image": {
+        "data": {
+          "id": 190,
+          "attributes": {
+            "name": "pexels-angela-roma-7364211.jpg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 6720,
+            "height": 4480,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "/uploads/large_pexels_angela_roma_7364211_259cbb9057.jpg",
+                "hash": "large_pexels_angela_roma_7364211_259cbb9057",
+                "mime": "image/jpeg",
+                "name": "large_pexels-angela-roma-7364211.jpg",
+                "path": null,
+                "size": 106.54,
+                "width": 1000,
+                "height": 667
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "/uploads/small_pexels_angela_roma_7364211_259cbb9057.jpg",
+                "hash": "small_pexels_angela_roma_7364211_259cbb9057",
+                "mime": "image/jpeg",
+                "name": "small_pexels-angela-roma-7364211.jpg",
+                "path": null,
+                "size": 37.68,
+                "width": 500,
+                "height": 333
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/uploads/medium_pexels_angela_roma_7364211_259cbb9057.jpg",
+                "hash": "medium_pexels_angela_roma_7364211_259cbb9057",
+                "mime": "image/jpeg",
+                "name": "medium_pexels-angela-roma-7364211.jpg",
+                "path": null,
+                "size": 69.38,
+                "width": 750,
+                "height": 500
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/uploads/thumbnail_pexels_angela_roma_7364211_259cbb9057.jpg",
+                "hash": "thumbnail_pexels_angela_roma_7364211_259cbb9057",
+                "mime": "image/jpeg",
+                "name": "thumbnail_pexels-angela-roma-7364211.jpg",
+                "path": null,
+                "size": 11.88,
+                "width": 234,
+                "height": 156
+              }
+            },
+            "hash": "pexels_angela_roma_7364211_259cbb9057",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 6436.18,
+            "url": "/uploads/pexels_angela_roma_7364211_259cbb9057.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2022-12-13T04:20:13.348Z",
+            "updatedAt": "2022-12-13T04:23:32.995Z"
+          }
+        }
+      }
+    },
+    "Image": {
+      "data": {
+        "id": 190,
+        "attributes": {
+          "name": "pexels-angela-roma-7364211.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 6720,
+          "height": 4480,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "/uploads/large_pexels_angela_roma_7364211_259cbb9057.jpg",
+              "hash": "large_pexels_angela_roma_7364211_259cbb9057",
+              "mime": "image/jpeg",
+              "name": "large_pexels-angela-roma-7364211.jpg",
+              "path": null,
+              "size": 106.54,
+              "width": 1000,
+              "height": 667
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "/uploads/small_pexels_angela_roma_7364211_259cbb9057.jpg",
+              "hash": "small_pexels_angela_roma_7364211_259cbb9057",
+              "mime": "image/jpeg",
+              "name": "small_pexels-angela-roma-7364211.jpg",
+              "path": null,
+              "size": 37.68,
+              "width": 500,
+              "height": 333
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "/uploads/medium_pexels_angela_roma_7364211_259cbb9057.jpg",
+              "hash": "medium_pexels_angela_roma_7364211_259cbb9057",
+              "mime": "image/jpeg",
+              "name": "medium_pexels-angela-roma-7364211.jpg",
+              "path": null,
+              "size": 69.38,
+              "width": 750,
+              "height": 500
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "/uploads/thumbnail_pexels_angela_roma_7364211_259cbb9057.jpg",
+              "hash": "thumbnail_pexels_angela_roma_7364211_259cbb9057",
+              "mime": "image/jpeg",
+              "name": "thumbnail_pexels-angela-roma-7364211.jpg",
+              "path": null,
+              "size": 11.88,
+              "width": 234,
+              "height": 156
+            }
+          },
+          "hash": "pexels_angela_roma_7364211_259cbb9057",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 6436.18,
+          "url": "/uploads/pexels_angela_roma_7364211_259cbb9057.jpg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2022-12-13T04:20:13.348Z",
+          "updatedAt": "2022-12-13T04:23:32.995Z"
+        }
+      }
+    },
+    "ContentList": [
+      {
+        "id": 929,
+        "title": null,
+        "content": "Unexpected supply chain disruption has already become the new normal for small-to-medium-sized enterprises (SMEs), but there is one time of year that disruption is guaranteed: the Lunar New Year. As one of the holidays in China that allows for a long period of business shutdown, the Lunar New Year not only affects the supply chain during the seven-day public holiday, but causes ripples that SMEs might feel in the months before and after. \n\nIf this is your first year of business operations, prepare for closing factories, skeleton crews at ports and customs, and possibly defective goods. In this article, we will explain challenges your supply chain will face during the Lunar New Year and help you prepare contingencies for each one.  ",
+        "titleSize": 24
+      },
+      {
+        "id": 931,
+        "title": "When is Lunar New Year 2023?",
+        "content": "Lunar New Year 2023 will start on Sunday, January 22nd and run until the Lantern Festival on Sunday, February 5th. During this time, workers at factories across the country will flood the trains and airports in a mass exodus to return home for the holiday, since for many this is the only time of year that they can see their families. ",
+        "titleSize": 24
+      },
+      {
+        "id": 930,
+        "title": "Which supply chain factors will affect your business?",
+        "content": "**1) Factory closures means no deliveries:** Even though the public holiday only lasts for seven days, it’s common for factories to shutter their operations anywhere from two weeks to a month early to give workers more time off. This means that goods will not be moved from factories to the ports, so although you can ship in, factories cannot ship goods out.   \n\n**2) More product defects:** With urgent deadlines to meet, China production managers will push workers to move faster, which might lead to higher product defect rates. \n\n**3) Higher freight rates:** With the limited container capacities mentioned above, freight rates usually increase during the Lunar New Year, starting from December until the end of the holiday in February.  ",
+        "titleSize": 24
+      },
+      {
+        "id": 932,
+        "title": "How SMEs can prepare for supply chain disruption",
+        "content": "The only way to combat the Lunar New Year supply chain problems is to prepare as far in advance as possible and have backup plans in place. Some ways to do this include:  ",
+        "titleSize": 24
+      },
+      {
+        "id": 933,
+        "title": "Plan your orders ahead of time",
+        "content": "Take the time to estimate how much inventory you’ll need for the first four months of 2023. If you have the tools, run a data analysis on factors such as your customer sentiment and past buying behaviors to gauge how much product you’ll need, and share this info with your China suppliers. This way the factories can be better prepared to meet your demand.   ",
+        "titleSize": 24
+      },
+      {
+        "id": 937,
+        "title": "Watch production levels and standards",
+        "content": "In addition to making plans to meet inventory needs, it would be wise to lay out a quality management plan. Rushed orders might lead to a drop in product quality or defects, so make sure you and your supplier have a system in place to ensure goods are up to all standards.  \n",
+        "titleSize": 24
+      },
+      {
+        "id": 935,
+        "title": "Enhance cooperation across your supply chain",
+        "content": "Strong relationships with suppliers are essential to a healthy supply chain during any period of the year. If you invest the time to build up these relationships, then your suppliers may provide you with more visibility into their operations. They might even proactively reach out to discuss how to avoid issues.",
+        "titleSize": 24
+      },
+      {
+        "id": 934,
+        "title": "Ship finished orders earlier ",
+        "content": "If you can, try to get as many orders as you can shipped early to skirt port congestion. This is the best contingency to avoid extended lead times and sudden cancellations.   ",
+        "titleSize": 24
+      },
+      {
+        "id": 936,
+        "title": "Have alternative shipping methods ready ",
+        "content": "It might be a good option to have alternative methods of shipping like air freight on hand for logistics emergencies. You can also consider alternate vendor locations in manufacturing countries less affected by the Lunar New Year.   ",
+        "titleSize": 24
+      },
+      {
+        "id": 938,
+        "title": "Work with fintechs to keep cash flow stable ",
+        "content": "As we continually emphasize on our blog, SMEs do not need to face logistics and cash flow challenges alone. Working with a fintech company that has the knowledge and tools to make your operations more resilient will yield a strong return on investment.\n\nFor example, [BlueX Pay-it-Later](https://www.bluexpay.com/pay-it-later/) solutions can help you keep business capital flowing in cases of delayed inventory due to the Lunar New Year. \n\nReach out to the BlueX team on how to make better payments and amplify your cash flow.\n",
+        "titleSize": 24
+      }
+    ]
+  }
+]

@@ -1,6 +1,5 @@
-import { createAxiosInstance, loadSingleTypes } from '@/lib/strapi_loader'
 
-export const axiosInstance = createAxiosInstance({
+export const baseConfig = () => ({
   apiURL: process.env.STRAPI_URL || '',
   accessToken: process.env.STRAPI_APIKEY || ''
 });

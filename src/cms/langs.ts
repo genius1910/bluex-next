@@ -1,4 +1,5 @@
-import { axiosInstance } from './base';
+import { baseConfig } from './base';
+import { loadLocales } from '@/lib/strapi_adapter';
 import { AvailableLocaleType } from './types';
 
 export interface Locale {
@@ -8,13 +9,13 @@ export interface Locale {
   isDefault: boolean
 }
 
-export const fetchLocales = async () => {
+export async function fetchLocales() {
   const options = {
     method: "GET",
     url: '/api/i18n/locales',
   };
 
-  const { data } = await axiosInstance(options);
+  const data = await loadLocales(baseConfig());
 
   return data as Locale[]
 }

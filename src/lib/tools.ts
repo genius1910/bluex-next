@@ -9,3 +9,20 @@ export function reverseRecord<
     ]),
   ) as Record<U, T>
 }
+
+export function combineURLs(baseURL: string, relativeURL?: string, params?: string): string {
+  let url = relativeURL
+    ? baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '')
+    : baseURL;
+
+  if (params) {
+    const hashmarkIndex = url.indexOf("#");
+
+    if (hashmarkIndex !== -1) {
+      url = url.slice(0, hashmarkIndex);
+    }
+    url += (url.indexOf('?') === -1 ? '?' : '&') + params;
+  }
+
+  return url
+}

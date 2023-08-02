@@ -25,3 +25,14 @@ export const availableLangs = [...constAvailableLangs]
 export const availableLocales = [...constAvailableLocales]
 export const mapLangToLocale = (lang: AvailableLangType) => pathLangToCmsLangMap[lang];
 export const mapLocaleToLang = (locale: AvailableLocaleType) => LocaleToLangMap[locale];
+
+export interface Metadata {
+  pagination: Pagination;
+}
+
+export interface Pagination {
+  page:      number;
+  pageSize:  number;
+  pageCount: number;
+  total:     number;
+}
