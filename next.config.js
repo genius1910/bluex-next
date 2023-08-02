@@ -1,7 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  trailingSlash: true,
+  images: {
+    unoptimized: true
+  //   remotePatterns: [
+  //     {
+  //       protocol: 'https',
+  //       hostname: 'dev-strapi4.bluex.trade',
+  //       port: '1337',
+  //       pathname: '/**',
+  //     },
+  //   ],
+  },
+  trailingSlash: false,
   webpack(config) {
     const fileLoaderRule = config.module.rules.find((rule) =>
       rule.test?.test?.('.svg'),

@@ -1,7 +1,7 @@
+import BlogsContent from '@/constants/mockup/blogs-content.json';
 import { loadCollectionTypes } from '@/lib/strapi_adapter';
 import { baseConfig, useMockData } from './base';
-import { Metadata } from './types';
-import BlogsContent from '@/constants/mockup/blogs-content.json'
+import { ImageEntry, ImageFormats, Metadata, SEO } from './types';
 
 const query = {
   populate: {
@@ -29,7 +29,7 @@ export interface BlogEntry {
   Category:    string;
   UpdateDate:  string;
   SEO:         SEO;
-  Image:       Image;
+  Image:       ImageEntry;
   ContentList: ContentList[];
 }
 
@@ -40,56 +40,7 @@ export interface ContentList {
   titleSize: number;
 }
 
-export interface Image {
-  data: ImageData;
-}
-
-export interface ImageData {
-  id:         number;
-  attributes: ImageMeta;
-}
-
-export interface ImageMeta {
-  name:              string;
-  alternativeText?:  string | null;
-  caption?:          string | null;
-  width:             number;
-  height:            number;
-  formats:           Formats;
-  hash:              string;
-  ext:               string;
-  mime:              string;
-  size:              number;
-  url:               string;
-}
-
-export interface Formats {
-  large:     ImageAttr;
-  small:     ImageAttr;
-  medium:    ImageAttr;
-  thumbnail: ImageAttr;
-}
-
-export interface ImageAttr {
-  ext:    string;
-  url:    string;
-  hash:   string;
-  mime:   string;
-  name:   string;
-  size:   number;
-  width:  number;
-  height: number;
-}
-
-export interface SEO {
-  id:          number;
-  title:       string | null;
-  description: string;
-  image:       Image;
-}
-
-
-export const fetchPage = async (page: number): Promise<BlogEntry[]> => {
+export async function fetchPage(page: number): Promise<BlogEntry[]> {
   if (useMockData) {
     return BlogsContent
   }

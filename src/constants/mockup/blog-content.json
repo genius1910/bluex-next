@@ -1,0 +1,419 @@
+{
+  "en": {
+    "Section_2_Button": "READ MORE",
+    "Template_Sidebar_Section_1_Title": "Contents",
+    "Template_Sidebar_Section_2_Title": "Recent Posts",
+    "createdAt": "2021-11-04T07:37:39.997Z",
+    "updatedAt": "2023-04-28T09:40:31.408Z",
+    "publishedAt": "2021-11-04T08:08:05.754Z",
+    "locale": "en",
+    "Section_1_Paragraph": {
+      "id": 213,
+      "title": "Blog",
+      "content": "Stay up-to-date on freight fintech insights and stay ahead"
+    },
+    "SEO": {
+      "id": 20,
+      "title": "BlueX Pay | Blog",
+      "description": "Stay up-to-date on freight fintech insights and stay ahead"
+    },
+    "Section_1_Bg": {
+      "data": {
+        "id": 34,
+        "attributes": {
+          "name": "blog-section-1-bg.png",
+          "alternativeText": "",
+          "caption": "",
+          "width": 3840,
+          "height": 800,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "/uploads/large_background_image_1920_blog_min_e219055fc2.png",
+              "hash": "large_background_image_1920_blog_min_e219055fc2",
+              "mime": "image/png",
+              "name": "large_background image_1920_blog-min.png",
+              "path": null,
+              "size": 309.16,
+              "width": 1000,
+              "height": 208
+            },
+            "small": {
+              "ext": ".png",
+              "url": "/uploads/small_background_image_1920_blog_min_e219055fc2.png",
+              "hash": "small_background_image_1920_blog_min_e219055fc2",
+              "mime": "image/png",
+              "name": "small_background image_1920_blog-min.png",
+              "path": null,
+              "size": 80.78,
+              "width": 500,
+              "height": 104
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "/uploads/medium_background_image_1920_blog_min_e219055fc2.png",
+              "hash": "medium_background_image_1920_blog_min_e219055fc2",
+              "mime": "image/png",
+              "name": "medium_background image_1920_blog-min.png",
+              "path": null,
+              "size": 175.27,
+              "width": 750,
+              "height": 156
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_background_image_1920_blog_min_e219055fc2.png",
+              "hash": "thumbnail_background_image_1920_blog_min_e219055fc2",
+              "mime": "image/png",
+              "name": "thumbnail_background image_1920_blog-min.png",
+              "path": null,
+              "size": 22.22,
+              "width": 245,
+              "height": 51
+            }
+          },
+          "hash": "background_image_1920_blog_min_e219055fc2",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 1799.46,
+          "url": "/uploads/background_image_1920_blog_min_e219055fc2.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2021-11-08T07:34:44.137Z",
+          "updatedAt": "2021-11-08T07:35:09.205Z"
+        }
+      }
+    },
+    "Not_Found_Paragraph": {
+      "id": 614,
+      "title": "No results found",
+      "content": "We couldn't find what you are looking for"
+    },
+    "Blog_Type_List": [
+      {
+        "id": 105,
+        "text": "All",
+        "link": "All"
+      },
+      {
+        "id": 97,
+        "text": "Ocean Freight",
+        "link": "OceanFreight"
+      },
+      {
+        "id": 99,
+        "text": "Global Supply Chain",
+        "link": "GlobalSupplyChain"
+      },
+      {
+        "id": 100,
+        "text": "FinTech",
+        "link": "FinTech"
+      }
+    ],
+    "Category_Type_List": [
+      {
+        "id": 104,
+        "text": "All",
+        "link": "All"
+      },
+      {
+        "id": 101,
+        "text": "Blog",
+        "link": "Blog"
+      },
+      {
+        "id": 102,
+        "text": "White Paper",
+        "link": "WhitePaper"
+      },
+      {
+        "id": 103,
+        "text": "Webinar",
+        "link": "Webinar"
+      }
+    ],
+    "localizations": {
+      "data": []
+    }
+  },
+  "zh-Hant-TW": {
+    "Section_2_Button": "READ MORE",
+    "Template_Sidebar_Section_1_Title": "Contents",
+    "Template_Sidebar_Section_2_Title": "Recent Posts",
+    "createdAt": "2021-11-04T07:37:39.997Z",
+    "updatedAt": "2023-04-28T09:40:31.408Z",
+    "publishedAt": "2021-11-04T08:08:05.754Z",
+    "locale": "en",
+    "Section_1_Paragraph": {
+      "id": 213,
+      "title": "Blog",
+      "content": "Stay up-to-date on freight fintech insights and stay ahead"
+    },
+    "SEO": {
+      "id": 20,
+      "title": "BlueX Pay | Blog",
+      "description": "Stay up-to-date on freight fintech insights and stay ahead"
+    },
+    "Section_1_Bg": {
+      "data": {
+        "id": 34,
+        "attributes": {
+          "name": "blog-section-1-bg.png",
+          "alternativeText": "",
+          "caption": "",
+          "width": 3840,
+          "height": 800,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "/uploads/large_background_image_1920_blog_min_e219055fc2.png",
+              "hash": "large_background_image_1920_blog_min_e219055fc2",
+              "mime": "image/png",
+              "name": "large_background image_1920_blog-min.png",
+              "path": null,
+              "size": 309.16,
+              "width": 1000,
+              "height": 208
+            },
+            "small": {
+              "ext": ".png",
+              "url": "/uploads/small_background_image_1920_blog_min_e219055fc2.png",
+              "hash": "small_background_image_1920_blog_min_e219055fc2",
+              "mime": "image/png",
+              "name": "small_background image_1920_blog-min.png",
+              "path": null,
+              "size": 80.78,
+              "width": 500,
+              "height": 104
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "/uploads/medium_background_image_1920_blog_min_e219055fc2.png",
+              "hash": "medium_background_image_1920_blog_min_e219055fc2",
+              "mime": "image/png",
+              "name": "medium_background image_1920_blog-min.png",
+              "path": null,
+              "size": 175.27,
+              "width": 750,
+              "height": 156
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_background_image_1920_blog_min_e219055fc2.png",
+              "hash": "thumbnail_background_image_1920_blog_min_e219055fc2",
+              "mime": "image/png",
+              "name": "thumbnail_background image_1920_blog-min.png",
+              "path": null,
+              "size": 22.22,
+              "width": 245,
+              "height": 51
+            }
+          },
+          "hash": "background_image_1920_blog_min_e219055fc2",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 1799.46,
+          "url": "/uploads/background_image_1920_blog_min_e219055fc2.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2021-11-08T07:34:44.137Z",
+          "updatedAt": "2021-11-08T07:35:09.205Z"
+        }
+      }
+    },
+    "Not_Found_Paragraph": {
+      "id": 614,
+      "title": "No results found",
+      "content": "We couldn't find what you are looking for"
+    },
+    "Blog_Type_List": [
+      {
+        "id": 105,
+        "text": "All",
+        "link": "All"
+      },
+      {
+        "id": 97,
+        "text": "Ocean Freight",
+        "link": "OceanFreight"
+      },
+      {
+        "id": 99,
+        "text": "Global Supply Chain",
+        "link": "GlobalSupplyChain"
+      },
+      {
+        "id": 100,
+        "text": "FinTech",
+        "link": "FinTech"
+      }
+    ],
+    "Category_Type_List": [
+      {
+        "id": 104,
+        "text": "All",
+        "link": "All"
+      },
+      {
+        "id": 101,
+        "text": "Blog",
+        "link": "Blog"
+      },
+      {
+        "id": 102,
+        "text": "White Paper",
+        "link": "WhitePaper"
+      },
+      {
+        "id": 103,
+        "text": "Webinar",
+        "link": "Webinar"
+      }
+    ],
+    "localizations": {
+      "data": []
+    }
+  },
+  "zh-Hans-CN": {
+    "Section_2_Button": "READ MORE",
+    "Template_Sidebar_Section_1_Title": "Contents",
+    "Template_Sidebar_Section_2_Title": "Recent Posts",
+    "createdAt": "2021-11-04T07:37:39.997Z",
+    "updatedAt": "2023-04-28T09:40:31.408Z",
+    "publishedAt": "2021-11-04T08:08:05.754Z",
+    "locale": "en",
+    "Section_1_Paragraph": {
+      "id": 213,
+      "title": "Blog",
+      "content": "Stay up-to-date on freight fintech insights and stay ahead"
+    },
+    "SEO": {
+      "id": 20,
+      "title": "BlueX Pay | Blog",
+      "description": "Stay up-to-date on freight fintech insights and stay ahead"
+    },
+    "Section_1_Bg": {
+      "data": {
+        "id": 34,
+        "attributes": {
+          "name": "blog-section-1-bg.png",
+          "alternativeText": "",
+          "caption": "",
+          "width": 3840,
+          "height": 800,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "/uploads/large_background_image_1920_blog_min_e219055fc2.png",
+              "hash": "large_background_image_1920_blog_min_e219055fc2",
+              "mime": "image/png",
+              "name": "large_background image_1920_blog-min.png",
+              "path": null,
+              "size": 309.16,
+              "width": 1000,
+              "height": 208
+            },
+            "small": {
+              "ext": ".png",
+              "url": "/uploads/small_background_image_1920_blog_min_e219055fc2.png",
+              "hash": "small_background_image_1920_blog_min_e219055fc2",
+              "mime": "image/png",
+              "name": "small_background image_1920_blog-min.png",
+              "path": null,
+              "size": 80.78,
+              "width": 500,
+              "height": 104
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "/uploads/medium_background_image_1920_blog_min_e219055fc2.png",
+              "hash": "medium_background_image_1920_blog_min_e219055fc2",
+              "mime": "image/png",
+              "name": "medium_background image_1920_blog-min.png",
+              "path": null,
+              "size": 175.27,
+              "width": 750,
+              "height": 156
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_background_image_1920_blog_min_e219055fc2.png",
+              "hash": "thumbnail_background_image_1920_blog_min_e219055fc2",
+              "mime": "image/png",
+              "name": "thumbnail_background image_1920_blog-min.png",
+              "path": null,
+              "size": 22.22,
+              "width": 245,
+              "height": 51
+            }
+          },
+          "hash": "background_image_1920_blog_min_e219055fc2",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 1799.46,
+          "url": "/uploads/background_image_1920_blog_min_e219055fc2.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2021-11-08T07:34:44.137Z",
+          "updatedAt": "2021-11-08T07:35:09.205Z"
+        }
+      }
+    },
+    "Not_Found_Paragraph": {
+      "id": 614,
+      "title": "No results found",
+      "content": "We couldn't find what you are looking for"
+    },
+    "Blog_Type_List": [
+      {
+        "id": 105,
+        "text": "All",
+        "link": "All"
+      },
+      {
+        "id": 97,
+        "text": "Ocean Freight",
+        "link": "OceanFreight"
+      },
+      {
+        "id": 99,
+        "text": "Global Supply Chain",
+        "link": "GlobalSupplyChain"
+      },
+      {
+        "id": 100,
+        "text": "FinTech",
+        "link": "FinTech"
+      }
+    ],
+    "Category_Type_List": [
+      {
+        "id": 104,
+        "text": "All",
+        "link": "All"
+      },
+      {
+        "id": 101,
+        "text": "Blog",
+        "link": "Blog"
+      },
+      {
+        "id": 102,
+        "text": "White Paper",
+        "link": "WhitePaper"
+      },
+      {
+        "id": 103,
+        "text": "Webinar",
+        "link": "Webinar"
+      }
+    ],
+    "localizations": {
+      "data": []
+    }
+  }
+}

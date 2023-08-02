@@ -1,6 +1,6 @@
 // import { createAxiosInstance, loadCollectionTypes } from '@/lib/strapi_loader';
-import { fetchMeta, fetchPage } from "@/cms/blog-entry";
-import { fetch } from "@/cms/header";
+import { fetch } from "@/cms/blog-page";
+// import { fetch } from "@/cms/header";
 require('dotenv').config();
 
 // const query = {

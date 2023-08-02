@@ -36,3 +36,52 @@ export interface Pagination {
   pageCount: number;
   total:     number;
 }
+
+export interface ImageAttributes {
+  ext:    string;
+  url:    string;
+  hash:   string;
+  mime:   string;
+  name:   string;
+  size:   number;
+  width:  number;
+  height: number;
+}
+
+export interface ImageFormats {
+  large:     ImageAttributes;
+  small:     ImageAttributes;
+  medium:    ImageAttributes;
+  thumbnail: ImageAttributes;
+}
+
+export interface ImageEntry {
+  data: ImageData;
+}
+
+export interface ImageData {
+  id:         number;
+  attributes: ImageMeta;
+}
+
+export interface ImageMeta {
+  name:              string;
+  alternativeText?:  string | null;
+  caption?:          string | null;
+  width:             number;
+  height:            number;
+  formats:           ImageFormats;
+  hash:              string;
+  ext:               string;
+  mime:              string;
+  size:              number;
+  url:               string;
+}
+
+export interface SEO {
+  id:          number;
+  title:       string | null;
+  description: string;
+  image?:      ImageEntry;
+}
+
