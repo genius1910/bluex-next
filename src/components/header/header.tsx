@@ -21,7 +21,7 @@ const HeaderMenus = ({ content, locale }: { content: LocalizedContent, locale: A
             return {
               label: link.label,
               url: link.type === LinkType.Interior ? `/${locale}${link.url}` : link.url || '#',
-              className: 'text-primary font-bold',
+              className: 'text-secondary font-bold',
               icon: <div
                 className='block content-[""] w-[0.313rem] h-[0.313rem] rotate-45 bg-[orange] left-1 ml-1 mr-2'
               />,

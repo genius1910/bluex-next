@@ -39,7 +39,7 @@ function MenuDrarwer({ content, locale, open, links, onExited }: MenuDrarwerProp
               onClick={() => setActive(false)}
             >
               <div
-                className='w-full flex text-primary text-sm font-menu font-medium leading-[1.57rem] text-inital'
+                className='w-full flex text-secondary text-sm font-menu font-medium leading-[1.57rem] text-inital'
               >
                 <NavBeforeIcon className="w-6 h-6" />
                 <span className='ml-3'>{content.Header_Back_Btn}</span>

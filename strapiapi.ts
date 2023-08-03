@@ -1,5 +1,5 @@
 // import { createAxiosInstance, loadCollectionTypes } from '@/lib/strapi_loader';
-import { fetch } from "@/cms/blog-page";
+import { fetchContent } from "@/cms/blog-page";
 // import { fetch } from "@/cms/header";
 require('dotenv').config();
 
@@ -46,6 +46,6 @@ require('dotenv').config();
 //   process.stdout.write(JSON.stringify(res) + "\n")
 // })
 
-fetch().then((res) => {
+fetchContent().then((res) => {
   process.stdout.write(JSON.stringify(res) + "\n")
 })
