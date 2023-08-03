@@ -63,8 +63,11 @@ const loadSingleTypes = async (req: loadSingleTypesRequest) => {
         headers: { 'Authorization': `Bearer ${req.accessToken}` },
       };
 
-      const url = combineURLs(req.apiURL, `/api/${req.singularName}`, qs.stringify(queryParams, { encodeValuesOnly: true }))
-
+      const queryString = qs.stringify(
+        { ...queryParams, locale },
+        { encodeValuesOnly: true }
+      )
+      const url = combineURLs(req.apiURL, `/api/${req.singularName}`, queryString)
       const res = await fetch(url, options);
       const { data } = await res.json()
 

@@ -70,7 +70,7 @@ function DesktopNavBar({ content, locale, allLocales }: HeaderProps) {
           className="relative h-full flex items-center"
         >
           <Link
-            href={`/${locale}`}
+            href={`/${mapLocaleToLang(locale)}`}
             rel="home"
             title="BlueX Trade"
           >
@@ -119,7 +119,7 @@ function MobileNavBar({ content, locale, allLocales }: HeaderProps) {
         className='flex flex-col h-full w-full bg-white justify-center z-[1000]'
       >
         <Link
-          href={`/${locale}`}
+          href={`/${mapLocaleToLang(locale)}`}
           rel="home"
           title="BlueX Trade"
           className="block h-6 mx-5"
