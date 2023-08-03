@@ -7,6 +7,7 @@ import BlogPreview from './blog-preview';
 import FilterDropDown from './filter-dropdown';
 import SearchBox from './searchbox';
 import BlogPreviewLoading from './blog-preview-loading';
+import BlogPaginator from './blog-paginator';
 
 export default async function BlogPage({ lang, page }: { lang: string, page: string }) {
   const locale = mapLangToLocale(lang as AvailableLangType);
@@ -97,6 +98,10 @@ export default async function BlogPage({ lang, page }: { lang: string, page: str
               />
             )
           }
+          <BlogPaginator
+            page={pageNum}
+            pageCount={meta.pagination.pageCount}
+          />
         </div>
       </div>
     </div>

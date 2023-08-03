@@ -10,6 +10,7 @@ module.exports = {
       'sans': ['Inter', 'sans-serif'],
       'serif': ['Roboto', 'serif'],
       'title': ['lato'],
+      'button': ['lato'],
       'menu': ['Inter', 'sans-serif'],
       'btn': ['lato'],
     },

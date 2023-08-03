@@ -12,6 +12,8 @@ html body {
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
   -webkit-text-size-adjust:100%;
+
+  -webkit-tap-highlight-color: transparent;
  }
 
 a {
@@ -31,6 +33,19 @@ a {
 
   }
 
+  span.ripple {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple 400ms linear;
+  }
+  @keyframes ripple {
+    to {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
   .skeleton::after {
     animation: ani-skeleton 1.6s linear 0.5s infinite;
     background: linear-gradient(
@@ -47,7 +62,6 @@ a {
     right: 0;
     top: 0;
   }
-
   @keyframes ani-skeleton {
     0% {
       transform: translateX(-100%);

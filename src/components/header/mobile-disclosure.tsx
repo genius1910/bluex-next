@@ -8,9 +8,11 @@ import MenuIcon from '@/images/icon/menu.svg';
 import NavBeforeIcon from '@/images/icon/nav-before.svg';
 import NavNextIcon from '@/images/icon/nav-next.svg';
 import { Disclosure, Transition } from '@headlessui/react';
-import { Button, Slide } from "@mui/material";
+import { Slide } from "@mui/material";
+import Button from "@/components/common/ripple-button";
 import Link from 'next/link';
 import { useState } from 'react';
+import { buildUrl } from '@/cms/base';
 
 interface MenuDrarwerProps {
   content: LocalizedContent;
@@ -18,15 +20,16 @@ interface MenuDrarwerProps {
   open: boolean;
   links: LinkTarget[];
   onExited?: () => void | undefined;
+  onBack?: () => void | undefined;
 }
 
-function MenuDrarwer({ content, locale, open, links, onExited }: MenuDrarwerProps) {
+function MenuDrarwer({ content, locale, open, links, onBack, onExited }: MenuDrarwerProps) {
   const [active, setActive] = useState(true)
   return <Slide
     direction="left"
     in={open && active}
     mountOnEnter
-    onExited={onExited}
+    onExited={onBack}
     >
       <div
         className='fixed box-border w-screen min-h-[calc(100vh_-_5.875rem)] bg-[white] pt-[0.312rem] left-0 top-[5.875rem]'
@@ -35,7 +38,7 @@ function MenuDrarwer({ content, locale, open, links, onExited }: MenuDrarwerProp
           className="flex flex-col mb-[0.938rem]"
         >
             <Button
-              sx={{width: '100%', textTransform: 'initial', letterSpacing: 'normal', lineHeight: '1.57rem', padding: '0.938rem 1.25rem 0.938rem 1.875rem'}}
+              className='w-full tracking-normal leading-[1.57rem] pl-[1.875rem] pr-5 py-[0.938rem]'
               onClick={() => setActive(false)}
             >
               <div
@@ -53,15 +56,16 @@ function MenuDrarwer({ content, locale, open, links, onExited }: MenuDrarwerProp
                   key={`mobile-menu-${index}`}
                 >
                   <Button
-                    sx={{width: '100%', textTransform: 'initial', letterSpacing: 'normal', lineHeight: '1.57rem', padding: '0.938rem 1.25rem 0.938rem 1.875rem'}}
+                    className='w-full tracking-normal'
                   >
                     { type === LinkType.Text ? (
                       <div>{label}</div>
                     ) : (
                       <Link
                         key={`mobile-menu-${index}`}
-                        className='w-full flex text-submenu text-sm font-menu font-medium leading-[1.57rem] text-inital'
+                        className='w-full flex text-submenu text-sm font-menu font-medium leading-[1.57rem] pl-[1.875rem] pr-5 py-[0.938rem] text-inital'
                         href={type === LinkType.Interior ? `/${locale}${url}` : url || '#'}
+                        onClick={onExited}
                       >
                         {label}
                       </Link>
@@ -81,18 +85,21 @@ interface MenuPanelProps {
   locale: AvailableLocaleType;
   allLocales: Locale[];
   open: boolean;
+  onExited?: () => void | undefined;
 }
 
-function MenuPanel({ content, locale, allLocales, open}: MenuPanelProps) {
+function MenuPanel({ content, locale, allLocales, open, onExited}: MenuPanelProps) {
+  const [visible, setVisible] = useState(true)
   const [drawActive, setDrawActive] = useState(false)
   const [submenuLinks, setSubmenuLinks] = useState<LinkTarget[]>([])
   return (
     <>
       <Slide
         direction="down"
-        in={open}
+        in={open && visible}
         mountOnEnter
         unmountOnExit
+        onExited={onExited}
       >
         <div
           className='fixed box-border w-screen min-h-[calc(100vh_-_5.875rem)] bg-[white] pt-[0.312rem] left-0 top-[5.875rem]'
@@ -108,7 +115,7 @@ function MenuPanel({ content, locale, allLocales, open}: MenuPanelProps) {
                   >
                     {links.length > 0 ? (
                       <Button
-                        sx={{width: '100%', textTransform: 'initial', letterSpacing: 'normal', lineHeight: '1.57rem', padding: '0.938rem 1.25rem 0.938rem 1.875rem'}}
+                        className='w-full tracking-normal leading-[1.57rem] pl-[1.875rem] pr-5 py-[0.938rem]'
                         onClick={() => {
                           setDrawActive(true)
                           setSubmenuLinks(links)
@@ -123,12 +130,13 @@ function MenuPanel({ content, locale, allLocales, open}: MenuPanelProps) {
                       </Button>
                     ) : (
                       <Button
-                        sx={{width: '100%', textTransform: 'initial', letterSpacing: 'normal', lineHeight: '1.57rem', padding: '0.938rem 1.25rem 0.938rem 1.875rem'}}
+                        className='w-full tracking-normal'
                       >
                         <Link
                           key={`mobile-menu-${index}`}
-                          className='w-full flex text-submenu text-sm font-menu font-medium leading-[1.57rem] text-inital'
-                          href={attachment || '#'}
+                          className='w-full flex pl-[1.875rem] pr-5 py-[0.938rem] text-submenu text-sm font-menu font-medium leading-[1.57rem] text-inital'
+                          href={attachment?.startsWith('https://') ? attachment : `/${locale}${attachment}`}
+                          onClick={() => setVisible(false)}
                         >
                           {title}
                         </Link>
@@ -159,10 +167,10 @@ function MenuPanel({ content, locale, allLocales, open}: MenuPanelProps) {
               className="flex justify-center"
             >
               <Button
-                sx={{textTransform: 'initial', width: '6.6rem', height: '2rem', backgroundColor: '#009bd2', borderRadius: '18px', border: 'none', letterSpacing: 'normal', '&:hover': {backgroundColor: '#009bd2'}}}
-                >
+                className='w-[6.6rem] h-[2rem] bg-secondary border-none rounded-2xl px-2 py-1'
+              >
                 <Link
-                  className="flex text-sm leading-normal font-btn font-bold normal-case text-center text-white px-2 py-1.5 items-center justify-center"
+                  className="flex text-sm leading-[1.375rem] text-white font-btn font-bold normal-case items-center justify-center"
                   href={content.Header_SignIn_Btn?.link || '/'}
                 >
                   <span>{content.Header_SignIn_Btn?.text}</span>
@@ -180,7 +188,8 @@ function MenuPanel({ content, locale, allLocales, open}: MenuPanelProps) {
           locale={locale}
           links={submenuLinks}
           open={drawActive}
-          onExited={() => setDrawActive(false)}
+          onBack={() => setDrawActive(false)}
+          onExited={() => setVisible(false)}
         />
       }
     </>
@@ -216,7 +225,15 @@ export default function MobileDisclosure({ content, locale, allLocales }: Mobile
               Don't forget to add `static` to your `Disclosure.Panel`!
             */}
             <Disclosure.Panel static>
-              <MenuPanel content={content} locale={locale} allLocales={allLocales} open={open} />
+              {({ close }) => (
+                <MenuPanel
+                  content={content}
+                  locale={locale}
+                  allLocales={allLocales}
+                  open={open}
+                  onExited={close}
+                />
+              )}
             </Disclosure.Panel>
           </Transition>
         </>

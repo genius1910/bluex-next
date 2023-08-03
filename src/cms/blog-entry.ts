@@ -51,7 +51,7 @@ export async function fetchPage(page: number): Promise<BlogEntry[]> {
     locale: 'en',
     query,
     page: page,
-    pageSize: 20,
+    pageSize: 5,
     sort: 'Date:desc',
   })
 
