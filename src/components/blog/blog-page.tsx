@@ -1,7 +1,7 @@
 import { buildUrl } from '@/cms/base';
 import { fetchMeta, fetchPage } from '@/cms/blog-entry';
 import { fetchContent } from '@/cms/blog-page';
-import { AvailableLangType, mapLangToLocale } from '@/cms/types';
+import { AvailableLangType, defaultLocale, mapLangToLocale } from '@/cms/types';
 import Divider from '../common/divider';
 import BlogPreview from './blog-preview';
 import FilterDropDown from './filter-dropdown';
@@ -17,7 +17,7 @@ export default async function BlogPage({ lang, page }: { lang: string, page: str
   }
 
   const blogPage = await fetchContent()
-  const localizedBlogPage = blogPage[locale]
+  const localizedBlogPage = blogPage[locale] || blogPage[defaultLocale]
   const meta = await fetchMeta()
   const blogs = await fetchPage(pageNum)
   const bg = buildUrl(localizedBlogPage.Section_1_Bg.data.attributes.url)
