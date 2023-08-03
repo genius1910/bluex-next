@@ -89,6 +89,7 @@ interface loadCollectionTypesRequest {
   accessToken: string;
   collectionName: string
   query: any
+  filters?: any
   locale: string
   pageSize?: number
   page: number
@@ -121,8 +122,9 @@ const loadCollectionTypes = async (req: loadCollectionTypesRequest) => {
   const endpoint = `/api/${req.collectionName}`
   const queryParams = {
     ...req.query,
-    locale: req.locale,
     ...( req.sort && { sort: req.sort } ),
+    ...( req.filters && { filters: req.filters } ),
+    locale: req.locale,
     pagination: {
       pageSize: req.pageSize || 250,
       page: req.page,

@@ -33,6 +33,11 @@ export interface BlogEntry {
   ContentList: ContentList[];
 }
 
+export interface BlogSlug {
+  Url:         string;
+  Type:        string;
+}
+
 export interface ContentList {
   id:        number;
   title?:    string | null;
@@ -81,4 +86,55 @@ export async function fetchMeta() {
   })
 
   return res.meta as Metadata
+}
+
+export async function fetchSlugs() {
+  if (useMockData) {
+    return BlogsContent.map((v) => ({ Url: v.Url, Type: v.Type }))
+  }
+
+  const fetchByPage = async (page: number): Promise<BlogSlug[]> => {
+    const res = await loadCollectionTypes({
+      ...baseConfig(),
+      collectionName: 'blogs',
+      locale: 'en',
+      query: {
+        populate: { Url: "*" }
+      },
+      page: page,
+      pageSize: 20,
+      sort: 'Date:desc',
+    })
+    const meta = res.meta as Metadata
+
+    if (meta.pagination.pageCount > page) {
+      const next = await fetchByPage(page + 1)
+      return res.data.map((v: any) => v.attributes as BlogSlug).concat(next)
+    }
+
+    return res.data.map((v: any) => v.attributes as BlogSlug)
+  }
+
+  return await fetchByPage(1)
+}
+
+export async function fetchBySlug(slug: string): Promise<BlogEntry | null> {
+  if (useMockData) {
+    return BlogsContent[0]
+  }
+
+  const res = await loadCollectionTypes({
+    ...baseConfig(),
+    collectionName: 'blogs',
+    locale: 'en',
+    query,
+    filters: {
+      Url: { '$eq': slug },
+    },
+    page: 1,
+    pageSize: 1,
+    sort: 'Date:desc',
+  })
+
+  return res.data.map((v: any) => v.attributes as BlogSlug)[0]
 }
