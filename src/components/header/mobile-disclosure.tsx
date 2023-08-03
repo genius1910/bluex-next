@@ -2,7 +2,7 @@
 
 import { LinkTarget, LinkType, LocalizedContent } from '@/cms/header';
 import { Locale } from '@/cms/langs';
-import { AvailableLocaleType } from '@/cms/types';
+import { AvailableLocaleType, mapLocaleToLang } from '@/cms/types';
 import CloseIcon from '@/images/icon/close.svg';
 import MenuIcon from '@/images/icon/menu.svg';
 import NavBeforeIcon from '@/images/icon/nav-before.svg';
@@ -12,7 +12,7 @@ import { Slide } from "@mui/material";
 import Button from "@/components/common/ripple-button";
 import Link from 'next/link';
 import { useState } from 'react';
-import { buildUrl } from '@/cms/base';
+import { usePathname } from 'next/navigation'
 
 interface MenuDrarwerProps {
   content: LocalizedContent;
@@ -25,11 +25,12 @@ interface MenuDrarwerProps {
 
 function MenuDrarwer({ content, locale, open, links, onBack, onExited }: MenuDrarwerProps) {
   const [active, setActive] = useState(true)
-  return <Slide
-    direction="left"
-    in={open && active}
-    mountOnEnter
-    onExited={onBack}
+  return (
+    <Slide
+      direction="left"
+      in={open && active}
+      mountOnEnter
+      onExited={onBack}
     >
       <div
         className='fixed box-border w-screen min-h-[calc(100vh_-_5.875rem)] bg-[white] pt-[0.312rem] left-0 top-[5.875rem]'
@@ -64,7 +65,7 @@ function MenuDrarwer({ content, locale, open, links, onBack, onExited }: MenuDra
                       <Link
                         key={`mobile-menu-${index}`}
                         className='w-full flex text-submenu text-sm font-menu font-medium leading-[1.57rem] pl-[1.875rem] pr-5 py-[0.938rem] text-inital'
-                        href={type === LinkType.Interior ? `/${locale}${url}` : url || '#'}
+                        href={url || '#'}
                         onClick={onExited}
                       >
                         {label}
@@ -78,6 +79,7 @@ function MenuDrarwer({ content, locale, open, links, onBack, onExited }: MenuDra
         </div>
       </div>
     </Slide>
+  )
 }
 
 interface MenuPanelProps {
@@ -89,9 +91,17 @@ interface MenuPanelProps {
 }
 
 function MenuPanel({ content, locale, allLocales, open, onExited}: MenuPanelProps) {
+  const pathname = usePathname()
   const [visible, setVisible] = useState(true)
   const [drawActive, setDrawActive] = useState(false)
   const [submenuLinks, setSubmenuLinks] = useState<LinkTarget[]>([])
+  const langLinks = allLocales.map(l => ({
+    id: l.id,
+    label: l.name,
+    url: pathname.replace(`/${mapLocaleToLang(locale)}`, `/${mapLocaleToLang(l.code)}`),
+    type: LinkType.Interior,
+  }))
+
   return (
     <>
       <Slide
@@ -118,7 +128,10 @@ function MenuPanel({ content, locale, allLocales, open, onExited}: MenuPanelProp
                         className='w-full tracking-normal leading-[1.57rem] pl-[1.875rem] pr-5 py-[0.938rem]'
                         onClick={() => {
                           setDrawActive(true)
-                          setSubmenuLinks(links)
+                          setSubmenuLinks(links.map(l => ({
+                            ...l,
+                            ...{url: l.type === LinkType.Interior ? `/${mapLocaleToLang(locale)}${l.url}` : l.url},
+                          })))
                         }}
                       >
                         <div
@@ -135,7 +148,7 @@ function MenuPanel({ content, locale, allLocales, open, onExited}: MenuPanelProp
                         <Link
                           key={`mobile-menu-${index}`}
                           className='w-full flex pl-[1.875rem] pr-5 py-[0.938rem] text-submenu text-sm font-menu font-medium leading-[1.57rem] text-inital'
-                          href={attachment?.startsWith('https://') ? attachment : `/${locale}${attachment}`}
+                          href={attachment?.startsWith('https://') ? attachment : `/${mapLocaleToLang(locale)}${attachment}`}
                           onClick={() => setVisible(false)}
                         >
                           {title}
@@ -150,18 +163,20 @@ function MenuPanel({ content, locale, allLocales, open, onExited}: MenuPanelProp
           <div
             className="flex flex-col"
           >
-            {/* {displaySetting.Localization && isI18n && (
-              <MenuI18n>
-                <Button
-                  onClick={() =>
-                    onSwitchMobileMenu(HeaderMobileMenu.I18N)
-                  }
-                >
-                  <span>{i18n}</span>
-                  <NavigateNextIcon />
-                </Button>
-              </MenuI18n>
-            )} */}
+            <Button
+              className='w-full tracking-normal leading-[1.57rem] pl-[1.875rem] pr-5 py-[0.938rem]'
+              onClick={() => {
+                setDrawActive(true)
+                setSubmenuLinks(langLinks)
+              }}
+            >
+              <div
+                className='w-full flex text-submenu text-sm font-menu font-medium leading-[1.57rem] justify-between text-inital'
+              >
+                <span>{ allLocales.find(l => l.code === locale)?.name }</span>
+                <NavNextIcon className="w-6 h-6" />
+              </div>
+            </Button>
 
             <div // sign in button
               className="flex justify-center"
