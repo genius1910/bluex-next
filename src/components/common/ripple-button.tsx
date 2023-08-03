@@ -27,7 +27,7 @@ export default function RippleButton({ className, onClick, children }: { classNa
 
   return (
     <button
-      // type="button"
+      type="button"
       className={`${!className ? '' : className + ' '}relative overflow-hidden hover:bg-opacity-90`}
       onClick={rippleEffect}
     >

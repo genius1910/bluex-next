@@ -13,6 +13,7 @@ import Button from "@/components/common/ripple-button";
 import Link from 'next/link';
 import { useState } from 'react';
 import { usePathname } from 'next/navigation'
+import { buildPath } from '@/cms/base';
 
 interface MenuDrarwerProps {
   content: LocalizedContent;
@@ -130,7 +131,7 @@ function MenuPanel({ content, locale, allLocales, open, onExited}: MenuPanelProp
                           setDrawActive(true)
                           setSubmenuLinks(links.map(l => ({
                             ...l,
-                            ...{url: l.type === LinkType.Interior ? `/${mapLocaleToLang(locale)}${l.url}` : l.url},
+                            ...{url: l.type === LinkType.Interior ? buildPath(l.url, locale) : l.url},
                           })))
                         }}
                       >
@@ -148,7 +149,7 @@ function MenuPanel({ content, locale, allLocales, open, onExited}: MenuPanelProp
                         <Link
                           key={`mobile-menu-${index}`}
                           className='w-full flex pl-[1.875rem] pr-5 py-[0.938rem] text-submenu text-sm font-menu font-medium leading-[1.57rem] text-inital'
-                          href={attachment?.startsWith('https://') ? attachment : `/${mapLocaleToLang(locale)}${attachment}`}
+                          href={ attachment?.startsWith('https://') ? attachment : buildPath(attachment, locale) }
                           onClick={() => setVisible(false)}
                         >
                           {title}

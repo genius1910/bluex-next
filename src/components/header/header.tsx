@@ -1,13 +1,15 @@
 import { LinkType, type LocalizedContent } from '@/cms/header';
 import { Locale } from '@/cms/langs';
-import { AvailableLocaleType, mapLocaleToLang } from '@/cms/types';
+import { AvailableLocaleType } from '@/cms/types';
 import MobileDisclosure from "@/components/header/mobile-disclosure";
 import { MainMenu } from './header-menu';
 
+import { buildPath } from '@/cms/base';
 import NavNextIcon from '@/images/icon/nav-next.svg';
-import WhiteLogo from "@/images/logo/bxwlogo.svg";
 import PrimaryLogo from "@/images/logo/bxblogo.svg";
+import WhiteLogo from "@/images/logo/bxwlogo.svg";
 import Link from 'next/link';
+import LangMenu from './lang-menu';
 
 const HeaderMenus = ({ content, locale }: { content: LocalizedContent, locale: AvailableLocaleType }) => {
   return <>
@@ -70,7 +72,7 @@ function DesktopNavBar({ content, locale, allLocales }: HeaderProps) {
           className="relative h-full flex items-center"
         >
           <Link
-            href={`/${mapLocaleToLang(locale)}`}
+            href={buildPath('/', locale)}
             rel="home"
             title="BlueX Trade"
           >
@@ -86,12 +88,9 @@ function DesktopNavBar({ content, locale, allLocales }: HeaderProps) {
           <div // right section of header
             className="absolute flex flex-row items-center right-0"
           >
-            <MainMenu // language menu
-              title={allLocales.find(loc => loc.code === locale)?.name ?? '-'}
-              options={allLocales.map(loc => ({
-                label: loc.name,
-                url: `/${mapLocaleToLang(loc.code)}`,
-              }))}
+            <LangMenu
+              locale={locale}
+              allLocales={allLocales}
             />
             <Link href={content.Header_SignIn_Btn?.link || '/'}>
               <button
@@ -119,7 +118,7 @@ function MobileNavBar({ content, locale, allLocales }: HeaderProps) {
         className='flex flex-col h-full w-full bg-white justify-center z-[1000]'
       >
         <Link
-          href={`/${mapLocaleToLang(locale)}`}
+          href={buildPath('/', locale)}
           rel="home"
           title="BlueX Trade"
           className="block h-6 mx-5"

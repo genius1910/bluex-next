@@ -1,4 +1,4 @@
-import { buildUrl } from '@/cms/base';
+import { buildCmsUrl } from '@/cms/base';
 import { fetchMeta, fetchPage } from '@/cms/blog-entry';
 import { fetchContent } from '@/cms/blog-page';
 import { AvailableLangType, defaultLocale, mapLangToLocale } from '@/cms/types';
@@ -20,7 +20,7 @@ export default async function BlogPage({ lang, page }: { lang: string, page: str
   const localizedBlogPage = blogPage[locale] || blogPage[defaultLocale]
   const meta = await fetchMeta()
   const blogs = await fetchPage(pageNum)
-  const bg = buildUrl(localizedBlogPage.Section_1_Bg.data.attributes.url)
+  const bg = buildCmsUrl(localizedBlogPage.Section_1_Bg.data.attributes.url)
 
   return (
     <div
@@ -91,6 +91,7 @@ export default async function BlogPage({ lang, page }: { lang: string, page: str
             blogs.map((blog) =>
               <BlogPreview
                 key={blog.Url}
+                locale={locale}
                 blog={blog}
                 readButton={localizedBlogPage.Section_2_Button}
                 blogTypes={localizedBlogPage.Blog_Type_List}
@@ -99,6 +100,7 @@ export default async function BlogPage({ lang, page }: { lang: string, page: str
             )
           }
           <BlogPaginator
+            locale={locale}
             page={pageNum}
             pageCount={meta.pagination.pageCount}
           />

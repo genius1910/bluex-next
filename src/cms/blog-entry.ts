@@ -3,6 +3,8 @@ import { loadCollectionTypes } from '@/lib/strapi_adapter';
 import { baseConfig, useMockData } from './base';
 import { ImageEntry, ImageFormats, Metadata, SEO } from './types';
 
+const pageSize = 5;
+
 const query = {
   populate: {
     SEO: { populate: "*" },
@@ -27,6 +29,7 @@ export interface BlogEntry {
   PreviewText: string;
   locale:      string;
   Category:    string;
+  createdAt:   string;
   UpdateDate:  string;
   SEO:         SEO;
   Image:       ImageEntry;
@@ -56,7 +59,7 @@ export async function fetchPage(page: number): Promise<BlogEntry[]> {
     locale: 'en',
     query,
     page: page,
-    pageSize: 5,
+    pageSize,
     sort: 'Date:desc',
   })
 
@@ -68,8 +71,8 @@ export async function fetchMeta() {
     return {
       "pagination": {
         "page": 1,
-        "pageSize": 20,
-        "pageCount": 4,
+        "pageSize": pageSize,
+        "pageCount": 14,
         "total": 67
       }
     } as Metadata
@@ -81,7 +84,7 @@ export async function fetchMeta() {
     locale: 'en',
     query,
     page: 1,
-    pageSize: 20,
+    pageSize,
     sort: 'Date:desc',
   })
 
@@ -102,7 +105,7 @@ export async function fetchSlugs() {
         populate: { Url: "*" }
       },
       page: page,
-      pageSize: 20,
+      pageSize,
       sort: 'Date:desc',
     })
     const meta = res.meta as Metadata

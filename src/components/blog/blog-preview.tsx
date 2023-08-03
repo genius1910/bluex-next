@@ -1,32 +1,42 @@
-import { buildUrl } from '@/cms/base';
+import { buildCmsUrl, buildPath } from '@/cms/base';
 import { BlogEntry } from '@/cms/blog-entry';
 import { TypeList } from '@/cms/blog-page';
+import { AvailableLocaleType } from '@/cms/types';
 import { formatBlogDate } from '@/lib/format';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default async function BlogPreview({ blog, readButton, blogTypes, categoryTypes }: { blog: BlogEntry, readButton: string, blogTypes: TypeList[], categoryTypes: TypeList[] }) {
+interface BlogPreviewProps {
+  blog: BlogEntry;
+  readButton: string;
+  blogTypes: TypeList[];
+  categoryTypes: TypeList[];
+  locale: AvailableLocaleType;
+}
+
+export default async function BlogPreview({ blog, readButton, blogTypes, categoryTypes, locale }: BlogPreviewProps) {
+  const blogPath = buildPath(`/blog/${blog.Url}`, locale)
   return (
     <div
       className='flex flex-col lg:flex-row'
     >
       <Link
         className='flex-auto w-full mr-auto mb-5 lg:flex-[0_0_23.75rem] lg:w-[23.75rem] lg:max-h-[17.5rem] lg:mr-[3.125rem]'
-        href={`/blog/${blog.Url}`}
+        href={blogPath}
       >
         <Image
           className='w-full'
           width={blog.Image.data.attributes.formats.small.width}
           height={blog.Image.data.attributes.formats.small.height}
           alt='blog image'
-          src={buildUrl(blog.Image.data.attributes.formats.small.url)}
+          src={buildCmsUrl(blog.Image.data.attributes.formats.small.url)}
         />
       </Link>
       <div
         className='flex-auto flex flex-col justify-start'
       >
         <Link
-          href={`/blog/${blog.Url}`}
+          href={blogPath}
         >
           <div
             className='overflow-hidden text-ellipsis leading-[1.875rem] text-xl text-left whitespace-pre-wrap uppercase font-title font-bold text-primary'
@@ -69,7 +79,7 @@ export default async function BlogPreview({ blog, readButton, blogTypes, categor
           {blog.PreviewText}
         </div>
         <Link
-          href={`/blog/${blog.Url}`}
+          href={blogPath}
         >
           <button
             className='w-36 h-9 text-[rgb(0,155,210)] text-sm leading-6 font-bold font-title rounded-[1.125rem] border-2 border-solid border-[rgb(0,155,210)]'
