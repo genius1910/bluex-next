@@ -2,13 +2,16 @@ import { buildCmsUrl } from '@/cms/base';
 import { LocalizedContent } from '@/cms/blog-page';
 import Divider from '../common/divider';
 import BlogFilter from './blog-filter';
+import { AvailableLocaleType } from '@/cms/types';
+import { Suspense } from 'react';
 
 interface BlogListProps {
   localizedContent: LocalizedContent,
+  locale: AvailableLocaleType,
   children: React.ReactNode
 }
 
-export default function BlogList({ localizedContent, children }: BlogListProps) {
+export default function BlogList({ localizedContent, locale, children }: BlogListProps) {
   const bg = buildCmsUrl(localizedContent.Section_1_Bg.data.attributes.url)
 
   return (
@@ -40,10 +43,12 @@ export default function BlogList({ localizedContent, children }: BlogListProps) 
       <div
         className='relative min-h-[32rem] w-full box-border px-5 mx-auto bg-white lg:w-[60rem] lg:px-0'
       >
-        <BlogFilter
-          localizedContent={localizedContent}
-        />
-
+        <Suspense fallback={<div>Loading...</div>}>
+          <BlogFilter
+            locale={locale}
+            localizedContent={localizedContent}
+          />
+          </Suspense>
         <Divider />
 
         <div

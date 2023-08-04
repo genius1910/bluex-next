@@ -1,12 +1,9 @@
 import { LocalizedContent } from '@/cms/blog-page';
-import { AvailableLocaleType, Metadata } from '@/cms/types';
-import { useSearchParams } from 'next/navigation';
-import { useState } from 'react';
+import { fetchPage, fetchStats } from '@/cms/blog-search';
+import { AvailableLocaleType } from '@/cms/types';
 import BlogList from './blog-list';
 import BlogPaginator from './blog-paginator';
-import BlogPreviewLoading from './blog-preview-loading';
 import BlogPreview from './blog-preview';
-import { fetchPage, fetchStats } from '@/cms/blog-search';
 
 interface BlogListProps {
   localizedContent: LocalizedContent,
@@ -19,6 +16,7 @@ export default async function BlogStaticPage({ locale, localizedContent, page }:
 
   return (
     <BlogList
+      locale={locale}
       localizedContent={localizedContent}
     >
       {

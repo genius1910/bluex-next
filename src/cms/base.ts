@@ -20,6 +20,23 @@ export function buildCmsUrl(path: string): string {
   return combineURLs(strapiKey(), path);
 }
 
+interface BuildSearchPathParams {
+  locale: AvailableLocaleType;
+  type: string | null;
+  category: string | null;
+  search: string | null;
+  page: number;
+}
+export function buildSearchPath({ locale, type, category, search, page }: BuildSearchPathParams): string {
+  const queryString = new URLSearchParams({
+    page: page.toString(),
+    ...(type && { type }),
+    ...(category && { category }),
+    ...(search && { search }),
+  }).toString();
+  return buildPath('/blog/search?' + queryString, locale);
+}
+
 export function buildPath(path: string | null, locale: AvailableLocaleType): string {
   const lang = mapLocaleToLang(locale);
   return combineURLs(`/${lang}`, path || '#');

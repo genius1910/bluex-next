@@ -27,8 +27,6 @@ const loadContentTypes = async (req: { apiURL: string, accessToken: string }) =>
   const res = await fetch(url, options);
   const data = await res.json()
 
-  console.log('content-type data:', data)
-
   return data
 }
 

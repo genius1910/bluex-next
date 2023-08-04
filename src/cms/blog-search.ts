@@ -10,7 +10,6 @@ export interface SearchRequest {
   category: string | null;
   search: string | null;
   page: number;
-  pageSize: number;
   sort?: string[];
 }
 
@@ -73,7 +72,6 @@ export async function fetchStats() {
     category: null,
     search: null,
     page: 1,
-    pageSize,
     sort: ['Date:desc'],
   })
 
@@ -110,7 +108,6 @@ export async function fetchPage(page: number) {
     category: null,
     search: null,
     page: page,
-    pageSize,
     sort: ['Date:desc'],
   })
 
@@ -131,12 +128,12 @@ export async function searchBlogs({ type, category, search, sort, page }: Search
   const filterCon = [];
 
   // if category is not All (case insensitive)
-  if (category && !category.localeCompare("all", undefined, { sensitivity: 'accent' })) {
+  if (category && category.toLowerCase() !== "all") {
     filterCon.push(`Category = "${category}"`);
   }
 
   // if type is not All (case insensitive)
-  if (type && !type.localeCompare("all", undefined, { sensitivity: 'accent' })) {
+  if (type && type.toLowerCase() !== "all") {
     filterCon.push(`Type = "${type}"`);
   }
 
@@ -161,7 +158,6 @@ export async function fetchSlugs() {
       category: null,
       search: null,
       page: page,
-      pageSize,
       sort: ['Date:desc'],
     })
 

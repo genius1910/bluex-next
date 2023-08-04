@@ -20,7 +20,6 @@ export default function BlogFilteredList({ locale, localizedContent }: BlogListP
   const [meta, setMeta] = useState<Metadata | null>(null)
   const [blogs, setBlogs] = useState<BlogEntry[]>([])
 
-  const pageSize = 5
   const searchParams = useSearchParams()
   const search = searchParams.get('search')
   const type = searchParams.get('type')
@@ -28,20 +27,20 @@ export default function BlogFilteredList({ locale, localizedContent }: BlogListP
   const page = parseInt(searchParams.get('page') || '1') || 1
 
   const doSearch = useCallback(() => {
-    const opt = { search, type, category, page, pageSize, sort: ['Date:desc'] }
-    console.log('search', opt)
+    const opt = { search, type, category, page, sort: ['Date:desc'] }
+
     searchBlogs(opt).then((res) => {
       setLoading(false)
-      console.log(res.hits)
       setBlogs(res.hits as BlogEntry[])
+
     }).catch((err) => {
       setLoading(false)
-      console.log('err', err)
+      console.error('err', err)
     })
     setLoading(true)
   }, [search, type, category, page])
 
-  useEffect(doSearch, [search, type, category, page])
+  useEffect(doSearch, [doSearch])
 
   return (
     <>

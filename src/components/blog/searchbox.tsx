@@ -1,7 +1,7 @@
 import SearchIcon from '@/images/icon/search.svg';
 import CloseIcon from '@/images/icon/close.svg';
 
-export default function SearchBox() {
+export default function SearchBox({ search, onChange }: { search: string, onChange: (value: string) => void }) {
   return (
     <div
       className="flex items-center w-full lg:w-[18.75rem] box-border shadow-[0_2px_5px_0_#8497b9] text-primary pl-4 pr-1 py-1 border-l-[5px] border-l-primary"
@@ -15,6 +15,10 @@ export default function SearchBox() {
         <input
           className='box-content h-[1.4375em] block w-full m-0 pt-1 pb-[5px] px-0 border-0 font-title focus:outline-none'
           placeholder='Search'
+          value={ search }
+          onChange={ (e) => {
+            onChange(e.target.value)
+          } }
         />
       </div>
       <button

@@ -1,8 +1,25 @@
+"use client";
+
+import { buildSearchPath } from "@/cms/base";
 import { LocalizedContent } from "@/cms/blog-page";
+import { AvailableLocaleType } from "@/cms/types";
+import { useRouter, useSearchParams } from "next/navigation";
 import FilterDropDown from "./filter-dropdown";
 import SearchBox from "./searchbox";
 
-export default function BlogFilter( { localizedContent }: { localizedContent: LocalizedContent }) {
+interface BlogFilterProps {
+  locale: AvailableLocaleType;
+  localizedContent: LocalizedContent;
+}
+
+export default function BlogFilter( { localizedContent, locale }: BlogFilterProps) {
+  const router = useRouter()
+  const searchParams = useSearchParams()
+  const search = searchParams.get('search')
+  const type = searchParams.get('type')
+  const category = searchParams.get('category')
+  // const page = searchParams.get('page') || '1'
+
   return (
     <div // filter section
       className='flex flex-col lg:flex-row justify-between box-border pt-[2.688rem] pb-4'
@@ -12,26 +29,32 @@ export default function BlogFilter( { localizedContent }: { localizedContent: Lo
       >
         <FilterDropDown
           placeholder="Select: Category"
-          options={ localizedContent.Blog_Type_List.map(type => (
+          current={ category }
+          options={ localizedContent.Category_Type_List.map(v => (
             {
-              label: type.text,
-              value: type.link,
-              url: '#',
+              label: v.text,
+              value: v.link,
+              url: buildSearchPath({type, category: v.link, search, page: 1, locale})
             }
           )) }
         />
         <FilterDropDown
             placeholder="Select: Type"
-            options={ localizedContent.Category_Type_List.map(type => (
+            current={ type }
+            options={ localizedContent.Blog_Type_List.map(v => (
             {
-              label: type.text,
-              value: type.link,
-              url: '#',
+              label: v.text,
+              value: v.link,
+              url: buildSearchPath({type: v.link, category, search, page: 1, locale})
             }
           )) }
         />
       </div>
       <SearchBox
+        search={ search || '' }
+        onChange={ (search) => {
+          router.push(buildSearchPath({type, category, search, page: 1, locale}))
+        } }
       />
     </div>
 
