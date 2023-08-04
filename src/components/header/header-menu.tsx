@@ -19,27 +19,31 @@ interface OptionType {
   icon?: React.ReactNode,
 }
 
+type HeaderBackgruond = 'dark' |'white';
+
 interface MainMenuProps {
   title: string;
   optionGroups?: OptionGroupType[]; // if optionGroups is defined, options is ignored
   options?: OptionType[]; // used when optionGroups is not defined
   buttonClassName?: string;
   groupClassName?: string;
+  background?: HeaderBackgruond;
 }
 
-export function MainMenu({ title, optionGroups, options, buttonClassName, groupClassName }: MainMenuProps) {
+export function MainMenu({ title, optionGroups, options, buttonClassName, groupClassName, background }: MainMenuProps) {
   const groups = optionGroups || [{ options: options || [] }];
+  const colorClass = background === 'white' ? 'text-primary' : 'text-white';
   return (
     <Menu as="div" className="relative inline-block text-left">
       {({ open }) => (
         <>
           <div key="d1">
             <Menu.Button
-              className={`inline-flex w-full justify-center items-center border-none bg-transparent px-2.5 py-2 text-sm font-medium text-white font-menu leading-[1.57rem] ${buttonClassName || ''}`}
+              className={`inline-flex w-full justify-center items-center border-none bg-transparent px-2.5 py-2 text-sm font-medium font-menu leading-[1.57rem] ${colorClass} ${buttonClassName || ''}`}
             >
               {title}
               <ChevronDownIcon
-                className={`-mr-1 h-6 w-6 text-white transform duration-150 ${open ? 'rotate-180' : 'rotate-0'}`}
+                className={`-mr-1 h-6 w-6 text-current transform duration-150 ${open ? 'rotate-180' : 'rotate-0'}`}
                 aria-hidden="true"
               />
             </Menu.Button>

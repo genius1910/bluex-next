@@ -1,8 +1,7 @@
-import { availableLangs  } from "@/cms/types"
 import { fetch as fetchHeader } from '@/cms/header'
-import Header from "@/components/header/header"
-import { AvailableLangType, mapLangToLocale } from '@/cms/types'
 import { fetchLocales } from '@/cms/langs'
+import { AvailableLangType, availableLangs, mapLangToLocale } from "@/cms/types"
+import Header from "@/components/header/header"
 
 export async function generateStaticParams() {
   return availableLangs.map((lang) => ({ lang }))

@@ -1,8 +1,8 @@
-import BlogPage from '@/components/blog/blog-page';
+import BlogList from '@/components/blog/blog-list';
 
 export default async function Page({ params }: { params: { lang: string } }) {
   return (
-    <BlogPage
+    <BlogList
       lang={params.lang}
       page={'1'}
     />

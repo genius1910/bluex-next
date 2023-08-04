@@ -11,10 +11,12 @@ import WhiteLogo from "@/images/logo/bxwlogo.svg";
 import Link from 'next/link';
 import LangMenu from './lang-menu';
 
-const HeaderMenus = ({ content, locale }: { content: LocalizedContent, locale: AvailableLocaleType }) => {
+const HeaderMenus = ({ content, locale, background }: { content: LocalizedContent, locale: AvailableLocaleType, background: HeaderBackgruond }) => {
+  const colorClass = background === 'white' ? 'text-primary' : 'text-white';
   return <>
     <MainMenu
       title={content.Product_Dropdown_Label || '-'}
+      background={background}
       groupClassName="divide-y divide-gray-300"
       optionGroups={content.Product_Dropdown_Groups.map(group => {
         return {
@@ -39,6 +41,7 @@ const HeaderMenus = ({ content, locale }: { content: LocalizedContent, locale: A
           <MainMenu
             key={`${title}-${index}`}
             title={title}
+            background={background}
             optionGroups={links.filter(Boolean).map(link => ({
               options:[{
                 label: link.label,
@@ -50,7 +53,7 @@ const HeaderMenus = ({ content, locale }: { content: LocalizedContent, locale: A
           <Link
             key={`header-list-${index}`}
             href={attachment?.startsWith('https://') ? attachment : `/${locale}${attachment}` || '#'}
-            className='px-2.5 py-2 text-sm font-medium text-white'
+            className={`px-2.5 py-2 text-sm font-medium ${colorClass}`}
           >
             {title}
           </Link>
@@ -60,7 +63,7 @@ const HeaderMenus = ({ content, locale }: { content: LocalizedContent, locale: A
   </>
 }
 
-function DesktopNavBar({ content, locale, allLocales }: HeaderProps) {
+function DesktopNavBar({ content, locale, allLocales, background }: HeaderProps) {
   return (
     <div
       className='hidden lg:flex flex-col h-full justify-center'
@@ -76,13 +79,17 @@ function DesktopNavBar({ content, locale, allLocales }: HeaderProps) {
             rel="home"
             title="BlueX Trade"
           >
-            <WhiteLogo />
+            { background === 'white' ? <PrimaryLogo /> : <WhiteLogo /> }
           </Link>
 
           <div // LinksWrapper
             className="flex flex-row items-center ml-[4.413rem] text-white"
           >
-            <HeaderMenus content={content} locale={locale} />
+            <HeaderMenus
+              content={content}
+              locale={locale}
+              background={background || 'dark'}
+            />
           </div>
 
           <div // right section of header
@@ -131,19 +138,31 @@ function MobileNavBar({ content, locale, allLocales }: HeaderProps) {
   )
 }
 
+type HeaderBackgruond = 'dark' |'white';
+
 interface HeaderProps {
   content: LocalizedContent;
   locale: AvailableLocaleType;
   allLocales: Locale[];
+  background?: HeaderBackgruond;
 }
 
-export default function Header({ content, locale, allLocales }: HeaderProps) {
+export default function Header({ content, locale, allLocales, background }: HeaderProps) {
   return (
     <header
       className="absolute z-[1000] w-full h-[5.875rem] px-0"
     >
-      <DesktopNavBar content={content} locale={locale} allLocales={allLocales} />
-      <MobileNavBar content={content} locale={locale} allLocales={allLocales} />
+      <DesktopNavBar
+        content={content}
+        locale={locale}
+        allLocales={allLocales}
+        background={background}
+      />
+      <MobileNavBar
+        content={content}
+        locale={locale}
+        allLocales={allLocales}
+      />
     </header>
   );
 };

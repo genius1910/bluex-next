@@ -9,7 +9,7 @@ import SearchBox from './searchbox';
 import BlogPreviewLoading from './blog-preview-loading';
 import BlogPaginator from './blog-paginator';
 
-export default async function BlogPage({ lang, page }: { lang: string, page: string }) {
+export default async function BlogList({ lang, page }: { lang: string, page: string }) {
   const locale = mapLangToLocale(lang as AvailableLangType);
   const pageNum = parseInt(page)
   if (!locale || !pageNum) {
