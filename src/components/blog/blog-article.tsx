@@ -1,11 +1,11 @@
 import Image from 'next/image';
-import { BlogEntry } from "@/cms/blog-entry"
 import { buildCmsUrl } from '@/cms/base';
 import { LocalizedContent } from '@/cms/blog-page';
 import { formatBlogDate } from '@/lib/format';
+import { BlogEntry } from '@/cms/blog-search';
 
 export default async function BlogArticle({ localizedContent, blog }: { blog: BlogEntry, localizedContent: LocalizedContent }) {
-  const imageAttr = blog.Image.data.attributes.formats?.large || blog.Image.data.attributes
+  const imageAttr = blog.Image.formats?.large || blog.Image
   return (
     <div
       className='relative w-full h-fit'
@@ -19,7 +19,7 @@ export default async function BlogArticle({ localizedContent, blog }: { blog: Bl
           <Image
             className='w-full lg:min-h-[30rem]'
             src={buildCmsUrl(imageAttr.url)}
-            alt={blog.Image.data.attributes.alternativeText || 'image'}
+            alt={blog.Image.alternativeText || 'image'}
             width={imageAttr.width}
             height={imageAttr.height}
           />
