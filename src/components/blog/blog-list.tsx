@@ -1,17 +1,14 @@
 import { buildCmsUrl } from '@/cms/base';
 import { LocalizedContent } from '@/cms/blog-page';
-import { AvailableLocaleType } from '@/cms/types';
 import Divider from '../common/divider';
 import BlogFilter from './blog-filter';
 
 interface BlogListProps {
   localizedContent: LocalizedContent,
-  page: number,
-  locale: AvailableLocaleType,
   children: React.ReactNode
 }
 
-export default async function BlogList({ localizedContent, page, locale, children }: BlogListProps) {
+export default function BlogList({ localizedContent, children }: BlogListProps) {
   const bg = buildCmsUrl(localizedContent.Section_1_Bg.data.attributes.url)
 
   return (

@@ -1,5 +1,5 @@
-import { fetchBySlug } from '@/cms/blog-entry';
 import { fetchContent } from '@/cms/blog-page';
+import { fetchBySlug } from '@/cms/blog-search';
 import { AvailableLangType, defaultLocale, mapLangToLocale } from '@/cms/types';
 import BlogArticle from '@/components/blog/blog-article';
 

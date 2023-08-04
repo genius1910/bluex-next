@@ -1,6 +1,6 @@
 import { buildCmsUrl, buildPath } from '@/cms/base';
-import { BlogEntry } from '@/cms/blog-entry';
 import { TypeList } from '@/cms/blog-page';
+import { BlogEntry } from '@/cms/blog-search';
 import { AvailableLocaleType } from '@/cms/types';
 import { formatBlogDate } from '@/lib/format';
 import Image from 'next/image';
@@ -14,7 +14,7 @@ interface BlogPreviewProps {
   locale: AvailableLocaleType;
 }
 
-export default async function BlogPreview({ blog, readButton, blogTypes, categoryTypes, locale }: BlogPreviewProps) {
+export default function BlogPreview({ blog, readButton, blogTypes, categoryTypes, locale }: BlogPreviewProps) {
   const blogPath = buildPath(`/blog/${blog.Url}`, locale)
   return (
     <div
@@ -26,10 +26,10 @@ export default async function BlogPreview({ blog, readButton, blogTypes, categor
       >
         <Image
           className='w-full'
-          width={blog.Image.data.attributes.formats.small.width}
-          height={blog.Image.data.attributes.formats.small.height}
+          width={blog.Image.formats.small?.width}
+          height={blog.Image.formats.small?.height}
           alt='blog image'
-          src={buildCmsUrl(blog.Image.data.attributes.formats.small.url)}
+          src={buildCmsUrl(blog.Image.formats.small?.url || '')}
         />
       </Link>
       <div

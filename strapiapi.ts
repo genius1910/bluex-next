@@ -1,5 +1,6 @@
 // import { createAxiosInstance, loadCollectionTypes } from '@/lib/strapi_loader';
-import { fetchBySlug, fetchSlugs } from "@/cms/blog-entry";
+// import { fetchBySlug, fetchSlugs } from "@/cms/blog-entry";
+import { searchBlogs, fetchBySlug, fetchSlugs } from "@/cms/blog-search";
 // import { fetch } from "@/cms/header";
 require('dotenv').config();
 
@@ -46,11 +47,16 @@ require('dotenv').config();
 //   process.stdout.write(JSON.stringify(res) + "\n")
 // })
 
-// fetchSlugs().then((res) => {
-//   process.stdout.write(JSON.stringify(res) + "\n")
-// })
-
-fetchBySlug('the-bluex-open-freight-marketplace-how-logistics-should-work').then((res) => {
+fetchSlugs().then((res) => {
   process.stdout.write(JSON.stringify(res) + "\n")
 })
 
+// fetchBySlug('the-bluex-open-freight-marketplace-how-logistics-should-work').then((res) => {
+//   process.stdout.write(JSON.stringify(res) + "\n")
+// })
+
+// searchBlogs({ page: 1, pageSize: 5, type: null, category: null, search: null, sort: ['Date:desc']}).then((res) => {
+//   process.stdout.write(JSON.stringify(res) + "\n")
+// }).catch((err) => {
+//   process.stdout.write("error:" + JSON.stringify(err) + "\n")
+// })

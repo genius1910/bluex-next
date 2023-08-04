@@ -1,6 +1,7 @@
 import { fetchContent } from '@/cms/blog-page';
 import { AvailableLangType, defaultLocale, mapLangToLocale } from '@/cms/types';
-import BlogSearchPage from '@/components/blog/blog-search-page';
+import BlogFilteredList from '@/components/blog/blog-filtered-list';
+import BlogList from '@/components/blog/blog-list';
 
 export default async function Page({ params }: { params: { lang: string } }) {
   const locale = mapLangToLocale(params.lang as AvailableLangType);
@@ -12,9 +13,13 @@ export default async function Page({ params }: { params: { lang: string } }) {
   const localizedContent = pageContent[locale] || pageContent[defaultLocale]
 
   return (
-    <BlogSearchPage
-      locale={locale}
+    <BlogList
       localizedContent={localizedContent}
-    />
+    >
+      <BlogFilteredList
+        locale={locale}
+        localizedContent={localizedContent}
+      />
+    </BlogList>
   )
 }

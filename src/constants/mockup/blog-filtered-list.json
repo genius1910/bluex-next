@@ -1,0 +1,588 @@
+{
+  "hits": [
+    {
+      "_meilisearch_id": "blog-52",
+      "id": 52,
+      "Title": "How to Book Ocean Freight on GreenX",
+      "Author": "BlueX Trade",
+      "Date": "2020-03-03",
+      "Url": "how-to-book-ocean-freight-on-greenx",
+      "Type": null,
+      "PreviewText": "An integral part of the BlueX Freight Commerce Platform is giving customers the tools to effectively make bookings through a digital platform, such as GreenX. Far from being a standalone feature, our instant quotes and fast digital bookings are the first steps in offering an array of services that digitally enable customers to book effectively […]",
+      "createdAt": "2023-01-11T07:05:58.055Z",
+      "updatedAt": "2023-05-05T04:05:54.194Z",
+      "publishedAt": "2023-01-11T07:06:16.289Z",
+      "locale": "en",
+      "SEO": {
+        "id": 631,
+        "title": "How to Book Ocean Freight on GreenX - BlueX",
+        "description": "Learn everything you need to know about how to make your first booking on Evergreen Line's digital booking platform, GreenX."
+      },
+      "Image": {
+        "id": 293,
+        "name": "GreenX_3.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1280,
+        "height": 720,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "/uploads/large_Green_X_3_4738b8c279.jpg",
+            "hash": "large_Green_X_3_4738b8c279",
+            "mime": "image/jpeg",
+            "name": "large_GreenX_3.jpg",
+            "path": null,
+            "size": 101.14,
+            "width": 1000,
+            "height": 563
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "/uploads/small_Green_X_3_4738b8c279.jpg",
+            "hash": "small_Green_X_3_4738b8c279",
+            "mime": "image/jpeg",
+            "name": "small_GreenX_3.jpg",
+            "path": null,
+            "size": 31.45,
+            "width": 500,
+            "height": 281
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "/uploads/medium_Green_X_3_4738b8c279.jpg",
+            "hash": "medium_Green_X_3_4738b8c279",
+            "mime": "image/jpeg",
+            "name": "medium_GreenX_3.jpg",
+            "path": null,
+            "size": 62.31,
+            "width": 750,
+            "height": 422
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "/uploads/thumbnail_Green_X_3_4738b8c279.jpg",
+            "hash": "thumbnail_Green_X_3_4738b8c279",
+            "mime": "image/jpeg",
+            "name": "thumbnail_GreenX_3.jpg",
+            "path": null,
+            "size": 8.65,
+            "width": 245,
+            "height": 138
+          }
+        },
+        "hash": "Green_X_3_4738b8c279",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 129.66,
+        "url": "/uploads/Green_X_3_4738b8c279.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "folderPath": "/1/27",
+        "createdAt": "2023-01-11T07:00:46.601Z",
+        "updatedAt": "2023-01-11T07:00:46.601Z"
+      },
+      "ContentList": [
+        {
+          "id": 1159,
+          "title": null,
+          "content": "An integral part of the BlueX Freight Commerce Platform is giving customers the tools to effectively make bookings through a digital platform, such as GreenX.\n\nFar from being a standalone feature, our instant quotes and fast digital bookings are the first steps in offering an array of services that digitally enable customers to book effectively and to facilitate container monetization strategies for carriers.",
+          "titleSize": 24
+        },
+        {
+          "id": 1160,
+          "title": "Traditional Ocean Freight Booking vs. Digital Ocean Freight Booking",
+          "content": "Traditional booking procedures are still common in the freight industry, and the complex nature of moving cargo usually necessitates shippers to outsource their 3PL to third-parties. We at BlueX created the world’s first Freight Commerce Platform (FCP) to digitally bridge the divide between shippers, trade services, and ocean carriers.\n\n![service-flow-1.svg](/uploads/service_flow_1_f0fff3476f.svg)\n\nAs part of our trade services in our FCP, instant ocean freight quotes and bookings are a vital part of what we offer shippers on our digital ecosystem. \n\nWith GreenX, you’ll be able to utilize our digital booking system and avoid the need to make up four phone calls, 12 emails, two faxes, and between 12-48 hours to make a cargo booking.",
+          "titleSize": 24
+        },
+        {
+          "id": 1161,
+          "title": "How to Make an Ocean Freight Booking on GreenX",
+          "content": "To get started on your first GreenX booking, first [register with Evergreen Line.](https://portal.greenxtrade.com/#/signup) Once you've been approved, you will be able to get started on making a digital booking through GreenX, a BlueX white-label solution. \n\n### 1\\. Get an Instant Freight Quote\n\nThe GreenX platform allows you to search for port-pairs across all Evergreen Line routes through a digital interface.\n\nSimply input your port of origin to your port of delivery, along with the type of container and your estimated time of departure, and click search. It’s that simple.\n\n![Step 1 to make a booking on GreenX](/uploads/book_step_1_d23ba8dbe9.png)\n\n### 2\\. Choose a Port pair\n\nOnce you’ve submitted your search, you’ll now be able to review all possible routes and rates for your cargo, as shown below:\n\n![book-rate-1.png](/uploads/book_rate_1_98b373c465.png)\n\nYou will also be able to use filters to narrow down your searches through specific criteria that include ETD, ETA, Port of Discharge, and the services you require.\n\n![Step 2 to making a booking on GreenX](/uploads/book_step_2_7d554fb3a0.png)\n\nYou can also search for routes based on their price and whether partial space is available.\n\n### 3\\. Enter Booking information\n\nOnce you click “Book” on your desired route and rate, you’ll then be able to fill in the information about your booking parties, shippers, consignees, importers, and forwarders.\n\n![Step 3 for making a booking on GreenX](/uploads/book_step_3_fc3ee346ac.png)\n\n### 4\\. Review and Reserve\n\nNow that you’ve filled in all your booking information, you’ll now be able to review everything that you've submitted. Once you’re satisfied with your booking, you can click to make your reservation.\n\n![Step 4 for making a booking on GreenX](/uploads/book_step_4_c1326d203b.png)\n\n### 5\\. Choose Your Payment Method\n\nGreenX currently offers two payment options: Traditional payments via an Evergreen Line counter, or payment through ACH (Automated Clearing House).\n\n![Step 5 for making a booking on GreenX](/uploads/book_step_5_a76a8bfbb3.png)\n\nWhichever option you decide to use, please be aware that you’ll not be able to change your method of payment once you confirm. You can also opt into paying for your bookings later with our financing solution that gives customers the option to pay between 15, 30, 45, or 60 days later after making booking.\n\n### 6\\. Manage Your Bookings\n\nOnce you've verified your payment through GreenX, your booking will be confirmed, and you can manage it on the \"Bookings\" dashboard, along with all of your other bookings. Here, you'll be able to review your booking's following information:\n\n- Application no.\n- Booking parties\n- Your Vessel\n- The cut-off date\n- Your booking price\n- Booking port pairs\n- Your booking status\n- Required actions for bookings",
+          "titleSize": 24
+        },
+        {
+          "id": 1162,
+          "title": "Other Benefits of GreenX",
+          "content": "Far from being only a freight booking platform, the BlueX powered GreenX is an all-in-one solution built to connect all players in the shipping industry. We're continuing to grow our 3PL service providers on our Freight Commerce Platform and plan to offer fully integrated inland services, globally integrated logistics, and, most of all, an effortless customer experience. \n\nTo get started on GreenX, make sure to [check out why you should sign up](https://www.bluextrade.com/blog/10-benefits-for-shippers-using-greenx/), and register today. If you're not an Evergreen Line customer, make sure to join our [Shipper Ambassador Program](https://www.bluextrade.com/ambassador-program/) to help us showcase to your carrier of choice why they need to be part of the BlueX Freight Commerce Platform.",
+          "titleSize": 24
+        }
+      ],
+      "localizations": [],
+      "Category": "Blog",
+      "UpdateDate": "2020-03-03"
+    },
+    {
+      "_meilisearch_id": "blog-46",
+      "id": 46,
+      "Title": "Overcoming COVID-19 with the BlueX Standard",
+      "Author": "BlueX Trade",
+      "Date": "2020-04-21",
+      "Url": "overcoming-covid-19-with-the-bluex-standard",
+      "Type": null,
+      "PreviewText": "With supply chains being upended, and the world in lockdown, COVID-19 is presenting some major challenges for businesses. Ocean freight has not been exempt from the COVID-19 threat either, with carriers feeling the full brunt of the lack of demand in the first half of 2020. While it’s hard to say when we will all […]",
+      "createdAt": "2023-01-11T03:45:12.521Z",
+      "updatedAt": "2023-05-05T04:04:03.082Z",
+      "publishedAt": "2023-01-11T03:45:16.063Z",
+      "locale": "en",
+      "SEO": {
+        "id": 625,
+        "title": "Overcoming COVID-19 with the BlueX Standard - BlueX",
+        "description": "Discover what COVID-19 means for shipping and how you can overcome these difficult times through digitalization with the BlueX Standard."
+      },
+      "Image": {
+        "id": 282,
+        "name": "erik-mclean-gya5Dr6XldI-unsplash-scaled-e1587526906893.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "width": 920,
+        "height": 613,
+        "formats": {
+          "small": {
+            "ext": ".jpg",
+            "url": "/uploads/small_erik_mclean_gya5_Dr6_Xld_I_unsplash_scaled_e1587526906893_7c5d177fc9.jpg",
+            "hash": "small_erik_mclean_gya5_Dr6_Xld_I_unsplash_scaled_e1587526906893_7c5d177fc9",
+            "mime": "image/jpeg",
+            "name": "small_erik-mclean-gya5Dr6XldI-unsplash-scaled-e1587526906893.jpg",
+            "path": null,
+            "size": 27.39,
+            "width": 500,
+            "height": 333
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "/uploads/medium_erik_mclean_gya5_Dr6_Xld_I_unsplash_scaled_e1587526906893_7c5d177fc9.jpg",
+            "hash": "medium_erik_mclean_gya5_Dr6_Xld_I_unsplash_scaled_e1587526906893_7c5d177fc9",
+            "mime": "image/jpeg",
+            "name": "medium_erik-mclean-gya5Dr6XldI-unsplash-scaled-e1587526906893.jpg",
+            "path": null,
+            "size": 47.83,
+            "width": 750,
+            "height": 500
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "/uploads/thumbnail_erik_mclean_gya5_Dr6_Xld_I_unsplash_scaled_e1587526906893_7c5d177fc9.jpg",
+            "hash": "thumbnail_erik_mclean_gya5_Dr6_Xld_I_unsplash_scaled_e1587526906893_7c5d177fc9",
+            "mime": "image/jpeg",
+            "name": "thumbnail_erik-mclean-gya5Dr6XldI-unsplash-scaled-e1587526906893.jpg",
+            "path": null,
+            "size": 9.54,
+            "width": 235,
+            "height": 156
+          }
+        },
+        "hash": "erik_mclean_gya5_Dr6_Xld_I_unsplash_scaled_e1587526906893_7c5d177fc9",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 52.46,
+        "url": "/uploads/erik_mclean_gya5_Dr6_Xld_I_unsplash_scaled_e1587526906893_7c5d177fc9.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "folderPath": "/1/33",
+        "createdAt": "2023-01-11T03:42:58.175Z",
+        "updatedAt": "2023-01-11T03:42:58.175Z"
+      },
+      "ContentList": [
+        {
+          "id": 1132,
+          "title": null,
+          "content": "With supply chains being upended, and the world in lockdown, COVID-19 is presenting some major challenges for businesses. Ocean freight has not been exempt from the COVID-19 threat either, with carriers feeling the full brunt of the lack of demand in the first half of 2020.\n\nWhile it’s hard to say when we will all be returning to normality, it’s fair to say that we will return to a ‘new normal.’ For the shipping industry, this new normal is digitalization.",
+          "titleSize": 24
+        },
+        {
+          "id": 1133,
+          "title": "Current Situation with COVID-19 and Shipping",
+          "content": "Shipping has taken hard knocks since January 2020. The last five years have not been stellar for ocean carriers as they feel the burden of having smaller rooms of error for losses.\n\nInitially, 2020 was met with optimism in late 2019, with the only concerns being for [IMO 2020 with extra charges](https://www.hellenicshippingnews.com/shippers-hit-with-extra-costs-vessel-issues-amid-imo-2020/) and the cost of installing scrubbers. It has now become more apparent that with the lockdown in China in January, and the subsequent lockdown of Europe and North America, that demand for ocean freight has simply dropped.\n\n### What Does All This Mean for Shipping?\n\nThere is a potential [loss of 10% of shipping volume](https://www.offshore-energy.biz/container-lines-may-lose-17-mn-teu-in-2020-due-to-coronavirus/) due to COVID-19 (roughly a loss of 17 million carrier TEU). In addition, it is estimated that container lines are losing revenue of up to between [$300m to $350m](https://www.seatrade-maritime.com/containers/container-lines-hit-300m-350m-weekly-revenue-loss-coronavirus) as they blank sailings. According to FreightWaves, the worst-case scenario for carriers is a [collective loss of $23b this year](https://www.freightwaves.com/news/container-lines-scramble-to-avert-life-threatening-covid-19-losses).\n\nMoody’s also downgraded the ocean shipping outlook of 2020 from stable to negative with an expected loss of 6-10% of carrier EBITDA. However, despite this, ocean freight has remained more resilient than other types of shipping.\n\n### Ocean Freight Has Remained Resilient During the COVID-19 Pandemic\n\nDespite the negative outlook for the global economy and shipping in 2020, there are still some positives to recognize.\n\nAccording to a [DHL report on COVID-19 on March 10th](https://www.dhl.com/content/dam/dhl/global/dhl-global-forwarding/documents/pdf/glo-dgf-statement-corona-virus.pdf), while airfreight continues to present challenges, ocean freight has remained relatively unaffected with China, Europe, North America, and many other regions still operating as normal with only a few ports being affected.\n\nLikewise, China has already begun the road to recovery. Like post-SARS in 2004, there is an expected boom in demand for shipping, and [economic activity will return](https://investors-corner.bnpparibas-am.com/investment-themes/coronavirus-lessons-from-sars-for-investors/), minus some initial haulage problems.\n\nHowever, until a full recovery is in place, what can shippers do to ensure their cargo gets to where it needs to be?\n\nWell, that’s where BlueX comes in, and we believe that the new way of shipping through digitalization will be the new standard of ocean shipping.",
+          "titleSize": 24
+        },
+        {
+          "id": 1134,
+          "title": "The BlueX Standard and Overcoming COVID-19 Through Digitalization",
+          "content": "COVID-19 has been a disruptive element in 2020 that has both slowed and halted global supply chains. However, this disruptive element can be minimized with innovation, notable digitalization with the **BlueX Standard**.\n\n### What is the BlueX Standard?\n\nThe BlueX Standard is our promise for a seamless online Freight Commerce Platform (FCP) with digital services that shippers need and the monetization strategies for ocean carriers. Our FCP was developed with the expertise from both Silicon Valley and from the shipping industry.\n\nSince 2019, we at BlueX have been striving to create a new way of shipping. From carriers to shippers, we offer a pathway to digitalize ocean shipping through our FreighTech-enabled FCP. By providing integrated trade services through a neutral ecosystem, we offer shippers a digitally seamless experience with the following benefits:\n\n- Instant quotes\n- Digital bookings\n- Secured space\n- Global, real-time sailing schedules\n- Reliable data\n- Real-time alerts and notifications\n\nAdded to that, we also offer ocean carriers the ability to monetize their containers through our white-label solution -  [GreenX](https://www.greenxtrade.com/), Evergreen Line’s BlueX powered online booking platform.",
+          "titleSize": 24
+        },
+        {
+          "id": 1135,
+          "title": "How to Make a Booking During a Pandemic with GreenX",
+          "content": "Traditionally, booking freight required a behemoth task of making phone calls, sending faxes, mail, emails, and waiting. While some shippers in the industry are comfortable with their current freight booking procedures, many of these methods are no longer possible during the COVID-19 global pandemic.\n\nInstead, [you can make your bookings on GreenX](https://www.bluextrade.com/blog/how-to-book-ocean-freight-on-greenx/), a BlueX white-label solution. The GreenX platform has been tailored for shippers, BCOs, and freight forwarders to book and manage their cargo. Making a booking is as simple as:\n\n- **Get an Instant Freight Quote** - Fill in your port of origin and port of delivery, the type of container, and your estimated time of departure, and click search\n- **Choose a Port pair** - Review all routes and rates for your cargo\n- **Enter Booking information** - Fill in the information about your booking parties, shippers, consignees, importers, and forwarders\n- **Review and Reserve** - Confirm your reservation after reviewing your booking\n- **Choose Your Payment Method** - Choose between Traditional Payments via an Evergreen Line counter, payment through ACH (Automated Clearing House), or Payment Terms with our trade service partner, Decent (DLC)\n- **Manage Your Bookings** - Managing everything online like your application and booking number, booking parties, the cut-off date, booking prices, and booking statuses\n\nAs our trade service partners continue to increase, our white-label solutions across all ocean carriers will be enhanced with new features to allow you to book freight online seamlessly.",
+          "titleSize": 24
+        },
+        {
+          "id": 1136,
+          "title": "Digitalize Your Ocean Freight With GreenX",
+          "content": "To overcome COVID-19 and get your freight moving, simply register with GreenX [here](https://www.greenxtrade.com/), and once you’re approved, you’ll be able to make digital bookings. If, however, you’d like to make digital bookings through our white-label solution via your preferred ocean carrier, please apply for our [BlueX Shipper Ambassador Program](https://www.bluextrade.com/ambassador-program/) to be part of the discussion to change how we ship cargo.",
+          "titleSize": 24
+        }
+      ],
+      "localizations": [],
+      "Category": "Blog",
+      "UpdateDate": "2020-04-21"
+    },
+    {
+      "_meilisearch_id": "blog-71",
+      "id": 71,
+      "Title": "Small businesses can improve cash flow in 2023 using these approaches",
+      "Author": "BlueX",
+      "Date": "2023-02-21",
+      "Url": "Small-businesses-can-improve-cash-flow-in-2023-using-these-approaches",
+      "Type": "FinTech",
+      "PreviewText": "Being financially agile and open to new technology can help businesses not just sustain their cash flow, but also enhance it. There are several practical and technological methods that companies can adopt to maintain a healthy working capital. For example, BlueX can assist with inventory financing. Unlike other lenders, BlueX doesn't require an assessment of the inventory's liquidation value or a minimum amount to access financing. Additionally, BlueX offers a third alternative to small businesses with its B2B Pay-it-Later solution, providing fast access to up to $1 million for cargo and logistics service needs. Businesses can get approved in less than 48 hours and have up to 60 days to pay back their invoices, with no application or setup fees. BlueX also pays vendors on time, allowing businesses to focus on growth instead of worrying about cash flow.",
+      "createdAt": "2023-02-21T03:57:32.127Z",
+      "updatedAt": "2023-05-05T03:18:07.786Z",
+      "publishedAt": "2023-02-21T04:45:09.691Z",
+      "locale": "en",
+      "SEO": {
+        "id": 653,
+        "title": "Small businesses can improve cash flow in 2023 using these approaches",
+        "description": "Being financially agile and open to new technology can help businesses not just sustain their cash flow, but also enhance it. There are several practical and technological methods that companies can adopt to maintain a healthy working capital. For example, BlueX can assist with inventory financing. Unlike other lenders, BlueX doesn't require an assessment of the inventory's liquidation value or a minimum amount to access financing. Additionally, BlueX offers a third alternative to small businesses with its B2B Pay-it-Later solution, providing fast access to up to $1 million for cargo and logistics service needs. Businesses can get approved in less than 48 hours and have up to 60 days to pay back their invoices, with no application or setup fees. BlueX also pays vendors on time, allowing businesses to focus on growth instead of worrying about cash flow."
+      },
+      "Image": {
+        "id": 387,
+        "name": "image1.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1999,
+        "height": 1335,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "/uploads/large_image1_92e00ddd27.jpg",
+            "hash": "large_image1_92e00ddd27",
+            "mime": "image/jpeg",
+            "name": "large_image1.jpg",
+            "path": null,
+            "size": 83.31,
+            "width": 1000,
+            "height": 668
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "/uploads/small_image1_92e00ddd27.jpg",
+            "hash": "small_image1_92e00ddd27",
+            "mime": "image/jpeg",
+            "name": "small_image1.jpg",
+            "path": null,
+            "size": 30.28,
+            "width": 500,
+            "height": 334
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "/uploads/medium_image1_92e00ddd27.jpg",
+            "hash": "medium_image1_92e00ddd27",
+            "mime": "image/jpeg",
+            "name": "medium_image1.jpg",
+            "path": null,
+            "size": 55.1,
+            "width": 750,
+            "height": 501
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "/uploads/thumbnail_image1_92e00ddd27.jpg",
+            "hash": "thumbnail_image1_92e00ddd27",
+            "mime": "image/jpeg",
+            "name": "thumbnail_image1.jpg",
+            "path": null,
+            "size": 9.79,
+            "width": 234,
+            "height": 156
+          }
+        },
+        "hash": "image1_92e00ddd27",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 196.92,
+        "url": "/uploads/image1_92e00ddd27.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "folderPath": "/1/66",
+        "createdAt": "2023-02-21T03:56:48.217Z",
+        "updatedAt": "2023-02-21T03:56:56.340Z"
+      },
+      "ContentList": [
+        {
+          "id": 1285,
+          "title": null,
+          "content": "Ongoing economic problems like inflation, labor shortages, and the rising price of goods and services are making it harder and harder for small businesses to feel secure about their longevity. A [PYMNTS’ study](https://www.pymnts.com/study/main-street-health-q3-2022-inflation-smbs-business-retail/) conducted at the end of 2022 showed a 10% drop in the number of companies expecting revenue increases compared to the previous period in 2021, with 12% believing they may not last to see 2024.\n\nHowever, businesses who remain financially agile and open to new technology can not only maintain cash flow, but improve it. Companies can implement a range of practical and technological approaches right now to keep their working capital in the green.",
+          "titleSize": 24
+        },
+        {
+          "id": 1286,
+          "title": "Find ways to negotiate with customers and suppliers ",
+          "content": "While some contracts are fixed in stone, customers and suppliers are still human beings who may be flexible and open to discussion with regard to the timing on payments. Here are a few areas you can explore with them:\n\n<u>1) Offer discounts for early payment</u>\n\nHave you considered offering incentives for your clients to pay their invoices earlier? An early payment discount (EPD) can range from 1 to 2%, but a small loss in revenue might be worth getting fast access to cash that can be put towards urgent business needs, such as payroll or rent. Another benefit is that receiving payments early contributes to lower days sales outstanding (DSO) metrics, which can enhance your company’s overall financial health rating.     \n\n<u>2) Negotiating with suppliers on payment due dates</u>\n\nThe payment terms in most industries are generally net 30, which means that payments that are as little as a day late can have a major impact on expenses on a fixed schedule like rent or payroll. However, some supply chain partners may be open to accepting net 15 or net 20 payment terms. \n",
+          "titleSize": 24
+        },
+        {
+          "id": 1287,
+          "title": "Digitize your AP / AR processes",
+          "content": "There is an undisputed correlation between modernizing AP / AR processes and overall business growth. A [recent PYMNTS report](https://www.pymnts.com/news/b2b-payments/2022/25-percent-b2b-payments-are-made-by-check/) found that over 50% of US CFOs surveyed say that digitizing their AP / AR operations has allowed for an increase in payment types such as [ACH payments](https://www.bluextrade.com/blog/are-ach-payments-safe-in-2022-advantages-and-disadvantages), credit cards, wires, and real-time payments (RTP), among others. \n\n<u>1) Centralize your payment tools</u>\n\nEfficiency and transparency in AP / AR processes are essential to cash flow management, which is why relying on manual operations can result in wasted resources. All-in-one payment platforms offer a remedy to this scenario by bringing all of these processes – such as expenses, payroll, and revenue management – under one digital dashboard. Over 40% of main street businesses surveyed by [PYMNTS](https://www.pymnts.com/smbs/2023/small-merchants-opt-automation-over-price-hikes-manage-slowing-consumer-demand/) said that implementing an all-in-one payment platform simplified their receivables tracking, and 32% said the technology had led to improvements in working capital.   \n\nBlueX Pay, for example, offers [a payment platform](https://www.bluextrade.com/payer/) that amplifies cash flow for buyers and sellers. Businesses can set up a digital wallet to make and receive payments, as well as access Pay-it-Later services. All of the transactions can be viewed on their dashboard, which enables easy reconciliation. \n\n<u>2) Use digital payments, and encourage your supply chain to do the same</u>\n\nUsing legacy accounting processes such as mailing physical checks may avoid the costs of digital payments, but you should consider the time it takes to process the checks, which can take anywhere from days to weeks. This time loss could translate into a loss in capital which can easily  exceed a digital processing fee. This does not mean that you need to stop using checks for the vendors who prefer this approach, but it would be worthwhile to encourage other businesses in your supply chain to switch to digital payments, as  this could bring benefits to all.  \n\nAnd with the FedNow real-time payment network set to launch in the US later this year, there has never been a more advantageous time for businesses to make the move to digital payments. ",
+          "titleSize": 24
+        },
+        {
+          "id": 1288,
+          "title": "Consider alternative methods of financing",
+          "content": "An uncertain economy and limited access to bank loans are leading small businesses to search for more creative financing methods, such as [inventory financing](https://www.bluextrade.com/blog/Inventory-Financing-the-Pros-and-Cons), invoice factoring, or B2B pay-it-later solutions. Fintech companies are watching the trends and rolling out tools that connect businesses to these finance options, which can provide a lower barrier to entry and more flexible payment terms. \n\n<u>1) Inventory financing</u>\n\nWith inventory financing, businesses can put up the inventory they wish to buy as collateral for the purchase itself, such as in cases where they need additional stock for a busy season. The borrower doesn't need to pay back the lender until after they sell off all the inventory, and if the business defaults on the loan, the lender has the option to then try and sell the remaining stock themselves.  \n\nThe benefits of inventory financing include: no need to stake personal assets such as a house or car; funding is usually fast; and there’s no credit check required. However, this approach usually requires more due diligence on the part of lenders to access the inventory’s liquidation value, which can result in longer wait times for funding. And some lenders may demand a minimum amount of financing that might be too high for smaller businesses to meet. You can consider [BlueX](https://www.bluextrade.com/pay-it-later/) to assist you with inventory financing, as we don't require an assessment on the inventory's liquidation value, nor do we require a minimum amount to get the financing. \n\n<u>2) Invoice Factoring</u> \n\nInvoice factoring, also known as AR factoring, is a finance option in which the business sells its invoices to a third party at a reduced price, which allows the business fast access to working capital without needing to take out a loan. For example, a 90% advance on a $10,000 invoice would provide the business with $9,000 in cash right now, with the difference going to the factoring company upon collection of the invoice from the businesses’ customer. \n\n<u>3) BlueX Pay-it-Later</u>\n\nBlueX offers a third alternative to small businesses that need to enhance their cash flow in the form of our B2B Pay-it-Later solution. BlueX Pay-it-Later offers fast access to up to $1 million for cargo and all your logistics service needs. Businesses can get approved in less than 48 hours, and have up to 60 days to pay back their invoices. There is no application or set up fees, and we pay your vendors on time so you can pay later and focus on the goals that drive business growth.\n\nReach out to the [BlueX team](https://www.bluextrade.com/pay-it-later/) on how to make better payments and amplify your cash flow.\n",
+          "titleSize": 24
+        }
+      ],
+      "localizations": [],
+      "Category": "Blog",
+      "UpdateDate": "2023-02-21"
+    },
+    {
+      "_meilisearch_id": "blog-16",
+      "id": 16,
+      "Title": "Are ACH Payments Safe in 2023? Advantages and Disadvantages",
+      "Author": "BlueX Pay",
+      "Date": "2022-03-14",
+      "Url": "are-ach-payments-safe-in-2022-advantages-and-disadvantages",
+      "Type": "FinTech",
+      "PreviewText": "Discover more about whether ACH payments are safe, as well as their advantages and disadvantages over other payment methods. ",
+      "createdAt": "2022-03-14T03:48:35.498Z",
+      "updatedAt": "2023-06-09T06:10:34.212Z",
+      "publishedAt": "2022-03-14T03:56:14.362Z",
+      "locale": "en",
+      "SEO": {
+        "id": 86,
+        "title": "BlueX Pay | Are ACH Payments Safe in 2023? Advantages and Disadvantages",
+        "description": "Discover more about whether ACH payments are safe, as well as their advantages and disadvantages over other payment methods. "
+      },
+      "Image": {
+        "id": 71,
+        "name": "mars-IgUR1iX0mqM-unsplash.jpg",
+        "alternativeText": "",
+        "caption": "",
+        "width": 6720,
+        "height": 4480,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "/uploads/large_mars_Ig_UR_1i_X0mq_M_unsplash_aee5e8e5c5.jpg",
+            "hash": "large_mars_Ig_UR_1i_X0mq_M_unsplash_aee5e8e5c5",
+            "mime": "image/jpeg",
+            "name": "large_mars-IgUR1iX0mqM-unsplash.jpg",
+            "path": null,
+            "size": 92.69,
+            "width": 1000,
+            "height": 667
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "/uploads/small_mars_Ig_UR_1i_X0mq_M_unsplash_aee5e8e5c5.jpg",
+            "hash": "small_mars_Ig_UR_1i_X0mq_M_unsplash_aee5e8e5c5",
+            "mime": "image/jpeg",
+            "name": "small_mars-IgUR1iX0mqM-unsplash.jpg",
+            "path": null,
+            "size": 34.09,
+            "width": 500,
+            "height": 333
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "/uploads/medium_mars_Ig_UR_1i_X0mq_M_unsplash_aee5e8e5c5.jpg",
+            "hash": "medium_mars_Ig_UR_1i_X0mq_M_unsplash_aee5e8e5c5",
+            "mime": "image/jpeg",
+            "name": "medium_mars-IgUR1iX0mqM-unsplash.jpg",
+            "path": null,
+            "size": 60.45,
+            "width": 750,
+            "height": 500
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "/uploads/thumbnail_mars_Ig_UR_1i_X0mq_M_unsplash_aee5e8e5c5.jpg",
+            "hash": "thumbnail_mars_Ig_UR_1i_X0mq_M_unsplash_aee5e8e5c5",
+            "mime": "image/jpeg",
+            "name": "thumbnail_mars-IgUR1iX0mqM-unsplash.jpg",
+            "path": null,
+            "size": 11.42,
+            "width": 234,
+            "height": 156
+          }
+        },
+        "hash": "mars_Ig_UR_1i_X0mq_M_unsplash_aee5e8e5c5",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 2381.7,
+        "url": "/uploads/mars_Ig_UR_1i_X0mq_M_unsplash_aee5e8e5c5.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "folderPath": "/1/60",
+        "createdAt": "2022-03-14T03:20:19.863Z",
+        "updatedAt": "2022-03-14T03:20:19.887Z"
+      },
+      "ContentList": [
+        {
+          "id": 46,
+          "title": null,
+          "content": "Same-day payments have already moved from a business luxury to a means for survival and staying competitive. Amid this need, ACH (Automated Clearing House) payments remain among one of the fastest payment methods in the US –  according to Nacha, in the first quarter of 2023, Same Day ACH saw volume and value [increases of 20.7% and 94.7%,](https://www.nacha.org/news/whats-next-same-day-ach) respectively. ACH also contributed to [$128.5 trillion in non-cash payments in 2021](https://www.nacha.org/news/new-fed-report-further-proof-ach-network-thriving) including card and check as well, as cited in a study released in April by The Federal Reserve. \n\nUsing ACH to pay your vendors and logistics partners carries a wide array of advantages along with a few potential challenges, both of which we will examine in this article. ",
+          "titleSize": 24
+        },
+        {
+          "id": 47,
+          "title": "What are ACH Payments?",
+          "content": "ACH payments were created in the U.S. in the 1970s as a means to send money safely and conveniently between different banks. The ACH Network is a batch processing system in which banks and other financial institutions use a shared network to aggregate ACH transactions for processing.\n\nACH payments offer a range of advantages for international transactions, though like any electronic payment option, they carry their own share of risks. In this article, we’ll go through the pros and cons of using ACH payments to help you evaluate if they are the best option for your business.",
+          "titleSize": 24
+        },
+        {
+          "id": 48,
+          "title": "The Advantages of ACH Payments",
+          "content": "- **Reduced manual effort**: Handling a payment to a vendor electronically rather than writing and posting a check in the mail is infinitely easier.\n- **It’s fast**: ACH credits generally need to be settled within one to two days, and ACH debits can be settled by the next business day. This is faster than the time it takes to mail a check and for it to be received and processed by the recipient.\n- **It’s cost-effective**: [Consider the costs](https://www.bluexpay.com/blog/international-freight-payment-methods) associated with printing checks, putting them in stamped envelopes, and having them delivered via couriers. These might not cost much individually, but little expenses like these can accumulate and eat into your employees’ time and your overhead.",
+          "titleSize": 24
+        },
+        {
+          "id": 49,
+          "title": "The Disadvantages of ACH Payments",
+          "content": "- **Setup time**: To pay your bills or your vendors online will require you to create an account. This could take up to a few hours depending on the service.\n- **Extra Fees**: Setup can often include some [admin fees](https://paymentcloudinc.com/blog/ach-fees/), and processing fees can range from $0.20 to $1.50 US dollars. There are also [vendor enablement costs](https://www.bluexpay.com/blog/international-freight-payment-methods), which refer to the labor needed to collect and monitor vendors’ banking and routing information. Though relatively small, these fees can add up.\n- **Limited Reach**: ACH payments are currently only available in the U.S., whereas wire transfers and credit card payments can be made across the world.",
+          "titleSize": 24
+        },
+        {
+          "id": 50,
+          "title": "Are ACH Payments Safe?",
+          "content": "ACH payments are recognized as a relatively safe payment method. [Data from Nacha](https://www.nacha.org/rules/ach-network-risk-and-enforcement-topics) shows that **less than 0.03% of ACH transactions are returned as unauthorized**. \n\nACH payments are generally safer than writing checks since you only need to enter your bank info once, whereas checks require that you write it every time. However, checks can also be stolen or lost in the mail, while ACH payments move directly from payer to recipient.  \n\nIn terms of fraud protection, ACH payments are more vulnerable than credit card transactions, which won’t directly draw on operating capital even if subject to fraud. However, losses due to ACH-related fraud are protected under federal law – [so long as it’s reported to the bank within 60 days](https://www.windriverfinancial.com/how-do-ach-payments-work-and-are-they-safe/). \n\nACH payments also hold a security advantage over wire transfers in that they aren’t instant and irreversible as many wire transfers are, which means a fraudster will have a harder time running off with your stolen funds.\n",
+          "titleSize": 24
+        },
+        {
+          "id": 51,
+          "title": "6 Tips to Further Secure ACH Payments",
+          "content": "Even though ACH transactions are relatively secure, there are several things businesses can do to add additional security:\n\n1. Create a secure portal for vendors to enter banking account info so no one else can gain access\n2. Store ACH data in encrypted servers\n3. Enable secure file transfer protocol (SFTP) to ensure your transaction is safe from end-to-end\n4. Use a credit only account for issuing ACH payments, not a debit account\n5. Invest in malware protection on the PCs you use to make ACH transactions\n6. Watch for suspicious transactions in your account that don’t come from known vendors",
+          "titleSize": 24
+        },
+        {
+          "id": 52,
+          "title": "BlueX Pay-it-Later includes Same Day ACH",
+          "content": "Waiting for payments can be challenging, especially if your business is growing quickly and you have inventories you need sitting in your warehouse. BlueX customers can now use ACH to pay their vendors and logistics providers while using our Pay-it-Later services. \n\nGet in touch with [the BlueX team](https://www.bluextrade.com/) about how we can provide your business with the immediate working capital you need to stay afloat and thrive.",
+          "titleSize": 24
+        }
+      ],
+      "localizations": [],
+      "Category": "Blog",
+      "UpdateDate": "2023-06-09"
+    },
+    {
+      "_meilisearch_id": "blog-80",
+      "id": 80,
+      "Title": "How bank collapses can impact cash flow and four ways small businesses can cope",
+      "Author": "BlueX",
+      "Date": "2023-05-15",
+      "Url": "How-bank-collapses-can-impact-cash-flow-and-four-ways-small-businesses-can-cope",
+      "Type": "FinTech",
+      "PreviewText": "From a financial perspective, the first half of 2023 will probably be remembered for the cascade of bank collapses that shook the economy: Silicon Valley Bank, First Republic Bank, and Signature Bank. While federal regulators are working to control the damage, many small to medium-sized businesses that survive from quarter to quarter or even month to month are facing even greater financial uncertainty than the year before. ",
+      "createdAt": "2023-05-15T09:54:23.362Z",
+      "updatedAt": "2023-06-12T03:43:43.127Z",
+      "publishedAt": "2023-05-15T13:45:02.683Z",
+      "locale": "en",
+      "SEO": {
+        "id": 670,
+        "title": "How bank collapses can impact cash flow and four ways small businesses can cope",
+        "description": "From a financial perspective, the first half of 2023 will probably be remembered for the cascade of bank collapses that shook the economy: Silicon Valley Bank, First Republic Bank, and Signature Bank. While federal regulators are working to control the damage, many small to medium-sized businesses that survive from quarter to quarter or even month to month are facing even greater financial uncertainty than the year before. "
+      },
+      "Image": {
+        "id": 421,
+        "name": "iStock-1040303566.jpg",
+        "alternativeText": "How bank collapses can impact cash flow and four ways small businesses can cope",
+        "caption": null,
+        "width": 3872,
+        "height": 2571,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "/uploads/large_i_Stock_1040303566_02176eb635.jpg",
+            "hash": "large_i_Stock_1040303566_02176eb635",
+            "mime": "image/jpeg",
+            "name": "large_iStock-1040303566.jpg",
+            "path": null,
+            "size": 105.39,
+            "width": 1000,
+            "height": 664
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "/uploads/small_i_Stock_1040303566_02176eb635.jpg",
+            "hash": "small_i_Stock_1040303566_02176eb635",
+            "mime": "image/jpeg",
+            "name": "small_iStock-1040303566.jpg",
+            "path": null,
+            "size": 35.43,
+            "width": 500,
+            "height": 332
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "/uploads/medium_i_Stock_1040303566_02176eb635.jpg",
+            "hash": "medium_i_Stock_1040303566_02176eb635",
+            "mime": "image/jpeg",
+            "name": "medium_iStock-1040303566.jpg",
+            "path": null,
+            "size": 65.96,
+            "width": 750,
+            "height": 497
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "/uploads/thumbnail_i_Stock_1040303566_02176eb635.jpg",
+            "hash": "thumbnail_i_Stock_1040303566_02176eb635",
+            "mime": "image/jpeg",
+            "name": "thumbnail_iStock-1040303566.jpg",
+            "path": null,
+            "size": 10.89,
+            "width": 235,
+            "height": 156
+          }
+        },
+        "hash": "i_Stock_1040303566_02176eb635",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 1239.92,
+        "url": "/uploads/i_Stock_1040303566_02176eb635.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "folderPath": "/",
+        "createdAt": "2023-05-15T09:55:54.421Z",
+        "updatedAt": "2023-05-15T13:33:09.310Z"
+      },
+      "ContentList": [
+        {
+          "id": 1319,
+          "title": null,
+          "content": "From a financial perspective, the first half of 2023 will probably be remembered for the cascade of bank collapses that shook the economy: Silicon Valley Bank, First Republic Bank, and Signature Bank. While federal regulators are working to control the damage, many small to medium-sized businesses that survive from quarter to quarter or even month to month are facing even greater financial uncertainty than the year before. ",
+          "titleSize": 24
+        },
+        {
+          "id": 1320,
+          "title": "What happened? ",
+          "content": "- On March 10th, **Silicon Valley Bank (SVB)** was shut down by regulators in California. Though there were multiple factors, the main reason was that its investments had greatly decreased in value, leading depositors to withdraw large sums at once.\n- On March 12th, just two days later, **Signature Bank** was closed down after account holders withdrew large sums of money following the collapse of SVB. \n- On May 1st, **First Republic Bank (FRB)** became the second-largest bank collapse in U.S. history when most of its business was sold to JPMorgan Chase after it was seized by federal regulators. The main cause was a cascade effect of runs on deposits produced by the closing of SVB and Signature Bank. \n- According to the New York Times, the three banks [combined held more in inflation-adjusted assets](https://www.nytimes.com/interactive/2023/business/bank-failures-svb-first-republic-signature.html) than the 25 U.S. banks that collapsed in the financial crisis of 2008. \n\n![image1.png](/uploads/image1_278db2c02d.png)\nSource: [New York Times](https://www.nytimes.com/interactive/2023/business/bank-failures-svb-first-republic-signature.html) via data from Federal Deposit Insurance Corporation. (Adjusted for inflation)",
+          "titleSize": 24
+        },
+        {
+          "id": 1321,
+          "title": "The impact of the collapses on U.S. small to medium-sized businesses",
+          "content": "If you are a small to medium-sized business in the U.S., you may already be feeling the effects of the bank collapses on your cash flow, which can include:\n\n\n1. <u>Temporary loss of access to insured funds:</u> Businesses that relied on one of the three closed banks may temporarily lose access to insured funds until they are returned by the Federal Deposit Insurance Corporation (FDIC). \n\n1. <u>Bank stress and tightening credit:</u> According to the Federal Reserve’s latest quarterly Senior Loan Officer Opinion Survey (SLOOS), [lenders are tightening standards](https://edition.cnn.com/2023/05/08/economy/fed-senior-loan-officer-opinion-survey-q1/index.html) in the wake of the banking turmoil. [Close to 50% of banks surveyed](https://www.reuters.com/business/finance/banks-tighten-credit-terms-see-loan-demand-drop-fed-survey-shows-2023-05-08/) said that lending standards were slightly more stringent to small businesses compared to January of this year.\n\n1. <u>Another interest rate rise:</u> In late March, The Federal Reserve [decided to raise rates by 0.25%](https://www.bbc.com/news/business-65041649) even while the banking collapse was happening. This has also led to higher interest rates on business financing in the short term. ",
+          "titleSize": 24
+        },
+        {
+          "id": 1322,
+          "title": "What businesses can do to maintain healthy capital flow",
+          "content": "**Prioritize a healthy balance sheet over growth:** In these times of economic disruption, focusing on the fundamentals of cash flow management and maintaining a healthy balance sheet should sometimes take precedence over business growth. You can consider pausing plans to grow your business and instead look at how to keep capital stable in the long-term beyond just this month or quarter.  \n\n**Digitize your AR:** Moving your legacy AR processes onto a digital platform at this timing is not just helpful, it’s essential. Such platforms are shown to greatly improve invoice reconciliation, reduce days sales outstanding (DSO), and increase overall visibility and efficiency in the payment process. If you’re not able to see all of your payment data in a single window, maintaining long-term visibility over your capital will become increasingly difficult.   \n\n**Inventory financing or A/R factoring:** There are more and more creative ways to finance your business besides credit cards and bank loans. If you are a retail business that struggles to purchase the stock you need for seasonal demands, you can consider inventory financing, which is using the inventory you need to buy as collateral for itself. Or, businesses with credit histories too short to get loans can try accounts receivable (A/R) factoring, or selling your invoices to a third party company for an advance on a portion of the invoice value. You can contact BlueX Sales for more information about our related solutions. \n\n**Use Pay-it-Later to maintain strong cash flow:** Just by giving you more time to pay, B2B Pay-it-Later (PIL) solutions can help to offset rising supply costs and help your business acquire more inventory. B2B PIL is an ideal solution for companies looking to modernize their payment systems, reduce costs, and improve their competitive advantage.\n\nFor example, [BlueX Pay-it-Later](https://www.bluextrade.com/pay-it-later/) offers pay-later options for your cargo and all your logistics invoices, providing financing options with up to 100% of net invoice value and up to 1 million in funds available in 48 hours. BlueX will pay your vendor on time, and you can choose between net 30/60-day terms every time you submit an application. Moreover, BlueX supports different payment methods, including offline remittance, same-day ACH, and SWIFT. \n\nTo learn more, contact the BlueX sales team at [sales@bluexpay.com](sales@bluexpay.com)",
+          "titleSize": 24
+        }
+      ],
+      "localizations": [],
+      "Category": "Blog",
+      "UpdateDate": "2023-05-15"
+    }
+  ],
+  "query": "ACH greenx",
+  "processingTimeMs": 7,
+  "hitsPerPage": 5,
+  "page": 1,
+  "totalPages": 2,
+  "totalHits": 7
+}

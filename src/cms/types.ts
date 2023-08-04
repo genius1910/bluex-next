@@ -49,10 +49,10 @@ export interface ImageAttributes {
 }
 
 export interface ImageFormats {
-  large:     ImageAttributes;
-  small:     ImageAttributes;
-  medium:    ImageAttributes;
-  thumbnail: ImageAttributes;
+  large?:     ImageAttributes;
+  small?:     ImageAttributes;
+  medium?:    ImageAttributes;
+  thumbnail?: ImageAttributes;
 }
 
 export interface ImageEntry {
