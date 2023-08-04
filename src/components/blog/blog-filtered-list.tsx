@@ -9,6 +9,7 @@ import { useCallback, useEffect, useState } from 'react';
 import BlogPaginator from './blog-paginator';
 import BlogPreview from './blog-preview';
 import BlogPreviewLoading from './blog-preview-loading';
+import { buildSearchPath } from '@/cms/base';
 
 interface BlogListProps {
   locale: AvailableLocaleType,
@@ -17,7 +18,7 @@ interface BlogListProps {
 
 export default function BlogFilteredList({ locale, localizedContent }: BlogListProps) {
   const [loading, setLoading] = useState(false)
-  const [meta, setMeta] = useState<Metadata | null>(null)
+  const [totalPage, setTotalPage] = useState(0)
   const [blogs, setBlogs] = useState<BlogEntry[]>([])
 
   const searchParams = useSearchParams()
@@ -30,6 +31,7 @@ export default function BlogFilteredList({ locale, localizedContent }: BlogListP
     const opt = { search, type, category, page, sort: ['Date:desc'] }
 
     searchBlogs(opt).then((res) => {
+      setTotalPage(res.totalPages)
       setLoading(false)
       setBlogs(res.hits as BlogEntry[])
 
@@ -37,6 +39,7 @@ export default function BlogFilteredList({ locale, localizedContent }: BlogListP
       setLoading(false)
       console.error('err', err)
     })
+    setTotalPage(0)
     setLoading(true)
   }, [search, type, category, page])
 
@@ -68,8 +71,8 @@ export default function BlogFilteredList({ locale, localizedContent }: BlogListP
 
           <BlogPaginator
             locale={locale}
-            page={page}
-            pageCount={4}
+            previousUrl={ page > 1 ? buildSearchPath({type, category, search, page: page - 1, locale}) : null }
+            nextUrl={ page < totalPage ? buildSearchPath({type, category, search, page: page + 1, locale}) : null }
           />
         </>
       }

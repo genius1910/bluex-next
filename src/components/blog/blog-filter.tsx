@@ -18,7 +18,6 @@ export default function BlogFilter( { localizedContent, locale }: BlogFilterProp
   const search = searchParams.get('search')
   const type = searchParams.get('type')
   const category = searchParams.get('category')
-  // const page = searchParams.get('page') || '1'
 
   return (
     <div // filter section

@@ -4,6 +4,7 @@ import { AvailableLocaleType } from '@/cms/types';
 import BlogList from './blog-list';
 import BlogPaginator from './blog-paginator';
 import BlogPreview from './blog-preview';
+import { buildPath } from '@/cms/base';
 
 interface BlogListProps {
   localizedContent: LocalizedContent,
@@ -33,8 +34,8 @@ export default async function BlogStaticPage({ locale, localizedContent, page }:
       }
       <BlogPaginator
         locale={locale}
-        page={page}
-        pageCount={meta.totalPages}
+        previousUrl={ page > 1 ? buildPath(`/blog/page/${page - 1}`, locale) : null }
+        nextUrl={ page < meta.totalPages ? buildPath(`/blog/page/${page + 1}`, locale) : null }
       />
 
     </BlogList>

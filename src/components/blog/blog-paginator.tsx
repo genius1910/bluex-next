@@ -2,7 +2,13 @@ import { AvailableLocaleType } from "@/cms/types";
 import Button from "@/components/common/ripple-button";
 import Link from "next/link";
 
-export default function BlogPaginator({ locale, page, pageCount }: { locale: AvailableLocaleType, page: number, pageCount: number }) {
+interface BlogPaginatorProps {
+  locale: AvailableLocaleType
+  previousUrl: string | null
+  nextUrl: string | null
+}
+
+export default function BlogPaginator({ locale, previousUrl, nextUrl }: BlogPaginatorProps) {
   return (
     <div
       className="relative flex flex-col lg:flex-row w-full items-center justify-center"
@@ -10,9 +16,9 @@ export default function BlogPaginator({ locale, page, pageCount }: { locale: Ava
       <div
         className="flex items-center justify-center"
       >
-        {page > 1 && (
+        { previousUrl && (
           <Link
-            href={`/${locale}/blog/page/${page - 1}`}
+            href={ previousUrl }
           >
             <Button
               className="text-secondary mr-2.5 px-2 py-1.5 border-2 border-solid border-secondary w-36 text-sm font-button capitalize leading-6 hover:bg-secondary hover:text-white transition-colors duration-300"
@@ -21,9 +27,9 @@ export default function BlogPaginator({ locale, page, pageCount }: { locale: Ava
             </Button>
           </Link>
         )}
-        {page < pageCount && (
+        { nextUrl && (
           <Link
-            href={`/${locale}/blog/page/${page + 1}`}
+            href={ nextUrl }
           >
             <Button
               className="text-white mr-2.5 px-2 py-1.5 bg-secondary border-2 border-solid border-secondary w-36 text-sm font-button capitalize leading-6 hover:bg-white hover:text-secondary transition-colors duration-300"
