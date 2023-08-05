@@ -39,6 +39,8 @@
     "@svgr/webpack": "^8.0.1",
     "@types/lodash.debounce": "^4.0.7",
     "@types/qs": "^6.9.7",
+    "prettier": "^3.0.1",
+    "prettier-plugin-tailwindcss": "^0.4.1",
     "tsx": "^3.12.7"
   }
 }
