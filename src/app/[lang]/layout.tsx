@@ -23,6 +23,7 @@ export default async function RootLayout({
   const headerContent = await fetchHeader()
   const localizedHeaderContent = headerContent[locale]
 
+  console.log('lang layout')
   return (
     <html lang={params.lang}>
       <body>

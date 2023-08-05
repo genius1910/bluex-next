@@ -22,6 +22,7 @@ export default async function BlogArticle({ localizedContent, blog }: { blog: Bl
             alt={blog.Image.alternativeText || 'image'}
             width={imageAttr.width}
             height={imageAttr.height}
+            priority={true}
           />
         </div>
         <div

@@ -12,13 +12,13 @@ export default function SearchBox({ search, onChange }: { search: string, onChan
 
   const debouncedChangeHandler = useMemo(
     () => debounce(changeHandler, 500)
-  , []);
+  , [onChange]);
 
   useEffect(() => {
     return () => {
       debouncedChangeHandler.cancel();
     }
-  }, []);
+  }, [debouncedChangeHandler]);
 
   return (
     <div

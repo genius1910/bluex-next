@@ -11,6 +11,7 @@ export interface SearchRequest {
   search: string | null;
   page: number;
   sort?: string[];
+  updateFilterable?: boolean;
 }
 
 export interface SearchResponse {
@@ -114,7 +115,7 @@ export async function fetchPage(page: number) {
   return res.hits
 }
 
-export async function searchBlogs({ type, category, search, sort, page }: SearchRequest) {
+export async function searchBlogs({ type, category, search, sort, page, updateFilterable }: SearchRequest) {
   if (useMockData) {
     return BlogFilteredList
   }
@@ -122,8 +123,10 @@ export async function searchBlogs({ type, category, search, sort, page }: Search
   const client = new MeiliSearch(meliConfig());
 
   const blogIndex = await client.index("blog");
-  blogIndex.updateSortableAttributes(["Date"]);
-  blogIndex.updateFilterableAttributes(["Category", "Type", "Url"]);
+  if (updateFilterable) {
+    blogIndex.updateSortableAttributes(["Date"]);
+    blogIndex.updateFilterableAttributes(["Category", "Type", "Url"]);
+  }
 
   const filterCon = [];
 
@@ -159,6 +162,7 @@ export async function fetchSlugs() {
       search: null,
       page: page,
       sort: ['Date:desc'],
+      updateFilterable: page == 1,
     })
 
     if (res.totalPages > page) {

@@ -23,7 +23,6 @@ export default async function Page({ params }: { params: { lang: string } }) {
           locale={locale}
           localizedContent={localizedContent}
         />
-
       </Suspense>
     </BlogList>
   )

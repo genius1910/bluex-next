@@ -20,7 +20,10 @@ export default function BlogPreview({ blog, readButton, blogTypes, categoryTypes
     <div
       className='flex flex-col lg:flex-row'
     >
-      <Link
+       {/* kevinj: use <a> instead of <Link> to avoid massing up browser history.
+           with <Link>, it will shows blank page when user click back button in browser.
+       */}
+      <a
         className='flex-auto w-full mr-auto mb-5 lg:flex-[0_0_23.75rem] lg:w-[23.75rem] lg:max-h-[17.5rem] lg:mr-[3.125rem]'
         href={blogPath}
       >
@@ -31,12 +34,13 @@ export default function BlogPreview({ blog, readButton, blogTypes, categoryTypes
           alt='blog image'
           src={buildCmsUrl(blog.Image.formats.small?.url || '')}
         />
-      </Link>
+      </a>
       <div
         className='flex-auto flex flex-col justify-start'
       >
         <Link
           href={blogPath}
+          prefetch={false}
         >
           <div
             className='overflow-hidden text-ellipsis leading-[1.875rem] text-xl text-left whitespace-pre-wrap uppercase font-title font-bold text-primary'
@@ -80,6 +84,7 @@ export default function BlogPreview({ blog, readButton, blogTypes, categoryTypes
         </div>
         <Link
           href={blogPath}
+          prefetch={false}
         >
           <button
             className='w-36 h-9 text-[rgb(0,155,210)] text-sm leading-6 font-bold font-title rounded-[1.125rem] border-2 border-solid border-[rgb(0,155,210)]'
