@@ -103,7 +103,7 @@ interface ProductDropdownGroup {
 
 export type { LocalizedContent, PageContent };
 
-export const fetch = async () => {
+export async function fetchHeader() {
   if (useMockData) {
     return HeaderContent as PageContent
   }

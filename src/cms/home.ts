@@ -167,7 +167,7 @@ export interface PageIntroList {
 
 export type { LocalizedContent, PageContent };
 
-export const fetch = async () => {
+export const fetchHome = async () => {
   if (useMockData) {
     return HomeContent as PageContent;
   }

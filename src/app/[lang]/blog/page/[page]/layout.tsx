@@ -1,4 +1,6 @@
 import { fetchStats } from "@/cms/blog-search"
+import { AvailableLangType, mapLangToLocale } from "@/cms/types";
+import Header from "@/components/header/header";
 import { range } from "@/lib/tools"
 
 export async function generateStaticParams() {
@@ -8,12 +10,22 @@ export async function generateStaticParams() {
   }))
 }
 
-export default async function RootLayout({
+export default async function Layout({
   children,
+  params,
 }: {
-  children: React.ReactNode,
+  children: React.ReactNode;
+  params: { lang: string };
 }) {
-  return <>
-    {children}
-  </>
+  const locale = mapLangToLocale(params.lang as AvailableLangType);
+  if (!locale) {
+    return false;
+  }
+
+  return (
+    <>
+      <Header locale={locale} />
+      <main>{children}</main>
+    </>
+  );
 }

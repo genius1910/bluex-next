@@ -1,25 +1,25 @@
 "use client";
 
-import { Fragment } from 'react'
-import Link from 'next/link';
-import { Menu, Transition } from '@headlessui/react'
-import ChevronDownIcon from '@/images/icon/chevron-down.svg'
-
+import { Fragment } from "react";
+import Link from "next/link";
+import { Menu, Transition } from "@headlessui/react";
+import ChevronDownIcon from "@/images/icon/chevron-down.svg";
+import { formatClassSpacePrefix } from "@/lib/format";
 
 interface OptionGroupType {
   label?: string;
   options: OptionType[];
-  icon?: React.ReactNode,
+  icon?: React.ReactNode;
 }
 
 interface OptionType {
   label: string;
   url: string;
   className?: string;
-  icon?: React.ReactNode,
+  icon?: React.ReactNode;
 }
 
-type HeaderBackgruond = 'dark' |'white';
+type HeaderBackgruond = "dark" | "white";
 
 interface MainMenuProps {
   title: string;
@@ -30,20 +30,31 @@ interface MainMenuProps {
   background?: HeaderBackgruond;
 }
 
-export function MainMenu({ title, optionGroups, options, buttonClassName, groupClassName, background }: MainMenuProps) {
+export function MainMenu({
+  title,
+  optionGroups,
+  options,
+  buttonClassName,
+  groupClassName,
+  background,
+}: MainMenuProps) {
   const groups = optionGroups || [{ options: options || [] }];
-  const colorClass = background === 'white' ? 'text-primary' : 'text-white';
+  const colorClass = background === "white" ? "text-primary" : "text-white";
+  const buttonClass = formatClassSpacePrefix(buttonClassName);
+  const groupClass = formatClassSpacePrefix(groupClassName);
   return (
     <Menu as="div" className="relative inline-block text-left">
       {({ open }) => (
         <>
           <div key="d1">
             <Menu.Button
-              className={`inline-flex w-full justify-center items-center border-none bg-transparent px-2.5 py-2 text-sm font-medium font-menu leading-[1.57rem] ${colorClass} ${buttonClassName || ''}`}
+              className={`inline-flex w-full items-center justify-center border-none bg-transparent px-2.5 py-2 font-menu text-sm font-medium leading-[1.57rem] ${colorClass}${buttonClass}`}
             >
               {title}
               <ChevronDownIcon
-                className={`-mr-1 h-6 w-6 text-current transform duration-150 ${open ? 'rotate-180' : 'rotate-0'}`}
+                className={`-mr-1 h-6 w-6 transform text-current duration-150 ${
+                  open ? "rotate-180" : "rotate-0"
+                }`}
                 aria-hidden="true"
               />
             </Menu.Button>
@@ -59,39 +70,35 @@ export function MainMenu({ title, optionGroups, options, buttonClassName, groupC
             leaveTo="transform opacity-0 scale-95"
           >
             <Menu.Items
-              className={
-                `before:content-[""] before:absolute before:top-[-0.313rem] before:w-0 before:h-0 before:border-b-[0.313rem] before:border-b-white before:border-x-[0.313rem]
-                before:border-x-transparent before:border-solid before:left-10
-                absolute left-0 z-10 mt-0 w-56 origin-top-left rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ${groupClassName || ''}`
-              }
+              className={`absolute left-0 z-10 mt-0 w-56 origin-top-left rounded-md bg-white
+                shadow-lg ring-1 ring-black
+                ring-opacity-5 before:absolute before:left-10 before:top-[-0.313rem] before:h-0 before:w-0 before:border-x-[0.313rem] before:border-b-[0.313rem] before:border-solid before:border-x-transparent before:border-b-white before:content-[""]
+                focus:outline-none${groupClass}`}
             >
-              { groups.map((optionGroup, idx) => (
-                <div
-                  key={`${optionGroup.label}-${idx}`}
-                  className="py-1"
-                >
-                  { optionGroup.label && (
+              {groups.map((optionGroup, idx) => (
+                <div key={`${optionGroup.label}-${idx}`} className="py-1">
+                  {optionGroup.label && (
                     <Menu.Item
                       as="span"
-                      className="text-xs text-gray-900 block px-4 py-2"
+                      className="block px-4 py-2 text-xs text-submenu"
                     >
-                      { optionGroup.label }
+                      {optionGroup.label}
                     </Menu.Item>
-                  ) }
-                  { optionGroup.options.map((option) => (
-                    <Menu.Item
-                      as={Fragment}
-                      key={option.label}
-                    >
-                      <Link
-                        href={ option.url }
-                        className={`flex flex-row items-center text-gray-900 block text-xs px-4 py-2 hover:bg-gray-200 ${option.className || ''}`}
-                      >
-                        { option.icon }
-                        { option.label }
-                      </Link>
-                    </Menu.Item>
-                  )) }
+                  )}
+                  {optionGroup.options.map((option) => {
+                    const optClass = formatClassSpacePrefix(option.className);
+                    return (
+                      <Menu.Item as={Fragment} key={option.label}>
+                        <Link
+                          href={option.url}
+                          className={`block flex flex-row items-center px-4 py-2 text-xs hover:bg-gray-200 text-submenu${optClass}`}
+                        >
+                          {option.icon}
+                          {option.label}
+                        </Link>
+                      </Menu.Item>
+                    );
+                  })}
                 </div>
               ))}
             </Menu.Items>
@@ -99,5 +106,5 @@ export function MainMenu({ title, optionGroups, options, buttonClassName, groupC
         </>
       )}
     </Menu>
-  )
+  );
 }

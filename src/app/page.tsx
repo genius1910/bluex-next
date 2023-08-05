@@ -1,5 +1,4 @@
-import { fetch as fetchHeader } from '@/cms/header'
-import { fetch } from '@/cms/home'
+import { fetchHome } from '@/cms/home'
 import { fetchLocales } from '@/cms/langs'
 import { defaultLocale } from '@/cms/types'
 import Header from '@/components/header/header'
@@ -10,17 +9,13 @@ import Home from '@/components/home/home'
 export default async function Page() {
   const allLocales = await fetchLocales()
   const locale = allLocales.find(locale => locale.isDefault)?.code ?? defaultLocale
-  const headerContent = await fetchHeader()
-  const localizedHeaderContent = headerContent[locale]
-  const content = await fetch()
+  const content = await fetchHome()
 
   return (
     <html lang={locale}>
       <body>
         <Header
-          content={localizedHeaderContent}
           locale={locale}
-          allLocales={allLocales}
         />
         <main>
           <Home
