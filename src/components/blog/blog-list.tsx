@@ -13,7 +13,7 @@ interface BlogListProps {
 
 export default function BlogList({ localizedContent, locale, children }: BlogListProps) {
   const bg = buildCmsUrl(localizedContent.Section_1_Bg.data.attributes.url)
-  console.log('BlogList')
+
   return (
     <div
       className='relative w-full h-fit'
@@ -43,12 +43,12 @@ export default function BlogList({ localizedContent, locale, children }: BlogLis
       <div
         className='relative min-h-[32rem] w-full box-border px-5 mx-auto bg-white lg:w-[60rem] lg:px-0'
       >
-        {/* <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div>Loading...</div>}>
           <BlogFilter
             locale={locale}
             localizedContent={localizedContent}
           />
-        </Suspense> */}
+        </Suspense>
 
         <Divider />
 
