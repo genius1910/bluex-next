@@ -24,6 +24,7 @@
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.12",
     "html-react-parser": "^4.2.0",
+    "lodash.debounce": "^4.0.8",
     "meilisearch": "^0.34.0",
     "next": "13.4.12",
     "postcss": "8.4.27",
@@ -36,6 +37,7 @@
   },
   "devDependencies": {
     "@svgr/webpack": "^8.0.1",
+    "@types/lodash.debounce": "^4.0.7",
     "@types/qs": "^6.9.7",
     "tsx": "^3.12.7"
   }
