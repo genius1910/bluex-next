@@ -38,7 +38,7 @@ const HeaderMenus = ({
                 label: link.label,
                 url:
                   link.type === LinkType.Interior
-                    ? `/${locale}${link.url}`
+                    ? buildPath(link.url, locale)
                     : link.url || "#",
                 className: "!text-secondary font-bold",
                 icon: (
@@ -62,7 +62,7 @@ const HeaderMenus = ({
                     label: link.label,
                     url:
                       link.type === LinkType.Interior
-                        ? `/${locale}${link.url}`
+                        ? buildPath(link.url, locale)
                         : link.url || "#",
                   },
                 ],
@@ -74,7 +74,7 @@ const HeaderMenus = ({
               href={
                 attachment?.startsWith("https://")
                   ? attachment
-                  : buildPath(attachment,locale)
+                  : buildPath(attachment, locale)
               }
               className={`px-2.5 py-2 text-sm font-medium text-header`}
             >
