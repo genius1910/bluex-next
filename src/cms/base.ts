@@ -13,7 +13,6 @@ export const meliConfig = () => ({
   apiKey: process.env.NEXT_PUBLIC_MELIAPI_APIKEY || '',
 });
 
-export const defaultLocale = 'en';
 export const useMockData = process.env.MOCK === "true";
 
 export function buildCmsUrl(path: string): string {

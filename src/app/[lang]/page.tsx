@@ -1,6 +1,5 @@
 import { fetchHome } from "@/cms/home";
 import { AvailableLangType, mapLangToLocale } from "@/cms/types";
-import Header from "@/components/header/header";
 import Home from "@/components/home/home";
 
 export default async function Page({ params }: { params: { lang: string } }) {
@@ -11,12 +10,5 @@ export default async function Page({ params }: { params: { lang: string } }) {
     return false;
   }
 
-  return (
-    <>
-      <Header locale={locale} />
-      <main>
-        <Home content={content} locale={locale} />
-      </main>
-    </>
-  );
+  return <Home content={content} locale={locale} />;
 }

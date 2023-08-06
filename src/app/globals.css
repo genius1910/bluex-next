@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --header-text: #fff;
+}
+
 html body {
   min-height: 100vh;
   margin: 0px;
@@ -19,6 +23,10 @@ html body {
 a {
   color: #009bd2;
   text-decoration: none;
+}
+
+.dark-logo {
+  display: none;
 }
 
 @layer components {

@@ -24,7 +24,10 @@ export default async function RootLayout({
   return (
     <html lang={params.lang}>
       <body>
-        {children}
+        <Header locale={locale} />
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   );

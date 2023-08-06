@@ -5,37 +5,30 @@ import MobileDisclosure from "@/components/header/mobile-disclosure";
 import { MainMenu } from "./header-menu";
 
 import { buildPath } from "@/cms/base";
+import { fetchHeader } from "@/cms/header";
 import NavNextIcon from "@/images/icon/nav-next.svg";
 import PrimaryLogo from "@/images/logo/bxblogo.svg";
 import WhiteLogo from "@/images/logo/bxwlogo.svg";
 import Link from "next/link";
 import LangMenu from "./lang-menu";
-import { fetchHeader } from "@/cms/header";
-
-type HeaderBackgruond = "dark" | "white";
 
 interface HeaderProps {
   content: LocalizedContent;
   locale: AvailableLocaleType;
   allLocales: Locale[];
-  background?: HeaderBackgruond;
 }
 
 const HeaderMenus = ({
   content,
   locale,
-  background,
 }: {
   content: LocalizedContent;
   locale: AvailableLocaleType;
-  background: HeaderBackgruond;
 }) => {
-  const colorClass = background === "white" ? "text-primary" : "text-white";
   return (
     <>
       <MainMenu
         title={content.Product_Dropdown_Label || "-"}
-        background={background}
         groupClassName="divide-y divide-gray-300"
         optionGroups={content.Product_Dropdown_Groups.map((group) => {
           return {
@@ -63,7 +56,6 @@ const HeaderMenus = ({
             <MainMenu
               key={`${title}-${index}`}
               title={title}
-              background={background}
               optionGroups={links.filter(Boolean).map((link) => ({
                 options: [
                   {
@@ -84,7 +76,7 @@ const HeaderMenus = ({
                   ? attachment
                   : `/${locale}${attachment}` || "#"
               }
-              className={`px-2.5 py-2 text-sm font-medium ${colorClass}`}
+              className={`px-2.5 py-2 text-sm font-medium text-header`}
             >
               {title}
             </Link>
@@ -95,38 +87,26 @@ const HeaderMenus = ({
   );
 };
 
-function DesktopNavBar({
-  content,
-  locale,
-  allLocales,
-  background,
-}: HeaderProps) {
+function DesktopNavBar({ content, locale, allLocales }: HeaderProps) {
   return (
     <div className="hidden h-full flex-col justify-center lg:flex">
       <div className="mx-auto my-0 w-[60rem]">
         <div className="relative flex h-full items-center">
           <Link href={buildPath("/", locale)} rel="home" title="BlueX Trade">
-            {background === "white" ? <PrimaryLogo /> : <WhiteLogo />}
+            <PrimaryLogo className="dark-logo" />
+            <WhiteLogo className="white-logo" />
           </Link>
 
           <div // LinksWrapper
             className="ml-[4.413rem] flex flex-row items-center text-white"
           >
-            <HeaderMenus
-              content={content}
-              locale={locale}
-              background={background || "dark"}
-            />
+            <HeaderMenus content={content} locale={locale} />
           </div>
 
           <div // right section of header
             className="absolute right-0 flex flex-row items-center"
           >
-            <LangMenu
-              locale={locale}
-              allLocales={allLocales}
-              background={background || "dark"}
-            />
+            <LangMenu locale={locale} allLocales={allLocales} />
 
             <Link href={content.Header_SignIn_Btn?.link || "/"}>
               <button
@@ -169,10 +149,8 @@ function MobileNavBar({ content, locale, allLocales }: HeaderProps) {
 
 export default async function Header({
   locale,
-  background,
 }: {
   locale: AvailableLocaleType;
-  background?: HeaderBackgruond;
 }) {
   const allLocales = await fetchLocales();
   const headerContent = await fetchHeader();
@@ -184,7 +162,6 @@ export default async function Header({
         content={localizedHeaderContent}
         locale={locale}
         allLocales={allLocales}
-        background={background}
       />
       <MobileNavBar
         content={localizedHeaderContent}

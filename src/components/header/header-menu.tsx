@@ -19,15 +19,12 @@ interface OptionType {
   icon?: React.ReactNode;
 }
 
-type HeaderBackgruond = "dark" | "white";
-
 interface MainMenuProps {
   title: string;
   optionGroups?: OptionGroupType[]; // if optionGroups is defined, options is ignored
   options?: OptionType[]; // used when optionGroups is not defined
   buttonClassName?: string;
   groupClassName?: string;
-  background?: HeaderBackgruond;
 }
 
 export function MainMenu({
@@ -36,10 +33,8 @@ export function MainMenu({
   options,
   buttonClassName,
   groupClassName,
-  background,
 }: MainMenuProps) {
   const groups = optionGroups || [{ options: options || [] }];
-  const colorClass = background === "white" ? "text-primary" : "text-white";
   const buttonClass = formatClassSpacePrefix(buttonClassName);
   const groupClass = formatClassSpacePrefix(groupClassName);
   return (
@@ -48,7 +43,7 @@ export function MainMenu({
         <>
           <div key="d1">
             <Menu.Button
-              className={`inline-flex w-full items-center justify-center border-none bg-transparent px-2.5 py-2 font-menu text-sm font-medium leading-[1.57rem] ${colorClass}${buttonClass}`}
+              className={`inline-flex w-full items-center justify-center border-none bg-transparent px-2.5 py-2 font-menu text-sm font-medium leading-[1.57rem] text-header${buttonClass}`}
             >
               {title}
               <ChevronDownIcon

@@ -30,6 +30,7 @@ module.exports = {
         'primary': '#18335e',
         'secondary': '#009bd2',
         'submenu': '#18335e',
+        "header": "var(--header-text)",
       },
     },
   },
