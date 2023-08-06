@@ -4,12 +4,31 @@ import {
   mapLangToLocale,
 } from "@/cms/types";
 import Header from "@/components/header/header";
+import { Metadata, ResolvingMetadata } from "next";
 
 export async function generateStaticParams() {
   return availableLangs.map((lang) => ({ lang }));
 }
 
-export default async function RootLayout({
+export async function generateMetadata(
+  { params }: {
+    params: { lang: string };
+  parent: ResolvingMetadata
+},
+): Promise<Metadata> {
+  const locale = mapLangToLocale(params.lang as AvailableLangType);
+  if (!locale) {
+    return {};
+  }
+
+  return {
+    other: {
+      "Content-Language": locale
+    }
+  }
+}
+
+export default function RootLayout({
   children,
   params,
 }: {
@@ -22,7 +41,7 @@ export default async function RootLayout({
   }
 
   return (
-    <html lang={params.lang}>
+    <html lang={locale}>
       <body>
         <Header locale={locale} />
         <main>
