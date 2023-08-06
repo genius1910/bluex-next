@@ -1,0 +1,131 @@
+{
+  "en": {
+    "Section_3_Title": "Want to learn more?",
+    "Modal_1_Title": "Receiving Funds Fee",
+    "Modal_1_Comment": "These fees will be billed at the end of each month.",
+    "Modal_2_Title": "Other local rail fees ",
+    "Modal_Trigger_Keyword": "here",
+    "createdAt": "2021-09-11T08:29:23.063Z",
+    "updatedAt": "2022-09-14T01:52:32.876Z",
+    "publishedAt": "2021-09-11T08:29:24.381Z",
+    "locale": "en",
+    "Section_1_Paragraph": {
+      "id": 110,
+      "title": "Pricing",
+      "content": "All prices in USD"
+    },
+    "Modal_1_Pricing_List": [
+      { "id": 11, "name": "SWIFT international transfers", "price": "$5.00" },
+      {
+        "id": 14,
+        "name": "SWIFT (receiving USD for US based customers)",
+        "price": "$30.00"
+      },
+      { "id": 15, "name": "Fedwire", "price": "$10.00" }
+    ],
+    "Modal_2_Local_Fees_Group_List": [
+      { "id": 1, "area": "Asia-Pacific" },
+      { "id": 2, "area": "North America" },
+      { "id": 3, "area": "Europe" },
+      { "id": 4, "area": "Other Region" }
+    ],
+    "SEO": { "id": 91, "title": "BlueX Pay | Pricing", "description": null },
+    "Modal_2_Local_Fees_Header_List": [
+      { "id": 49, "content": "Payout Country / Region" },
+      { "id": 50, "content": "Payment Currency" },
+      { "id": 51, "content": "Payment Method" },
+      { "id": 52, "content": "Payout Fee" }
+    ],
+    "Section_3_Button": {
+      "id": 37,
+      "text": "Sign Up",
+      "link": "https://portal.bluexpay.com/signup/company_info"
+    },
+    "localizations": { "data": [] }
+  },
+  "zh-Hant-TW": {
+    "Section_3_Title": "想了解更多嗎？",
+    "Modal_1_Title": "收款費用",
+    "Modal_1_Comment": "上述費用將於月底寄送帳單",
+    "Modal_2_Title": "其他當地支付管道費用",
+    "Modal_Trigger_Keyword": "請點此",
+    "createdAt": "2022-04-12T01:54:35.145Z",
+    "updatedAt": "2022-09-16T09:02:37.992Z",
+    "publishedAt": "2022-04-12T01:54:38.528Z",
+    "locale": "zh-Hant-TW",
+    "Section_1_Paragraph": {
+      "id": 263,
+      "title": "詳細費用",
+      "content": "價格皆以美金標示"
+    },
+    "Modal_1_Pricing_List": [
+      { "id": 26, "name": "SWIFT 國際匯款", "price": "$5.00" },
+      { "id": 27, "name": "SWIFT（美國客戶收取美金）", "price": "$30.00" },
+      { "id": 28, "name": "Fedwire", "price": "$10.00" }
+    ],
+    "Modal_2_Local_Fees_Group_List": [
+      { "id": 5, "area": "亞太地區" },
+      { "id": 6, "area": "北美地區" },
+      { "id": 7, "area": "歐洲地區" },
+      { "id": 8, "area": "其他地區" }
+    ],
+    "SEO": { "id": 92, "title": "BlueX Pay | Pricing", "description": null },
+    "Modal_2_Local_Fees_Header_List": [
+      { "id": 53, "content": "收款國家/地區" },
+      { "id": 54, "content": "支付幣別" },
+      { "id": 55, "content": "支付方式" },
+      { "id": 56, "content": "匯款手續費" }
+    ],
+    "Section_3_Button": {
+      "id": 38,
+      "text": "註冊",
+      "link": "https://portal.bluexpay.com/signup/company_info"
+    },
+    "localizations": { "data": [] }
+  },
+  "zh-Hans-CN": {
+    "Section_3_Title": "想了解更多？",
+    "Modal_1_Title": "收款費用",
+    "Modal_1_Comment": "上述费用将于月底寄送帐单",
+    "Modal_2_Title": "其他當地支付軌跡費用",
+    "Modal_Trigger_Keyword": "请点此",
+    "createdAt": "2022-04-12T01:54:48.793Z",
+    "updatedAt": "2022-09-16T09:15:30.924Z",
+    "publishedAt": "2022-04-12T01:54:51.997Z",
+    "locale": "zh-Hans-CN",
+    "Section_1_Paragraph": {
+      "id": 264,
+      "title": "定价详情",
+      "content": "价格的单位均为美元"
+    },
+    "Modal_1_Pricing_List": [
+      { "id": 39, "name": "使用SWIFT国际转账系统", "price": "$5.00" },
+      {
+        "id": 40,
+        "name": "使用SWIFT系统（美国客户收取美元）",
+        "price": "$30.00"
+      },
+      { "id": 41, "name": "Fedwire", "price": "$10.00" }
+    ],
+    "Modal_2_Local_Fees_Group_List": [
+      { "id": 9, "area": "亞太地區" },
+      { "id": 10, "area": "北美地区" },
+      { "id": 11, "area": "欧洲地区" },
+      { "id": 12, "area": "其他地区" },
+      { "id": 13, "area": null }
+    ],
+    "SEO": { "id": 93, "title": "BlueX Pay | Pricing", "description": null },
+    "Modal_2_Local_Fees_Header_List": [
+      { "id": 57, "content": "收款地（国家或地区）" },
+      { "id": 58, "content": "货币代码" },
+      { "id": 59, "content": "支付方式" },
+      { "id": 60, "content": "付款费用" }
+    ],
+    "Section_3_Button": {
+      "id": 39,
+      "text": "注册",
+      "link": "https://portal.bluexpay.com/signup/company_info"
+    },
+    "localizations": { "data": [] }
+  }
+}

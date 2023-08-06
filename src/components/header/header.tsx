@@ -74,7 +74,7 @@ const HeaderMenus = ({
               href={
                 attachment?.startsWith("https://")
                   ? attachment
-                  : `/${locale}${attachment}` || "#"
+                  : buildPath(attachment,locale)
               }
               className={`px-2.5 py-2 text-sm font-medium text-header`}
             >
@@ -111,7 +111,7 @@ function DesktopNavBar({ content, locale, allLocales }: HeaderProps) {
             <Link href={content.Header_SignIn_Btn?.link || "/"}>
               <button
                 className="ml-5 flex h-[2rem] w-[6.6rem] items-center justify-center rounded-[18px] border-none
-                  bg-[#009bd2] px-2 py-1.5 text-center text-sm font-bold normal-case leading-normal text-white
+                  bg-[#009bd2] px-2 py-1.5 text-center text-sm font-bold normal-case leading-[normal] text-white
                   hover:bg-[#00afec]"
               >
                 <span>{content.Header_SignIn_Btn?.text}</span>

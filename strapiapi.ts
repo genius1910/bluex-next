@@ -1,6 +1,8 @@
 // import { createAxiosInstance, loadCollectionTypes } from '@/lib/strapi_loader';
 // import { fetchBySlug, fetchSlugs } from "@/cms/blog-entry";
 import { searchBlogs, fetchBySlug, fetchSlugs } from "@/cms/blog-search";
+import { fetchAll } from "@/cms/pricing-entry";
+import { fetchContent } from "@/cms/pricing-page";
 // import { fetch } from "@/cms/header";
 require('dotenv').config();
 
@@ -43,13 +45,17 @@ require('dotenv').config();
 //   process.stdout.write(JSON.stringify(res[1]) + "\n")
 // })
 
-// fetchMeta().then((res) => {
+// fetchContent().then((res) => {
 //   process.stdout.write(JSON.stringify(res) + "\n")
 // })
 
-fetchSlugs().then((res) => {
+fetchAll('zh-Hant-TW').then((res) => {
   process.stdout.write(JSON.stringify(res) + "\n")
 })
+
+// fetchSlugs().then((res) => {
+//   process.stdout.write(JSON.stringify(res) + "\n")
+// })
 
 // fetchBySlug('the-bluex-open-freight-marketplace-how-logistics-should-work').then((res) => {
 //   process.stdout.write(JSON.stringify(res) + "\n")

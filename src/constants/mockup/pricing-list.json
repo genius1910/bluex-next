@@ -1,0 +1,111 @@
+[
+  {
+    "Title": "BlueX Payments",
+    "Content": "Grow your business and pay vendors in over 30 currencies with competitive FX rates.  ",
+    "Comment": "BlueX Pay Global Accounts enable the collection of payments. Through your Global Account number, you can collect funds via domestic payment methods and/or SWIFT.\n\nGlobal Accounts can be opened in two different jurisdictions – the United States and Hong Kong. Depending on where you expect to receive payments, you can open a Global Account in that jurisdiction, so that you can save on costs and receive funds on a local level. Receive money quickly. Most local payments settle on the same day.",
+    "Order": 2,
+    "createdAt": "2022-09-14T09:04:37.574Z",
+    "updatedAt": "2022-12-08T04:12:57.439Z",
+    "publishedAt": "2022-09-14T09:04:39.103Z",
+    "locale": "en",
+    "Note": "BlueX Pay Global Accounts enable the collection of payments. Through your Global Account number, you can collect funds via domestic payment methods and/or SWIFT.\n\nGlobal Accounts can be opened in two different jurisdictions – the United States and Hong Kong. Depending on where you expect to receive payments, you can open a Global Account in that jurisdiction, so that you can save on costs and receive funds on a local level. Receive money quickly. Most local payments settle on the same day.",
+    "Details": [
+      {
+        "id": 23,
+        "title": "Global Account",
+        "content": null,
+        "comment": null,
+        "others": null,
+        "list": [
+          {
+            "id": 46,
+            "name": "Registration",
+            "price": "Free, with 2 initial accounts"
+          },
+          { "id": 47, "name": "Monthly fee", "price": "$20/ per month" },
+          { "id": 48, "name": "Open new account", "price": "$10/ per account" }
+        ]
+      },
+      {
+        "id": 27,
+        "title": "Receiving Funds",
+        "content": null,
+        "comment": "*Payments made via the SWIFT network or Fedwire will incur a payment fee. Click here for more information.",
+        "others": "receiving-funds-fee-modal",
+        "list": [
+          { "id": 52, "name": "ACH or local payment rails", "price": "Free" }
+        ]
+      },
+      {
+        "id": 28,
+        "title": "Sending Funds",
+        "content": "",
+        "comment": "*Other local rail fees can be found here",
+        "others": "local-rail-fees-modal",
+        "list": [
+          { "id": 53, "name": "Wallet-to-Wallet", "price": "$2.00" },
+          {
+            "id": 54,
+            "name": "International USD Wire Transfers (SWIFT (SHA))",
+            "price": "$12.50"
+          },
+          {
+            "id": 55,
+            "name": "International USD Wire Transfers (SWIFT (OUR))",
+            "price": "$20.00"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "title": "FX Conversion Fees on top of Interbank rate",
+        "content": null,
+        "comment": null,
+        "others": null,
+        "list": [
+          {
+            "id": 56,
+            "name": "AUD, USD, HKD, CNY, JPY, EUR, GBP, CAD, CHF, NZD, SGD",
+            "price": "0.33%"
+          },
+          { "id": 57, "name": "SEK, NOK, DKK", "price": "0.48%" },
+          { "id": 58, "name": "THB", "price": "0.58%" },
+          { "id": 59, "name": "HRK, HUF, PLN, RON, CZK", "price": "0.68%" },
+          { "id": 60, "name": "IDR, PHP, KRW, MYR", "price": "0.98%" },
+          {
+            "id": 61,
+            "name": "INR, PKR, TRY, VND, BDT, LKR, NPR, and others",
+            "price": "1.28%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "BlueX Pay-it-Later",
+    "Content": "Net 30/60 day pay-later options for your freight and cargo. Vendors get paid instantly, while you can pay it later.",
+    "Comment": " ",
+    "Order": 1,
+    "createdAt": "2022-09-14T07:25:15.148Z",
+    "updatedAt": "2022-12-08T03:58:16.296Z",
+    "publishedAt": "2022-09-14T07:37:24.100Z",
+    "locale": "en",
+    "Note": null,
+    "Details": [
+      {
+        "id": 21,
+        "title": "Pay-it-Later",
+        "content": "",
+        "comment": "*No setup or subscription fees. ",
+        "others": null,
+        "list": [
+          {
+            "id": 42,
+            "name": "Fee",
+            "price": "1.25%- 3% of invoice (Net 30-day terms)"
+          }
+        ]
+      }
+    ]
+  }
+]

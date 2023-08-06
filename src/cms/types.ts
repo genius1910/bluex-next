@@ -81,7 +81,7 @@ export interface ImageMeta {
 export interface SEO {
   id:          number;
   title:       string | null;
-  description: string;
+  description: string | null;
   image?:      ImageEntry;
 }
 

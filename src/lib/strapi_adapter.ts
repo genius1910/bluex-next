@@ -82,7 +82,7 @@ const loadSingleTypes = async (req: loadSingleTypesRequest) => {
   }
 }
 
-interface loadCollectionTypesRequest {
+interface LoadCollectionTypesRequest {
   apiURL: string;
   accessToken: string;
   collectionName: string
@@ -116,7 +116,7 @@ interface Pagination {
 }
 
 
-const loadCollectionTypes = async (req: loadCollectionTypesRequest) => {
+const loadCollectionTypes = async (req: LoadCollectionTypesRequest) => {
   const endpoint = `/api/${req.collectionName}`
   const queryParams = {
     ...req.query,
