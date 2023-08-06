@@ -21,7 +21,7 @@ export default async function Page({ params }: { params: { lang: string, slug: s
 
     {/* use white background header in this page */}
     <style>{`
-      button { --header-text: #18335e; }
+      div { --header-text: #18335e; }
       header .dark-logo { display: block; }
       header .white-logo { display: none; }
     `}</style>
