@@ -41,3 +41,21 @@ export function combineURLs(baseURL: string, relativeURL?: string, params?: stri
 
   return url
 }
+
+export const retry = async <T>(
+  fn: () => Promise<T> | T,
+  { retries, retryIntervalMs }: { retries: number; retryIntervalMs?: number }
+): Promise<T> => {
+  const retryInterval = retryIntervalMs === undefined ? 200 : retryIntervalMs
+  try {
+    return await fn()
+  } catch (error) {
+    if (retries <= 0) {
+      throw error
+    }
+    await sleep(retryInterval)
+    return retry(fn, { retries: retries - 1, retryIntervalMs: retryInterval })
+  }
+}
+
+export const sleep = (ms = 0) => new Promise((resolve) => setTimeout(resolve, ms))

@@ -17,6 +17,10 @@ export default async function BlogStaticPage({
   const pageContent = await fetchContent();
   const localizedContent = pageContent[locale] || pageContent[defaultLocale];
   const blogs = await fetchPage(page);
+  const previousPagePath =
+    page > 1 ? buildPath(`/blog/page/${page - 1}`, locale) : null;
+  const nextPagePath =
+    page < meta.totalPages ? buildPath(`/blog/page/${page + 1}`, locale) : null;
 
   return (
     <BlogList locale={locale} localizedContent={localizedContent}>
@@ -33,14 +37,8 @@ export default async function BlogStaticPage({
         ))}
         <BlogPaginator
           locale={locale}
-          previousUrl={
-            page > 1 ? buildPath(`/blog/page/${page - 1}`, locale) : null
-          }
-          nextUrl={
-            page < meta.totalPages
-              ? buildPath(`/blog/page/${page + 1}`, locale)
-              : null
-          }
+          previousUrl={previousPagePath}
+          nextUrl={nextPagePath}
         />
       </div>
     </BlogList>

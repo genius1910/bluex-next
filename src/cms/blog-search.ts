@@ -2,6 +2,7 @@ import MeiliSearch from "meilisearch";
 import { meliConfig, useMockData } from "./base";
 import { ImageMeta, SEO } from "./types";
 import BlogFilteredList from "@/constants/mockup/blog-filtered-list.json"
+import { retry } from "@/lib/tools";
 
 export const pageSize = 5;
 
@@ -88,19 +89,21 @@ export async function fetchBySlug(slug: string): Promise<BlogEntry | null> {
     return BlogFilteredList.hits[0]
   }
 
-  const client = new MeiliSearch(meliConfig());
+  return retry(async () => {
+    const client = new MeiliSearch(meliConfig());
 
-  const blogIndex = await client.index("blog");
-  blogIndex.updateSortableAttributes(["Date"]);
-  blogIndex.updateFilterableAttributes(["Category", "Type", "Url"]);
+    const blogIndex = await client.index("blog");
+    blogIndex.updateSortableAttributes(["Date"]);
+    blogIndex.updateFilterableAttributes(["Category", "Type", "Url"]);
 
-  const res = await blogIndex.search(null, {
-    hitsPerPage: pageSize,
-    page: 1,
-    filter: [`Url = "${slug}"`],
-  });
+    const res = await blogIndex.search(null, {
+      hitsPerPage: pageSize,
+      page: 1,
+      filter: [`Url = "${slug}"`],
+    });
 
-  return (res as SearchResponse).hits[0];
+    return (res as SearchResponse).hits[0];
+  }, { retries: 3 })
 }
 
 export async function fetchPage(page: number) {

@@ -23,6 +23,7 @@ export default function BlogFilteredList({
   localizedContent,
 }: BlogListProps) {
   const [loading, setLoading] = useState(true);
+  const [lastError, setLastError] = useState<string | null>(null);
   const [totalPage, setTotalPage] = useState(0);
   const [blogs, setBlogs] = useState<BlogEntry[]>([]);
 
@@ -36,11 +37,13 @@ export default function BlogFilteredList({
     const opt = { search, type, category, page, sort: ['Date:desc'] };
     searchBlogs(opt)
       .then((res) => {
+        setLastError(null);
         setTotalPage(res.totalPages);
         setLoading(false);
         setBlogs(res.hits as BlogEntry[]);
       })
       .catch((err) => {
+        setLastError(`An error occurred during the search: ${err.message}`);
         setLoading(false);
         console.error('err', err);
       });
@@ -50,11 +53,21 @@ export default function BlogFilteredList({
 
   useEffect(doSearch, [doSearch]);
 
+  const previousPagePath = () =>
+    page > 1
+      ? buildSearchPath({ search, type, category, locale, page: page - 1 })
+      : null;
+
+  const nextPagePath = () =>
+    page < totalPage
+      ? buildSearchPath({ search, type, category, locale, page: page + 1 })
+      : null;
+
   return (
     <>
       <Transition
         show={loading}
-        className='space-y-12'
+        className="space-y-12"
         enter="transition ease-out duration-100"
         enterFrom="transform opacity-0"
         enterTo="transform opacity-100"
@@ -62,11 +75,11 @@ export default function BlogFilteredList({
         leaveFrom="transform opacity-100"
         leaveTo="transform opacity-0"
       >
-      {loading && range(5).map((n) => <BlogPreviewLoading key={n} />)}
+        {loading && range(5).map((n) => <BlogPreviewLoading key={n} />)}
       </Transition>
       <Transition
         show={!loading}
-        className='space-y-12'
+        className="space-y-12"
         enter="transition ease-out duration-200"
         enterFrom="transform opacity-0"
         enterTo="transform opacity-100"
@@ -89,28 +102,8 @@ export default function BlogFilteredList({
 
             <BlogPaginator
               locale={locale}
-              previousUrl={
-                page > 1
-                  ? buildSearchPath({
-                      type,
-                      category,
-                      search,
-                      page: page - 1,
-                      locale,
-                    })
-                  : null
-              }
-              nextUrl={
-                page < totalPage
-                  ? buildSearchPath({
-                      type,
-                      category,
-                      search,
-                      page: page + 1,
-                      locale,
-                    })
-                  : null
-              }
+              previousUrl={previousPagePath()}
+              nextUrl={nextPagePath()}
             />
           </>
         ) : (
@@ -121,7 +114,7 @@ export default function BlogFilteredList({
                 {localizedContent.Not_Found_Paragraph.title}
               </div>
               <div className="whitespace-pre-wrap text-left text-base font-normal not-italic leading-6">
-                {localizedContent.Not_Found_Paragraph.content}
+                { !lastError ? localizedContent.Not_Found_Paragraph.content : lastError }
               </div>
             </div>
           </div>
