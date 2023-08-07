@@ -43,7 +43,7 @@ export default function BlogList({
 
         <Divider />
 
-        <div className="box-border space-y-12 py-[3.125rem] lg:pb-[6.25rem]">
+        <div className="box-border py-[3.125rem] lg:pb-[6.25rem]">
           {children}
         </div>
       </div>

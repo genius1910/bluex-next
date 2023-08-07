@@ -14,18 +14,17 @@ export default async function Page({ params }: { params: { lang: string, slug: s
 
   return (
     <>
-    <BlogArticle
-      blog={blog}
-      localizedContent={localizedContent}
-    />
+      <BlogArticle
+        blog={blog}
+        localizedContent={localizedContent}
+      />
 
-    {/* use white background header in this page */}
-    <style>{`
-      div { --header-text: #18335e; }
-      header .dark-logo { display: block; }
-      header .white-logo { display: none; }
-    `}</style>
-
+      {/* use white background header in this page */}
+      <style>{`
+        div { --header-text: #18335e; }
+        header .dark-logo { display: block; }
+        header .white-logo { display: none; }
+      `}</style>
     </>
   )
 }
