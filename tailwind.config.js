@@ -32,6 +32,9 @@ module.exports = {
         'submenu': '#18335e',
         "header": "var(--header-text)",
       },
+      content: {
+        'bull': 'bull',
+      },
     },
   },
   plugins: [],

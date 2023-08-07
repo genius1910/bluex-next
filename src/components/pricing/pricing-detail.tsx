@@ -57,7 +57,7 @@ export default function PricingDetail({ pricing }: PriceItemProps) {
                 {list?.map(({ name, price }, index) => (
                   <li
                     key={index}
-                    className='relative flex list-none items-center font-bold leading-[1.688rem] after:absolute after:left-[-1.5rem] after:top-0 after:block after:h-2 after:w-2 after:text-[#b9c2ca] after:content-["•"]'
+                    className='relative flex list-none items-center font-bold leading-[1.688rem] after:absolute after:left-[-1.5rem] after:top-0 after:block after:h-2 after:w-2 after:text-[#b9c2ca] bull-content'
                   >
                     <div className="mr-[1.125rem] max-w-[80%] shrink-0 grow-0">
                       {name}
