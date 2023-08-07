@@ -4,13 +4,14 @@ import { ImageMeta, SEO } from "./types";
 import BlogFilteredList from "@/constants/mockup/blog-filtered-list.json"
 import { retry } from "@/lib/tools";
 
-export const pageSize = 5;
+export const defaultPageSize = 5;
 
 export interface SearchRequest {
   type: string | null;
   category: string | null;
   search: string | null;
   page: number;
+  pageSize?: number;
   sort?: string[];
   updateFilterable?: boolean;
 }
@@ -63,7 +64,7 @@ export interface ContentList {
 export async function fetchStats() {
   if (useMockData) {
     return {
-      pageSize: pageSize,
+      pageSize: defaultPageSize,
       totalPages: 14,
       total: 67
     }
@@ -84,29 +85,25 @@ export async function fetchStats() {
   }
 }
 
+let blogsBySlug: { [key: string]: BlogEntry } = {}
 export async function fetchBySlug(slug: string): Promise<BlogEntry | null> {
   if (useMockData) {
     return BlogFilteredList.hits[0]
   }
 
-  return retry(async () => {
-    const client = new MeiliSearch(meliConfig());
+  if (Object.keys(blogsBySlug).length === 0) {
+    const all = await fetchAll()
+    blogsBySlug = all.reduce((acc, cur) => ({...acc, [cur.Url]: cur}), {})
+  }
 
-    const blogIndex = await client.index("blog");
-    blogIndex.updateSortableAttributes(["Date"]);
-    blogIndex.updateFilterableAttributes(["Category", "Type", "Url"]);
-
-    const res = await blogIndex.search(null, {
-      hitsPerPage: pageSize,
-      page: 1,
-      filter: [`Url = "${slug}"`],
-    });
-
-    return (res as SearchResponse).hits[0];
-  }, { retries: 3 })
+  return blogsBySlug[slug] || null
 }
 
 export async function fetchPage(page: number) {
+  if (useMockData) {
+    return BlogFilteredList.hits
+  }
+
   const res = await searchBlogs({
     type: null,
     category: null,
@@ -118,7 +115,7 @@ export async function fetchPage(page: number) {
   return res.hits
 }
 
-export async function searchBlogs({ type, category, search, sort, page, updateFilterable }: SearchRequest) {
+export async function searchBlogs({ type, category, search, sort, page, pageSize, updateFilterable }: SearchRequest) {
   if (useMockData) {
     return BlogFilteredList
   }
@@ -144,7 +141,7 @@ export async function searchBlogs({ type, category, search, sort, page, updateFi
   }
 
   const res = await blogIndex.search(search, {
-    hitsPerPage: pageSize,
+    hitsPerPage: pageSize || defaultPageSize,
     page: page,
     sort,
     filter: filterCon,
@@ -164,6 +161,7 @@ export async function fetchSlugs() {
       category: null,
       search: null,
       page: page,
+      pageSize: 1000,
       sort: ['Date:desc'],
       updateFilterable: page == 1,
     })
@@ -174,6 +172,32 @@ export async function fetchSlugs() {
     }
 
     return res.hits.map(v => ({ Url: v.Url, Type: v.Type }))
+  }
+
+  return await fetchByPage(1)
+}
+
+export async function fetchAll() {
+  if (useMockData) {
+    return BlogFilteredList.hits as BlogEntry[]
+  }
+
+  const fetchByPage = async (page: number): Promise<BlogEntry[]> => {
+    const res = await searchBlogs({
+      type: null,
+      category: null,
+      search: null,
+      page: page,
+      pageSize: 1000,
+      sort: ['Date:desc'],
+    })
+
+    if (res.totalPages > page) {
+      const next = await fetchByPage(page + 1)
+      return (res.hits as BlogEntry[]).concat(next)
+    }
+
+    return res.hits as BlogEntry[];
   }
 
   return await fetchByPage(1)

@@ -29,6 +29,10 @@ a {
   display: none;
 }
 
+.bull-content::after {
+  content: "•" !important;
+}
+
 @layer components {
   .skeleton {
     display: block;
