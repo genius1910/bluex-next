@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "deploy": "next build && aws s3 sync --profile bx-website-dev out/ s3://dev.bluex.trade && aws --profile bx-website-dev cloudfront create-invalidation --distribution-id EV6VJGN6DWY7J --paths '/*'",
     "lint": "next lint"
   },
   "dependencies": {

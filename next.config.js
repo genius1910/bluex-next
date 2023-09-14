@@ -3,14 +3,6 @@ const nextConfig = {
   output: "export",
   images: {
     unoptimized: true
-  //   remotePatterns: [
-  //     {
-  //       protocol: 'https',
-  //       hostname: 'dev-strapi4.bluex.trade',
-  //       port: '1337',
-  //       pathname: '/**',
-  //     },
-  //   ],
   },
   trailingSlash: true,
   webpack(config) {
