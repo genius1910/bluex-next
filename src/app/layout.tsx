@@ -1,7 +1,7 @@
 import "@fontsource/inter";
 import "@fontsource/lato";
 import type { Metadata } from 'next';
-import './globals.css';
+import './globals.css'; // Specify weight and style
 
 export const metadata: Metadata = {
   title: 'BlueX Trade',
@@ -14,5 +14,5 @@ export default function RootLayout({
 }: {
   children: React.ReactNode,
 }) {
-  return <>{children}</>
+  return( <>{children}</>)
 }

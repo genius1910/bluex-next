@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+    <defs>
+        <circle id="49prmc67ba" cx="36" cy="36" r="36"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-890.000000, -3931.000000) translate(0.000000, 3811.000000) translate(890.000000, 120.000000)">
+                    <g>
+                        <mask id="wivssw8w1b" fill="#fff">
+                            <use xlink:href="#49prmc67ba"/>
+                        </mask>
+                        <use fill="#18335E" xlink:href="#49prmc67ba"/>
+                        <ellipse cx="36.5" cy="35.5" stroke="#009BD2" stroke-width="2" mask="url(#wivssw8w1b)" rx="18.5" ry="36.5"/>
+                        <path fill="#009BD2" d="M36 0H38V72H36z" mask="url(#wivssw8w1b)"/>
+                        <path fill="#009BD2" d="M4 16H68V18H4zM4 56H68V58H4z" mask="url(#wivssw8w1b)"/>
+                    </g>
+                    <path fill="#009BD2" d="M0 36H72V38H0z"/>
+                    <circle cx="52" cy="17" r="5" stroke="#FFF"/>
+                    <circle cx="52" cy="17" r="3" fill="#FFF"/>
+                    <circle cx="17" cy="36" r="5" stroke="#FFF"/>
+                    <circle cx="17" cy="36" r="3" fill="#FFF"/>
+                    <circle cx="36" cy="57" r="5" stroke="#FFF"/>
+                    <circle cx="36" cy="57" r="3" fill="#FFF"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

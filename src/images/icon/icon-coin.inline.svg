@@ -1,0 +1,13 @@
+<svg width="72" height="72" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M70.031 24.228A35.95 35.95 0 0 1 72 36c0 19.882-16.118 36-36 36-10.862 0-20.601-4.81-27.202-12.418z" id="a"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle fill="#18335E" cx="36" cy="36" r="36"/>
+        <use fill="#009BD2" xlink:href="#a"/>
+        <circle stroke="#FFF" stroke-width="3" cx="36" cy="36" r="30"/>
+        <text font-family="Lato-Bold, Lato" font-size="35" font-weight="bold" fill="#FFF">
+                        <tspan x="16.2" y="50">$2</tspan>
+                    </text>
+    </g>
+</svg>

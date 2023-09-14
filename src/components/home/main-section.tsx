@@ -10,7 +10,7 @@ export default function FrontMainSection({ content }: { content: LocalizedConten
     >
       <video
         id="BGMainVideo"
-        className="relative w-screen mb-[-0.5rem] laptopx:h-[41.75rem] laptopx:w-auto mobilex:h-[47.5rem]"
+        className="relative lg:w-screen mb-[-0.5rem] h-[41.75rem] lg:h-auto w-auto md:h-[47.5rem]"
         autoPlay={true}
         preload="auto"
         muted
@@ -33,15 +33,15 @@ export default function FrontMainSection({ content }: { content: LocalizedConten
       >
         <div
           // MainSectionContent
-          className="flex flex-col md:flex-row w-full lg:w-[60rem] box-border md:px-5 mx-auto my-0 overflow-x-visible box-border box-sizing"
+          className="flex flex-col md:flex-row w-full lg:w-[60rem] md:px-5 mx-auto my-0 overflow-x-visible box-border box-sizing"
         >
           <div
             // TitleWrapper
-            className="w-[25rem] flex flex-col mr-[6.25rem] laptopx:mr-0 mobilex:w-full"
+            className="w-[25rem] flex flex-col mr-[6.25rem] lg:mr-0 md:w-full"
           >
             <div
               // Title
-              className="font-title w-[36rem] z-20 leading-[3rem] text-white not-italic text-[rgb(24,51,94)] text-[3.125rem] font-bold tracking-[normal] whitespace-pre-wrap text-left mb-[1.375rem]"
+              className="font-title w-[36rem] z-20 leading-[3rem] text-white not-italic text-[3.125rem] font-bold tracking-[normal] whitespace-pre-wrap text-left mb-[1.375rem]"
             >
               {parse(content.Section_1_Title)}
             </div>

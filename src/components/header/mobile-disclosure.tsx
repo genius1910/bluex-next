@@ -223,7 +223,7 @@ export default function MobileDisclosure({ content, locale, allLocales }: Mobile
     <Disclosure>
       {({ open }) => (
         <>
-          <Disclosure.Button className="mx-5 my-auto w-6 h-6">
+          <Disclosure.Button id="" className="mx-5 my-auto w-6 h-6">
             { open ? <CloseIcon /> : <MenuIcon /> }
           </Disclosure.Button>
 

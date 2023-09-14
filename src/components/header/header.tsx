@@ -89,9 +89,9 @@ const HeaderMenus = ({
 
 function DesktopNavBar({ content, locale, allLocales }: HeaderProps) {
   return (
-    <div className="hidden h-full flex-col justify-center lg:flex">
+    <div className="flex-col justify-center hidden h-full lg:flex">
       <div className="mx-auto my-0 w-[60rem]">
-        <div className="relative flex h-full items-center">
+        <div className="relative flex items-center h-full">
           <Link href={buildPath("/", locale)} rel="home" title="BlueX Trade">
             <PrimaryLogo className="dark-logo" />
             <WhiteLogo className="white-logo" />
@@ -115,7 +115,7 @@ function DesktopNavBar({ content, locale, allLocales }: HeaderProps) {
                   hover:bg-[#00afec]"
               >
                 <span>{content.Header_SignIn_Btn?.text}</span>
-                <NavNextIcon className="h-6 w-6" />
+                <NavNextIcon className="w-6 h-6" />
               </button>
             </Link>
           </div>
@@ -127,13 +127,13 @@ function DesktopNavBar({ content, locale, allLocales }: HeaderProps) {
 
 function MobileNavBar({ content, locale, allLocales }: HeaderProps) {
   return (
-    <div className="my-0 flex h-full w-full justify-between bg-white lg:hidden">
+    <div className="flex justify-between w-full h-full my-0 bg-white lg:hidden">
       <div className="z-[1000] flex h-full w-full flex-col justify-center bg-white">
         <Link
           href={buildPath("/", locale)}
           rel="home"
           title="BlueX Trade"
-          className="mx-5 block h-6"
+          className="block h-6 mx-5"
         >
           <PrimaryLogo />
         </Link>

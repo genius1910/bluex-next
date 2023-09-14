@@ -7,18 +7,16 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'sans': ['Inter', 'sans-serif'],
-      'serif': ['Roboto', 'serif'],
-      'title': ['lato'],
-      'button': ['lato'],
-      'menu': ['Inter', 'sans-serif'],
-      'btn': ['lato'],
+      sans: ['Inter', 'sans-serif'],
+      serif: ['Roboto', 'serif'],
+      title: ['lato'],
+      button: ['lato'],
+      menu: ['Inter', 'sans-serif'],
+      btn: ['lato'],
     },
     screens: {
-      'md': { min: '425px' },
-      'lg': { min: '960px' },
-      'mobilex': { max: '425px' },
-      'laptopx': { max: '960px' },
+      md: '425px',
+      lg: '960px',
     },
     extend: {
       backgroundImage: {
@@ -27,15 +25,15 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        'primary': '#18335e',
-        'secondary': '#009bd2',
-        'submenu': '#18335e',
-        "header": "var(--header-text)",
+        primary: '#18335e',
+        secondary: '#009bd2',
+        submenu: '#18335e',
+        header: 'var(--header-text)',
       },
       content: {
-        'bull': 'bull',
+        bull: 'bull',
       },
     },
   },
   plugins: [],
-}
+};

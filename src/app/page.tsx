@@ -2,6 +2,7 @@ import { fetchHome } from '@/cms/home'
 import { fetchLocales } from '@/cms/langs'
 import { defaultLocale } from '@/cms/types'
 import Header from '@/components/header/header'
+import Footer from '@/components/footer/footer'
 import Home from '@/components/home/home'
 
 // rendering the root page
@@ -23,6 +24,7 @@ export default async function Page() {
             locale={locale}
           />
         </main>
+        <Footer />
       </body>
     </html>
   )
